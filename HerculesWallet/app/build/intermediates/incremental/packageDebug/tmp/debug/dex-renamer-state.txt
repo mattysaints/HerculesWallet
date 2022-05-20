@@ -1,9 +1,9 @@
-#Tue May 03 08:57:59 CEST 2022
-base.2=/Users/christianquaranta/AndroidStudioProjects/hercules/HerculesWallet/app/build/intermediates/dex/debug/mergeProjectDexDebug/6/classes.dex
+#Wed May 04 00:51:11 CEST 2022
+base.2=C\:\\Users\\tbarb\\Downloads\\hercules\\HerculesWallet\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\6\\classes.dex
 path.2=6/classes.dex
-base.1=/Users/christianquaranta/AndroidStudioProjects/hercules/HerculesWallet/app/build/intermediates/dex/debug/mergeProjectDexDebug/0/classes.dex
+base.1=C\:\\Users\\tbarb\\Downloads\\hercules\\HerculesWallet\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
 path.1=0/classes.dex
-base.0=/Users/christianquaranta/AndroidStudioProjects/hercules/HerculesWallet/app/build/intermediates/dex/debug/mergeExtDexDebug/classes.dex
+base.0=C\:\\Users\\tbarb\\Downloads\\hercules\\HerculesWallet\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
 renamed.2=classes3.dex
 renamed.1=classes2.dex
 renamed.0=classes.dex
