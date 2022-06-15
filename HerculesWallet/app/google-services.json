@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "6624234530",
+    "project_id": "herculeswallet-dee26",
+    "storage_bucket": "herculeswallet-dee26.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:6624234530:android:b6306ac673a71735120e7b",
+        "android_client_info": {
+          "package_name": "com.example.herculeswallet"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "6624234530-uvr0bup9omhpkvm668ciq5okrln2sq52.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.herculeswallet",
+            "certificate_hash": "1e18f760f6b65374756be7a2b09d8735c0992f9d"
+          }
+        },
+        {
+          "client_id": "6624234530-71bkunkn5a2njl8mejfahpq9ruk05d42.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCbk_az_DKAXTr7MjL6szLrusH93ajoOoo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "6624234530-71bkunkn5a2njl8mejfahpq9ruk05d42.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,42 @@
+[
+    {
+        "merged": "C:\\Users\\tbarb\\Downloads\\hercules\\HerculesWallet\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_receive.xml",
+        "source": "C:\\Users\\tbarb\\Downloads\\hercules\\HerculesWallet\\app\\src\\main\\res\\layout\\fragment_receive.xml"
+    },
+    {
+        "merged": "C:\\Users\\tbarb\\Downloads\\hercules\\HerculesWallet\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_actions.xml",
+        "source": "C:\\Users\\tbarb\\Downloads\\hercules\\HerculesWallet\\app\\src\\main\\res\\layout\\fragment_actions.xml"
+    },
+    {
+        "merged": "C:\\Users\\tbarb\\Downloads\\hercules\\HerculesWallet\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\dashboard.xml",
+        "source": "C:\\Users\\tbarb\\Downloads\\hercules\\HerculesWallet\\app\\src\\main\\res\\layout\\dashboard.xml"
+    },
+    {
+        "merged": "C:\\Users\\tbarb\\Downloads\\hercules\\HerculesWallet\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main.xml",
+        "source": "C:\\Users\\tbarb\\Downloads\\hercules\\HerculesWallet\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\tbarb\\Downloads\\hercules\\HerculesWallet\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_home.xml",
+        "source": "C:\\Users\\tbarb\\Downloads\\hercules\\HerculesWallet\\app\\src\\main\\res\\layout\\fragment_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\tbarb\\Downloads\\hercules\\HerculesWallet\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\home.xml",
+        "source": "C:\\Users\\tbarb\\Downloads\\hercules\\HerculesWallet\\app\\src\\main\\res\\layout\\home.xml"
+    },
+    {
+        "merged": "C:\\Users\\tbarb\\Downloads\\hercules\\HerculesWallet\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_wallet.xml",
+        "source": "C:\\Users\\tbarb\\Downloads\\hercules\\HerculesWallet\\app\\src\\main\\res\\layout\\activity_wallet.xml"
+    },
+    {
+        "merged": "C:\\Users\\tbarb\\Downloads\\hercules\\HerculesWallet\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\dashboard_item.xml",
+        "source": "C:\\Users\\tbarb\\Downloads\\hercules\\HerculesWallet\\app\\src\\main\\res\\layout\\dashboard_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\tbarb\\Downloads\\hercules\\HerculesWallet\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_send.xml",
+        "source": "C:\\Users\\tbarb\\Downloads\\hercules\\HerculesWallet\\app\\src\\main\\res\\layout\\fragment_send.xml"
+    },
+    {
+        "merged": "C:\\Users\\tbarb\\Downloads\\hercules\\HerculesWallet\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_settings.xml",
+        "source": "C:\\Users\\tbarb\\Downloads\\hercules\\HerculesWallet\\app\\src\\main\\res\\layout\\fragment_settings.xml"
+    }
+]

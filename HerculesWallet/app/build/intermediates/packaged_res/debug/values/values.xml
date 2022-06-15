@@ -7,8 +7,24 @@
     <color name="teal_200">#FF03DAC5</color>
     <color name="teal_700">#FF018786</color>
     <color name="white">#FFFFFFFF</color>
+    <dimen name="fab_margin">16dp</dimen>
     <string name="app_name">HerculesWallet</string>
+    <string name="default_web_client_id" translatable="false">6624234530-71bkunkn5a2njl8mejfahpq9ruk05d42.apps.googleusercontent.com</string>
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="gcm_defaultSenderId" translatable="false">6624234530</string>
+    <string name="google_api_key" translatable="false">AIzaSyCbk_az_DKAXTr7MjL6szLrusH93ajoOoo</string>
+    <string name="google_app_id" translatable="false">1:6624234530:android:b6306ac673a71735120e7b</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCbk_az_DKAXTr7MjL6szLrusH93ajoOoo</string>
+    <string name="google_storage_bucket" translatable="false">herculeswallet-dee26.appspot.com</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="project_id" translatable="false">herculeswallet-dee26</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="select_crypto">Select Crypto</string>
+    <string name="title_activity_wallet">Wallet</string>
     <style name="Theme.HerculesWallet" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
         <!-- Primary brand color. -->
         <item name="colorPrimary">@color/purple_500</item>
@@ -22,4 +38,10 @@
         <item name="android:statusBarColor" ns1:targetApi="l">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
     </style>
+    <style name="Theme.HerculesWallet.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+    <style name="Theme.HerculesWallet.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="Theme.HerculesWallet.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
 </resources>

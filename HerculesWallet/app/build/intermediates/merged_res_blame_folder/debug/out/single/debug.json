@@ -4,12 +4,8 @@
         "source": "C:\\Users\\tbarb\\Downloads\\hercules\\HerculesWallet\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\tbarb\\Downloads\\hercules\\HerculesWallet\\app\\build\\intermediates\\merged_res\\debug\\drawable_blue_border_rounded_cornwe.xml.flat",
-        "source": "C:\\Users\\tbarb\\Downloads\\hercules\\HerculesWallet\\app\\src\\main\\res\\drawable\\blue_border_rounded_cornwe.xml"
-    },
-    {
-        "merged": "C:\\Users\\tbarb\\Downloads\\hercules\\HerculesWallet\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\tbarb\\Downloads\\hercules\\HerculesWallet\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+        "merged": "C:\\Users\\tbarb\\Downloads\\hercules\\HerculesWallet\\app\\build\\intermediates\\merged_res\\debug\\drawable_swap.xml.flat",
+        "source": "C:\\Users\\tbarb\\Downloads\\hercules\\HerculesWallet\\app\\src\\main\\res\\drawable\\swap.xml"
     },
     {
         "merged": "C:\\Users\\tbarb\\Downloads\\hercules\\HerculesWallet\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_main.xml.flat",
@@ -20,16 +16,8 @@
         "source": "C:\\Users\\tbarb\\Downloads\\hercules\\HerculesWallet\\app\\src\\main\\res\\drawable\\linkedin.png"
     },
     {
-        "merged": "C:\\Users\\tbarb\\Downloads\\hercules\\HerculesWallet\\app\\build\\intermediates\\merged_res\\debug\\font_poppins_medium.ttf.flat",
-        "source": "C:\\Users\\tbarb\\Downloads\\hercules\\HerculesWallet\\app\\src\\main\\res\\font\\poppins_medium.ttf"
-    },
-    {
-        "merged": "C:\\Users\\tbarb\\Downloads\\hercules\\HerculesWallet\\app\\build\\intermediates\\merged_res\\debug\\drawable_cursor_color.xml.flat",
-        "source": "C:\\Users\\tbarb\\Downloads\\hercules\\HerculesWallet\\app\\src\\main\\res\\drawable\\cursor_color.xml"
-    },
-    {
-        "merged": "C:\\Users\\tbarb\\Downloads\\hercules\\HerculesWallet\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\tbarb\\Downloads\\hercules\\HerculesWallet\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.webp"
+        "merged": "C:\\Users\\tbarb\\Downloads\\hercules\\HerculesWallet\\app\\build\\intermediates\\merged_res\\debug\\drawable_down_arrow.xml.flat",
+        "source": "C:\\Users\\tbarb\\Downloads\\hercules\\HerculesWallet\\app\\src\\main\\res\\drawable\\down_arrow.xml"
     },
     {
         "merged": "C:\\Users\\tbarb\\Downloads\\hercules\\HerculesWallet\\app\\build\\intermediates\\merged_res\\debug\\drawable_home.xml.flat",
@@ -40,12 +28,8 @@
         "source": "C:\\Users\\tbarb\\Downloads\\hercules\\HerculesWallet\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
     {
-        "merged": "C:\\Users\\tbarb\\Downloads\\hercules\\HerculesWallet\\app\\build\\intermediates\\merged_res\\debug\\drawable_twitter.png.flat",
-        "source": "C:\\Users\\tbarb\\Downloads\\hercules\\HerculesWallet\\app\\src\\main\\res\\drawable\\twitter.png"
-    },
-    {
-        "merged": "C:\\Users\\tbarb\\Downloads\\hercules\\HerculesWallet\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\tbarb\\Downloads\\hercules\\HerculesWallet\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.webp"
+        "merged": "C:\\Users\\tbarb\\Downloads\\hercules\\HerculesWallet\\app\\build\\intermediates\\merged_res\\debug\\layout_dashboard_item.xml.flat",
+        "source": "C:\\Users\\tbarb\\Downloads\\hercules\\HerculesWallet\\app\\src\\main\\res\\layout\\dashboard_item.xml"
     },
     {
         "merged": "C:\\Users\\tbarb\\Downloads\\hercules\\HerculesWallet\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_home.xml.flat",
@@ -56,52 +40,52 @@
         "source": "C:\\Users\\tbarb\\Downloads\\hercules\\HerculesWallet\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\tbarb\\Downloads\\hercules\\HerculesWallet\\app\\build\\intermediates\\merged_res\\debug\\drawable_settings.xml.flat",
-        "source": "C:\\Users\\tbarb\\Downloads\\hercules\\HerculesWallet\\app\\src\\main\\res\\drawable\\settings.xml"
+        "merged": "C:\\Users\\tbarb\\Downloads\\hercules\\HerculesWallet\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_wallet.xml.flat",
+        "source": "C:\\Users\\tbarb\\Downloads\\hercules\\HerculesWallet\\app\\src\\main\\res\\layout\\activity_wallet.xml"
     },
     {
-        "merged": "C:\\Users\\tbarb\\Downloads\\hercules\\HerculesWallet\\app\\build\\intermediates\\merged_res\\debug\\drawable_email.png.flat",
-        "source": "C:\\Users\\tbarb\\Downloads\\hercules\\HerculesWallet\\app\\src\\main\\res\\drawable\\email.png"
+        "merged": "C:\\Users\\tbarb\\Downloads\\hercules\\HerculesWallet\\app\\build\\intermediates\\merged_res\\debug\\drawable_settings.xml.flat",
+        "source": "C:\\Users\\tbarb\\Downloads\\hercules\\HerculesWallet\\app\\src\\main\\res\\drawable\\settings.xml"
     },
     {
         "merged": "C:\\Users\\tbarb\\Downloads\\hercules\\HerculesWallet\\app\\build\\intermediates\\merged_res\\debug\\drawable_password.png.flat",
         "source": "C:\\Users\\tbarb\\Downloads\\hercules\\HerculesWallet\\app\\src\\main\\res\\drawable\\password.png"
     },
     {
-        "merged": "C:\\Users\\tbarb\\Downloads\\hercules\\HerculesWallet\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\tbarb\\Downloads\\hercules\\HerculesWallet\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.webp"
-    },
-    {
         "merged": "C:\\Users\\tbarb\\Downloads\\hercules\\HerculesWallet\\app\\build\\intermediates\\merged_res\\debug\\drawable_instagram.png.flat",
         "source": "C:\\Users\\tbarb\\Downloads\\hercules\\HerculesWallet\\app\\src\\main\\res\\drawable\\instagram.png"
+    },
+    {
+        "merged": "C:\\Users\\tbarb\\Downloads\\hercules\\HerculesWallet\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\tbarb\\Downloads\\hercules\\HerculesWallet\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.webp"
     },
     {
         "merged": "C:\\Users\\tbarb\\Downloads\\hercules\\HerculesWallet\\app\\build\\intermediates\\merged_res\\debug\\font_poppins_regular.ttf.flat",
         "source": "C:\\Users\\tbarb\\Downloads\\hercules\\HerculesWallet\\app\\src\\main\\res\\font\\poppins_regular.ttf"
     },
     {
-        "merged": "C:\\Users\\tbarb\\Downloads\\hercules\\HerculesWallet\\app\\build\\intermediates\\merged_res\\debug\\layout_dashboard.xml.flat",
-        "source": "C:\\Users\\tbarb\\Downloads\\hercules\\HerculesWallet\\app\\src\\main\\res\\layout\\dashboard.xml"
-    },
-    {
         "merged": "C:\\Users\\tbarb\\Downloads\\hercules\\HerculesWallet\\app\\build\\intermediates\\merged_res\\debug\\drawable_blue_fill__rounded_color.xml.flat",
         "source": "C:\\Users\\tbarb\\Downloads\\hercules\\HerculesWallet\\app\\src\\main\\res\\drawable\\blue_fill__rounded_color.xml"
     },
     {
-        "merged": "C:\\Users\\tbarb\\Downloads\\hercules\\HerculesWallet\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_settings.xml.flat",
-        "source": "C:\\Users\\tbarb\\Downloads\\hercules\\HerculesWallet\\app\\src\\main\\res\\layout\\fragment_settings.xml"
+        "merged": "C:\\Users\\tbarb\\Downloads\\hercules\\HerculesWallet\\app\\build\\intermediates\\merged_res\\debug\\layout_dashboard.xml.flat",
+        "source": "C:\\Users\\tbarb\\Downloads\\hercules\\HerculesWallet\\app\\src\\main\\res\\layout\\dashboard.xml"
     },
     {
         "merged": "C:\\Users\\tbarb\\Downloads\\hercules\\HerculesWallet\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher.webp.flat",
         "source": "C:\\Users\\tbarb\\Downloads\\hercules\\HerculesWallet\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\tbarb\\Downloads\\hercules\\HerculesWallet\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_launcher_background.xml.flat",
-        "source": "C:\\Users\\tbarb\\Downloads\\hercules\\HerculesWallet\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
+        "merged": "C:\\Users\\tbarb\\Downloads\\hercules\\HerculesWallet\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_settings.xml.flat",
+        "source": "C:\\Users\\tbarb\\Downloads\\hercules\\HerculesWallet\\app\\src\\main\\res\\layout\\fragment_settings.xml"
     },
     {
-        "merged": "C:\\Users\\tbarb\\Downloads\\hercules\\HerculesWallet\\app\\build\\intermediates\\merged_res\\debug\\drawable_blue_bg.png.flat",
-        "source": "C:\\Users\\tbarb\\Downloads\\hercules\\HerculesWallet\\app\\src\\main\\res\\drawable\\blue_bg.png"
+        "merged": "C:\\Users\\tbarb\\Downloads\\hercules\\HerculesWallet\\app\\build\\intermediates\\merged_res\\debug\\drawable_earn.xml.flat",
+        "source": "C:\\Users\\tbarb\\Downloads\\hercules\\HerculesWallet\\app\\src\\main\\res\\drawable\\earn.xml"
+    },
+    {
+        "merged": "C:\\Users\\tbarb\\Downloads\\hercules\\HerculesWallet\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\tbarb\\Downloads\\hercules\\HerculesWallet\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
     },
     {
         "merged": "C:\\Users\\tbarb\\Downloads\\hercules\\HerculesWallet\\app\\build\\intermediates\\merged_res\\debug\\drawable_logo2.png.flat",
@@ -112,12 +96,12 @@
         "source": "C:\\Users\\tbarb\\Downloads\\hercules\\HerculesWallet\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\tbarb\\Downloads\\hercules\\HerculesWallet\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "C:\\Users\\tbarb\\Downloads\\hercules\\HerculesWallet\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
-    },
-    {
         "merged": "C:\\Users\\tbarb\\Downloads\\hercules\\HerculesWallet\\app\\build\\intermediates\\merged_res\\debug\\drawable_fb.png.flat",
         "source": "C:\\Users\\tbarb\\Downloads\\hercules\\HerculesWallet\\app\\src\\main\\res\\drawable\\fb.png"
+    },
+    {
+        "merged": "C:\\Users\\tbarb\\Downloads\\hercules\\HerculesWallet\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\tbarb\\Downloads\\hercules\\HerculesWallet\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.webp"
     },
     {
         "merged": "C:\\Users\\tbarb\\Downloads\\hercules\\HerculesWallet\\app\\build\\intermediates\\merged_res\\debug\\navigation_nav_graph.xml.flat",
@@ -128,12 +112,8 @@
         "source": "C:\\Users\\tbarb\\Downloads\\hercules\\HerculesWallet\\app\\src\\main\\res\\menu\\bottom_nav.xml"
     },
     {
-        "merged": "C:\\Users\\tbarb\\Downloads\\hercules\\HerculesWallet\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\tbarb\\Downloads\\hercules\\HerculesWallet\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.webp"
-    },
-    {
-        "merged": "C:\\Users\\tbarb\\Downloads\\hercules\\HerculesWallet\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\tbarb\\Downloads\\hercules\\HerculesWallet\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.webp"
+        "merged": "C:\\Users\\tbarb\\Downloads\\hercules\\HerculesWallet\\app\\build\\intermediates\\merged_res\\debug\\drawable_right_arrow.xml.flat",
+        "source": "C:\\Users\\tbarb\\Downloads\\hercules\\HerculesWallet\\app\\src\\main\\res\\drawable\\right_arrow.xml"
     },
     {
         "merged": "C:\\Users\\tbarb\\Downloads\\hercules\\HerculesWallet\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_ic_launcher_foreground.xml.flat",
@@ -142,5 +122,89 @@
     {
         "merged": "C:\\Users\\tbarb\\Downloads\\hercules\\HerculesWallet\\app\\build\\intermediates\\merged_res\\debug\\layout_home.xml.flat",
         "source": "C:\\Users\\tbarb\\Downloads\\hercules\\HerculesWallet\\app\\src\\main\\res\\layout\\home.xml"
+    },
+    {
+        "merged": "C:\\Users\\tbarb\\Downloads\\hercules\\HerculesWallet\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_actions.xml.flat",
+        "source": "C:\\Users\\tbarb\\Downloads\\hercules\\HerculesWallet\\app\\src\\main\\res\\layout\\fragment_actions.xml"
+    },
+    {
+        "merged": "C:\\Users\\tbarb\\Downloads\\hercules\\HerculesWallet\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\tbarb\\Downloads\\hercules\\HerculesWallet\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\tbarb\\Downloads\\hercules\\HerculesWallet\\app\\build\\intermediates\\merged_res\\debug\\drawable_blue_border_rounded_cornwe.xml.flat",
+        "source": "C:\\Users\\tbarb\\Downloads\\hercules\\HerculesWallet\\app\\src\\main\\res\\drawable\\blue_border_rounded_cornwe.xml"
+    },
+    {
+        "merged": "C:\\Users\\tbarb\\Downloads\\hercules\\HerculesWallet\\app\\build\\intermediates\\merged_res\\debug\\drawable_select_crypto.xml.flat",
+        "source": "C:\\Users\\tbarb\\Downloads\\hercules\\HerculesWallet\\app\\src\\main\\res\\drawable\\select_crypto.xml"
+    },
+    {
+        "merged": "C:\\Users\\tbarb\\Downloads\\hercules\\HerculesWallet\\app\\build\\intermediates\\merged_res\\debug\\font_poppins_medium.ttf.flat",
+        "source": "C:\\Users\\tbarb\\Downloads\\hercules\\HerculesWallet\\app\\src\\main\\res\\font\\poppins_medium.ttf"
+    },
+    {
+        "merged": "C:\\Users\\tbarb\\Downloads\\hercules\\HerculesWallet\\app\\build\\intermediates\\merged_res\\debug\\drawable_cursor_color.xml.flat",
+        "source": "C:\\Users\\tbarb\\Downloads\\hercules\\HerculesWallet\\app\\src\\main\\res\\drawable\\cursor_color.xml"
+    },
+    {
+        "merged": "C:\\Users\\tbarb\\Downloads\\hercules\\HerculesWallet\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_google.png.flat",
+        "source": "C:\\Users\\tbarb\\Downloads\\hercules\\HerculesWallet\\app\\src\\main\\res\\drawable-v24\\google.png"
+    },
+    {
+        "merged": "C:\\Users\\tbarb\\Downloads\\hercules\\HerculesWallet\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\tbarb\\Downloads\\hercules\\HerculesWallet\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\tbarb\\Downloads\\hercules\\HerculesWallet\\app\\build\\intermediates\\merged_res\\debug\\drawable_twitter.png.flat",
+        "source": "C:\\Users\\tbarb\\Downloads\\hercules\\HerculesWallet\\app\\src\\main\\res\\drawable\\twitter.png"
+    },
+    {
+        "merged": "C:\\Users\\tbarb\\Downloads\\hercules\\HerculesWallet\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\tbarb\\Downloads\\hercules\\HerculesWallet\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\tbarb\\Downloads\\hercules\\HerculesWallet\\app\\build\\intermediates\\merged_res\\debug\\drawable_email.png.flat",
+        "source": "C:\\Users\\tbarb\\Downloads\\hercules\\HerculesWallet\\app\\src\\main\\res\\drawable\\email.png"
+    },
+    {
+        "merged": "C:\\Users\\tbarb\\Downloads\\hercules\\HerculesWallet\\app\\build\\intermediates\\merged_res\\debug\\drawable_buy.xml.flat",
+        "source": "C:\\Users\\tbarb\\Downloads\\hercules\\HerculesWallet\\app\\src\\main\\res\\drawable\\buy.xml"
+    },
+    {
+        "merged": "C:\\Users\\tbarb\\Downloads\\hercules\\HerculesWallet\\app\\build\\intermediates\\merged_res\\debug\\navigation_nav_graph2.xml.flat",
+        "source": "C:\\Users\\tbarb\\Downloads\\hercules\\HerculesWallet\\app\\src\\main\\res\\navigation\\nav_graph2.xml"
+    },
+    {
+        "merged": "C:\\Users\\tbarb\\Downloads\\hercules\\HerculesWallet\\app\\build\\intermediates\\merged_res\\debug\\drawable_done.xml.flat",
+        "source": "C:\\Users\\tbarb\\Downloads\\hercules\\HerculesWallet\\app\\src\\main\\res\\drawable\\done.xml"
+    },
+    {
+        "merged": "C:\\Users\\tbarb\\Downloads\\hercules\\HerculesWallet\\app\\build\\intermediates\\merged_res\\debug\\drawable_blue_bg.png.flat",
+        "source": "C:\\Users\\tbarb\\Downloads\\hercules\\HerculesWallet\\app\\src\\main\\res\\drawable\\blue_bg.png"
+    },
+    {
+        "merged": "C:\\Users\\tbarb\\Downloads\\hercules\\HerculesWallet\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\tbarb\\Downloads\\hercules\\HerculesWallet\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\tbarb\\Downloads\\hercules\\HerculesWallet\\app\\build\\intermediates\\merged_res\\debug\\drawable_bitcoin.xml.flat",
+        "source": "C:\\Users\\tbarb\\Downloads\\hercules\\HerculesWallet\\app\\src\\main\\res\\drawable\\bitcoin.xml"
+    },
+    {
+        "merged": "C:\\Users\\tbarb\\Downloads\\hercules\\HerculesWallet\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_receive.xml.flat",
+        "source": "C:\\Users\\tbarb\\Downloads\\hercules\\HerculesWallet\\app\\src\\main\\res\\layout\\fragment_receive.xml"
+    },
+    {
+        "merged": "C:\\Users\\tbarb\\Downloads\\hercules\\HerculesWallet\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_send.xml.flat",
+        "source": "C:\\Users\\tbarb\\Downloads\\hercules\\HerculesWallet\\app\\src\\main\\res\\layout\\fragment_send.xml"
+    },
+    {
+        "merged": "C:\\Users\\tbarb\\Downloads\\hercules\\HerculesWallet\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\tbarb\\Downloads\\hercules\\HerculesWallet\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\tbarb\\Downloads\\hercules\\HerculesWallet\\app\\build\\intermediates\\merged_res\\debug\\drawable_sell.xml.flat",
+        "source": "C:\\Users\\tbarb\\Downloads\\hercules\\HerculesWallet\\app\\src\\main\\res\\drawable\\sell.xml"
     }
 ]
