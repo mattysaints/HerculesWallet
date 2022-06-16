@@ -3173,6 +3173,8 @@ int drawable abc_textfield_search_activated_mtrl_alpha 0x7f070052
 int drawable abc_textfield_search_default_mtrl_alpha 0x7f070053
 int drawable abc_textfield_search_material 0x7f070054
 int drawable abc_vector_test 0x7f070055
+int drawable actions 0x7f0700ca
+int drawable activity 0x7f0700cb
 int drawable avd_hide_password 0x7f070056
 int drawable avd_show_password 0x7f070057
 int drawable bitcoin 0x7f070058
@@ -3278,6 +3280,8 @@ int drawable notification_template_icon_low_bg 0x7f0700bb
 int drawable notification_tile_bg 0x7f0700bc
 int drawable notify_panel_notification_icon_bg 0x7f0700bd
 int drawable password 0x7f0700be
+int drawable portfolio 0x7f0700c9
+int drawable profile 0x7f0700cc
 int drawable right_arrow 0x7f0700bf
 int drawable select_crypto 0x7f0700c0
 int drawable selection_band_overlay 0x7f0700c1
@@ -3361,6 +3365,8 @@ int id action_mode_bar_stub 0x7f09003f
 int id action_mode_close_button 0x7f090040
 int id action_text 0x7f090041
 int id actions 0x7f090042
+int id actionsNav 0x7f0901ed
+int id activityNav 0x7f0901ee
 int id activity_chooser_view_content 0x7f090043
 int id add 0x7f090044
 int id adjust_height 0x7f090045
@@ -3477,6 +3483,7 @@ int id fixed 0x7f0900b3
 int id flip 0x7f0900b4
 int id floating 0x7f0900b5
 int id forever 0x7f0900b6
+int id fragment_container_view 0x7f0901ea
 int id fragment_container_view_tag 0x7f0900b7
 int id ghost_view 0x7f0900b8
 int id ghost_view_holder 0x7f0900b9
@@ -3497,6 +3504,7 @@ int id hideable 0x7f0900c7
 int id home 0x7f0900c8
 int id homeAsUp 0x7f0900c9
 int id homeFragment 0x7f0900ca
+int id homeNav 0x7f0901ef
 int id honorRequest 0x7f0900cb
 int id icon 0x7f0900cc
 int id icon_group 0x7f0900cd
@@ -3592,7 +3600,6 @@ int id mtrl_view_tag_bottom_padding 0x7f090126
 int id multiply 0x7f090127
 int id name_crypto 0x7f090128
 int id nav_controller_view_tag 0x7f090129
-int id nav_fragment 0x7f09012a
 int id nav_graph 0x7f09012b
 int id nav_graph2 0x7f0901e7
 int id nav_host_fragment_container 0x7f09012c
@@ -3631,6 +3638,7 @@ int id pin 0x7f09014c
 int id position 0x7f09014d
 int id postLayout 0x7f09014e
 int id price_crypto 0x7f09014f
+int id profileNav 0x7f0901f0
 int id progress_circular 0x7f090150
 int id progress_horizontal 0x7f090151
 int id quantity_crypto 0x7f090152
@@ -3891,7 +3899,6 @@ int layout fragment_home 0x7f0c0031
 int layout fragment_receive 0x7f0c0032
 int layout fragment_send 0x7f0c0033
 int layout fragment_settings 0x7f0c0034
-int layout home 0x7f0c0035
 int layout m3_alert_dialog 0x7f0c0036
 int layout m3_alert_dialog_actions 0x7f0c0037
 int layout m3_alert_dialog_title 0x7f0c0038
@@ -3975,6 +3982,7 @@ int layout text_view_with_line_height_from_layout 0x7f0c0085
 int layout text_view_with_line_height_from_style 0x7f0c0086
 int layout text_view_with_theme_line_height 0x7f0c0087
 int layout text_view_without_line_height 0x7f0c0088
+int layout wallet 0x7f0c008a
 int menu bottom_nav 0x7f0d0000
 int menu example_menu 0x7f0d0001
 int menu example_menu2 0x7f0d0002

@@ -3174,6 +3174,8 @@ drawable abc_textfield_search_activated_mtrl_alpha
 drawable abc_textfield_search_default_mtrl_alpha
 drawable abc_textfield_search_material
 drawable abc_vector_test
+drawable actions
+drawable activity
 drawable avd_hide_password
 drawable avd_show_password
 drawable bitcoin
@@ -3279,6 +3281,8 @@ drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
 drawable password
+drawable portfolio
+drawable profile
 drawable right_arrow
 drawable select_crypto
 drawable selection_band_overlay
@@ -3362,6 +3366,8 @@ id action_mode_bar_stub
 id action_mode_close_button
 id action_text
 id actions
+id actionsNav
+id activityNav
 id activity_chooser_view_content
 id add
 id adjust_height
@@ -3478,6 +3484,7 @@ id fixed
 id flip
 id floating
 id forever
+id fragment_container_view
 id fragment_container_view_tag
 id ghost_view
 id ghost_view_holder
@@ -3498,6 +3505,7 @@ id hideable
 id home
 id homeAsUp
 id homeFragment
+id homeNav
 id honorRequest
 id icon
 id icon_group
@@ -3593,7 +3601,6 @@ id mtrl_view_tag_bottom_padding
 id multiply
 id name_crypto
 id nav_controller_view_tag
-id nav_fragment
 id nav_graph
 id nav_graph2
 id nav_host_fragment_container
@@ -3632,6 +3639,7 @@ id pin
 id position
 id postLayout
 id price_crypto
+id profileNav
 id progress_circular
 id progress_horizontal
 id quantity_crypto
@@ -3892,7 +3900,6 @@ layout fragment_home
 layout fragment_receive
 layout fragment_send
 layout fragment_settings
-layout home
 layout m3_alert_dialog
 layout m3_alert_dialog_actions
 layout m3_alert_dialog_title
@@ -3976,6 +3983,7 @@ layout text_view_with_line_height_from_layout
 layout text_view_with_line_height_from_style
 layout text_view_with_theme_line_height
 layout text_view_without_line_height
+layout wallet
 menu bottom_nav
 menu example_menu
 menu example_menu2

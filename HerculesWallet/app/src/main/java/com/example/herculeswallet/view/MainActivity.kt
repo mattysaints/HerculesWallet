@@ -1,4 +1,4 @@
-package com.example.herculeswallet
+package com.example.herculeswallet.view
 
 import android.app.Activity
 import android.content.Intent
@@ -8,6 +8,7 @@ import android.util.Log
 import android.widget.*
 import androidx.activity.result.ActivityResult
 import androidx.activity.result.contract.ActivityResultContracts
+import com.example.herculeswallet.R
 import com.example.herculeswallet.databinding.ActivityMainBinding
 import com.google.android.gms.auth.api.signin.GoogleSignIn
 import com.google.android.gms.auth.api.signin.GoogleSignInAccount
@@ -96,8 +97,8 @@ class MainActivity : AppCompatActivity() {
                     // Sign in success, update UI with the signed-in user's information
                     Log.d(TAG, "createUserWithEmail:success")
                     val user = firebaseAuth.currentUser
-                    Toast.makeText(this,"Account creato con successo",Toast.LENGTH_SHORT).show()
-                    startActivity(Intent(this,Wallet::class.java))
+                    Toast.makeText(this,"Accesso riuscitomatti",Toast.LENGTH_SHORT).show()
+                    startActivity(Intent(this, Wallet::class.java))
                 } else {
                     // If sign in fails, display a message to the user.
                     Log.w(TAG, "createUserWithEmail:failure", task.exception)
@@ -135,7 +136,7 @@ class MainActivity : AppCompatActivity() {
                 }
 
                 //start wallet activity
-                startActivity(Intent(this,Wallet::class.java))
+                startActivity(Intent(this, Wallet::class.java))
                 finish()
 
             }.addOnFailureListener { e ->
@@ -151,7 +152,7 @@ class MainActivity : AppCompatActivity() {
             //user is already logged in
             //start wallet activity
             Toast.makeText(this,"Autenticato: \n${firebaseUser.email}",Toast.LENGTH_SHORT).show()
-            startActivity(Intent(this,Wallet::class.java))
+            startActivity(Intent(this, Wallet::class.java))
             finish()
         }
     }

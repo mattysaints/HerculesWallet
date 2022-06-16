@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\tbarb\Downloads\hercules\HerculesWallet\app\src\main\AndroidManifest.xml:2:1-30:12
-INJECTED from C:\Users\tbarb\Downloads\hercules\HerculesWallet\app\src\main\AndroidManifest.xml:2:1-30:12
-INJECTED from C:\Users\tbarb\Downloads\hercules\HerculesWallet\app\src\main\AndroidManifest.xml:2:1-30:12
-INJECTED from C:\Users\tbarb\Downloads\hercules\HerculesWallet\app\src\main\AndroidManifest.xml:2:1-30:12
+ADDED from C:\Users\tbarb\Downloads\hercules\HerculesWallet\app\src\main\AndroidManifest.xml:2:1-29:12
+INJECTED from C:\Users\tbarb\Downloads\hercules\HerculesWallet\app\src\main\AndroidManifest.xml:2:1-29:12
+INJECTED from C:\Users\tbarb\Downloads\hercules\HerculesWallet\app\src\main\AndroidManifest.xml:2:1-29:12
+INJECTED from C:\Users\tbarb\Downloads\hercules\HerculesWallet\app\src\main\AndroidManifest.xml:2:1-29:12
 MERGED from [androidx.databinding:viewbinding:7.1.3] C:\Users\tbarb\.gradle\caches\transforms-3\b7ec164d352b23758f8f3c1010f641cb\transformed\viewbinding-7.1.3\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.navigation:navigation-fragment-ktx:2.4.2] C:\Users\tbarb\.gradle\caches\transforms-3\5f7d7dbd968723d84dcb592d607c4b68\transformed\navigation-fragment-ktx-2.4.2\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.navigation:navigation-fragment:2.4.2] C:\Users\tbarb\.gradle\caches\transforms-3\89d786b7adb4ddc689b7a5f7823d641c\transformed\navigation-fragment-2.4.2\AndroidManifest.xml:17:1-24:12
@@ -75,20 +75,20 @@ MERGED from [androidx.print:print:1.0.0] C:\Users\tbarb\.gradle\caches\transform
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\tbarb\.gradle\caches\transforms-3\dddf086b4191ffe5451f0b3cbeb2e31e\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\tbarb\.gradle\caches\transforms-3\dc519cc7a3ca76d59782705b0928f3d1\transformed\tracing-1.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\tbarb\.gradle\caches\transforms-3\4b10cf633692fed47e6d37cfb61a437e\transformed\annotation-experimental-1.1.0\AndroidManifest.xml:17:1-24:12
-INJECTED from C:\Users\tbarb\Downloads\hercules\HerculesWallet\app\src\main\AndroidManifest.xml:2:1-30:12
-INJECTED from C:\Users\tbarb\Downloads\hercules\HerculesWallet\app\src\main\AndroidManifest.xml:2:1-30:12
-INJECTED from C:\Users\tbarb\Downloads\hercules\HerculesWallet\app\src\main\AndroidManifest.xml:2:1-30:12
+INJECTED from C:\Users\tbarb\Downloads\hercules\HerculesWallet\app\src\main\AndroidManifest.xml:2:1-29:12
+INJECTED from C:\Users\tbarb\Downloads\hercules\HerculesWallet\app\src\main\AndroidManifest.xml:2:1-29:12
+INJECTED from C:\Users\tbarb\Downloads\hercules\HerculesWallet\app\src\main\AndroidManifest.xml:2:1-29:12
 	package
 		ADDED from C:\Users\tbarb\Downloads\hercules\HerculesWallet\app\src\main\AndroidManifest.xml:3:5-41
 		INJECTED from C:\Users\tbarb\Downloads\hercules\HerculesWallet\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\tbarb\Downloads\hercules\HerculesWallet\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\tbarb\Downloads\hercules\HerculesWallet\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\tbarb\Downloads\hercules\HerculesWallet\app\src\main\AndroidManifest.xml:2:1-30:12
+		ADDED from C:\Users\tbarb\Downloads\hercules\HerculesWallet\app\src\main\AndroidManifest.xml:2:1-29:12
 		INJECTED from C:\Users\tbarb\Downloads\hercules\HerculesWallet\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from C:\Users\tbarb\Downloads\hercules\HerculesWallet\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\tbarb\Downloads\hercules\HerculesWallet\app\src\main\AndroidManifest.xml:2:1-30:12
+		ADDED from C:\Users\tbarb\Downloads\hercules\HerculesWallet\app\src\main\AndroidManifest.xml:2:1-29:12
 		INJECTED from C:\Users\tbarb\Downloads\hercules\HerculesWallet\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\tbarb\Downloads\hercules\HerculesWallet\app\src\main\AndroidManifest.xml:2:11-69
@@ -97,7 +97,7 @@ ADDED from C:\Users\tbarb\Downloads\hercules\HerculesWallet\app\src\main\Android
 	android:name
 		ADDED from C:\Users\tbarb\Downloads\hercules\HerculesWallet\app\src\main\AndroidManifest.xml:5:22-64
 application
-ADDED from C:\Users\tbarb\Downloads\hercules\HerculesWallet\app\src\main\AndroidManifest.xml:7:5-28:19
+ADDED from C:\Users\tbarb\Downloads\hercules\HerculesWallet\app\src\main\AndroidManifest.xml:7:5-27:19
 MERGED from [androidx.window:window:1.0.0] C:\Users\tbarb\.gradle\caches\transforms-3\bad97b229e7f7619460ddda1183414d1\transformed\window-1.0.0\AndroidManifest.xml:24:5-31:19
 MERGED from [androidx.window:window:1.0.0] C:\Users\tbarb\.gradle\caches\transforms-3\bad97b229e7f7619460ddda1183414d1\transformed\window-1.0.0\AndroidManifest.xml:24:5-31:19
 MERGED from [com.google.android.material:material:1.5.0] C:\Users\tbarb\.gradle\caches\transforms-3\42a390ccce16bf9572f50350369b0e1d\transformed\material-1.5.0\AndroidManifest.xml:22:5-20
@@ -136,32 +136,30 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\tb
 		ADDED from C:\Users\tbarb\Downloads\hercules\HerculesWallet\app\src\main\AndroidManifest.xml:8:9-35
 	android:theme
 		ADDED from C:\Users\tbarb\Downloads\hercules\HerculesWallet\app\src\main\AndroidManifest.xml:13:9-52
-activity#com.example.herculeswallet.Wallet
-ADDED from C:\Users\tbarb\Downloads\hercules\HerculesWallet\app\src\main\AndroidManifest.xml:14:9-18:71
+activity#com.example.herculeswallet.view.Wallet
+ADDED from C:\Users\tbarb\Downloads\hercules\HerculesWallet\app\src\main\AndroidManifest.xml:14:9-17:60
 	android:label
 		ADDED from C:\Users\tbarb\Downloads\hercules\HerculesWallet\app\src\main\AndroidManifest.xml:17:13-58
 	android:exported
 		ADDED from C:\Users\tbarb\Downloads\hercules\HerculesWallet\app\src\main\AndroidManifest.xml:16:13-37
-	android:theme
-		ADDED from C:\Users\tbarb\Downloads\hercules\HerculesWallet\app\src\main\AndroidManifest.xml:18:13-68
 	android:name
-		ADDED from C:\Users\tbarb\Downloads\hercules\HerculesWallet\app\src\main\AndroidManifest.xml:15:13-35
-activity#com.example.herculeswallet.MainActivity
-ADDED from C:\Users\tbarb\Downloads\hercules\HerculesWallet\app\src\main\AndroidManifest.xml:19:9-27:20
+		ADDED from C:\Users\tbarb\Downloads\hercules\HerculesWallet\app\src\main\AndroidManifest.xml:15:13-40
+activity#com.example.herculeswallet.view.MainActivity
+ADDED from C:\Users\tbarb\Downloads\hercules\HerculesWallet\app\src\main\AndroidManifest.xml:18:9-26:20
 	android:exported
-		ADDED from C:\Users\tbarb\Downloads\hercules\HerculesWallet\app\src\main\AndroidManifest.xml:21:13-36
+		ADDED from C:\Users\tbarb\Downloads\hercules\HerculesWallet\app\src\main\AndroidManifest.xml:20:13-36
 	android:name
-		ADDED from C:\Users\tbarb\Downloads\hercules\HerculesWallet\app\src\main\AndroidManifest.xml:20:13-41
+		ADDED from C:\Users\tbarb\Downloads\hercules\HerculesWallet\app\src\main\AndroidManifest.xml:19:13-46
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\tbarb\Downloads\hercules\HerculesWallet\app\src\main\AndroidManifest.xml:22:13-26:29
+ADDED from C:\Users\tbarb\Downloads\hercules\HerculesWallet\app\src\main\AndroidManifest.xml:21:13-25:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\tbarb\Downloads\hercules\HerculesWallet\app\src\main\AndroidManifest.xml:23:17-69
+ADDED from C:\Users\tbarb\Downloads\hercules\HerculesWallet\app\src\main\AndroidManifest.xml:22:17-69
 	android:name
-		ADDED from C:\Users\tbarb\Downloads\hercules\HerculesWallet\app\src\main\AndroidManifest.xml:23:25-66
+		ADDED from C:\Users\tbarb\Downloads\hercules\HerculesWallet\app\src\main\AndroidManifest.xml:22:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\tbarb\Downloads\hercules\HerculesWallet\app\src\main\AndroidManifest.xml:25:17-77
+ADDED from C:\Users\tbarb\Downloads\hercules\HerculesWallet\app\src\main\AndroidManifest.xml:24:17-77
 	android:name
-		ADDED from C:\Users\tbarb\Downloads\hercules\HerculesWallet\app\src\main\AndroidManifest.xml:25:27-74
+		ADDED from C:\Users\tbarb\Downloads\hercules\HerculesWallet\app\src\main\AndroidManifest.xml:24:27-74
 uses-sdk
 INJECTED from C:\Users\tbarb\Downloads\hercules\HerculesWallet\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\tbarb\Downloads\hercules\HerculesWallet\app\src\main\AndroidManifest.xml

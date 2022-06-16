@@ -8,6 +8,10 @@
         "source": "C:\\Users\\tbarb\\Downloads\\hercules\\HerculesWallet\\app\\src\\main\\res\\layout\\fragment_actions.xml"
     },
     {
+        "merged": "C:\\Users\\tbarb\\Downloads\\hercules\\HerculesWallet\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\wallet.xml",
+        "source": "C:\\Users\\tbarb\\Downloads\\hercules\\HerculesWallet\\app\\src\\main\\res\\layout\\wallet.xml"
+    },
+    {
         "merged": "C:\\Users\\tbarb\\Downloads\\hercules\\HerculesWallet\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\dashboard.xml",
         "source": "C:\\Users\\tbarb\\Downloads\\hercules\\HerculesWallet\\app\\src\\main\\res\\layout\\dashboard.xml"
     },

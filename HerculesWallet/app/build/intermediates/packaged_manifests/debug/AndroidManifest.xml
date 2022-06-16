@@ -22,12 +22,11 @@
         android:testOnly="true"
         android:theme="@style/Theme.HerculesWallet" >
         <activity
-            android:name="com.example.herculeswallet.Wallet"
+            android:name="com.example.herculeswallet.view.Wallet"
             android:exported="false"
-            android:label="@string/title_activity_wallet"
-            android:theme="@style/Theme.HerculesWallet.NoActionBar" />
+            android:label="@string/title_activity_wallet" />
         <activity
-            android:name="com.example.herculeswallet.MainActivity"
+            android:name="com.example.herculeswallet.view.MainActivity"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
