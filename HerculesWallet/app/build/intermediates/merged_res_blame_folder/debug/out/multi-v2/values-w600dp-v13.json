@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\tbarb\\Downloads\\hercules\\HerculesWallet\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w600dp-v13\\values-w600dp-v13.xml",
+            "outputFile": "com.example.herculeswallet.app-mergeDebugResources-39:/values-w600dp-v13/values-w600dp-v13.xml",
             "map": [
                 {
                     "source": "C:\\Users\\tbarb\\Downloads\\hercules\\HerculesWallet\\app\\src\\main\\res\\values-w600dp\\dimens.xml",

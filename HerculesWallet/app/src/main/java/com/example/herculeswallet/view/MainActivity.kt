@@ -5,6 +5,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
+import android.view.View
 import android.widget.*
 import androidx.activity.result.ActivityResult
 import androidx.activity.result.contract.ActivityResultContracts
@@ -50,7 +51,7 @@ class MainActivity : AppCompatActivity() {
 
         val startForResult = registerForActivityResult(ActivityResultContracts.StartActivityForResult())
         { result: ActivityResult ->
-            if (result.resultCode == Activity.RESULT_OK) {
+            if (result.resultCode == RESULT_OK) {
                 //  you will get result here in result.data
                 Log.d(TAG, "onActivityResult: Google SignIn")
                 val accountTask = GoogleSignIn.getSignedInAccountFromIntent(result.data)
@@ -97,7 +98,7 @@ class MainActivity : AppCompatActivity() {
                     // Sign in success, update UI with the signed-in user's information
                     Log.d(TAG, "createUserWithEmail:success")
                     val user = firebaseAuth.currentUser
-                    Toast.makeText(this,"Accesso riuscitomatti",Toast.LENGTH_SHORT).show()
+                    Toast.makeText(this,"Accesso riuscito",Toast.LENGTH_SHORT).show()
                     startActivity(Intent(this, Wallet::class.java))
                 } else {
                     // If sign in fails, display a message to the user.

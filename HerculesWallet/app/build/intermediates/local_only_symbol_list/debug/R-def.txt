@@ -20,6 +20,7 @@ drawable done
 drawable down_arrow
 drawable earn
 drawable email
+drawable fab_icon
 drawable fb
 drawable google
 drawable home
@@ -36,6 +37,7 @@ drawable select_crypto
 drawable sell
 drawable settings
 drawable swap
+drawable transparent_background
 drawable twitter
 font poppins_medium
 font poppins_regular
@@ -45,10 +47,12 @@ id action_FirstFragment_to_SecondFragment
 id action_SecondFragment_to_FirstFragment
 id actionsNav
 id activityNav
+id bottomAppBar
 id bottom_navigatin_view
 id button_accedi
 id dati_crypto
 id email
+id fabNav
 id fab_send
 id facebook
 id fragment_container_view

@@ -1,7 +1,8 @@
 package com.example.herculeswallet.view
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.View
+import androidx.appcompat.app.AppCompatActivity
 import com.example.herculeswallet.R
 import com.example.herculeswallet.databinding.WalletBinding
 
@@ -14,6 +15,9 @@ class Wallet : AppCompatActivity() {
         getSupportActionBar()!!.hide();
         binding = WalletBinding.inflate(layoutInflater)
         setContentView(binding.root)
+
+        window.decorView.systemUiVisibility = View.SYSTEM_UI_FLAG_HIDE_NAVIGATION or
+                View.SYSTEM_UI_FLAG_IMMERSIVE_STICKY
 
         val fragmentManager = supportFragmentManager
         val fragmentTransaction = fragmentManager.beginTransaction()
