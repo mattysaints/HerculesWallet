@@ -65,7 +65,6 @@ class MainActivity : AppCompatActivity() {
                     Log.d(TAG,"onActivityResult: ${e.message}")
                 }
             }
-
         }
 
         val email = findViewById<EditText>(R.id.email)
