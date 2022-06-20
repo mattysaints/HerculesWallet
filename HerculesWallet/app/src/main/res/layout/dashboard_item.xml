@@ -16,6 +16,7 @@
         <androidx.appcompat.widget.AppCompatImageView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:id="@+id/image_crypto"
             android:layout_margin="@dimen/_8sdp"
             android:src="@drawable/bitcoin"/>
 

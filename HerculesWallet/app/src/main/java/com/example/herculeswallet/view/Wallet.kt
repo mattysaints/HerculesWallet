@@ -21,7 +21,7 @@ class Wallet : AppCompatActivity() {
 
         val fragmentManager = supportFragmentManager
         val fragmentTransaction = fragmentManager.beginTransaction()
-        fragmentTransaction.replace(R.id.fragment_container_view, HomeFragment())
+        fragmentTransaction.replace(R.id.fragment_container_view, CryptoListFragment())
         fragmentTransaction.commit()
 
         /*binding.bottomNavigatinView.setOnItemSelectedListener { item ->

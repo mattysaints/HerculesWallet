@@ -3519,6 +3519,7 @@ id ignore
 id ignoreRequest
 id image
 id imageView
+id image_crypto
 id info
 id instagram
 id intestazione
@@ -3880,6 +3881,7 @@ layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_main
 layout activity_wallet
+layout crypto_list_item
 layout custom_dialog
 layout dashboard
 layout dashboard_item
@@ -3900,6 +3902,7 @@ layout design_text_input_end_icon
 layout design_text_input_start_icon
 layout dp_example
 layout fragment_actions
+layout fragment_crypto_list
 layout fragment_home
 layout fragment_receive
 layout fragment_send

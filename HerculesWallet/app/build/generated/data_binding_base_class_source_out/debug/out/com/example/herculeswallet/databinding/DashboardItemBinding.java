@@ -8,6 +8,7 @@ import android.widget.GridLayout;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.appcompat.widget.AppCompatImageView;
 import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
@@ -24,6 +25,9 @@ public final class DashboardItemBinding implements ViewBinding {
   public final GridLayout datiCrypto;
 
   @NonNull
+  public final AppCompatImageView imageCrypto;
+
+  @NonNull
   public final TextView nameCrypto;
 
   @NonNull
@@ -36,10 +40,12 @@ public final class DashboardItemBinding implements ViewBinding {
   public final ConstraintLayout secondConstraint;
 
   private DashboardItemBinding(@NonNull ConstraintLayout rootView, @NonNull GridLayout datiCrypto,
-      @NonNull TextView nameCrypto, @NonNull TextView priceCrypto, @NonNull TextView quantityCrypto,
+      @NonNull AppCompatImageView imageCrypto, @NonNull TextView nameCrypto,
+      @NonNull TextView priceCrypto, @NonNull TextView quantityCrypto,
       @NonNull ConstraintLayout secondConstraint) {
     this.rootView = rootView;
     this.datiCrypto = datiCrypto;
+    this.imageCrypto = imageCrypto;
     this.nameCrypto = nameCrypto;
     this.priceCrypto = priceCrypto;
     this.quantityCrypto = quantityCrypto;
@@ -79,6 +85,12 @@ public final class DashboardItemBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.image_crypto;
+      AppCompatImageView imageCrypto = ViewBindings.findChildViewById(rootView, id);
+      if (imageCrypto == null) {
+        break missingId;
+      }
+
       id = R.id.name_crypto;
       TextView nameCrypto = ViewBindings.findChildViewById(rootView, id);
       if (nameCrypto == null) {
@@ -103,8 +115,8 @@ public final class DashboardItemBinding implements ViewBinding {
         break missingId;
       }
 
-      return new DashboardItemBinding((ConstraintLayout) rootView, datiCrypto, nameCrypto,
-          priceCrypto, quantityCrypto, secondConstraint);
+      return new DashboardItemBinding((ConstraintLayout) rootView, datiCrypto, imageCrypto,
+          nameCrypto, priceCrypto, quantityCrypto, secondConstraint);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

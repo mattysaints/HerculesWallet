@@ -60,6 +60,7 @@ id google
 id homeFragment
 id homeNav
 id imageView
+id image_crypto
 id instagram
 id intestazione
 id layout_select_crypto
@@ -84,9 +85,11 @@ id twitter
 id username_icon
 layout activity_main
 layout activity_wallet
+layout crypto_list_item
 layout dashboard
 layout dashboard_item
 layout fragment_actions
+layout fragment_crypto_list
 layout fragment_home
 layout fragment_receive
 layout fragment_send
