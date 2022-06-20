@@ -1,6 +1,6 @@
 package com.example.herculeswallet.model
 
-class Crypto (
+data class Crypto (
     val name : String,
     val asset_id : String,
     val price_usd : Long,
