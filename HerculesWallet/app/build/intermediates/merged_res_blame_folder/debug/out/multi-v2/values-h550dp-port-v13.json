@@ -4,7 +4,7 @@
             "outputFile": "com.example.herculeswallet.app-mergeDebugResources-40:/values-h550dp-port-v13/values-h550dp-port-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\tbarb\\.gradle\\caches\\transforms-3\\b141a0e0ffdd5948f84c4ae74a71e928\\transformed\\material-1.5.0\\res\\values-h550dp-port-v13\\values-h550dp-port-v13.xml",
+                    "source": "C:\\Users\\tbarb\\.gradle\\caches\\transforms-3\\f96c1a2c9b7fcdc63391e27dba2c9c00\\transformed\\material-1.5.0\\res\\values-h550dp-port-v13\\values-h550dp-port-v13.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

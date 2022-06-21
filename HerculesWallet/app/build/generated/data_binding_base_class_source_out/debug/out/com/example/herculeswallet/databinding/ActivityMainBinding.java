@@ -25,6 +25,9 @@ public final class ActivityMainBinding implements ViewBinding {
   public final Button buttonAccedi;
 
   @NonNull
+  public final Button buttonRegistrati;
+
+  @NonNull
   public final EditText email;
 
   @NonNull
@@ -49,11 +52,13 @@ public final class ActivityMainBinding implements ViewBinding {
   public final ImageView usernameIcon;
 
   private ActivityMainBinding(@NonNull RelativeLayout rootView, @NonNull Button buttonAccedi,
-      @NonNull EditText email, @NonNull ImageView facebook, @NonNull ImageView google,
-      @NonNull ImageView instagram, @NonNull EditText password, @NonNull ImageView passwordIcon,
-      @NonNull ImageView twitter, @NonNull ImageView usernameIcon) {
+      @NonNull Button buttonRegistrati, @NonNull EditText email, @NonNull ImageView facebook,
+      @NonNull ImageView google, @NonNull ImageView instagram, @NonNull EditText password,
+      @NonNull ImageView passwordIcon, @NonNull ImageView twitter,
+      @NonNull ImageView usernameIcon) {
     this.rootView = rootView;
     this.buttonAccedi = buttonAccedi;
+    this.buttonRegistrati = buttonRegistrati;
     this.email = email;
     this.facebook = facebook;
     this.google = google;
@@ -94,6 +99,12 @@ public final class ActivityMainBinding implements ViewBinding {
       id = R.id.button_accedi;
       Button buttonAccedi = ViewBindings.findChildViewById(rootView, id);
       if (buttonAccedi == null) {
+        break missingId;
+      }
+
+      id = R.id.button_registrati;
+      Button buttonRegistrati = ViewBindings.findChildViewById(rootView, id);
+      if (buttonRegistrati == null) {
         break missingId;
       }
 
@@ -145,8 +156,8 @@ public final class ActivityMainBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityMainBinding((RelativeLayout) rootView, buttonAccedi, email, facebook,
-          google, instagram, password, passwordIcon, twitter, usernameIcon);
+      return new ActivityMainBinding((RelativeLayout) rootView, buttonAccedi, buttonRegistrati,
+          email, facebook, google, instagram, password, passwordIcon, twitter, usernameIcon);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

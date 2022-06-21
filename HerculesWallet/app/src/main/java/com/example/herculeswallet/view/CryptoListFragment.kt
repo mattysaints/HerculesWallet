@@ -8,10 +8,6 @@ import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.example.herculeswallet.R
-import com.example.herculeswallet.RecyclerViewAdapter
-import com.example.herculeswallet.databinding.ActivityMainBinding
-import com.example.herculeswallet.databinding.CryptoListItemBinding
-import com.example.herculeswallet.databinding.FragmentCryptoListBinding
 
 class CryptoListFragment : Fragment(R.layout.fragment_crypto_list){
 

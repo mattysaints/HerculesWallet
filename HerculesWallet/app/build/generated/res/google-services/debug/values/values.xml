@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="default_web_client_id" translatable="false">6624234530-71bkunkn5a2njl8mejfahpq9ruk05d42.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://herculeswallet-dee26-default-rtdb.europe-west1.firebasedatabase.app</string>
     <string name="gcm_defaultSenderId" translatable="false">6624234530</string>
     <string name="google_api_key" translatable="false">AIzaSyCbk_az_DKAXTr7MjL6szLrusH93ajoOoo</string>
     <string name="google_app_id" translatable="false">1:6624234530:android:b6306ac673a71735120e7b</string>

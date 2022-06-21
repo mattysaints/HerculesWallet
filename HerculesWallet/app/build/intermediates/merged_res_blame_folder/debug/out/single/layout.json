@@ -1,50 +1,54 @@
 [
     {
-        "merged": "com.example.herculeswallet.app-mergeDebugResources-41:/layout/wallet.xml",
-        "source": "com.example.herculeswallet.app-main-44:/layout/wallet.xml"
+        "merged": "C:\\Users\\tbarb\\.gradle\\daemon\\7.3.3\\com.example.herculeswallet.app-mergeDebugResources-41:\\layout\\dashboard_item.xml",
+        "source": "C:\\Users\\tbarb\\.gradle\\daemon\\7.3.3\\com.example.herculeswallet.app-main-44:\\layout\\dashboard_item.xml"
     },
     {
-        "merged": "com.example.herculeswallet.app-mergeDebugResources-41:/layout/crypto_list_item.xml",
-        "source": "com.example.herculeswallet.app-main-44:/layout/crypto_list_item.xml"
+        "merged": "C:\\Users\\tbarb\\.gradle\\daemon\\7.3.3\\com.example.herculeswallet.app-mergeDebugResources-41:\\layout\\fragment_send.xml",
+        "source": "C:\\Users\\tbarb\\.gradle\\daemon\\7.3.3\\com.example.herculeswallet.app-main-44:\\layout\\fragment_send.xml"
     },
     {
-        "merged": "com.example.herculeswallet.app-mergeDebugResources-41:/layout/fragment_crypto_list.xml",
-        "source": "com.example.herculeswallet.app-main-44:/layout/fragment_crypto_list.xml"
+        "merged": "C:\\Users\\tbarb\\.gradle\\daemon\\7.3.3\\com.example.herculeswallet.app-mergeDebugResources-41:\\layout\\activity_wallet.xml",
+        "source": "C:\\Users\\tbarb\\.gradle\\daemon\\7.3.3\\com.example.herculeswallet.app-main-44:\\layout\\activity_wallet.xml"
     },
     {
-        "merged": "com.example.herculeswallet.app-mergeDebugResources-41:/layout/fragment_home.xml",
-        "source": "com.example.herculeswallet.app-main-44:/layout/fragment_home.xml"
+        "merged": "C:\\Users\\tbarb\\.gradle\\daemon\\7.3.3\\com.example.herculeswallet.app-mergeDebugResources-41:\\layout\\fragment_receive.xml",
+        "source": "C:\\Users\\tbarb\\.gradle\\daemon\\7.3.3\\com.example.herculeswallet.app-main-44:\\layout\\fragment_receive.xml"
     },
     {
-        "merged": "com.example.herculeswallet.app-mergeDebugResources-41:/layout/dashboard_item.xml",
-        "source": "com.example.herculeswallet.app-main-44:/layout/dashboard_item.xml"
+        "merged": "C:\\Users\\tbarb\\.gradle\\daemon\\7.3.3\\com.example.herculeswallet.app-mergeDebugResources-41:\\layout\\fragment_crypto_list.xml",
+        "source": "C:\\Users\\tbarb\\.gradle\\daemon\\7.3.3\\com.example.herculeswallet.app-main-44:\\layout\\fragment_crypto_list.xml"
     },
     {
-        "merged": "com.example.herculeswallet.app-mergeDebugResources-41:/layout/fragment_actions.xml",
-        "source": "com.example.herculeswallet.app-main-44:/layout/fragment_actions.xml"
+        "merged": "C:\\Users\\tbarb\\.gradle\\daemon\\7.3.3\\com.example.herculeswallet.app-mergeDebugResources-41:\\layout\\fragment_settings.xml",
+        "source": "C:\\Users\\tbarb\\.gradle\\daemon\\7.3.3\\com.example.herculeswallet.app-main-44:\\layout\\fragment_settings.xml"
     },
     {
-        "merged": "com.example.herculeswallet.app-mergeDebugResources-41:/layout/dashboard.xml",
-        "source": "com.example.herculeswallet.app-main-44:/layout/dashboard.xml"
+        "merged": "C:\\Users\\tbarb\\.gradle\\daemon\\7.3.3\\com.example.herculeswallet.app-mergeDebugResources-41:\\layout\\fragment_actions.xml",
+        "source": "C:\\Users\\tbarb\\.gradle\\daemon\\7.3.3\\com.example.herculeswallet.app-main-44:\\layout\\fragment_actions.xml"
     },
     {
-        "merged": "com.example.herculeswallet.app-mergeDebugResources-41:/layout/fragment_receive.xml",
-        "source": "com.example.herculeswallet.app-main-44:/layout/fragment_receive.xml"
+        "merged": "C:\\Users\\tbarb\\.gradle\\daemon\\7.3.3\\com.example.herculeswallet.app-mergeDebugResources-41:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\tbarb\\.gradle\\daemon\\7.3.3\\com.example.herculeswallet.app-main-44:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\tbarb\\.gradle\\daemon\\7.3.3\\com.example.herculeswallet.app-mergeDebugResources-41:\\layout\\crypto_list_item.xml",
+        "source": "C:\\Users\\tbarb\\.gradle\\daemon\\7.3.3\\com.example.herculeswallet.app-main-44:\\layout\\crypto_list_item.xml"
     },
     {
         "merged": "com.example.herculeswallet.app-mergeDebugResources-41:/layout/activity_main.xml",
         "source": "com.example.herculeswallet.app-main-44:/layout/activity_main.xml"
     },
     {
-        "merged": "com.example.herculeswallet.app-mergeDebugResources-41:/layout/fragment_settings.xml",
-        "source": "com.example.herculeswallet.app-main-44:/layout/fragment_settings.xml"
+        "merged": "C:\\Users\\tbarb\\.gradle\\daemon\\7.3.3\\com.example.herculeswallet.app-mergeDebugResources-41:\\layout\\fragment_home.xml",
+        "source": "C:\\Users\\tbarb\\.gradle\\daemon\\7.3.3\\com.example.herculeswallet.app-main-44:\\layout\\fragment_home.xml"
     },
     {
-        "merged": "com.example.herculeswallet.app-mergeDebugResources-41:/layout/fragment_send.xml",
-        "source": "com.example.herculeswallet.app-main-44:/layout/fragment_send.xml"
+        "merged": "C:\\Users\\tbarb\\.gradle\\daemon\\7.3.3\\com.example.herculeswallet.app-mergeDebugResources-41:\\layout\\dashboard.xml",
+        "source": "C:\\Users\\tbarb\\.gradle\\daemon\\7.3.3\\com.example.herculeswallet.app-main-44:\\layout\\dashboard.xml"
     },
     {
-        "merged": "com.example.herculeswallet.app-mergeDebugResources-41:/layout/activity_wallet.xml",
-        "source": "com.example.herculeswallet.app-main-44:/layout/activity_wallet.xml"
+        "merged": "C:\\Users\\tbarb\\.gradle\\daemon\\7.3.3\\com.example.herculeswallet.app-mergeDebugResources-41:\\layout\\wallet.xml",
+        "source": "C:\\Users\\tbarb\\.gradle\\daemon\\7.3.3\\com.example.herculeswallet.app-main-44:\\layout\\wallet.xml"
     }
 ]

@@ -99,8 +99,25 @@
         </RelativeLayout>
 
         <Button
-            android:id="@+id/button_accedi"
-            android:layout_width="match_parent"
+        android:id="@+id/button_accedi"
+        android:layout_width="225dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="62dp"
+        android:layout_marginTop="18.7dp"
+        android:layout_marginRight="62dp"
+        android:background="@drawable/blue_fill__rounded_color"
+        android:fontFamily="@font/poppins_medium"
+        android:gravity="center"
+        android:paddingTop="14dp"
+        android:paddingBottom="14dp"
+        android:text="Accedi"
+        android:textColor="#ffffff"
+        android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/button_registrati"
+            android:layout_width="225dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginLeft="62dp"
@@ -111,7 +128,7 @@
             android:gravity="center"
             android:paddingTop="14dp"
             android:paddingBottom="14dp"
-            android:text="Accedi"
+            android:text="Registrati"
             android:textColor="#ffffff"
             android:textSize="12sp" />
 
@@ -124,14 +141,6 @@
             android:text="PASSWORD DIMENTICATA ? "
             android:textColor="#1566e0"
             android:textSize="10.5sp" />
-
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:orientation="vertical">
 
         <LinearLayout
             android:layout_width="match_parent"
