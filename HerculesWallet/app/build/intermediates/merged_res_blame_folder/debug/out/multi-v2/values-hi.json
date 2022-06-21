@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.herculeswallet.app-mergeDebugResources-39:/values-hi/values-hi.xml",
+            "outputFile": "com.example.herculeswallet.app-mergeDebugResources-40:/values-hi/values-hi.xml",
             "map": [
                 {
                     "source": "C:\\Users\\tbarb\\.gradle\\caches\\transforms-3\\b141a0e0ffdd5948f84c4ae74a71e928\\transformed\\material-1.5.0\\res\\values-hi\\values-hi.xml",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\tbarb\\.gradle\\caches\\transforms-3\\1015995de5cfd1bdd853587342664ae4\\transformed\\play-services-base-18.0.1\\res\\values-hi\\values.xml",
+                    "source": "C:\\Users\\tbarb\\.gradle\\caches\\transforms-3\\37d6682f4da120658fa98eba19534267\\transformed\\jetified-play-services-base-18.0.1\\res\\values-hi\\values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
                         "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
@@ -37,23 +37,6 @@
                         "startOffsets": "3349,3457,3617,3743,3855,4006,4136,4248,4506,4663,4772,4938,5068,5209,5362,5425,5492",
                         "endColumns": "107,159,125,111,150,129,111,111,156,108,165,129,140,152,62,66,87",
                         "endOffsets": "3452,3612,3738,3850,4001,4131,4243,4355,4658,4767,4933,5063,5204,5357,5420,5487,5575"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\tbarb\\.gradle\\caches\\transforms-3\\eb58bdf688d0022d85b6987d60aa6c0d\\transformed\\play-services-basement-18.0.0\\res\\values-hi\\values.xml",
-                    "from": {
-                        "startLines": "4",
-                        "startColumns": "0",
-                        "startOffsets": "195",
-                        "endColumns": "141",
-                        "endOffsets": "336"
-                    },
-                    "to": {
-                        "startLines": "45",
-                        "startColumns": "4",
-                        "startOffsets": "4360",
-                        "endColumns": "145",
-                        "endOffsets": "4501"
                     }
                 },
                 {
@@ -71,6 +54,23 @@
                         "startOffsets": "264,370,468,578,664,766,887,965,1042,1133,1226,1321,1415,1515,1608,1703,1797,1888,1979,2060,2165,2267,2365,2475,2578,2687,2845,9738",
                         "endColumns": "105,97,109,85,101,120,77,76,90,92,94,93,99,92,94,93,90,90,80,104,101,97,109,102,108,157,100,81",
                         "endOffsets": "365,463,573,659,761,882,960,1037,1128,1221,1316,1410,1510,1603,1698,1792,1883,1974,2055,2160,2262,2360,2470,2573,2682,2840,2941,9815"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\tbarb\\.gradle\\caches\\transforms-3\\71bc271deb8a72b4324f7baa96ebe0c9\\transformed\\jetified-play-services-basement-18.0.0\\res\\values-hi\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "195",
+                        "endColumns": "141",
+                        "endOffsets": "336"
+                    },
+                    "to": {
+                        "startLines": "45",
+                        "startColumns": "4",
+                        "startOffsets": "4360",
+                        "endColumns": "145",
+                        "endOffsets": "4501"
                     }
                 },
                 {

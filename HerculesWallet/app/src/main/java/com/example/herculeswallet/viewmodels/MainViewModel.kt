@@ -1,14 +1,18 @@
 package com.example.herculeswallet.viewmodels
 
-import androidx.lifecycle.LiveData
-import androidx.lifecycle.MutableLiveData
+import android.content.Intent
+import android.util.Log
+import android.widget.Toast
 import androidx.lifecycle.ViewModel
-import com.example.herculeswallet.model.User
+import com.example.herculeswallet.view.MainActivity
+import com.example.herculeswallet.view.Wallet
+import com.google.firebase.auth.FirebaseAuth
+
 
 class MainViewModel : ViewModel() {
 
-    lateinit var users : MutableLiveData<User>
-    lateinit var current_user : LiveData<User>
+
+
 
 
 }

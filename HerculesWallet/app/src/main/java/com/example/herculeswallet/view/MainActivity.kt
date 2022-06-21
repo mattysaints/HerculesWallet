@@ -38,15 +38,16 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         binding = ActivityMainBinding.inflate(layoutInflater)
 
+        //Init firebase auth
+        firebaseAuth = FirebaseAuth.getInstance()
+
         //Configure Google Sign
-        val googleSignInOptions = GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)
+        /*val googleSignInOptions = GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)
             .requestIdToken("6624234530-71bkunkn5a2njl8mejfahpq9ruk05d42.apps.googleusercontent.com")
             .requestEmail()
             .build()
         googleSignInClient = GoogleSignIn.getClient(this, googleSignInOptions)
 
-        //Init firebase auth
-        firebaseAuth = FirebaseAuth.getInstance()
         //checkUser()
 
         val startForResult = registerForActivityResult(ActivityResultContracts.StartActivityForResult())
@@ -65,7 +66,7 @@ class MainActivity : AppCompatActivity() {
                     Log.d(TAG,"onActivityResult: ${e.message}")
                 }
             }
-        }
+        }*/
 
         val email = findViewById<EditText>(R.id.email)
         val password = findViewById<EditText>(R.id.password)
@@ -85,7 +86,7 @@ class MainActivity : AppCompatActivity() {
         google.setOnClickListener {
             Log.d(TAG, "OnCreate: begin Google SignIn")
             val intent = googleSignInClient.signInIntent
-            startForResult.launch(intent)
+            //startForResult.launch(intent)
         }
 
     }

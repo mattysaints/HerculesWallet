@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.herculeswallet.app-mergeDebugResources-39:/values-en-rAU/values-en-rAU.xml",
+            "outputFile": "com.example.herculeswallet.app-mergeDebugResources-40:/values-en-rAU/values-en-rAU.xml",
             "map": [
                 {
                     "source": "C:\\Users\\tbarb\\.gradle\\caches\\transforms-3\\02484619652ae144bb07efaa9978299e\\transformed\\navigation-ui-2.4.2\\res\\values-en-rAU\\values-en-rAU.xml",
