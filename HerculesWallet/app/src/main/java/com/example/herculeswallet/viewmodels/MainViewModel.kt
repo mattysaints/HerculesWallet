@@ -3,19 +3,19 @@ package com.example.herculeswallet.viewmodels
 import android.app.Application
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
+import com.example.herculeswallet.model.User
 import com.example.herculeswallet.repository.AuthenticationRepository
-import com.google.android.gms.auth.api.signin.GoogleSignInAccount
 import com.google.firebase.auth.FirebaseUser
 
 
 class MainViewModel() : ViewModel() {
 
     val repo : AuthenticationRepository = AuthenticationRepository()
-    var userMutableLiveData : MutableLiveData<FirebaseUser>
+    var userMutableLiveData : MutableLiveData<User>
     var loggedStatus: MutableLiveData<Boolean>
 
     init {
-        userMutableLiveData = repo.getFirebaseUserMutableLiveData()
+        userMutableLiveData = repo.getUserWallet()
         loggedStatus = repo.getUserLoggedMutableLiveData()
     }
 
@@ -31,7 +31,7 @@ class MainViewModel() : ViewModel() {
         repo.signOut()
     }
 
-    fun getUserData(): MutableLiveData<FirebaseUser> {
+    fun getUserData(): MutableLiveData<User> {
         return userMutableLiveData
     }
 

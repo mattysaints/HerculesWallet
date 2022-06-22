@@ -2,11 +2,9 @@ package com.example.herculeswallet.model
 
 import java.util.prefs.AbstractPreferences
 
-data class User (val email: String, val password: String, var wallet: HashMap<Crypto,String>, var preferences: ArrayList<String>){
+data class User (val email: String, var wallet: HashMap<String,Crypto>, var preferences: List<String>){
 
-    override fun toString(): String {
-        return "User(email='$email', password='$password', wallet=$wallet, preferences=$preferences)"
-    }
+
 
     override fun equals(other: Any?): Boolean {
         if (this === other) return true
@@ -21,6 +19,10 @@ data class User (val email: String, val password: String, var wallet: HashMap<Cr
 
     override fun hashCode(): Int {
         return wallet.hashCode()
+    }
+
+    override fun toString(): String {
+        return "User(email='$email', wallet=$wallet, preferences=$preferences)"
     }
 
 

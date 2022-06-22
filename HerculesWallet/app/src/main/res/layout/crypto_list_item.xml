@@ -20,12 +20,12 @@
             android:layout_margin="@dimen/_8sdp"
             android:src="@drawable/bitcoin"/>
 
-
     </com.google.android.material.card.MaterialCardView>
 
     <com.google.android.material.card.MaterialCardView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
         android:layout_marginStart="@dimen/_16sdp"
         android:layout_marginLeft="@dimen/_16sdp"
         app:cardBackgroundColor="@color/cardview_light_background"
@@ -34,74 +34,81 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
-        <androidx.constraintlayout.widget.ConstraintLayout
-            android:id="@+id/second_constraint"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:paddingStart="@dimen/_40sdp"
-            android:paddingLeft="@dimen/_40sdp"
-            android:paddingTop="@dimen/_16sdp"
-            android:paddingRight="@dimen/_16sdp"
-            android:paddingBottom="@dimen/_16sdp"
-            android:paddingEnd="@dimen/_16sdp">
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:orientation="horizontal">
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:orientation="horizontal">
+           <androidx.constraintlayout.widget.ConstraintLayout
+               android:id="@+id/second_constraint"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:paddingStart="@dimen/_40sdp"
+               android:paddingLeft="@dimen/_40sdp"
+               android:paddingTop="@dimen/_16sdp"
+               android:paddingRight="@dimen/_16sdp"
+               android:paddingBottom="@dimen/_16sdp"
+               android:paddingEnd="@dimen/_16sdp">
 
-                <GridLayout
-                    android:id="@+id/dati_crypto"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center_horizontal"
-                    android:orientation="horizontal"
-                    android:alignmentMode="alignMargins"
-                    android:clickable="true"
-                    android:columnCount="1"
-                    android:columnOrderPreserved="false"
-                    android:paddingLeft="200dp"
-                    android:rowCount="2"
-                    android:visibility="visible">
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent"
+                   android:orientation="horizontal">
 
-                    <TextView
-                        android:id="@+id/price_crypto"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:paddingLeft="10dp"
-                        android:text="$ 30,079.90 "
-                        android:textColor="@color/cardview_dark_background"
-                        android:textSize="@dimen/_14sdp"
-                        android:textStyle="italic"
-                        app:layout_constraintBottom_toBottomOf="parent"
-                        app:layout_constraintEnd_toEndOf="parent"
-                        app:layout_constraintTop_toTopOf="parent" />
+                   <GridLayout
+                       android:id="@+id/dati_crypto"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:layout_gravity="center_horizontal"
+                       android:orientation="horizontal"
+                       android:alignmentMode="alignMargins"
+                       android:clickable="true"
+                       android:columnCount="1"
+                       android:columnOrderPreserved="false"
+                       android:paddingLeft="200dp"
+                       android:rowCount="2"
+                       android:visibility="visible">
 
-                </GridLayout>
+                       <TextView
+                           android:id="@+id/price_crypto"
+                           android:layout_width="match_parent"
+                           android:layout_height="match_parent"
+                           android:text="$ 30,079.90 "
+                           android:textColor="@color/cardview_dark_background"
+                           android:textSize="@dimen/_14sdp"
+                           android:textStyle="italic"
+                           app:layout_constraintBottom_toBottomOf="parent"
+                           app:layout_constraintEnd_toEndOf="parent"
+                           app:layout_constraintTop_toTopOf="parent" />
 
-
-            </LinearLayout>
-
-            <TextView
-                android:id="@+id/name_crypto"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_marginEnd="@dimen/_8sdp"
-                android:layout_marginRight="@dimen/_8sdp"
-                android:textSize="@dimen/_14sdp"
-                android:textStyle="bold"
-                android:textColor="@color/cardview_dark_background"
-                android:text="Bitcoin"
-                android:paddingLeft="8dp"
-                android:textAlignment="center"
-                android:gravity="center"
-                app:layout_constraintLeft_toLeftOf="@+id/second_constraint"
-                app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintBottom_toBottomOf="parent"
-                />
+                   </GridLayout>
 
 
-        </androidx.constraintlayout.widget.ConstraintLayout>
+               </LinearLayout>
+
+               <TextView
+                   android:id="@+id/name_crypto"
+                   android:layout_width="0dp"
+                   android:layout_height="wrap_content"
+                   android:layout_marginEnd="@dimen/_8sdp"
+                   android:layout_marginRight="@dimen/_8sdp"
+                   android:textSize="@dimen/_14sdp"
+                   android:textStyle="bold"
+                   android:textColor="@color/cardview_dark_background"
+                   android:text="Bitcoin"
+                   android:paddingLeft="8dp"
+                   android:textAlignment="center"
+                   android:gravity="center"
+                   app:layout_constraintLeft_toLeftOf="@+id/second_constraint"
+                   app:layout_constraintTop_toTopOf="parent"
+                   app:layout_constraintBottom_toBottomOf="parent"
+                   />
+
+
+           </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+       </LinearLayout>
 
 
     </com.google.android.material.card.MaterialCardView>

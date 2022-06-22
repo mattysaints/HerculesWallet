@@ -14,6 +14,7 @@ import androidx.lifecycle.ViewModelProvider
 import androidx.navigation.Navigation
 import com.example.herculeswallet.R
 import com.example.herculeswallet.databinding.ActivityMainBinding
+import com.example.herculeswallet.model.User
 import com.example.herculeswallet.viewmodels.MainViewModel
 import com.google.android.gms.auth.api.signin.GoogleSignIn
 import com.google.android.gms.auth.api.signin.GoogleSignInAccount
@@ -50,13 +51,15 @@ class MainActivity : AppCompatActivity() {
         model = ViewModelProvider(this).get(MainViewModel::class.java)
 
         model.userMutableLiveData.observe(this,
-            Observer<FirebaseUser?> { firebaseUser ->
-                if (firebaseUser != null) {
+            Observer<User?> { user ->
+                if (user != null) {
                     startActivity(Intent(this, Wallet::class.java))
-                    Toast.makeText(baseContext, firebaseUser.email,
+                    Toast.makeText(baseContext, user.email,
                         Toast.LENGTH_SHORT).show()
                 }
             })
+
+
 
         binding.buttonAccedi.setOnClickListener {
             model.login(binding.email.text.toString(),binding.password.text.toString())
