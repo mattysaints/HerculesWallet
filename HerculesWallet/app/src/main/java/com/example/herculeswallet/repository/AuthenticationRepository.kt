@@ -1,22 +1,13 @@
 package com.example.herculeswallet.repository
 
-import android.app.Application
-import android.util.Log
-import android.widget.Toast
 import androidx.lifecycle.MutableLiveData
 import com.example.herculeswallet.model.Crypto
 import com.example.herculeswallet.model.User
-import com.google.android.gms.auth.api.signin.GoogleSignInAccount
 import com.google.android.gms.tasks.OnCompleteListener
 import com.google.firebase.auth.AuthResult
 import com.google.firebase.auth.FirebaseAuth
-import com.google.firebase.auth.FirebaseUser
-import com.google.firebase.auth.GoogleAuthProvider
 import com.google.firebase.database.DatabaseReference
 import com.google.firebase.database.FirebaseDatabase
-import com.google.firebase.database.ktx.database
-import com.google.firebase.database.ktx.getValue
-import com.google.firebase.ktx.Firebase
 
 
 class AuthenticationRepository() {
@@ -35,14 +26,14 @@ class AuthenticationRepository() {
     init {
         firebaseAuth = FirebaseAuth.getInstance()
         database = FirebaseDatabase.getInstance().getReference("Users")
-        if (firebaseAuth.getCurrentUser() != null){
+        /*if (firebaseAuth.getCurrentUser() != null){
             database.child(firebaseAuth.uid.toString()).get().addOnSuccessListener {
                 val email : String = it.child("email").getValue(String::class.java).toString()
                 val preferences : List<String> = it.child("preferences").getValue() as List<String>
                 val wallet : HashMap<String,Crypto> = it.child("wallet").getValue() as HashMap<String, Crypto>
                 utentewalletMutableLiveData.postValue(User(email,wallet, preferences))
             }
-        }
+        }*/
     }
 
     fun login(email: String, password:String){
@@ -73,9 +64,9 @@ class AuthenticationRepository() {
 
                     //Create user in realtime database
                     var hashMap : HashMap<String, Crypto> = HashMap<String, Crypto> ()
-                    var crypto : Crypto = Crypto("Bitcoin","1234",30000,"prova.url")
+                    var crypto : Crypto = Crypto("Bitcoin","1234",30.000,"prova.url",0.005)
                     hashMap.put("6f2825a9b7abe88e6d5b819e48c3a19d",crypto)
-                    val utente : User = User(user?.email.toString(), hashMap, arrayListOf("BTC"))
+                    val utente : User = User(user?.email.toString(), hashMap, arrayListOf("Bitcoin"))
                     val userId = firebaseAuth.uid
                     database.child(userId.toString()).setValue(utente)
 

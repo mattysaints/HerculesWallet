@@ -2,28 +2,17 @@ package com.example.herculeswallet.view
 
 import android.content.Intent
 import android.os.Bundle
-import android.util.Log
 import android.view.View
-import android.widget.*
-import androidx.activity.result.ActivityResult
-import androidx.activity.result.contract.ActivityResultContracts
-import androidx.activity.viewModels
+import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
-import androidx.navigation.Navigation
-import com.example.herculeswallet.R
 import com.example.herculeswallet.databinding.ActivityMainBinding
+import com.example.herculeswallet.model.Crypto
 import com.example.herculeswallet.model.User
 import com.example.herculeswallet.viewmodels.MainViewModel
-import com.google.android.gms.auth.api.signin.GoogleSignIn
-import com.google.android.gms.auth.api.signin.GoogleSignInAccount
 import com.google.android.gms.auth.api.signin.GoogleSignInClient
-import com.google.android.gms.auth.api.signin.GoogleSignInOptions
-import com.google.android.gms.common.api.ApiException
 import com.google.firebase.auth.FirebaseAuth
-import com.google.firebase.auth.FirebaseUser
-import com.google.firebase.auth.GoogleAuthProvider
 
 
 class MainActivity : AppCompatActivity() {
@@ -49,6 +38,7 @@ class MainActivity : AppCompatActivity() {
                 View.SYSTEM_UI_FLAG_IMMERSIVE_STICKY or View.SYSTEM_UI_FLAG_FULLSCREEN
 
         model = ViewModelProvider(this).get(MainViewModel::class.java)
+        
 
         model.userMutableLiveData.observe(this,
             Observer<User?> { user ->
@@ -58,7 +48,6 @@ class MainActivity : AppCompatActivity() {
                         Toast.LENGTH_SHORT).show()
                 }
             })
-
 
 
         binding.buttonAccedi.setOnClickListener {

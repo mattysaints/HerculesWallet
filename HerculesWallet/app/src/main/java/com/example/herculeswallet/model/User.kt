@@ -4,8 +4,6 @@ import java.util.prefs.AbstractPreferences
 
 data class User (val email: String, var wallet: HashMap<String,Crypto>, var preferences: List<String>){
 
-
-
     override fun equals(other: Any?): Boolean {
         if (this === other) return true
         if (javaClass != other?.javaClass) return false

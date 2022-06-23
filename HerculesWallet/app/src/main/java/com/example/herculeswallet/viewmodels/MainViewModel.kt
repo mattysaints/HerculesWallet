@@ -3,32 +3,44 @@ package com.example.herculeswallet.viewmodels
 import android.app.Application
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
+import androidx.lifecycle.viewModelScope
+import com.example.herculeswallet.model.Crypto
 import com.example.herculeswallet.model.User
 import com.example.herculeswallet.repository.AuthenticationRepository
+import com.example.herculeswallet.repository.CryptoRepository
 import com.google.firebase.auth.FirebaseUser
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.launch
 
 
 class MainViewModel() : ViewModel() {
 
-    val repo : AuthenticationRepository = AuthenticationRepository()
+    val authRepo : AuthenticationRepository = AuthenticationRepository()
+    val cryptoRepo : CryptoRepository = CryptoRepository()
     var userMutableLiveData : MutableLiveData<User>
     var loggedStatus: MutableLiveData<Boolean>
+    var cryptoListLiveData : MutableLiveData<List<Crypto>>
+
 
     init {
-        userMutableLiveData = repo.getUserWallet()
-        loggedStatus = repo.getUserLoggedMutableLiveData()
+        userMutableLiveData = authRepo.getUserWallet()
+        loggedStatus = authRepo.getUserLoggedMutableLiveData()
+        cryptoListLiveData = cryptoRepo.getCryptoList()
     }
 
     fun login(email: String, password: String){
-        repo.login(email,password)
+        authRepo.login(email,password)
+        viewModelScope.launch(Dispatchers.IO) {
+            cryptoRepo.getCryptoListRequest()
+        }
     }
 
     fun register(email: String, password: String){
-        repo.register(email,password)
+        authRepo.register(email,password)
     }
 
     fun signOut() {
-        repo.signOut()
+        authRepo.signOut()
     }
 
     fun getUserData(): MutableLiveData<User> {
