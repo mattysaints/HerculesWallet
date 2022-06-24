@@ -33,14 +33,15 @@ class RecyclerViewAdapter() : RecyclerView.Adapter<RecyclerViewAdapter.ViewHolde
     }
 
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
-        holder.name_crypto.text = name[position]
+        holder.name_crypto.text = crypto_list[position].name
     }
 
     override fun getItemCount(): Int {
-        return name.size
+        return crypto_list.size
     }
 
     fun setList(list: List<Crypto>) {
+        println("Lista ottenuta : $list" )
         this.crypto_list = list.toMutableList()
         notifyDataSetChanged()
     }

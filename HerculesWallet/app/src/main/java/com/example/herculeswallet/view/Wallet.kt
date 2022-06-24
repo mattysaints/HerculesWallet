@@ -2,9 +2,13 @@ package com.example.herculeswallet.view
 
 import android.os.Bundle
 import android.view.View
+import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
+import androidx.lifecycle.ViewModelProvider
+import androidx.lifecycle.ViewModelProviders
 import com.example.herculeswallet.R
 import com.example.herculeswallet.databinding.WalletBinding
+import com.example.herculeswallet.viewmodels.MainViewModel
 
 class Wallet : AppCompatActivity() {
 
@@ -24,7 +28,11 @@ class Wallet : AppCompatActivity() {
         fragmentTransaction.replace(R.id.fragment_container_view, CryptoListFragment())
         fragmentTransaction.commit()
 
-        /*binding.bottomNavigatinView.setOnItemSelectedListener { item ->
+    }
+}
+
+
+/*binding.bottomNavigatinView.setOnItemSelectedListener { item ->
             when(item.itemId){
                 R.id.homeNav -> {
                     Toast.makeText(this,"Test",Toast.LENGTH_SHORT)
@@ -33,7 +41,3 @@ class Wallet : AppCompatActivity() {
                 else -> {false}
             }
         }*/
-
-
-    }
-}

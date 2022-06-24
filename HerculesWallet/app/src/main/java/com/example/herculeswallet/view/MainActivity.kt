@@ -4,9 +4,11 @@ import android.content.Intent
 import android.os.Bundle
 import android.view.View
 import android.widget.Toast
+import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
+import androidx.lifecycle.ViewModelProviders
 import com.example.herculeswallet.databinding.ActivityMainBinding
 import com.example.herculeswallet.model.Crypto
 import com.example.herculeswallet.model.User
@@ -19,9 +21,9 @@ class MainActivity : AppCompatActivity() {
 
     //view binding
     private lateinit var binding: ActivityMainBinding
-    private lateinit var googleSignInClient: GoogleSignInClient
-    private lateinit var firebaseAuth: FirebaseAuth
-    private lateinit var model: MainViewModel
+    private lateinit var model : MainViewModel
+    //private lateinit var googleSignInClient: GoogleSignInClient
+    //private lateinit var firebaseAuth: FirebaseAuth
 
     //constants
     private companion object {
@@ -38,7 +40,6 @@ class MainActivity : AppCompatActivity() {
                 View.SYSTEM_UI_FLAG_IMMERSIVE_STICKY or View.SYSTEM_UI_FLAG_FULLSCREEN
 
         model = ViewModelProvider(this).get(MainViewModel::class.java)
-        
 
         model.userMutableLiveData.observe(this,
             Observer<User?> { user ->
@@ -48,7 +49,6 @@ class MainActivity : AppCompatActivity() {
                         Toast.LENGTH_SHORT).show()
                 }
             })
-
 
         binding.buttonAccedi.setOnClickListener {
             model.login(binding.email.text.toString(),binding.password.text.toString())
