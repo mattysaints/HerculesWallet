@@ -46,6 +46,8 @@ class CryptoListFragment : Fragment(R.layout.fragment_crypto_list){
         var adapter = RecyclerViewAdapter()
         listCrypto.adapter = adapter
 
+        model.getCryptoList();
+
         model.cryptoListLiveData.observe(viewLifecycleOwner){
             adapter.setList(it)
         }

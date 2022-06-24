@@ -1,13 +1,16 @@
 package com.example.herculeswallet.view
 
 import android.content.Context
+import android.net.Uri
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
+import androidx.appcompat.widget.AppCompatImageView
 import androidx.recyclerview.widget.RecyclerView
 import com.example.herculeswallet.R
 import com.example.herculeswallet.model.Crypto
+import java.net.URI
 
 class RecyclerViewAdapter() : RecyclerView.Adapter<RecyclerViewAdapter.ViewHolder>(){
 
@@ -15,14 +18,14 @@ class RecyclerViewAdapter() : RecyclerView.Adapter<RecyclerViewAdapter.ViewHolde
     private var crypto_list = mutableListOf<Crypto>()
 
     inner class ViewHolder(itemView: View): RecyclerView.ViewHolder(itemView){
-        //var imageView: AppCompatImageView
+        var imageView: AppCompatImageView
         val name_crypto: TextView
-        //var price_crypto: TextView
+        var price_crypto: TextView
 
         init {
-            //imageView = itemView.findViewById(R.id.image_crypto)
+            imageView = itemView.findViewById(R.id.image_crypto)
             name_crypto = itemView.findViewById(R.id.name_crypto)
-            //price_crypto = itemView.findViewById(R.id.price_crypto)
+            price_crypto = itemView.findViewById(R.id.price_crypto)
         }
 
     }
@@ -34,6 +37,8 @@ class RecyclerViewAdapter() : RecyclerView.Adapter<RecyclerViewAdapter.ViewHolde
 
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
         holder.name_crypto.text = crypto_list[position].name
+        holder.price_crypto.text = "$ " + crypto_list[position].price_usd.toString()
+        //holder.imageView.setImageURI(Uri.parse(crypto_list[position].logo_url))
     }
 
     override fun getItemCount(): Int {
