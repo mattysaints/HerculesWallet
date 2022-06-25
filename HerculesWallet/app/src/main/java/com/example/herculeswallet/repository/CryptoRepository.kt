@@ -1,29 +1,34 @@
 package com.example.herculeswallet.repository
 
+import android.graphics.Bitmap
+import android.graphics.BitmapFactory
 import androidx.lifecycle.MutableLiveData
 import com.example.herculeswallet.model.Crypto
-import com.example.herculeswallet.model.User
 import org.json.JSONArray
 import org.json.JSONTokener
 import java.io.BufferedReader
+import java.io.IOException
 import java.io.InputStream
 import java.io.InputStreamReader
 import java.net.HttpURLConnection
 import java.net.URL
 import java.nio.charset.Charset
 
+
 class CryptoRepository {
 
     private var crypto_list: MutableLiveData<List<Crypto>> = MutableLiveData<List<Crypto>>()
+    private var crypto_list_icon : HashMap<String,String> = HashMap()
 
     fun getCryptoListRequest(
     ){
         var list : List<Crypto> = listOf<Crypto>()
-        val url = URL("https://api.nomics.com/v1/currencies/ticker?key=e2f7b934dbc5c455fb90e291bba7272333a28f6d")
+        val url = URL("https://rest.coinapi.io/v1/assets")
         (url.openConnection() as? HttpURLConnection)?.run {
             requestMethod = "GET"
             setRequestProperty("Content-Type", "application/json; utf-8")
             setRequestProperty("Accept", "application/json")
+            setRequestProperty("X-CoinAPI-Key","A8AC5104-F29B-4A92-B894-488F28BF9252")
             doInput = true
             list = fromJsonToList(inputStreamToJson(this.inputStream))
         }
@@ -36,9 +41,12 @@ class CryptoRepository {
         for (i in 0 until jsonArray.length()) {
             //Create crypto and add to list
             val name : String = jsonArray.getJSONObject(i).getString("name")
-            val asset_id : String = jsonArray.getJSONObject(i).getString("id")
-            val price : Double = jsonArray.getJSONObject(i).getString("price").toDouble() //non tutte le crypto hanno questo valore
-            val url : String = jsonArray.getJSONObject(i).getString("logo_url")
+            val asset_id : String = jsonArray.getJSONObject(i).getString("asset_id")
+            val price : Double
+            if(jsonArray.getJSONObject(i).has("price_usd")){
+               price = jsonArray.getJSONObject(i).getString("price_usd").toDouble()
+            } else {price = "0".toDouble()}
+            val url : String = crypto_list_icon.get(asset_id).toString()
             val asset : Crypto = Crypto(name,asset_id,price,url,null)
             crypto.add(asset)
         }
@@ -60,6 +68,27 @@ class CryptoRepository {
 
     fun getCryptoList(): MutableLiveData<List<Crypto>> {
         return crypto_list
+    }
+
+    fun getCryptoIconRequest(){
+        val url = URL("https://rest.coinapi.io/v1/assets/icons/32")
+        (url.openConnection() as? HttpURLConnection)?.run {
+            requestMethod = "GET"
+            setRequestProperty("Content-Type", "application/json; utf-8")
+            setRequestProperty("Accept", "application/json")
+            setRequestProperty("X-CoinAPI-Key","A8AC5104-F29B-4A92-B894-488F28BF9252")
+            doInput = true
+            fromJsonToHashmap(inputStreamToJson(this.inputStream))
+        }
+    }
+
+    private fun fromJsonToHashmap(jsonString: String){
+        val jsonArray = JSONTokener(jsonString).nextValue() as JSONArray
+        for (i in 0 until jsonArray.length()) {
+            val asset_id : String = jsonArray.getJSONObject(i).getString("asset_id")
+            val url : String = jsonArray.getJSONObject(i).getString("url")
+            crypto_list_icon.put(asset_id,url)
+        }
     }
 
 

@@ -3226,6 +3226,7 @@ drawable google
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
 drawable home
+drawable ic_100tb
 drawable ic_clock_black_24dp
 drawable ic_keyboard_black_24dp
 drawable ic_launcher_background
@@ -3421,6 +3422,7 @@ id clear_text
 id clip_horizontal
 id clip_vertical
 id clockwise
+id coil_request_manager
 id collapseActionView
 id compress
 id confirm_button
@@ -3497,6 +3499,7 @@ id give_us_a_review_landmine_button
 id give_us_a_review_landmine_main_layout
 id give_us_a_review_landmine_text_1
 id give_us_a_review_landmine_text_2
+id glide_custom_view_target_tag
 id gone
 id google
 id graph

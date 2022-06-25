@@ -50,6 +50,7 @@ class MainViewModel() : ViewModel() {
 
     fun getCryptoList() {
         viewModelScope.launch(Dispatchers.IO) {
+            cryptoRepo.getCryptoIconRequest()
             cryptoRepo.getCryptoListRequest()
         }
     }

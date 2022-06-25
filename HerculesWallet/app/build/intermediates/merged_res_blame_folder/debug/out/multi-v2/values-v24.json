@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.herculeswallet.app-mergeDebugResources-40:/values-v24/values-v24.xml",
+            "outputFile": "com.example.herculeswallet.app-mergeDebugResources-42:/values-v24/values-v24.xml",
             "map": [
                 {
                     "source": "C:\\Users\\tbarb\\.gradle\\caches\\transforms-3\\0867d621ceb0f152e743bab6141fb40c\\transformed\\media-1.0.0\\res\\values-v24\\values-v24.xml",
