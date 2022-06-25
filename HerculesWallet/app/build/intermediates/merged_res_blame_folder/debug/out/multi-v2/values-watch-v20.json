@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.herculeswallet.app-mergeDebugResources-42:/values-watch-v20/values-watch-v20.xml",
+            "outputFile": "com.example.herculeswallet.app-mergeDebugResources-43:/values-watch-v20/values-watch-v20.xml",
             "map": [
                 {
                     "source": "C:\\Users\\tbarb\\.gradle\\caches\\transforms-3\\c2d3fe26e4e4c803d00d9185ac5e270d\\transformed\\jetified-play-services-auth-20.2.0\\res\\values-watch-v20\\values.xml",

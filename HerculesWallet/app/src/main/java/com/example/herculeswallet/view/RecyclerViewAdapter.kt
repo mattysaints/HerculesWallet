@@ -60,7 +60,6 @@ class RecyclerViewAdapter() : RecyclerView.Adapter<RecyclerViewAdapter.ViewHolde
     }
 
     fun setList(list: List<Crypto>) {
-        println("Test" + list.get(0).logo_url)
         this.crypto_list = list.toMutableList()
         notifyDataSetChanged()
     }

@@ -61,6 +61,7 @@
             android:paddingEnd="50dp">
 
             <ImageView
+                android:id="@+id/icon_crypto"
                 android:layout_width="80dp"
                 android:layout_height="80dp"
                 android:src="@drawable/bitcoin"
@@ -84,9 +85,21 @@
                 app:cardElevation="10dp"
                 app:cardMaxElevation="12dp"
                 app:cardPreventCornerOverlap="true"
-                app:cardUseCompatPadding="true"/>
+                app:cardUseCompatPadding="true">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_horizontal"
+                    android:id="@+id/address_qr">
+                </ImageView>
+
+
+            </androidx.cardview.widget.CardView>
+
 
             <TextView
+                android:id="@+id/address_crypto"
                 android:paddingTop="10dp"
                 android:layout_width="150dp"
                 android:layout_height="80dp"
@@ -94,7 +107,7 @@
                 android:text="bc1qu0hj7gk8af8h3t89e8hjccma4m5ze380zav6km"
                 android:textAlignment="center"
                 android:textStyle="italic"
-                android:textIsSelectable="true"/>
+                android:textIsSelectable="true" />
 
             <TextView
                 android:layout_width="150dp"

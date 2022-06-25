@@ -52,6 +52,7 @@ MERGED from [androidx.recyclerview:recyclerview:1.2.1] C:\Users\tbarb\.gradle\ca
 MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\tbarb\.gradle\caches\transforms-3\11cd08cae8090dc2e2593123dac97e46\transformed\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [com.intuit.sdp:sdp-android:1.0.6] C:\Users\tbarb\.gradle\caches\transforms-3\0909979b0c761b7d2276b5f24c1a12ec\transformed\jetified-sdp-android-1.0.6\AndroidManifest.xml:2:1-11:12
 MERGED from [com.intuit.ssp:ssp-android:1.0.6] C:\Users\tbarb\.gradle\caches\transforms-3\e6546f30a629171a3f8e991d79a35046\transformed\jetified-ssp-android-1.0.6\AndroidManifest.xml:2:1-11:12
+MERGED from [androidmads.library.qrgenearator:QRGenearator:1.0.4] C:\Users\tbarb\.gradle\caches\transforms-3\2fdc33118f8f9afd6d1d962a82a38383\transformed\jetified-QRGenearator-1.0.4\AndroidManifest.xml:2:1-16:12
 MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\tbarb\.gradle\caches\transforms-3\04db075bb43f6544fb4046e09d0f4227\transformed\drawerlayout-1.1.1\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\tbarb\.gradle\caches\transforms-3\67756a08d6b63ace5ba853b526cdb4b6\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\tbarb\.gradle\caches\transforms-3\09a979a31b1d299cb9f1c2ca3d9e48e0\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:17:1-22:12
@@ -149,6 +150,8 @@ MERGED from [com.google.android.gms:play-services-tasks:18.0.1] C:\Users\tbarb\.
 MERGED from [com.google.android.gms:play-services-tasks:18.0.1] C:\Users\tbarb\.gradle\caches\transforms-3\32813d37bdbbe722e2dd9da7dc3870cb\transformed\jetified-play-services-tasks-18.0.1\AndroidManifest.xml:5:5-20
 MERGED from [com.google.android.gms:play-services-basement:18.0.0] C:\Users\tbarb\.gradle\caches\transforms-3\80cbef2545f2547655484d89baab15ea\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:20:5-24:19
 MERGED from [com.google.android.gms:play-services-basement:18.0.0] C:\Users\tbarb\.gradle\caches\transforms-3\80cbef2545f2547655484d89baab15ea\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:20:5-24:19
+MERGED from [androidmads.library.qrgenearator:QRGenearator:1.0.4] C:\Users\tbarb\.gradle\caches\transforms-3\2fdc33118f8f9afd6d1d962a82a38383\transformed\jetified-QRGenearator-1.0.4\AndroidManifest.xml:13:5-14:19
+MERGED from [androidmads.library.qrgenearator:QRGenearator:1.0.4] C:\Users\tbarb\.gradle\caches\transforms-3\2fdc33118f8f9afd6d1d962a82a38383\transformed\jetified-QRGenearator-1.0.4\AndroidManifest.xml:13:5-14:19
 MERGED from [androidx.core:core:1.7.0] C:\Users\tbarb\.gradle\caches\transforms-3\4c95eabad880a452207e8362f12b680b\transformed\core-1.7.0\AndroidManifest.xml:24:5-89
 MERGED from [androidx.core:core:1.7.0] C:\Users\tbarb\.gradle\caches\transforms-3\4c95eabad880a452207e8362f12b680b\transformed\core-1.7.0\AndroidManifest.xml:24:5-89
 MERGED from [com.github.bumptech.glide:gifdecoder:4.13.0] C:\Users\tbarb\.gradle\caches\transforms-3\5bdff2e2a3f296cee7e6ebbb2f511a2e\transformed\jetified-gifdecoder-4.13.0\AndroidManifest.xml:9:5-20
@@ -295,6 +298,8 @@ MERGED from [com.intuit.sdp:sdp-android:1.0.6] C:\Users\tbarb\.gradle\caches\tra
 MERGED from [com.intuit.sdp:sdp-android:1.0.6] C:\Users\tbarb\.gradle\caches\transforms-3\0909979b0c761b7d2276b5f24c1a12ec\transformed\jetified-sdp-android-1.0.6\AndroidManifest.xml:7:5-9:41
 MERGED from [com.intuit.ssp:ssp-android:1.0.6] C:\Users\tbarb\.gradle\caches\transforms-3\e6546f30a629171a3f8e991d79a35046\transformed\jetified-ssp-android-1.0.6\AndroidManifest.xml:7:5-9:41
 MERGED from [com.intuit.ssp:ssp-android:1.0.6] C:\Users\tbarb\.gradle\caches\transforms-3\e6546f30a629171a3f8e991d79a35046\transformed\jetified-ssp-android-1.0.6\AndroidManifest.xml:7:5-9:41
+MERGED from [androidmads.library.qrgenearator:QRGenearator:1.0.4] C:\Users\tbarb\.gradle\caches\transforms-3\2fdc33118f8f9afd6d1d962a82a38383\transformed\jetified-QRGenearator-1.0.4\AndroidManifest.xml:7:5-9:41
+MERGED from [androidmads.library.qrgenearator:QRGenearator:1.0.4] C:\Users\tbarb\.gradle\caches\transforms-3\2fdc33118f8f9afd6d1d962a82a38383\transformed\jetified-QRGenearator-1.0.4\AndroidManifest.xml:7:5-9:41
 MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\tbarb\.gradle\caches\transforms-3\04db075bb43f6544fb4046e09d0f4227\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\tbarb\.gradle\caches\transforms-3\04db075bb43f6544fb4046e09d0f4227\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\tbarb\.gradle\caches\transforms-3\67756a08d6b63ace5ba853b526cdb4b6\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
@@ -509,6 +514,12 @@ ADDED from [com.google.android.gms:play-services-basement:18.0.0] C:\Users\tbarb
 		ADDED from [com.google.android.gms:play-services-basement:18.0.0] C:\Users\tbarb\.gradle\caches\transforms-3\80cbef2545f2547655484d89baab15ea\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:23:13-66
 	android:name
 		ADDED from [com.google.android.gms:play-services-basement:18.0.0] C:\Users\tbarb\.gradle\caches\transforms-3\80cbef2545f2547655484d89baab15ea\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:22:13-58
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from [androidmads.library.qrgenearator:QRGenearator:1.0.4] C:\Users\tbarb\.gradle\caches\transforms-3\2fdc33118f8f9afd6d1d962a82a38383\transformed\jetified-QRGenearator-1.0.4\AndroidManifest.xml:11:5-81
+	android:name
+		ADDED from [androidmads.library.qrgenearator:QRGenearator:1.0.4] C:\Users\tbarb\.gradle\caches\transforms-3\2fdc33118f8f9afd6d1d962a82a38383\transformed\jetified-QRGenearator-1.0.4\AndroidManifest.xml:11:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+IMPLIED from C:\Users\tbarb\Downloads\hercules\HerculesWallet\app\src\main\AndroidManifest.xml:2:1-29:12 reason: androidmads.library.qrgenearator requested WRITE_EXTERNAL_STORAGE
 provider#androidx.lifecycle.ProcessLifecycleOwnerInitializer
 ADDED from [androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\tbarb\.gradle\caches\transforms-3\fc4365e62ac653a5ab3176e660544756\transformed\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:23:9-27:43
 	android:authorities

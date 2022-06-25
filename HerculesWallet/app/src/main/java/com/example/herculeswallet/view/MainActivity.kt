@@ -21,7 +21,7 @@ class MainActivity : AppCompatActivity() {
 
     //view binding
     private lateinit var binding: ActivityMainBinding
-    private lateinit var model : MainViewModel
+    private val model : MainViewModel by viewModels()
     //private lateinit var googleSignInClient: GoogleSignInClient
     //private lateinit var firebaseAuth: FirebaseAuth
 
@@ -39,14 +39,10 @@ class MainActivity : AppCompatActivity() {
         window.decorView.systemUiVisibility = View.SYSTEM_UI_FLAG_HIDE_NAVIGATION or
                 View.SYSTEM_UI_FLAG_IMMERSIVE_STICKY or View.SYSTEM_UI_FLAG_FULLSCREEN
 
-        model = ViewModelProvider(this).get(MainViewModel::class.java)
-
         model.userMutableLiveData.observe(this,
             Observer<User?> { user ->
                 if (user != null) {
                     startActivity(Intent(this, Wallet::class.java))
-                    Toast.makeText(baseContext, user.email,
-                        Toast.LENGTH_SHORT).show()
                 }
             })
 

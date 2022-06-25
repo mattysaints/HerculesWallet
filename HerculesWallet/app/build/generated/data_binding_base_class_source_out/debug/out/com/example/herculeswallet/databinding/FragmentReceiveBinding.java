@@ -23,6 +23,15 @@ public final class FragmentReceiveBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
+  public final TextView addressCrypto;
+
+  @NonNull
+  public final ImageView addressQr;
+
+  @NonNull
+  public final ImageView iconCrypto;
+
+  @NonNull
   public final ImageView imageView;
 
   @NonNull
@@ -37,10 +46,14 @@ public final class FragmentReceiveBinding implements ViewBinding {
   @NonNull
   public final TextView textView;
 
-  private FragmentReceiveBinding(@NonNull ConstraintLayout rootView, @NonNull ImageView imageView,
-      @NonNull RelativeLayout intestazione, @NonNull LinearLayout linear1,
-      @NonNull ImageView logoDashboard, @NonNull TextView textView) {
+  private FragmentReceiveBinding(@NonNull ConstraintLayout rootView,
+      @NonNull TextView addressCrypto, @NonNull ImageView addressQr, @NonNull ImageView iconCrypto,
+      @NonNull ImageView imageView, @NonNull RelativeLayout intestazione,
+      @NonNull LinearLayout linear1, @NonNull ImageView logoDashboard, @NonNull TextView textView) {
     this.rootView = rootView;
+    this.addressCrypto = addressCrypto;
+    this.addressQr = addressQr;
+    this.iconCrypto = iconCrypto;
     this.imageView = imageView;
     this.intestazione = intestazione;
     this.linear1 = linear1;
@@ -75,6 +88,24 @@ public final class FragmentReceiveBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.address_crypto;
+      TextView addressCrypto = ViewBindings.findChildViewById(rootView, id);
+      if (addressCrypto == null) {
+        break missingId;
+      }
+
+      id = R.id.address_qr;
+      ImageView addressQr = ViewBindings.findChildViewById(rootView, id);
+      if (addressQr == null) {
+        break missingId;
+      }
+
+      id = R.id.icon_crypto;
+      ImageView iconCrypto = ViewBindings.findChildViewById(rootView, id);
+      if (iconCrypto == null) {
+        break missingId;
+      }
+
       id = R.id.imageView;
       ImageView imageView = ViewBindings.findChildViewById(rootView, id);
       if (imageView == null) {
@@ -105,8 +136,8 @@ public final class FragmentReceiveBinding implements ViewBinding {
         break missingId;
       }
 
-      return new FragmentReceiveBinding((ConstraintLayout) rootView, imageView, intestazione,
-          linear1, logoDashboard, textView);
+      return new FragmentReceiveBinding((ConstraintLayout) rootView, addressCrypto, addressQr,
+          iconCrypto, imageView, intestazione, linear1, logoDashboard, textView);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

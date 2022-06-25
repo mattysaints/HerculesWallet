@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.herculeswallet.app-mergeDebugResources-42:/values-h720dp-v13/values-h720dp-v13.xml",
+            "outputFile": "com.example.herculeswallet.app-mergeDebugResources-43:/values-h720dp-v13/values-h720dp-v13.xml",
             "map": [
                 {
                     "source": "C:\\Users\\tbarb\\.gradle\\caches\\transforms-3\\68e093ef1ac7c411f6ec668ef9353e14\\transformed\\appcompat-1.3.0\\res\\values-h720dp-v13\\values-h720dp-v13.xml",

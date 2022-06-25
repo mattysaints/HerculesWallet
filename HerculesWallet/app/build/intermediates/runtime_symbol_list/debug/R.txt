@@ -3372,6 +3372,8 @@ int id actionsNav 0x7f090047
 int id activityNav 0x7f090048
 int id activity_chooser_view_content 0x7f090049
 int id add 0x7f09004a
+int id address_crypto 0x7f0901f2
+int id address_qr 0x7f0901f3
 int id adjust_height 0x7f09004b
 int id adjust_width 0x7f09004c
 int id alertTitle 0x7f09004d
@@ -3515,6 +3517,7 @@ int id homeFragment 0x7f0900d4
 int id homeNav 0x7f0900d5
 int id honorRequest 0x7f0900d6
 int id icon 0x7f0900d7
+int id icon_crypto 0x7f0901f4
 int id icon_group 0x7f0900d8
 int id icon_only 0x7f0900d9
 int id ifRoom 0x7f0900da

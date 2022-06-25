@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.herculeswallet.app-mergeDebugResources-42:/values-mk/values-mk.xml",
+            "outputFile": "com.example.herculeswallet.app-mergeDebugResources-43:/values-mk/values-mk.xml",
             "map": [
                 {
                     "source": "C:\\Users\\tbarb\\.gradle\\caches\\transforms-3\\cc4807367e3e5583c9e4bc562e1c105a\\transformed\\jetified-play-services-base-18.0.1\\res\\values-mk\\values.xml",

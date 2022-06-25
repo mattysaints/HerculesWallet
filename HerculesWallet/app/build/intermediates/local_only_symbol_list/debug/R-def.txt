@@ -47,6 +47,8 @@ id action_FirstFragment_to_SecondFragment
 id action_SecondFragment_to_FirstFragment
 id actionsNav
 id activityNav
+id address_crypto
+id address_qr
 id bottomAppBar
 id bottom_navigatin_view
 id button_accedi
@@ -60,6 +62,7 @@ id fragment_container_view
 id google
 id homeFragment
 id homeNav
+id icon_crypto
 id imageView
 id image_crypto
 id instagram

@@ -3373,6 +3373,8 @@ id actionsNav
 id activityNav
 id activity_chooser_view_content
 id add
+id address_crypto
+id address_qr
 id adjust_height
 id adjust_width
 id alertTitle
@@ -3516,6 +3518,7 @@ id homeFragment
 id homeNav
 id honorRequest
 id icon
+id icon_crypto
 id icon_group
 id icon_only
 id ifRoom

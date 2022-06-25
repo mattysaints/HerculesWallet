@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.herculeswallet.app-mergeDebugResources-42:/values-sw660dp-v13/values-sw660dp-v13.xml",
+            "outputFile": "com.example.herculeswallet.app-mergeDebugResources-43:/values-sw660dp-v13/values-sw660dp-v13.xml",
             "map": [
                 {
                     "source": "C:\\Users\\tbarb\\.gradle\\caches\\transforms-3\\0909979b0c761b7d2276b5f24c1a12ec\\transformed\\jetified-sdp-android-1.0.6\\res\\values-sw660dp-v13\\values-sw660dp-v13.xml",

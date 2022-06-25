@@ -20,7 +20,7 @@ import com.example.herculeswallet.viewmodels.MainViewModel
 class CryptoListFragment : Fragment(R.layout.fragment_crypto_list){
 
     private var layoutManager: RecyclerView.LayoutManager? = null
-    private lateinit var model: MainViewModel
+    private val model: MainViewModel by activityViewModels()
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -39,11 +39,11 @@ class CryptoListFragment : Fragment(R.layout.fragment_crypto_list){
 
         val listCrypto = view.findViewById<RecyclerView>(R.id.list_crypto)
 
-        model = ViewModelProvider(requireActivity()).get(MainViewModel::class.java)
+        //model = ViewModelProvider(requireActivity()).get(MainViewModel::class.java)
 
         layoutManager = LinearLayoutManager(context, LinearLayoutManager.VERTICAL, false)
         listCrypto.layoutManager = layoutManager
-        var adapter = RecyclerViewAdapter()
+        val adapter = RecyclerViewAdapter()
         listCrypto.adapter = adapter
 
         model.getCryptoList();
@@ -51,7 +51,7 @@ class CryptoListFragment : Fragment(R.layout.fragment_crypto_list){
         model.cryptoListLiveData.observe(viewLifecycleOwner){
             adapter.setList(it)
         }
-        
+
     }
 
 

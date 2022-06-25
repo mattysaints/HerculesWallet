@@ -2,6 +2,7 @@ package com.example.herculeswallet.view
 
 import android.os.Bundle
 import android.view.View
+import android.widget.Toast
 import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.ViewModelProvider
@@ -31,13 +32,3 @@ class Wallet : AppCompatActivity() {
     }
 }
 
-
-/*binding.bottomNavigatinView.setOnItemSelectedListener { item ->
-            when(item.itemId){
-                R.id.homeNav -> {
-                    Toast.makeText(this,"Test",Toast.LENGTH_SHORT)
-                    return@setOnItemSelectedListener true
-                }
-                else -> {false}
-            }
-        }*/

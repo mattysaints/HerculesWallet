@@ -10,18 +10,12 @@ import com.google.firebase.database.DatabaseReference
 import com.google.firebase.database.FirebaseDatabase
 
 
-class AuthenticationRepository() {
+object AuthenticationRepository {
 
     private var userLoggedMutableLiveData: MutableLiveData<Boolean> = MutableLiveData<Boolean>()
     private var utentewalletMutableLiveData: MutableLiveData<User> = MutableLiveData<User>()
     private var firebaseAuth: FirebaseAuth
     private var database: DatabaseReference
-
-    //constants
-    private companion object {
-        private const val RC_SIGN_IN = 100
-        private const val TAG = "GOOGLE_SIGN_IN_TAG"
-    }
 
     init {
         firebaseAuth = FirebaseAuth.getInstance()
