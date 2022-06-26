@@ -7,11 +7,17 @@
     <fragment
         android:id="@+id/homeFragment"
         android:name="com.example.herculeswallet.view.HomeFragment"
-        android:label="fragment_home"
-        tools:layout="@layout/fragment_home" />
+        android:label="HomeFragment" />
     <fragment
-        android:id="@+id/settingsFragment"
-        android:name="com.example.herculeswallet.SettingsFragment"
-        android:label="fragment_settings"
-        tools:layout="@layout/fragment_settings" />
+        android:id="@+id/sendFragment"
+        android:name="com.example.herculeswallet.view.SendFragment"
+        android:label="SendFragment" />
+    <fragment
+        android:id="@+id/receiveFragment"
+        android:name="com.example.herculeswallet.view.ReceiveFragment"
+        android:label="ReceiveFragment" />
+    <fragment
+        android:id="@+id/cryptoListFragment"
+        android:name="com.example.herculeswallet.view.CryptoListFragment"
+        android:label="CryptoListFragment" />
 </navigation>

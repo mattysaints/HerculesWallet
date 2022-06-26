@@ -3303,7 +3303,6 @@ id BOTTOM_END
 id BOTTOM_START
 id CTRL
 id FUNCTION
-id FirstFragment
 id META
 id NO_DEBUG
 id SHIFT
@@ -3311,7 +3310,6 @@ id SHOW_ALL
 id SHOW_PATH
 id SHOW_PROGRESS
 id SYM
-id SecondFragment
 id TOP_END
 id TOP_START
 id accelerate
@@ -3349,8 +3347,6 @@ id accessibility_custom_action_7
 id accessibility_custom_action_8
 id accessibility_custom_action_9
 id action0
-id action_FirstFragment_to_SecondFragment
-id action_SecondFragment_to_FirstFragment
 id action_bar
 id action_bar_activity_content
 id action_bar_container
@@ -3369,8 +3365,6 @@ id action_mode_bar_stub
 id action_mode_close_button
 id action_text
 id actions
-id actionsNav
-id activityNav
 id activity_chooser_view_content
 id add
 id address_crypto
@@ -3398,6 +3392,7 @@ id beginning
 id blocking
 id bottom
 id bottomAppBar
+id bottomNavigationView
 id bottom_navigatin_view
 id bounce
 id buttonPanel
@@ -3435,6 +3430,7 @@ id contiguous
 id coordinator
 id cos
 id counterclockwise
+id cryptoListFragment
 id custom
 id customPanel
 id cut
@@ -3493,7 +3489,7 @@ id fixed
 id flip
 id floating
 id forever
-id fragment_container_view
+id fragmentContainerView
 id fragment_container_view_tag
 id ghost_view
 id ghost_view_holder
@@ -3515,7 +3511,6 @@ id hideable
 id home
 id homeAsUp
 id homeFragment
-id homeNav
 id honorRequest
 id icon
 id icon_crypto
@@ -3614,7 +3609,6 @@ id multiply
 id name_crypto
 id nav_controller_view_tag
 id nav_graph
-id nav_graph2
 id nav_host_fragment_container
 id navigation_bar_item_active_indicator_view
 id navigation_bar_item_icon_container
@@ -3651,12 +3645,12 @@ id pin
 id position
 id postLayout
 id price_crypto
-id profileNav
 id progress_circular
 id progress_horizontal
 id quantity_crypto
 id radio
 id ratio
+id receiveFragment
 id rectangles
 id reverseSawtooth
 id right
@@ -3690,7 +3684,7 @@ id second_constraint
 id select_dialog_listview
 id selected
 id selection_type
-id settingsFragment
+id sendFragment
 id shortcut
 id showCustom
 id showHome
@@ -4004,7 +3998,6 @@ menu example_menu2
 mipmap ic_launcher
 mipmap ic_launcher_round
 navigation nav_graph
-navigation nav_graph2
 plurals mtrl_badge_content_description
 raw keep
 string abc_action_bar_home_description

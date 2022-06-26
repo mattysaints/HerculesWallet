@@ -4,7 +4,7 @@
             "outputFile": "com.example.herculeswallet.app-mergeDebugResources-43:/values-small-v4/values-small-v4.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\tbarb\\.gradle\\caches\\transforms-3\\f96c1a2c9b7fcdc63391e27dba2c9c00\\transformed\\material-1.5.0\\res\\values-small-v4\\values-small-v4.xml",
+                    "source": "/Users/christianquaranta/.gradle/caches/transforms-3/f96c1a2c9b7fcdc63391e27dba2c9c00/transformed/material-1.5.0/res/values-small-v4/values-small-v4.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",

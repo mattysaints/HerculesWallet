@@ -7,9 +7,12 @@ import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.ViewModelProviders
+import androidx.navigation.fragment.findNavController
+import androidx.navigation.ui.setupWithNavController
 import com.example.herculeswallet.R
 import com.example.herculeswallet.databinding.WalletBinding
 import com.example.herculeswallet.viewmodels.MainViewModel
+import com.google.android.material.bottomnavigation.BottomNavigationView
 
 class Wallet : AppCompatActivity() {
 
@@ -17,7 +20,7 @@ class Wallet : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        getSupportActionBar()!!.hide();
+        /*getSupportActionBar()!!.hide();
         binding = WalletBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
@@ -26,9 +29,15 @@ class Wallet : AppCompatActivity() {
 
         val fragmentManager = supportFragmentManager
         val fragmentTransaction = fragmentManager.beginTransaction()
-        fragmentTransaction.replace(R.id.fragment_container_view, CryptoListFragment())
+        fragmentTransaction.replace(R.id.fragmentContainerView, CryptoListFragment())
         fragmentTransaction.commit()
+*/
+        setContentView(R.layout.wallet)
 
+        val bottomNavigationView = findViewById<BottomNavigationView>(R.id.bottom_navigatin_view)
+        val navController = supportFragmentManager.findFragmentById(R.id.fragmentContainerView)?.findNavController()
+
+        navController?.let { bottomNavigationView.setupWithNavController(it) }
     }
 }
 
