@@ -20,8 +20,8 @@ class Wallet : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        /*getSupportActionBar()!!.hide();
-        binding = WalletBinding.inflate(layoutInflater)
+        getSupportActionBar()!!.hide();
+        /*binding = WalletBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
         window.decorView.systemUiVisibility = View.SYSTEM_UI_FLAG_HIDE_NAVIGATION or
