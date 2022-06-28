@@ -26,7 +26,7 @@ class Wallet : AppCompatActivity() {
 
         val fragmentManager = supportFragmentManager
         val fragmentTransaction = fragmentManager.beginTransaction()
-        fragmentTransaction.replace(R.id.fragment_container_view, SendFragment())
+        fragmentTransaction.replace(R.id.fragmentContainerView, SendFragment())
         fragmentTransaction.commit()
 
     }
