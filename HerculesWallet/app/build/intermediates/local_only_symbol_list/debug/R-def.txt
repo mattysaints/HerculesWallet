@@ -49,6 +49,7 @@ id actionsNav
 id activityNav
 id address_crypto
 id address_qr
+id address_receiver
 id bottomAppBar
 id bottom_navigatin_view
 id button_accedi
@@ -79,6 +80,7 @@ id password_icon
 id price_crypto
 id profileNav
 id quantity_crypto
+id quantity_send
 id second_constraint
 id settingsFragment
 id textView
@@ -98,6 +100,7 @@ layout fragment_home
 layout fragment_receive
 layout fragment_send
 layout fragment_settings
+layout receive_list_item
 layout wallet
 menu bottom_nav
 mipmap ic_launcher

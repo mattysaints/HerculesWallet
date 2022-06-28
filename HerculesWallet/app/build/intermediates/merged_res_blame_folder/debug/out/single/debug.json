@@ -52,12 +52,12 @@
         "source": "C:\\Users\\tbarb\\.gradle\\daemon\\7.3.3\\com.example.herculeswallet.app-main-47:\\navigation\\nav_graph2.xml"
     },
     {
-        "merged": "C:\\Users\\tbarb\\.gradle\\daemon\\7.3.3\\com.example.herculeswallet.app-merged_res-45:\\layout_activity_main.xml.flat",
-        "source": "C:\\Users\\tbarb\\.gradle\\daemon\\7.3.3\\com.example.herculeswallet.app-main-47:\\layout\\activity_main.xml"
+        "merged": "C:\\Users\\tbarb\\.gradle\\daemon\\7.3.3\\com.example.herculeswallet.app-merged_res-45:\\layout_receive_list_item.xml.flat",
+        "source": "C:\\Users\\tbarb\\.gradle\\daemon\\7.3.3\\com.example.herculeswallet.app-main-47:\\layout\\receive_list_item.xml"
     },
     {
-        "merged": "com.example.herculeswallet.app-merged_res-45:/layout_fragment_receive.xml.flat",
-        "source": "com.example.herculeswallet.app-main-47:/layout/fragment_receive.xml"
+        "merged": "C:\\Users\\tbarb\\.gradle\\daemon\\7.3.3\\com.example.herculeswallet.app-merged_res-45:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\tbarb\\.gradle\\daemon\\7.3.3\\com.example.herculeswallet.app-main-47:\\layout\\activity_main.xml"
     },
     {
         "merged": "C:\\Users\\tbarb\\.gradle\\daemon\\7.3.3\\com.example.herculeswallet.app-merged_res-45:\\font_poppins_medium.ttf.flat",
@@ -150,6 +150,10 @@
     {
         "merged": "C:\\Users\\tbarb\\.gradle\\daemon\\7.3.3\\com.example.herculeswallet.app-merged_res-45:\\font_poppins_regular.ttf.flat",
         "source": "C:\\Users\\tbarb\\.gradle\\daemon\\7.3.3\\com.example.herculeswallet.app-main-47:\\font\\poppins_regular.ttf"
+    },
+    {
+        "merged": "com.example.herculeswallet.app-merged_res-45:/layout_fragment_send.xml.flat",
+        "source": "com.example.herculeswallet.app-main-47:/layout/fragment_send.xml"
     },
     {
         "merged": "C:\\Users\\tbarb\\.gradle\\daemon\\7.3.3\\com.example.herculeswallet.app-merged_res-45:\\drawable_actions.xml.flat",

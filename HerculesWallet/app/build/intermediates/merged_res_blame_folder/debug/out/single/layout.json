@@ -20,16 +20,16 @@
         "source": "C:\\Users\\tbarb\\.gradle\\daemon\\7.3.3\\com.example.herculeswallet.app-main-47:\\layout\\dashboard_item.xml"
     },
     {
-        "merged": "com.example.herculeswallet.app-mergeDebugResources-44:/layout/fragment_receive.xml",
-        "source": "com.example.herculeswallet.app-main-47:/layout/fragment_receive.xml"
-    },
-    {
         "merged": "C:\\Users\\tbarb\\.gradle\\daemon\\7.3.3\\com.example.herculeswallet.app-mergeDebugResources-44:\\layout\\wallet.xml",
         "source": "C:\\Users\\tbarb\\.gradle\\daemon\\7.3.3\\com.example.herculeswallet.app-main-47:\\layout\\wallet.xml"
     },
     {
         "merged": "C:\\Users\\tbarb\\.gradle\\daemon\\7.3.3\\com.example.herculeswallet.app-mergeDebugResources-44:\\layout\\activity_wallet.xml",
         "source": "C:\\Users\\tbarb\\.gradle\\daemon\\7.3.3\\com.example.herculeswallet.app-main-47:\\layout\\activity_wallet.xml"
+    },
+    {
+        "merged": "com.example.herculeswallet.app-mergeDebugResources-44:/layout/fragment_send.xml",
+        "source": "com.example.herculeswallet.app-main-47:/layout/fragment_send.xml"
     },
     {
         "merged": "C:\\Users\\tbarb\\.gradle\\daemon\\7.3.3\\com.example.herculeswallet.app-mergeDebugResources-44:\\layout\\fragment_send.xml",
@@ -46,6 +46,10 @@
     {
         "merged": "C:\\Users\\tbarb\\.gradle\\daemon\\7.3.3\\com.example.herculeswallet.app-mergeDebugResources-44:\\layout\\activity_main.xml",
         "source": "C:\\Users\\tbarb\\.gradle\\daemon\\7.3.3\\com.example.herculeswallet.app-main-47:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\tbarb\\.gradle\\daemon\\7.3.3\\com.example.herculeswallet.app-mergeDebugResources-44:\\layout\\receive_list_item.xml",
+        "source": "C:\\Users\\tbarb\\.gradle\\daemon\\7.3.3\\com.example.herculeswallet.app-main-47:\\layout\\receive_list_item.xml"
     },
     {
         "merged": "C:\\Users\\tbarb\\.gradle\\daemon\\7.3.3\\com.example.herculeswallet.app-mergeDebugResources-44:\\layout\\dashboard.xml",

@@ -51,7 +51,12 @@ class RecyclerViewAdapter() : RecyclerView.Adapter<RecyclerViewAdapter.ViewHolde
         if(crypto_list[position].price_usd.toString().length>8){
             holder.price_crypto.text = "$ " + crypto_list[position].price_usd.toString().substring(0,8) } else { holder.price_crypto.text =  "$ " + crypto_list[position].price_usd.toString()}
         if(crypto_list[position].logo_url.length>0){
-            Picasso.get().load(Uri.parse(crypto_list[position].logo_url)).resize(64,64).into(holder.imageView)
+            Picasso.get()
+                .load(Uri.parse(crypto_list[position].logo_url))
+                .placeholder(R.drawable.logo2)
+                .error(R.drawable.logo2)
+                .resize(64,64)
+                .into(holder.imageView)
         } else {/*immagine non fornita*/}
     }
 

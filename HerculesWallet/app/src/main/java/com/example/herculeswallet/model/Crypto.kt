@@ -7,7 +7,7 @@ data class Crypto(
     val asset_id: String,
     val price_usd: Double?,
     val logo_url: String,
-    val quantity_user: Double?
+    var quantity_user: Double?
         ){
 
 }

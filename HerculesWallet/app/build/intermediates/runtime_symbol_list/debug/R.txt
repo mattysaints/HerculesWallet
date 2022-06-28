@@ -3374,6 +3374,7 @@ int id activity_chooser_view_content 0x7f090049
 int id add 0x7f09004a
 int id address_crypto 0x7f0901f2
 int id address_qr 0x7f0901f3
+int id address_receiver 0x7f0901f6
 int id adjust_height 0x7f09004b
 int id adjust_width 0x7f09004c
 int id alertTitle 0x7f09004d
@@ -3654,6 +3655,7 @@ int id profileNav 0x7f09015c
 int id progress_circular 0x7f09015d
 int id progress_horizontal 0x7f09015e
 int id quantity_crypto 0x7f09015f
+int id quantity_send 0x7f0901f7
 int id radio 0x7f090160
 int id ratio 0x7f090161
 int id rectangles 0x7f090162
@@ -3974,6 +3976,7 @@ int layout notification_template_media 0x7f0c0071
 int layout notification_template_media_custom 0x7f0c0072
 int layout notification_template_part_chronometer 0x7f0c0073
 int layout notification_template_part_time 0x7f0c0074
+int layout receive_list_item 0x7f0c008c
 int layout sdp_example 0x7f0c0075
 int layout select_dialog_item_material 0x7f0c0076
 int layout select_dialog_multichoice_material 0x7f0c0077

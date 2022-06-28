@@ -16,7 +16,7 @@ import kotlinx.coroutines.launch
 class MainViewModel() : ViewModel() {
 
     val authRepo: AuthenticationRepository = AuthenticationRepository
-    val cryptoRepo: CryptoRepository = CryptoRepository()
+    val cryptoRepo: CryptoRepository = CryptoRepository
     var userMutableLiveData: MutableLiveData<User>
     var loggedStatus: MutableLiveData<Boolean>
     var cryptoListLiveData: MutableLiveData<List<Crypto>>
@@ -41,6 +41,10 @@ class MainViewModel() : ViewModel() {
 
     fun getUserData(): MutableLiveData<User> {
         return authRepo.getUserWallet()
+    }
+
+    fun getCrypto(): MutableLiveData<List<Crypto>> {
+        return cryptoRepo.getCryptoList()
     }
 
     fun getLogStatus(): MutableLiveData<Boolean> {

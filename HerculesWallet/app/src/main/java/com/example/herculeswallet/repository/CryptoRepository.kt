@@ -15,7 +15,7 @@ import java.net.URL
 import java.nio.charset.Charset
 
 
-class CryptoRepository {
+object CryptoRepository {
 
     private var crypto_list: MutableLiveData<List<Crypto>> = MutableLiveData<List<Crypto>>()
     private var crypto_list_icon : HashMap<String,String> = HashMap()
@@ -68,6 +68,10 @@ class CryptoRepository {
 
     fun getCryptoList(): MutableLiveData<List<Crypto>> {
         return crypto_list
+    }
+
+    fun getCryptoIcon() : HashMap<String,String>{
+        return crypto_list_icon
     }
 
     fun getCryptoIconRequest(){

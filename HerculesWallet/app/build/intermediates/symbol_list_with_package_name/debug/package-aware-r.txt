@@ -3375,6 +3375,7 @@ id activity_chooser_view_content
 id add
 id address_crypto
 id address_qr
+id address_receiver
 id adjust_height
 id adjust_width
 id alertTitle
@@ -3655,6 +3656,7 @@ id profileNav
 id progress_circular
 id progress_horizontal
 id quantity_crypto
+id quantity_send
 id radio
 id ratio
 id rectangles
@@ -3975,6 +3977,7 @@ layout notification_template_media
 layout notification_template_media_custom
 layout notification_template_part_chronometer
 layout notification_template_part_time
+layout receive_list_item
 layout sdp_example
 layout select_dialog_item_material
 layout select_dialog_multichoice_material
