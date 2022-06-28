@@ -2,20 +2,20 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <item
-        android:id="@+id/homeNav"
+        android:id="@+id/homeFragment"
         android:title="Home"
         android:icon="@drawable/portfolio"/>
     <item
-        android:id="@+id/actionsNav"
-        android:title="Actions"
+        android:id="@+id/sendFragment"
+        android:title="Invia"
         android:icon="@drawable/actions"/>
     <item
-        android:id="@+id/activityNav"
-        android:title="Activity"
+        android:id="@+id/receiveFragment"
+        android:title="Ricevi"
         android:icon="@drawable/activity"/>
     <item
-        android:id="@+id/profileNav"
-        android:title="Profile"
+        android:id="@+id/cryptoListFragment"
+        android:title="Cryptos"
         android:icon="@drawable/profile"/>
 
 </menu>

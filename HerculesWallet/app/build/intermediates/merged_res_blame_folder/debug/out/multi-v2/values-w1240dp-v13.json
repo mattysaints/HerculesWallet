@@ -4,7 +4,7 @@
             "outputFile": "com.example.herculeswallet.app-mergeDebugResources-43:/values-w1240dp-v13/values-w1240dp-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\tbarb\\Downloads\\hercules\\HerculesWallet\\app\\src\\main\\res\\values-w1240dp\\dimens.xml",
+                    "source": "/Users/christianquaranta/AndroidStudioProjects/hercules/HerculesWallet/app/src/main/res/values-w1240dp/dimens.xml",
                     "from": {
                         "startLines": "1",
                         "startColumns": "6",
