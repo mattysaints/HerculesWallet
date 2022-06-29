@@ -6,15 +6,9 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.activityViewModels
-import androidx.fragment.app.viewModels
-import androidx.lifecycle.Observer
-import androidx.lifecycle.ViewModelProvider
-import androidx.lifecycle.ViewModelProviders
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.example.herculeswallet.R
-import com.example.herculeswallet.model.Crypto
-import com.example.herculeswallet.model.User
 import com.example.herculeswallet.viewmodels.MainViewModel
 
 class CryptoListFragment : Fragment(R.layout.fragment_crypto_list){
@@ -46,7 +40,7 @@ class CryptoListFragment : Fragment(R.layout.fragment_crypto_list){
         val adapter = RecyclerViewAdapter()
         listCrypto.adapter = adapter
 
-        model.getCryptoList();
+        model.getCryptoList()
 
         model.cryptoListLiveData.observe(viewLifecycleOwner){
             adapter.setList(it)

@@ -17,5 +17,9 @@
         android:id="@+id/cryptoListFragment"
         android:title="Cryptos"
         android:icon="@drawable/profile"/>
+    <item
+        android:id="@+id/optionsFragment"
+        android:icon="@drawable/settings"
+        android:title="Opzioni" />
 
 </menu>
