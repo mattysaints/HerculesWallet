@@ -79,7 +79,6 @@ object AuthenticationRepository {
         userLoggedMutableLiveData!!.postValue(true)
     }
 
-
     fun getUserLoggedMutableLiveData(): MutableLiveData<Boolean> {
         return userLoggedMutableLiveData
     }
@@ -87,6 +86,8 @@ object AuthenticationRepository {
     fun getUserWallet(): MutableLiveData<User> {
         return utentewalletMutableLiveData
     }
+
+
 
 
 }

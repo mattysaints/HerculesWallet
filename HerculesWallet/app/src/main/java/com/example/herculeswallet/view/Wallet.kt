@@ -1,15 +1,12 @@
 package com.example.herculeswallet.view
 
 import android.os.Bundle
-import android.view.View
-import android.widget.Toast
-import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
-import androidx.lifecycle.ViewModelProvider
-import androidx.lifecycle.ViewModelProviders
+import androidx.navigation.fragment.findNavController
+import androidx.navigation.ui.setupWithNavController
 import com.example.herculeswallet.R
 import com.example.herculeswallet.databinding.WalletBinding
-import com.example.herculeswallet.viewmodels.MainViewModel
+import com.google.android.material.bottomnavigation.BottomNavigationView
 
 class Wallet : AppCompatActivity() {
 
@@ -18,17 +15,12 @@ class Wallet : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         getSupportActionBar()!!.hide();
-        binding = WalletBinding.inflate(layoutInflater)
-        setContentView(binding.root)
+        setContentView(R.layout.wallet)
 
-        window.decorView.systemUiVisibility = View.SYSTEM_UI_FLAG_HIDE_NAVIGATION or
-                View.SYSTEM_UI_FLAG_IMMERSIVE_STICKY
+        val bottomNavigationView = findViewById<BottomNavigationView>(R.id.bottom_navigatin_view)
+        val navController = supportFragmentManager.findFragmentById(R.id.fragmentContainerView)?.findNavController()
 
-        val fragmentManager = supportFragmentManager
-        val fragmentTransaction = fragmentManager.beginTransaction()
-        fragmentTransaction.replace(R.id.fragmentContainerView, SendFragment())
-        fragmentTransaction.commit()
-
+        navController?.let { bottomNavigationView.setupWithNavController(it) }
     }
 }
 

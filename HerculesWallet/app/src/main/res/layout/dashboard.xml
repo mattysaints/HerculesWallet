@@ -7,7 +7,11 @@
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
 
         <FrameLayout
             android:layout_width="match_parent"
@@ -15,7 +19,7 @@
 
             <ImageView
                 android:id="@+id/imageView"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="130dp"
                 android:scaleType="fitXY"
                 app:srcCompat="@drawable/blue_bg" />
@@ -36,17 +40,16 @@
                     android:id="@+id/logo_dashboard"
                     android:layout_width="80dp"
                     android:layout_height="80dp"
-                    android:src="@drawable/logo2">
-                </ImageView>
+                    android:src="@drawable/logo2"></ImageView>
 
                 <TextView
                     android:id="@+id/textView"
-                    android:layout_gravity="center"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="center"
                     android:layout_marginLeft="15dp"
                     android:layout_toRightOf="@id/logo_dashboard"
-                    android:layout_centerVertical="true"
                     android:text="Wallet"
                     android:textAllCaps="false"
                     android:textColor="@color/white"
@@ -57,7 +60,7 @@
 
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
-                android:layout_height="160dp"
+                android:layout_height="158dp"
                 android:layout_marginTop="28dp"
                 app:cardBackgroundColor="@color/white"
                 app:cardCornerRadius="20dp"
@@ -87,7 +90,7 @@
                         android:orientation="horizontal">
 
                         <TextView
-                            android:id="@+id/textView4"
+                            android:id="@+id/userwallet"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginRight="6dp"
@@ -112,19 +115,18 @@
                 android:layout_height="match_parent">
 
                 <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/list_crypto"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:paddingTop="10dp"
-                    android:id="@+id/list_crypto"
                     android:layout_marginLeft="10dp"
-                    android:layout_marginRight="10dp"
                     android:layout_marginTop="10dp"
-                    android:layout_marginBottom="10dp"/>
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:paddingTop="10dp" />
 
             </FrameLayout>
 
         </LinearLayout>
-
 
 
     </RelativeLayout>

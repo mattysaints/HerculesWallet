@@ -20,4 +20,9 @@
         android:id="@+id/cryptoListFragment"
         android:name="com.example.herculeswallet.view.CryptoListFragment"
         android:label="CryptoListFragment" />
+    <fragment
+        android:id="@+id/optionsFragment"
+        android:name="com.example.herculeswallet.view.OptionsFragment"
+        android:label="fragment_options"
+        tools:layout="@layout/fragment_options" />
 </navigation>
