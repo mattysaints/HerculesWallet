@@ -1,14 +1,17 @@
 package com.example.herculeswallet.repository
 
 import androidx.lifecycle.MutableLiveData
+import com.beust.klaxon.JsonObject
 import com.example.herculeswallet.model.Crypto
 import com.example.herculeswallet.model.User
 import com.example.herculeswallet.utils.Encryption
 import com.google.android.gms.tasks.OnCompleteListener
 import com.google.firebase.auth.AuthResult
 import com.google.firebase.auth.FirebaseAuth
-import com.google.firebase.database.DatabaseReference
-import com.google.firebase.database.FirebaseDatabase
+import com.google.firebase.database.*
+import org.json.JSONObject
+import tomatobean.jsonparser.parseJson
+import tomatobean.jsonparser.toJson
 
 
 object AuthenticationRepository {
@@ -22,15 +25,32 @@ object AuthenticationRepository {
     init {
         firebaseAuth = FirebaseAuth.getInstance()
         database = FirebaseDatabase.getInstance().getReference("Users")
-        /*if (firebaseAuth.getCurrentUser() != null){
+        if (firebaseAuth.getCurrentUser() != null){
             database.child(firebaseAuth.uid.toString()).get().addOnSuccessListener {
                 val email : String = it.child("email").getValue(String::class.java).toString()
                 val preferences : List<String> = it.child("preferences").getValue() as List<String>
                 val wallet : HashMap<String,Crypto> = it.child("wallet").getValue() as HashMap<String, Crypto>
                 utentewalletMutableLiveData.postValue(User(email,wallet, preferences))
             }
-        }*/
+        }
+
+        val userListener = object : ValueEventListener {
+            override fun onDataChange(dataSnapshot: DataSnapshot) {
+                // Get User object and use the values to update the UI
+                val user = dataSnapshot.child(firebaseAuth.currentUser!!.uid).value.toString().parseJson(User::class)
+                utentewalletMutableLiveData.postValue(User(user!!.email, user.wallet,user.preferences))
+                println("Aggiornamento : " + user.toString())
+            }
+
+            override fun onCancelled(error: DatabaseError) {
+                TODO("Not yet implemented")
+            }
+        }
+        database.addValueEventListener(userListener)
+
     }
+
+
 
     fun login(email: String, password:String){
         firebaseAuth.signInWithEmailAndPassword(email, password)
@@ -50,6 +70,7 @@ object AuthenticationRepository {
                     // If sign in fails, display a message to the user.
                 }
             }
+
     }
 
     fun register(email: String, pass: String) {
@@ -86,8 +107,6 @@ object AuthenticationRepository {
     fun getUserWallet(): MutableLiveData<User> {
         return utentewalletMutableLiveData
     }
-
-
 
 
 }

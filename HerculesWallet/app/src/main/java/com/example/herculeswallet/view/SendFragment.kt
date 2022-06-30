@@ -10,6 +10,7 @@ import android.widget.EditText
 import android.widget.Toast
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.activityViewModels
+import com.beust.klaxon.Klaxon
 import com.example.herculeswallet.R
 import com.example.herculeswallet.model.Crypto
 import com.example.herculeswallet.model.User
@@ -32,6 +33,7 @@ import okhttp3.Address
 import okhttp3.internal.wait
 import okio.Utf8
 import tomatobean.jsonparser.parseJson
+import tomatobean.jsonparser.toJson
 import kotlin.streams.toList
 
 
@@ -57,7 +59,7 @@ class SendFragment : Fragment(R.layout.fragment_send){
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
 
-        var user = model.getUserData().value!!
+        var user = model.userMutableLiveData.value!!
         val quantity_send : EditText = view.findViewById(R.id.quantity_send)
         val address_receiver : EditText = view.findViewById(R.id.address_receiver)
         val list_crypto : AutoCompleteTextView = view.findViewById(R.id.list_crypto)
@@ -71,7 +73,7 @@ class SendFragment : Fragment(R.layout.fragment_send){
         val md5_address = user.email.let { encryption.md5(it + "/"+ list_crypto.text) }
         CoroutineScope(Dispatchers.IO).launch { getReceiverId(address_receiver.text.toString()) }
 
-        val crypto = user.wallet.get(md5_address).toString().parseJson(Crypto::class)
+        val crypto = Klaxon().parse<Crypto>(user.wallet.get(md5_address)!!.toJson())
         val qnty_crypto = crypto?.quantity_user!!.toDouble()
 
         action_button.setOnClickListener { view ->
