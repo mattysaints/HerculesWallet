@@ -97,6 +97,7 @@
                     android:orientation="horizontal">
 
                     <EditText
+                        android:id="@+id/quantity_send"
                         android:layout_marginStart="10dp"
                         android:layout_width="180dp"
                         android:layout_height="50dp"
@@ -116,10 +117,12 @@
                         app:startIconDrawable="@drawable/bitcoin">
 
                         <AutoCompleteTextView
+                            android:id="@+id/list_crypto"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
                             android:inputType="none"
+                            android:editable="false"
                             android:text="Bitcoin"
                             android:textSize="12.5dp"
                             android:textStyle="italic" />
@@ -157,6 +160,7 @@
                 app:cardUseCompatPadding="true">
 
                 <EditText
+                    android:id="@+id/address_receiver"
                     android:layout_marginStart="10dp"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"

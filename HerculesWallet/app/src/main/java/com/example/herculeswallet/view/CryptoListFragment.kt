@@ -33,8 +33,6 @@ class CryptoListFragment : Fragment(R.layout.fragment_crypto_list){
 
         val listCrypto = view.findViewById<RecyclerView>(R.id.list_crypto)
 
-        //model = ViewModelProvider(requireActivity()).get(MainViewModel::class.java)
-
         layoutManager = LinearLayoutManager(context, LinearLayoutManager.VERTICAL, false)
         listCrypto.layoutManager = layoutManager
         val adapter = RecyclerViewAdapter()

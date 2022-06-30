@@ -3,6 +3,7 @@ package com.example.herculeswallet.repository
 import androidx.lifecycle.MutableLiveData
 import com.example.herculeswallet.model.Crypto
 import com.example.herculeswallet.model.User
+import com.example.herculeswallet.utils.Encryption
 import com.google.android.gms.tasks.OnCompleteListener
 import com.google.firebase.auth.AuthResult
 import com.google.firebase.auth.FirebaseAuth
@@ -16,6 +17,7 @@ object AuthenticationRepository {
     private var utentewalletMutableLiveData: MutableLiveData<User> = MutableLiveData<User>()
     private var firebaseAuth: FirebaseAuth
     private var database: DatabaseReference
+    private val encryption : Encryption = Encryption()
 
     init {
         firebaseAuth = FirebaseAuth.getInstance()
@@ -39,7 +41,7 @@ object AuthenticationRepository {
 
                     database.child(firebaseAuth.uid.toString()).get().addOnSuccessListener {
                         val email : String = it.child("email").getValue(String::class.java).toString()
-                        val preferences : List<String> = it.child("preferences").getValue() as List<String>
+                        val preferences : ArrayList<String> = it.child("preferences").getValue() as ArrayList<String>
                         val wallet : HashMap<String,Crypto> = it.child("wallet").getValue() as HashMap<String, Crypto>
                         utentewalletMutableLiveData.postValue(User(email,wallet, preferences))
                     }
@@ -59,7 +61,7 @@ object AuthenticationRepository {
                     //Create user in realtime database
                     var hashMap : HashMap<String, Crypto> = HashMap<String, Crypto> ()
                     var crypto : Crypto = Crypto("Bitcoin","1234",30.000,"prova.url",0.005)
-                    hashMap.put("6f2825a9b7abe88e6d5b819e48c3a19d",crypto)
+                    hashMap.put("fb69aeb6c434160fc4b846383c535de7",crypto)
                     val utente : User = User(user?.email.toString(), hashMap, arrayListOf("Bitcoin"))
                     val userId = firebaseAuth.uid
                     database.child(userId.toString()).setValue(utente)
