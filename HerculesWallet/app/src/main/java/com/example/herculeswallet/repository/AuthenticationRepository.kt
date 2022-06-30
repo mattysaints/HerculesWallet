@@ -42,7 +42,7 @@ object AuthenticationRepository {
                     database.child(firebaseAuth.uid.toString()).get().addOnSuccessListener {
                         val email : String = it.child("email").getValue(String::class.java).toString()
                         val preferences : ArrayList<String> = it.child("preferences").getValue() as ArrayList<String>
-                        val wallet : HashMap<String,Crypto> = it.child("wallet").getValue() as HashMap<String, Crypto>
+                        val wallet = it.child("wallet").getValue() as HashMap<String,Crypto>
                         utentewalletMutableLiveData.postValue(User(email,wallet, preferences))
                     }
 
@@ -59,10 +59,10 @@ object AuthenticationRepository {
                     val user = firebaseAuth.currentUser
 
                     //Create user in realtime database
-                    var hashMap : HashMap<String, Crypto> = HashMap<String, Crypto> ()
+                    var hashMap = HashMap<String,Crypto>()
                     var crypto : Crypto = Crypto("Bitcoin","1234",30.000,"prova.url",0.005)
                     hashMap.put("fb69aeb6c434160fc4b846383c535de7",crypto)
-                    val utente : User = User(user?.email.toString(), hashMap, arrayListOf("Bitcoin"))
+                    val utente : User = User(user?.email.toString(), hashMap, arrayListOf("Bitcoin","Ripple"))
                     val userId = firebaseAuth.uid
                     database.child(userId.toString()).setValue(utente)
 
