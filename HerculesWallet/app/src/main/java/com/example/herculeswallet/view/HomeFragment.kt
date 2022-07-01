@@ -43,12 +43,12 @@ class HomeFragment : Fragment(R.layout.fragment_home) {
         var quantity : String = user.wallet.get(md5_address).toString()
         if (quantity.indexOf("[") == -1) quantity = "[$quantity]"
         var totalUSD: Double = 0.0
-        val jsonArray = JSONTokener(quantity).nextValue() as JSONArray
+        /*val jsonArray = JSONTokener(quantity).nextValue() as JSONArray
         var crypto : MutableList<Crypto> = mutableListOf()
         for (i in 0 until jsonArray.length()) {
             totalUSD += (jsonArray.getJSONObject(i).getString("quantity_user").toDouble()*jsonArray.getJSONObject(i).getString("price_usd").toDouble())
         }
-        if(totalUSD.equals(0)) walletText.text = "0" else walletText.text = totalUSD.toString()
+        if(totalUSD.equals(0)) walletText.text = "0" else walletText.text = totalUSD.toString()*/
 
         layoutManager = LinearLayoutManager(context, LinearLayoutManager.VERTICAL, false)
         val recyclerView = view.findViewById<RecyclerView>(R.id.fav_crypto)

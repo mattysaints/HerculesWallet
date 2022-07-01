@@ -71,14 +71,14 @@ class SendFragment : Fragment(R.layout.fragment_send){
             adapterText!!.setList(it.preferences)
         }
 
-
-        val md5_address = user.email.let { encryption.md5(it + "/"+ list_crypto.text) }
-        CoroutineScope(Dispatchers.IO).launch { getReceiverId(address_receiver.text.toString()) }
-
-        val crypto = Klaxon().parse<Crypto>(user.wallet.get(md5_address)!!.toJson())
-        val qnty_crypto = crypto?.quantity_user!!.toDouble()
-
         action_button.setOnClickListener { view ->
+
+            val md5_address = user.email.let { encryption.md5(it + "/"+ list_crypto.text.toString()) }
+            CoroutineScope(Dispatchers.IO).launch { getReceiverId(address_receiver.text.toString()) }
+
+            val crypto = Klaxon().parse<Crypto>(user.wallet.get(md5_address)!!.toJson())
+            val qnty_crypto = crypto?.quantity_user!!.toDouble()
+
             if(qnty_crypto >= quantity_send.text.toString().toDouble()){
                 val temp_quantity = qnty_crypto - quantity_send.text.toString().toDouble()
                 CoroutineScope(Dispatchers.IO).launch {
