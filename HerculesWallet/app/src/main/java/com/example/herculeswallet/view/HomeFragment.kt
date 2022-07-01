@@ -9,12 +9,13 @@ import androidx.fragment.app.Fragment
 import androidx.fragment.app.activityViewModels
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import com.beust.klaxon.Klaxon
 import com.example.herculeswallet.R
 import com.example.herculeswallet.model.Crypto
 import com.example.herculeswallet.utils.Encryption
 import com.example.herculeswallet.viewmodels.MainViewModel
-import org.json.JSONArray
-import org.json.JSONTokener
+import tomatobean.jsonparser.parseJson
+import tomatobean.jsonparser.toJson
 
 
 class HomeFragment : Fragment(R.layout.fragment_home) {
@@ -40,14 +41,10 @@ class HomeFragment : Fragment(R.layout.fragment_home) {
         val enc : Encryption = Encryption()
         val list_crypto = "Bitcoin"
         val md5_address = model.getUserData().value?.email?.let { enc.md5(it + "/"+ list_crypto) }
-        var quantity : String = user.wallet.get(md5_address).toString()
-        if (quantity.indexOf("[") == -1) quantity = "[$quantity]"
-        var totalUSD: Double = 0.0
-        val jsonArray = JSONTokener(quantity).nextValue() as JSONArray
-        var crypto : MutableList<Crypto> = mutableListOf()
-        for (i in 0 until jsonArray.length()) {
-            totalUSD += (jsonArray.getJSONObject(i).getString("quantity_user").toDouble()*jsonArray.getJSONObject(i).getString("price_usd").toDouble())
-        }
+        val crypto = Klaxon().parse<Crypto>(user.wallet.get(md5_address)!!.toJson())
+        val qnty_crypto = crypto?.quantity_user!!.toDouble()
+        val priceUSD = crypto?.price_usd!!.toDouble()
+        var totalUSD: Double = qnty_crypto * priceUSD
         if(totalUSD.equals(0)) walletText.text = "0" else walletText.text = totalUSD.toString()
 
         layoutManager = LinearLayoutManager(context, LinearLayoutManager.VERTICAL, false)
