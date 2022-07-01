@@ -1,40 +1,35 @@
 package com.example.herculeswallet.view
 
+import android.content.Intent
 import android.os.Bundle
+import android.text.Editable
+import android.text.TextWatcher
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.ArrayAdapter
 import android.widget.AutoCompleteTextView
 import android.widget.EditText
-import android.widget.Toast
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.activityViewModels
 import com.beust.klaxon.Klaxon
 import com.example.herculeswallet.R
 import com.example.herculeswallet.model.Crypto
 import com.example.herculeswallet.model.User
-import com.example.herculeswallet.repository.AuthenticationRepository
 import com.example.herculeswallet.utils.Encryption
 import com.example.herculeswallet.viewmodels.MainViewModel
 import com.google.android.material.floatingactionbutton.FloatingActionButton
 import com.google.android.material.snackbar.Snackbar
 import com.google.firebase.auth.FirebaseAuth
-import com.google.firebase.database.ChildEventListener
 import com.google.firebase.database.DataSnapshot
 import com.google.firebase.database.DatabaseReference
 import com.google.firebase.database.ktx.database
-import com.google.firebase.database.ktx.getValue
 import com.google.firebase.ktx.Firebase
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
-import okhttp3.Address
-import okhttp3.internal.wait
-import okio.Utf8
 import tomatobean.jsonparser.parseJson
 import tomatobean.jsonparser.toJson
-import kotlin.streams.toList
 
 
 class SendFragment : Fragment(R.layout.fragment_send){
@@ -66,9 +61,16 @@ class SendFragment : Fragment(R.layout.fragment_send){
         val action_button : FloatingActionButton = view.findViewById(R.id.fab_send)
 
         val adapterText =
-            activity?.let { ArrayAdapter(it, android.R.layout.simple_dropdown_item_1line, user.preferences as ArrayList<String>) }
+            activity?.let {
+                CustomArrayAdapter(it,user.preferences as ArrayList<String>)
+            }
 
         list_crypto.setAdapter(adapterText)
+
+        model.userMutableLiveData.observe(viewLifecycleOwner){
+            adapterText!!.setList(it.preferences)
+        }
+
 
         val md5_address = user.email.let { encryption.md5(it + "/"+ list_crypto.text) }
         CoroutineScope(Dispatchers.IO).launch { getReceiverId(address_receiver.text.toString()) }
