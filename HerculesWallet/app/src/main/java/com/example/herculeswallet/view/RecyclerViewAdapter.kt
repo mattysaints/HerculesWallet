@@ -41,9 +41,9 @@ class RecyclerViewAdapter() : RecyclerView.Adapter<RecyclerViewAdapter.ViewHolde
         holder.name_crypto.text = crypto_list[position].name.replace("\\s".toRegex(), " ")
         if(crypto_list[position].price_usd.toString().length>8){
             holder.price_crypto.text = "$ " + crypto_list[position].price_usd.toString().substring(0,8) } else { holder.price_crypto.text =  "$ " + crypto_list[position].price_usd.toString()}
-        if(crypto_list[position].logo_url.length>0){
+        if(crypto_list[position].logo_url.toString().isNotEmpty()){
             Picasso.get()
-                .load(Uri.parse(crypto_list[position].logo_url))
+                .load(Uri.parse(crypto_list[position].logo_url.toString()))
                 .placeholder(R.drawable.logo2)
                 .error(R.drawable.logo2)
                 .resize(64,64)

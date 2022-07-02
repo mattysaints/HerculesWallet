@@ -56,4 +56,11 @@ class MainViewModel() : ViewModel() {
         }
     }
 
+    fun getIcon(): HashMap<String, String> {
+        viewModelScope.launch(Dispatchers.IO) {
+            cryptoRepo.getCryptoIconRequest()
+        }
+        return cryptoRepo.getCryptoIcon()
+    }
+
 }

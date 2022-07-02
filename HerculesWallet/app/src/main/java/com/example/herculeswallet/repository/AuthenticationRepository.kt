@@ -20,7 +20,6 @@ object AuthenticationRepository {
     private var utentewalletMutableLiveData: MutableLiveData<User> = MutableLiveData<User>()
     private var firebaseAuth: FirebaseAuth
     private var database: DatabaseReference
-    private val encryption : Encryption = Encryption()
 
     init {
         firebaseAuth = FirebaseAuth.getInstance()
@@ -31,15 +30,17 @@ object AuthenticationRepository {
                 val preferences : List<String> = it.child("preferences").getValue() as List<String>
                 val wallet : HashMap<String,Crypto> = it.child("wallet").getValue() as HashMap<String, Crypto>
                 utentewalletMutableLiveData.postValue(User(email,wallet, preferences))
+                setListenerDatabase()
             }
         }
+    }
 
+    fun setListenerDatabase(){
         val userListener = object : ValueEventListener {
             override fun onDataChange(dataSnapshot: DataSnapshot) {
                 // Get User object and use the values to update the UI
                 val user = dataSnapshot.child(firebaseAuth.currentUser!!.uid).value.toString().parseJson(User::class)
                 utentewalletMutableLiveData.postValue(User(user!!.email, user.wallet,user.preferences))
-                println("Aggiornamento : " + user.toString())
             }
 
             override fun onCancelled(error: DatabaseError) {
@@ -47,7 +48,6 @@ object AuthenticationRepository {
             }
         }
         database.addValueEventListener(userListener)
-
     }
 
 
@@ -64,11 +64,13 @@ object AuthenticationRepository {
                         val preferences : ArrayList<String> = it.child("preferences").getValue() as ArrayList<String>
                         val wallet = it.child("wallet").getValue() as HashMap<String,Crypto>
                         utentewalletMutableLiveData.postValue(User(email,wallet, preferences))
+                        setListenerDatabase()
                     }
 
                 } else {
                     // If sign in fails, display a message to the user.
                 }
+
             }
 
     }
@@ -81,13 +83,12 @@ object AuthenticationRepository {
 
                     //Create user in realtime database
                     var hashMap = HashMap<String,Crypto>()
-                    var crypto : Crypto = Crypto("Bitcoin","1234",30.000,"prova.url",0.005)
-                    hashMap.put("fb69aeb6c434160fc4b846383c535de7",crypto)
+                    hashMap.put("fb69aeb6c434160fc4b846383c535de7",Crypto("Bitcoin","BTC",19357.65,"prova.url",10.5))
+                    hashMap.put("8e4412452dbe1432588c6f68713e4cc4",Crypto("Ripple","XRP",0.3138,"prova.url",30.0))
                     val utente : User = User(user?.email.toString(), hashMap, arrayListOf("Bitcoin","Ripple"))
-                    val userId = firebaseAuth.uid
-                    database.child(userId.toString()).setValue(utente)
-
-                    utentewalletMutableLiveData!!.postValue(utente)
+                    database.child(firebaseAuth.uid.toString()).setValue(utente)
+                    utentewalletMutableLiveData.postValue(utente)
+                    setListenerDatabase()
 
                 } else {
                     //Toast.makeText(application, task.exception?.message, Toast.LENGTH_SHORT) .show()
