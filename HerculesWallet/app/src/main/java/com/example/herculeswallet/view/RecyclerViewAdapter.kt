@@ -11,6 +11,10 @@ import androidx.appcompat.widget.AppCompatImageView
 import androidx.recyclerview.widget.RecyclerView
 import com.example.herculeswallet.R
 import com.example.herculeswallet.model.Crypto
+import com.google.firebase.auth.FirebaseAuth
+import com.google.firebase.database.DatabaseReference
+import com.google.firebase.database.ktx.database
+import com.google.firebase.ktx.Firebase
 import com.squareup.picasso.Picasso
 
 
@@ -18,7 +22,10 @@ class RecyclerViewAdapter(preferences: List<String>) : RecyclerView.Adapter<Recy
 
     private var crypto_list = mutableListOf<Crypto>()
     private lateinit var context : Context
-    private var preferences = preferences
+    private var preferences = preferences.toMutableList()
+    private var firebaseAuth: FirebaseAuth = FirebaseAuth.getInstance()
+    private var database: DatabaseReference = Firebase.database.getReference("Users").child(firebaseAuth.currentUser!!.uid).child("preferences")
+
 
     inner class ViewHolder(itemView: View): RecyclerView.ViewHolder(itemView){
         var imageView: AppCompatImageView
@@ -61,6 +68,16 @@ class RecyclerViewAdapter(preferences: List<String>) : RecyclerView.Adapter<Recy
             holder.favourite.setBackgroundResource(R.drawable.ic_baseline_turned_in_not_24)
         }
 
+        holder.favourite.setOnClickListener(View.OnClickListener {
+            if(preferences.contains(crypto_list[position].name)){
+                this.preferences.remove(crypto_list[position].name)
+                database.setValue(this.preferences)
+            } else {
+                this.preferences.add(crypto_list[position].name)
+                database.setValue(this.preferences)
+            }
+        })
+
     }
 
     override fun getItemCount(): Int {
@@ -73,7 +90,7 @@ class RecyclerViewAdapter(preferences: List<String>) : RecyclerView.Adapter<Recy
     }
 
     fun setFavourite(preferences: List<String>){
-        this.preferences = preferences
+        this.preferences = preferences.toMutableList()
         notifyDataSetChanged()
     }
 
