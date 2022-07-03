@@ -24,7 +24,6 @@ class CryptoPage(cryptoPage: String) : Fragment(R.layout.receive_list_item) {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         val addressEditText : TextView = view.findViewById(R.id.address_crypto)
         val assetName : TextView = view.findViewById(R.id.asset_crypto)
-        val iconCrypto : ImageView = view.findViewById(R.id.icon_crypto)
         val md5_address = model.getUserData().value?.email?.let { encryption.md5("$it/$crypto") }
 
         //Set md5 hash address
