@@ -18,12 +18,10 @@ object AuthenticationRepository {
 
     private var userLoggedMutableLiveData: MutableLiveData<Boolean> = MutableLiveData<Boolean>()
     private var utentewalletMutableLiveData: MutableLiveData<User> = MutableLiveData<User>()
-    private var firebaseAuth: FirebaseAuth
-    private var database: DatabaseReference
+    private var firebaseAuth: FirebaseAuth = FirebaseAuth.getInstance()
+    private var database: DatabaseReference = FirebaseDatabase.getInstance().getReference("Users")
 
     init {
-        firebaseAuth = FirebaseAuth.getInstance()
-        database = FirebaseDatabase.getInstance().getReference("Users")
         if (firebaseAuth.getCurrentUser() != null){
             database.child(firebaseAuth.uid.toString()).get().addOnSuccessListener {
                 val email : String = it.child("email").getValue(String::class.java).toString()
