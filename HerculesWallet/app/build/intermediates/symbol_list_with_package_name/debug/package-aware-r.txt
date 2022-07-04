@@ -3221,12 +3221,15 @@ drawable down_arrow
 drawable earn
 drawable email
 drawable fab_icon
+drawable favourite
 drawable fb
 drawable google
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
 drawable home
 drawable ic_100tb
+drawable ic_baseline_turned_in_24
+drawable ic_baseline_turned_in_not_24
 drawable ic_clock_black_24dp
 drawable ic_keyboard_black_24dp
 drawable ic_launcher_background
@@ -3381,6 +3384,7 @@ id animateToEnd
 id animateToStart
 id arc
 id asConfigured
+id asset_crypto
 id async
 id auto
 id autoComplete
@@ -3399,6 +3403,7 @@ id bounce
 id buttonPanel
 id button_accedi
 id button_registrati
+id buttonlogout
 id cache_measures
 id cancel_action
 id cancel_button
@@ -3477,10 +3482,12 @@ id enterAlwaysCollapsed
 id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
-id fabNav
 id fab_send
 id facebook
 id fade
+id fav_crypto
+id fav_title
+id favourite
 id fill
 id fill_horizontal
 id fill_vertical
@@ -3492,6 +3499,7 @@ id floating
 id forever
 id fragmentContainerView
 id fragment_container_view_tag
+id frameLayout
 id ghost_view
 id ghost_view_holder
 id give_us_a_review_landmine_button
@@ -3514,7 +3522,6 @@ id homeAsUp
 id homeFragment
 id honorRequest
 id icon
-id icon_crypto
 id icon_group
 id icon_only
 id ifRoom
@@ -3627,9 +3634,11 @@ id notification_main_column
 id notification_main_column_container
 id off
 id on
+id optionsFragment
 id outline
 id outward
 id packed
+id pager
 id parallax
 id parent
 id parentPanel
@@ -3748,8 +3757,8 @@ id textSpacerNoTitle
 id textStart
 id textTop
 id textView
+id textView2
 id textView3
-id textView4
 id textView6
 id text_input_end_icon
 id text_input_error_icon
@@ -3783,6 +3792,7 @@ id unlabeled
 id up
 id useLogo
 id username_icon
+id userwallet
 id view_offset_helper
 id view_tree_lifecycle_owner
 id view_tree_saved_state_registry_owner
@@ -3904,12 +3914,13 @@ layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
 layout dp_example
+layout fav_item
 layout fragment_actions
 layout fragment_crypto_list
 layout fragment_home
+layout fragment_options
 layout fragment_receive
 layout fragment_send
-layout fragment_settings
 layout m3_alert_dialog
 layout m3_alert_dialog_actions
 layout m3_alert_dialog_title
@@ -4075,6 +4086,7 @@ string hello_second_fragment
 string hide_bottom_view_on_scroll_behavior
 string icon_content_description
 string item_view_role_description
+string le_tue_crypto_preferite
 string m3_ref_typeface_brand_display_regular
 string m3_ref_typeface_brand_medium
 string m3_ref_typeface_brand_regular

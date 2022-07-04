@@ -37,23 +37,23 @@ public final class DashboardBinding implements ViewBinding {
   public final TextView textView3;
 
   @NonNull
-  public final TextView textView4;
+  public final TextView textView6;
 
   @NonNull
-  public final TextView textView6;
+  public final TextView userwallet;
 
   private DashboardBinding(@NonNull ConstraintLayout rootView, @NonNull ImageView imageView,
       @NonNull RecyclerView listCrypto, @NonNull ImageView logoDashboard,
-      @NonNull TextView textView, @NonNull TextView textView3, @NonNull TextView textView4,
-      @NonNull TextView textView6) {
+      @NonNull TextView textView, @NonNull TextView textView3, @NonNull TextView textView6,
+      @NonNull TextView userwallet) {
     this.rootView = rootView;
     this.imageView = imageView;
     this.listCrypto = listCrypto;
     this.logoDashboard = logoDashboard;
     this.textView = textView;
     this.textView3 = textView3;
-    this.textView4 = textView4;
     this.textView6 = textView6;
+    this.userwallet = userwallet;
   }
 
   @Override
@@ -113,20 +113,20 @@ public final class DashboardBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.textView4;
-      TextView textView4 = ViewBindings.findChildViewById(rootView, id);
-      if (textView4 == null) {
-        break missingId;
-      }
-
       id = R.id.textView6;
       TextView textView6 = ViewBindings.findChildViewById(rootView, id);
       if (textView6 == null) {
         break missingId;
       }
 
+      id = R.id.userwallet;
+      TextView userwallet = ViewBindings.findChildViewById(rootView, id);
+      if (userwallet == null) {
+        break missingId;
+      }
+
       return new DashboardBinding((ConstraintLayout) rootView, imageView, listCrypto, logoDashboard,
-          textView, textView3, textView4, textView6);
+          textView, textView3, textView6, userwallet);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

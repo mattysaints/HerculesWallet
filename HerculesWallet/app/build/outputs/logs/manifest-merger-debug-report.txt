@@ -4,93 +4,93 @@ ADDED from /Users/christianquaranta/AndroidStudioProjects/hercules/HerculesWalle
 INJECTED from /Users/christianquaranta/AndroidStudioProjects/hercules/HerculesWallet/app/src/main/AndroidManifest.xml:2:1-29:12
 INJECTED from /Users/christianquaranta/AndroidStudioProjects/hercules/HerculesWallet/app/src/main/AndroidManifest.xml:2:1-29:12
 INJECTED from /Users/christianquaranta/AndroidStudioProjects/hercules/HerculesWallet/app/src/main/AndroidManifest.xml:2:1-29:12
-MERGED from [androidx.databinding:viewbinding:7.2.0] /Users/christianquaranta/.gradle/caches/transforms-3/000227675a3dd79b1a6df13e43c5b9d2/transformed/jetified-viewbinding-7.2.0/AndroidManifest.xml:17:1-24:12
-MERGED from [com.squareup.picasso:picasso:2.8] /Users/christianquaranta/.gradle/caches/transforms-3/c15553b531ce6deb3dd4fdd5bd379b31/transformed/jetified-picasso-2.8/AndroidManifest.xml:2:1-14:12
-MERGED from [io.coil-kt:coil:2.1.0] /Users/christianquaranta/.gradle/caches/transforms-3/81fb48daca3d853bc851e140ca432cc8/transformed/jetified-coil-2.1.0/AndroidManifest.xml:2:1-9:12
-MERGED from [io.coil-kt:coil-base:2.1.0] /Users/christianquaranta/.gradle/caches/transforms-3/fe98c2ca0304f5723fd304263a07f781/transformed/jetified-coil-base-2.1.0/AndroidManifest.xml:2:1-9:12
-MERGED from [androidx.navigation:navigation-fragment-ktx:2.4.2] /Users/christianquaranta/.gradle/caches/transforms-3/ef8e0ac402d6e9dc9379408b2c3395ae/transformed/navigation-fragment-ktx-2.4.2/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.navigation:navigation-fragment:2.4.2] /Users/christianquaranta/.gradle/caches/transforms-3/d53cbb3cf56294e445fdcebf5801be47/transformed/navigation-fragment-2.4.2/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.fragment:fragment-ktx:1.4.1] /Users/christianquaranta/.gradle/caches/transforms-3/fbdbc462627094aaab889f31bbe9dd39/transformed/jetified-fragment-ktx-1.4.1/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.navigation:navigation-ui-ktx:2.4.2] /Users/christianquaranta/.gradle/caches/transforms-3/d2437c83921e0618cac043dcac2714a4/transformed/navigation-ui-ktx-2.4.2/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.navigation:navigation-runtime-ktx:2.4.2] /Users/christianquaranta/.gradle/caches/transforms-3/885e76a48eab894a105108b44278f567/transformed/navigation-runtime-ktx-2.4.2/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.navigation:navigation-ui:2.4.2] /Users/christianquaranta/.gradle/caches/transforms-3/f49dbba3fa7d9f95d5298a4340f2ffbe/transformed/navigation-ui-2.4.2/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.navigation:navigation-runtime:2.4.2] /Users/christianquaranta/.gradle/caches/transforms-3/4d6ad6b0afae7b365d3e5b2270e4eea6/transformed/navigation-runtime-2.4.2/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.activity:activity-ktx:1.2.3] /Users/christianquaranta/.gradle/caches/transforms-3/05f12f1b3b57bb25506f60324ffbbf97/transformed/jetified-activity-ktx-1.2.3/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.navigation:navigation-common-ktx:2.4.2] /Users/christianquaranta/.gradle/caches/transforms-3/acc7d5f96f2631fcd6783e79f0720fb2/transformed/navigation-common-ktx-2.4.2/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.navigation:navigation-common:2.4.2] /Users/christianquaranta/.gradle/caches/transforms-3/7f65ed8b551cbb55225e3b2566a4f646/transformed/navigation-common-2.4.2/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.1] /Users/christianquaranta/.gradle/caches/transforms-3/7293e1c83baac7dd9e6b2cabc09bcabe/transformed/jetified-lifecycle-viewmodel-ktx-2.3.1/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.3.1] /Users/christianquaranta/.gradle/caches/transforms-3/77d54703bb895724d0f7d1969eca02ef/transformed/jetified-lifecycle-runtime-ktx-2.3.1/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/christianquaranta/.gradle/caches/transforms-3/51ae915109f9b2f37b18f918b8b1b906/transformed/legacy-support-v4-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/christianquaranta/.gradle/caches/transforms-3/4ba3ce98dd6d517f564693296bb16018/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] /Users/christianquaranta/.gradle/caches/transforms-3/ecd5898615007f0066d5d2f5b7fcf9a0/transformed/slidingpanelayout-1.2.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.window:window:1.0.0] /Users/christianquaranta/.gradle/caches/transforms-3/22d0011f5bd97f1200271cdfe1a2b0d5/transformed/jetified-window-1.0.0/AndroidManifest.xml:17:1-33:12
-MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.3.1] /Users/christianquaranta/.gradle/caches/transforms-3/1784928ceb10b124fca4a3cb6d73821b/transformed/jetified-lifecycle-livedata-ktx-2.3.1/AndroidManifest.xml:17:1-24:12
-MERGED from [com.google.android.material:material:1.5.0] /Users/christianquaranta/.gradle/caches/transforms-3/f96c1a2c9b7fcdc63391e27dba2c9c00/transformed/material-1.5.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/christianquaranta/.gradle/caches/transforms-3/0cd4a36b670c5899a9e50a552d990d6c/transformed/constraintlayout-2.0.4/AndroidManifest.xml:2:1-11:12
-MERGED from [androidx.appcompat:appcompat:1.3.0] /Users/christianquaranta/.gradle/caches/transforms-3/68e093ef1ac7c411f6ec668ef9353e14/transformed/appcompat-1.3.0/AndroidManifest.xml:17:1-24:12
-MERGED from [com.google.firebase:firebase-auth:19.2.0] /Users/christianquaranta/.gradle/caches/transforms-3/60ff26c0e3f98090617cd8378700c27f/transformed/jetified-firebase-auth-19.2.0/AndroidManifest.xml:17:1-42:12
-MERGED from [com.google.android.gms:play-services-auth:20.2.0] /Users/christianquaranta/.gradle/caches/transforms-3/c2d3fe26e4e4c803d00d9185ac5e270d/transformed/jetified-play-services-auth-20.2.0/AndroidManifest.xml:17:1-40:12
-MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0] /Users/christianquaranta/.gradle/caches/transforms-3/4b8c1fa465a241ef13ac115dc6f7e99a/transformed/lifecycle-extensions-2.0.0/AndroidManifest.xml:17:1-25:12
-MERGED from [com.github.bumptech.glide:glide:4.13.0] /Users/christianquaranta/.gradle/caches/transforms-3/e4dbcaf8e457f020b8a18abc5b11d6f0/transformed/jetified-glide-4.13.0/AndroidManifest.xml:2:1-12:12
-MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/christianquaranta/.gradle/caches/transforms-3/9e6e104c3239bdc747b1f39e09420089/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
-MERGED from [com.google.firebase:firebase-database-ktx:20.0.5] /Users/christianquaranta/.gradle/caches/transforms-3/f881a7d3b0dcfdefc13138a133cc1404/transformed/jetified-firebase-database-ktx-20.0.5/AndroidManifest.xml:2:1-21:12
-MERGED from [com.google.firebase:firebase-database:20.0.5] /Users/christianquaranta/.gradle/caches/transforms-3/29f0d62ece32f67f27923983ae856237/transformed/jetified-firebase-database-20.0.5/AndroidManifest.xml:15:1-38:12
-MERGED from [com.google.android.gms:play-services-auth-api-phone:18.0.1] /Users/christianquaranta/.gradle/caches/transforms-3/d94e80b0c983f5ff273f1c533592ef29/transformed/jetified-play-services-auth-api-phone-18.0.1/AndroidManifest.xml:2:1-7:12
-MERGED from [com.google.android.gms:play-services-auth-base:18.0.1] /Users/christianquaranta/.gradle/caches/transforms-3/a4c9e7cd1ea1360a9de3b84b4a884e41/transformed/jetified-play-services-auth-base-18.0.1/AndroidManifest.xml:2:1-7:12
-MERGED from [com.google.firebase:firebase-appcheck-interop:16.0.0] /Users/christianquaranta/.gradle/caches/transforms-3/66a2f48a6c58544931864c80cdc321ff/transformed/jetified-firebase-appcheck-interop-16.0.0/AndroidManifest.xml:15:1-26:12
-MERGED from [com.google.firebase:firebase-database-collection:18.0.1] /Users/christianquaranta/.gradle/caches/transforms-3/0f5d41b3abb76edd069b7e7da92ba59a/transformed/jetified-firebase-database-collection-18.0.1/AndroidManifest.xml:2:1-9:12
-MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/christianquaranta/.gradle/caches/transforms-3/cc4807367e3e5583c9e4bc562e1c105a/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:16:1-24:12
-MERGED from [com.google.firebase:firebase-common-ktx:20.1.1] /Users/christianquaranta/.gradle/caches/transforms-3/32d4c789362f07d9274d8e4201ce246f/transformed/jetified-firebase-common-ktx-20.1.1/AndroidManifest.xml:2:1-21:12
-MERGED from [com.google.firebase:firebase-auth-interop:19.0.2] /Users/christianquaranta/.gradle/caches/transforms-3/bb237e89423177f43d1ee44f5fc5b48f/transformed/jetified-firebase-auth-interop-19.0.2/AndroidManifest.xml:2:1-10:12
-MERGED from [com.google.firebase:firebase-common:20.1.1] /Users/christianquaranta/.gradle/caches/transforms-3/bcfb0b0958249827e5e7674f5da29637/transformed/jetified-firebase-common-20.1.1/AndroidManifest.xml:15:1-40:12
-MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /Users/christianquaranta/.gradle/caches/transforms-3/32813d37bdbbe722e2dd9da7dc3870cb/transformed/jetified-play-services-tasks-18.0.1/AndroidManifest.xml:2:1-6:12
-MERGED from [com.google.android.gms:play-services-basement:18.0.0] /Users/christianquaranta/.gradle/caches/transforms-3/80cbef2545f2547655484d89baab15ea/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:16:1-26:12
-MERGED from [androidx.fragment:fragment:1.4.1] /Users/christianquaranta/.gradle/caches/transforms-3/0583577ef23531cd977b17079eaf6c88/transformed/fragment-1.4.1/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.core:core-ktx:1.7.0] /Users/christianquaranta/.gradle/caches/transforms-3/6e983b740059ac7c24d22b6cdeb52954/transformed/jetified-core-ktx-1.7.0/AndroidManifest.xml:2:1-9:12
-MERGED from [androidx.recyclerview:recyclerview-selection:1.1.0] /Users/christianquaranta/.gradle/caches/transforms-3/9356168daaa6a840fb78b9b2a40c2770/transformed/recyclerview-selection-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.recyclerview:recyclerview:1.2.1] /Users/christianquaranta/.gradle/caches/transforms-3/f2d2829a197ea5a72ffc9c1fc9f77def/transformed/recyclerview-1.2.1/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.cardview:cardview:1.0.0] /Users/christianquaranta/.gradle/caches/transforms-3/11cd08cae8090dc2e2593123dac97e46/transformed/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [com.intuit.sdp:sdp-android:1.0.6] /Users/christianquaranta/.gradle/caches/transforms-3/0909979b0c761b7d2276b5f24c1a12ec/transformed/jetified-sdp-android-1.0.6/AndroidManifest.xml:2:1-11:12
-MERGED from [com.intuit.ssp:ssp-android:1.0.6] /Users/christianquaranta/.gradle/caches/transforms-3/e6546f30a629171a3f8e991d79a35046/transformed/jetified-ssp-android-1.0.6/AndroidManifest.xml:2:1-11:12
-MERGED from [androidmads.library.qrgenearator:QRGenearator:1.0.4] /Users/christianquaranta/.gradle/caches/transforms-3/2fdc33118f8f9afd6d1d962a82a38383/transformed/jetified-QRGenearator-1.0.4/AndroidManifest.xml:2:1-16:12
-MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/christianquaranta/.gradle/caches/transforms-3/04db075bb43f6544fb4046e09d0f4227/transformed/drawerlayout-1.1.1/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/christianquaranta/.gradle/caches/transforms-3/67756a08d6b63ace5ba853b526cdb4b6/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/christianquaranta/.gradle/caches/transforms-3/09a979a31b1d299cb9f1c2ca3d9e48e0/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.appcompat:appcompat-resources:1.4.1] /Users/christianquaranta/.gradle/caches/transforms-3/45755cd03e1959ac790b8c472cc0c076/transformed/jetified-appcompat-resources-1.4.1/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/christianquaranta/.gradle/caches/transforms-3/04f0f53566f53102f04916f43ae3e438/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/christianquaranta/.gradle/caches/transforms-3/f4a5879deecdea9517c77c54c95eea51/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.media:media:1.0.0] /Users/christianquaranta/.gradle/caches/transforms-3/0867d621ceb0f152e743bab6141fb40c/transformed/media-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/christianquaranta/.gradle/caches/transforms-3/9edd00414499fa796c5deb9b400ba06b/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.loader:loader:1.0.0] /Users/christianquaranta/.gradle/caches/transforms-3/48f2c2438008be553fea33330a97007d/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/christianquaranta/.gradle/caches/transforms-3/b103241c688ed686a23a6cb9571985ed/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.customview:customview:1.1.0] /Users/christianquaranta/.gradle/caches/transforms-3/49ce997885271347710b57369f2d6792/transformed/customview-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/christianquaranta/.gradle/caches/transforms-3/e56afb90bf32a9c6f38fdbdfc29b9392/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/christianquaranta/.gradle/caches/transforms-3/8dfcb9d71d8f9daedb138ed79e91285f/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.transition:transition:1.4.1] /Users/christianquaranta/.gradle/caches/transforms-3/3e6ac9f3ca0e888b19aae83dbcda24bf/transformed/transition-1.4.1/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.activity:activity:1.2.4] /Users/christianquaranta/.gradle/caches/transforms-3/fc0c14f1837aad48183b4eabe38ecd2f/transformed/jetified-activity-1.2.4/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.core:core:1.7.0] /Users/christianquaranta/.gradle/caches/transforms-3/4c95eabad880a452207e8362f12b680b/transformed/core-1.7.0/AndroidManifest.xml:17:1-26:12
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/christianquaranta/.gradle/caches/transforms-3/4f003deac4d9ed86758a61f82745e916/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.savedstate:savedstate-ktx:1.1.0] /Users/christianquaranta/.gradle/caches/transforms-3/0f6a653b7632aa2fbba49de63fbefdb1/transformed/jetified-savedstate-ktx-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /Users/christianquaranta/.gradle/caches/transforms-3/49ae7caf90c41f540a964ba2c811010a/transformed/jetified-lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.savedstate:savedstate:1.1.0] /Users/christianquaranta/.gradle/caches/transforms-3/33db6571cc1bdfb03646a0f4a6c324a5/transformed/jetified-savedstate-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /Users/christianquaranta/.gradle/caches/transforms-3/c9a1c1a9cedc2190b19dadffb9e365ba/transformed/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/christianquaranta/.gradle/caches/transforms-3/b52075f0dd876a970c16f3b941cc395f/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [com.google.firebase:firebase-components:17.0.0] /Users/christianquaranta/.gradle/caches/transforms-3/3bd7bc997a52d469e2583d57f576900e/transformed/jetified-firebase-components-17.0.0/AndroidManifest.xml:15:1-23:12
-MERGED from [com.github.bumptech.glide:gifdecoder:4.13.0] /Users/christianquaranta/.gradle/caches/transforms-3/5bdff2e2a3f296cee7e6ebbb2f511a2e/transformed/jetified-gifdecoder-4.13.0/AndroidManifest.xml:2:1-11:12
-MERGED from [androidx.tracing:tracing:1.0.0] /Users/christianquaranta/.gradle/caches/transforms-3/4b5aab26e38ab5a28e6b55fcc7697634/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/christianquaranta/.gradle/caches/transforms-3/cc43a4fb1b494dddf3023f70a60e9bef/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.3.1] /Users/christianquaranta/.gradle/caches/transforms-3/430aebef583c535e75043e415d5ac7e3/transformed/lifecycle-livedata-2.3.1/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.3.1] /Users/christianquaranta/.gradle/caches/transforms-3/09e70713c4fe027649c2fbafa4800dbe/transformed/jetified-lifecycle-livedata-core-ktx-2.3.1/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /Users/christianquaranta/.gradle/caches/transforms-3/e5108cc9aa0759de3290d2b778e3d3b7/transformed/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.lifecycle:lifecycle-process:2.0.0] /Users/christianquaranta/.gradle/caches/transforms-3/fc4365e62ac653a5ab3176e660544756/transformed/jetified-lifecycle-process-2.0.0/AndroidManifest.xml:17:1-30:12
-MERGED from [androidx.lifecycle:lifecycle-service:2.0.0] /Users/christianquaranta/.gradle/caches/transforms-3/c8ad69097aab090f4586cc93ba3b7522/transformed/jetified-lifecycle-service-2.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.1] /Users/christianquaranta/.gradle/caches/transforms-3/f144410e7ba75fc6061079b337cc257d/transformed/lifecycle-runtime-2.4.1/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/christianquaranta/.gradle/caches/transforms-3/3d9fba295fc171110e629a7b6d2e4d77/transformed/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/christianquaranta/.gradle/caches/transforms-3/34cf9e8e7db04a9e4e92ffc061555a16/transformed/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.print:print:1.0.0] /Users/christianquaranta/.gradle/caches/transforms-3/a45567c7bab4a3bc6dc00e9b14a4fdb8/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/christianquaranta/.gradle/caches/transforms-3/9d8856a0cff0af54324815f7e224016f/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.exifinterface:exifinterface:1.3.3] /Users/christianquaranta/.gradle/caches/transforms-3/5657fc52b67a23defad112bc808aff98/transformed/exifinterface-1.3.3/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/christianquaranta/.gradle/caches/transforms-3/7cc04ebb8a5efde928da155b8ff8d491/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.databinding:viewbinding:7.2.1] /Users/christianquaranta/.gradle/caches/transforms-3/fccec09eb88399f8afd97c4c8c41ca2d/transformed/jetified-viewbinding-7.2.1/AndroidManifest.xml:17:1-24:12
+MERGED from [com.squareup.picasso:picasso:2.8] /Users/christianquaranta/.gradle/caches/transforms-3/eacf4403b8691f90c669e31d55b4ae9c/transformed/jetified-picasso-2.8/AndroidManifest.xml:2:1-14:12
+MERGED from [io.coil-kt:coil:2.1.0] /Users/christianquaranta/.gradle/caches/transforms-3/84293071a1dfe0a81b08499cef97a92b/transformed/jetified-coil-2.1.0/AndroidManifest.xml:2:1-9:12
+MERGED from [io.coil-kt:coil-base:2.1.0] /Users/christianquaranta/.gradle/caches/transforms-3/569436c487b9711a489623194a1b2667/transformed/jetified-coil-base-2.1.0/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.4.2] /Users/christianquaranta/.gradle/caches/transforms-3/cf66c967b919565bd0c49f71032f0ed8/transformed/navigation-fragment-ktx-2.4.2/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-fragment:2.4.2] /Users/christianquaranta/.gradle/caches/transforms-3/2392f56139c4cb8cc6f93fc4ee7ba524/transformed/navigation-fragment-2.4.2/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment-ktx:1.4.1] /Users/christianquaranta/.gradle/caches/transforms-3/ec864d5e5d81043bf4e81e3811fa3a86/transformed/jetified-fragment-ktx-1.4.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-ui-ktx:2.4.2] /Users/christianquaranta/.gradle/caches/transforms-3/92f0315a50fe474a4648f198cd28865a/transformed/navigation-ui-ktx-2.4.2/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.4.2] /Users/christianquaranta/.gradle/caches/transforms-3/f1034608c09e115622e5b2236a95653e/transformed/navigation-runtime-ktx-2.4.2/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-ui:2.4.2] /Users/christianquaranta/.gradle/caches/transforms-3/0734fb7a1b37ec62669e1f1e5d9d54e7/transformed/navigation-ui-2.4.2/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-runtime:2.4.2] /Users/christianquaranta/.gradle/caches/transforms-3/99edf6fa83900656762bc4ca5b49be8b/transformed/navigation-runtime-2.4.2/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity-ktx:1.2.3] /Users/christianquaranta/.gradle/caches/transforms-3/9a8ed84dac88b71c849fc79e2ca33649/transformed/jetified-activity-ktx-1.2.3/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-common-ktx:2.4.2] /Users/christianquaranta/.gradle/caches/transforms-3/1f7c31c9d62a948bad1e9e9cac02193b/transformed/navigation-common-ktx-2.4.2/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-common:2.4.2] /Users/christianquaranta/.gradle/caches/transforms-3/c8e00b22c414dd58351e2e42da9c851e/transformed/navigation-common-2.4.2/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.1] /Users/christianquaranta/.gradle/caches/transforms-3/d1b344a19479e0f9aa6de579fecc570a/transformed/jetified-lifecycle-viewmodel-ktx-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.3.1] /Users/christianquaranta/.gradle/caches/transforms-3/8d5a50f9fb4ad84828d4328b3e2a35dc/transformed/jetified-lifecycle-runtime-ktx-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/christianquaranta/.gradle/caches/transforms-3/457377929e8097312d77aeab1c7224b6/transformed/legacy-support-v4-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/christianquaranta/.gradle/caches/transforms-3/58d2f3a796f34d9527446d92969000ad/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] /Users/christianquaranta/.gradle/caches/transforms-3/fb004a10b0f7712e9ebfd61cd97ec3a5/transformed/slidingpanelayout-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.window:window:1.0.0] /Users/christianquaranta/.gradle/caches/transforms-3/c121cbe4bb46880f071ad66f69f15272/transformed/jetified-window-1.0.0/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.3.1] /Users/christianquaranta/.gradle/caches/transforms-3/643012184e2e56002f016a3c16a7171f/transformed/jetified-lifecycle-livedata-ktx-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.material:material:1.5.0] /Users/christianquaranta/.gradle/caches/transforms-3/30602a3931f49b14e5875e8607d3941b/transformed/material-1.5.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/christianquaranta/.gradle/caches/transforms-3/42a411d87bbd59392e941a80d418177c/transformed/constraintlayout-2.0.4/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat:1.3.0] /Users/christianquaranta/.gradle/caches/transforms-3/a26d6f839f17d1519b7c255fe122aa5b/transformed/appcompat-1.3.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-auth:19.2.0] /Users/christianquaranta/.gradle/caches/transforms-3/1cd379d5b2e3904982061599a3cb558c/transformed/jetified-firebase-auth-19.2.0/AndroidManifest.xml:17:1-42:12
+MERGED from [com.google.android.gms:play-services-auth:20.2.0] /Users/christianquaranta/.gradle/caches/transforms-3/e5077a32dbd0b69aaa20f12264c0e1ec/transformed/jetified-play-services-auth-20.2.0/AndroidManifest.xml:17:1-40:12
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0] /Users/christianquaranta/.gradle/caches/transforms-3/4e1be74fb5d77aada3df0dfb6661fecb/transformed/lifecycle-extensions-2.0.0/AndroidManifest.xml:17:1-25:12
+MERGED from [com.github.bumptech.glide:glide:4.13.0] /Users/christianquaranta/.gradle/caches/transforms-3/972971b9c16a43d7e62a01b6ae62131a/transformed/jetified-glide-4.13.0/AndroidManifest.xml:2:1-12:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/christianquaranta/.gradle/caches/transforms-3/4d069efe6074eac8c8b55c2b8549f0ce/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-database-ktx:20.0.5] /Users/christianquaranta/.gradle/caches/transforms-3/68dc8cfb6c8889583a4a18b611003903/transformed/jetified-firebase-database-ktx-20.0.5/AndroidManifest.xml:2:1-21:12
+MERGED from [com.google.firebase:firebase-database:20.0.5] /Users/christianquaranta/.gradle/caches/transforms-3/7be0e02632bef93e6422c5286ebec5ad/transformed/jetified-firebase-database-20.0.5/AndroidManifest.xml:15:1-38:12
+MERGED from [com.google.android.gms:play-services-auth-api-phone:18.0.1] /Users/christianquaranta/.gradle/caches/transforms-3/6f4b9c42d3c5df11e6e94ae74acb967b/transformed/jetified-play-services-auth-api-phone-18.0.1/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-auth-base:18.0.1] /Users/christianquaranta/.gradle/caches/transforms-3/da8d8dd2e43f225dba3a612dae614126/transformed/jetified-play-services-auth-base-18.0.1/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.0.0] /Users/christianquaranta/.gradle/caches/transforms-3/d7d53c3fbbe140c265e7ea97729ae3ac/transformed/jetified-firebase-appcheck-interop-16.0.0/AndroidManifest.xml:15:1-26:12
+MERGED from [com.google.firebase:firebase-database-collection:18.0.1] /Users/christianquaranta/.gradle/caches/transforms-3/9c4abad3e6f1294e0a75f52f9912b93e/transformed/jetified-firebase-database-collection-18.0.1/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/christianquaranta/.gradle/caches/transforms-3/4ceeb7d38150b44e34e3bf0e2e989663/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:16:1-24:12
+MERGED from [com.google.firebase:firebase-common-ktx:20.1.1] /Users/christianquaranta/.gradle/caches/transforms-3/9c21c976cf5e64205dc3e64c20426e3b/transformed/jetified-firebase-common-ktx-20.1.1/AndroidManifest.xml:2:1-21:12
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.2] /Users/christianquaranta/.gradle/caches/transforms-3/54e69af17171997b74305ce11af3eeea/transformed/jetified-firebase-auth-interop-19.0.2/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.firebase:firebase-common:20.1.1] /Users/christianquaranta/.gradle/caches/transforms-3/32c8021f4d7d2bed305e7e3fbde12b2d/transformed/jetified-firebase-common-20.1.1/AndroidManifest.xml:15:1-40:12
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /Users/christianquaranta/.gradle/caches/transforms-3/e8de7f07b4bfc2a42f121ea2db7b9041/transformed/jetified-play-services-tasks-18.0.1/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] /Users/christianquaranta/.gradle/caches/transforms-3/640822766b7328921df2c8b31d81535d/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:16:1-26:12
+MERGED from [androidx.fragment:fragment:1.4.1] /Users/christianquaranta/.gradle/caches/transforms-3/ed66c8a3b331c4adda794bf4da4ab8b3/transformed/fragment-1.4.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core-ktx:1.7.0] /Users/christianquaranta/.gradle/caches/transforms-3/b849c4451373ee949c660f0c33472caa/transformed/jetified-core-ktx-1.7.0/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.recyclerview:recyclerview-selection:1.1.0] /Users/christianquaranta/.gradle/caches/transforms-3/c5f1ea39b8e07dd297037a501aa5fa9e/transformed/recyclerview-selection-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.recyclerview:recyclerview:1.2.1] /Users/christianquaranta/.gradle/caches/transforms-3/4e932fa19823d9003280de4acce0c896/transformed/recyclerview-1.2.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/christianquaranta/.gradle/caches/transforms-3/4cfcfb60bca912a7aacaf7886d769b0e/transformed/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.intuit.sdp:sdp-android:1.0.6] /Users/christianquaranta/.gradle/caches/transforms-3/bba3b0600e2503f4febb46c23e38d66c/transformed/jetified-sdp-android-1.0.6/AndroidManifest.xml:2:1-11:12
+MERGED from [com.intuit.ssp:ssp-android:1.0.6] /Users/christianquaranta/.gradle/caches/transforms-3/c506eb1093d8153e44b3b18289a65372/transformed/jetified-ssp-android-1.0.6/AndroidManifest.xml:2:1-11:12
+MERGED from [androidmads.library.qrgenearator:QRGenearator:1.0.4] /Users/christianquaranta/.gradle/caches/transforms-3/6d4c1a7db0751ed9c8450bf4319e1ec9/transformed/jetified-QRGenearator-1.0.4/AndroidManifest.xml:2:1-16:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/christianquaranta/.gradle/caches/transforms-3/e150c539a04655bfbc6a9ae043f71db4/transformed/drawerlayout-1.1.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/christianquaranta/.gradle/caches/transforms-3/ed5b0773ab6d73db12cb873efdf188dd/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/christianquaranta/.gradle/caches/transforms-3/c9e2c423303582461df5c1c76a900157/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat-resources:1.4.1] /Users/christianquaranta/.gradle/caches/transforms-3/5a5323c826afbc8a822f09da10ca2979/transformed/jetified-appcompat-resources-1.4.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/christianquaranta/.gradle/caches/transforms-3/5bd005976981342552cbf4300114b4a5/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/christianquaranta/.gradle/caches/transforms-3/9ff995f16506244e261e06cad51bbf32/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.media:media:1.0.0] /Users/christianquaranta/.gradle/caches/transforms-3/5d236ea095bc9abcdad14d6a15fc4211/transformed/media-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/christianquaranta/.gradle/caches/transforms-3/14ef534eed612775f19b7a6c1606ae91/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/christianquaranta/.gradle/caches/transforms-3/22d9af3b4aae572eb4dba51d88092007/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/christianquaranta/.gradle/caches/transforms-3/b5f09bee9bf64216fa83362db585cf36/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.1.0] /Users/christianquaranta/.gradle/caches/transforms-3/ef2620c7e7435292814644f3a54fca36/transformed/customview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/christianquaranta/.gradle/caches/transforms-3/248315d67c26e48add899d9cda49afc3/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/christianquaranta/.gradle/caches/transforms-3/df6fb5a28a097f0aea3f79ae04e65669/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.4.1] /Users/christianquaranta/.gradle/caches/transforms-3/3fc307fedcd9dff24ad749a37d3e50cf/transformed/transition-1.4.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.2.4] /Users/christianquaranta/.gradle/caches/transforms-3/f52945ece396d06b99df05f48b475c3a/transformed/jetified-activity-1.2.4/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.7.0] /Users/christianquaranta/.gradle/caches/transforms-3/282222a868a0dbc037eafaa8f451e13f/transformed/core-1.7.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/christianquaranta/.gradle/caches/transforms-3/cfc4713509b715ba9395607f42bec58a/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate-ktx:1.1.0] /Users/christianquaranta/.gradle/caches/transforms-3/fe07bce8318505e32fc197e32612c6c9/transformed/jetified-savedstate-ktx-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /Users/christianquaranta/.gradle/caches/transforms-3/0f0ef21f4c06b38800c56c2b49b739e3/transformed/jetified-lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.1.0] /Users/christianquaranta/.gradle/caches/transforms-3/a5ce8f3e041db9596eff3455f148be32/transformed/jetified-savedstate-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /Users/christianquaranta/.gradle/caches/transforms-3/9cdb7bb356c2794ae970b5b687912fa6/transformed/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/christianquaranta/.gradle/caches/transforms-3/274cc2d53f777d3967f67300c5042251/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-components:17.0.0] /Users/christianquaranta/.gradle/caches/transforms-3/ccc60321e09cc4751580b03fa42f2f4e/transformed/jetified-firebase-components-17.0.0/AndroidManifest.xml:15:1-23:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.13.0] /Users/christianquaranta/.gradle/caches/transforms-3/8278dc76e1a377ec6216b7dbfdf9e1be/transformed/jetified-gifdecoder-4.13.0/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/christianquaranta/.gradle/caches/transforms-3/0d3406b0664bbe3d4fe6a4d28f0df520/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/christianquaranta/.gradle/caches/transforms-3/e44a0d1b48cc86f0923770b89c454ad5/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.3.1] /Users/christianquaranta/.gradle/caches/transforms-3/509852069ba4dfeec056681507f5d0b2/transformed/lifecycle-livedata-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.3.1] /Users/christianquaranta/.gradle/caches/transforms-3/b560a318370620bd3238b2aef068fd18/transformed/jetified-lifecycle-livedata-core-ktx-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /Users/christianquaranta/.gradle/caches/transforms-3/3ce572ceadbad1795cc63c4871ae46e7/transformed/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.0.0] /Users/christianquaranta/.gradle/caches/transforms-3/90c7c63fefce20d38463be9805887989/transformed/jetified-lifecycle-process-2.0.0/AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.lifecycle:lifecycle-service:2.0.0] /Users/christianquaranta/.gradle/caches/transforms-3/da07a6e637f9a8bc8bbd2621bd6903ad/transformed/jetified-lifecycle-service-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.1] /Users/christianquaranta/.gradle/caches/transforms-3/3d30c39465ae7a86bbd1e6764548f610/transformed/lifecycle-runtime-2.4.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/christianquaranta/.gradle/caches/transforms-3/3611703b20824a53dcbc6a4ed96fb1e8/transformed/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/christianquaranta/.gradle/caches/transforms-3/e66b158072346f8f0e561757b6decb77/transformed/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/christianquaranta/.gradle/caches/transforms-3/9d65f2efea0035ba177c9d971b6bb17b/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/christianquaranta/.gradle/caches/transforms-3/3dc26b42f8158c8cac3f5c55a7c1da87/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.exifinterface:exifinterface:1.3.3] /Users/christianquaranta/.gradle/caches/transforms-3/ff30f6ddbbf50fca1d1a4db93ae8737b/transformed/exifinterface-1.3.3/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/christianquaranta/.gradle/caches/transforms-3/62b7049542978103dfca77ed94f636af/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:17:1-24:12
 INJECTED from /Users/christianquaranta/AndroidStudioProjects/hercules/HerculesWallet/app/src/main/AndroidManifest.xml:2:1-29:12
 INJECTED from /Users/christianquaranta/AndroidStudioProjects/hercules/HerculesWallet/app/src/main/AndroidManifest.xml:2:1-29:12
 INJECTED from /Users/christianquaranta/AndroidStudioProjects/hercules/HerculesWallet/app/src/main/AndroidManifest.xml:2:1-29:12
@@ -110,58 +110,58 @@ INJECTED from /Users/christianquaranta/AndroidStudioProjects/hercules/HerculesWa
 		ADDED from /Users/christianquaranta/AndroidStudioProjects/hercules/HerculesWallet/app/src/main/AndroidManifest.xml:2:11-69
 uses-permission#android.permission.INTERNET
 ADDED from /Users/christianquaranta/AndroidStudioProjects/hercules/HerculesWallet/app/src/main/AndroidManifest.xml:5:5-67
-MERGED from [com.google.firebase:firebase-database:20.0.5] /Users/christianquaranta/.gradle/caches/transforms-3/29f0d62ece32f67f27923983ae856237/transformed/jetified-firebase-database-20.0.5/AndroidManifest.xml:26:5-67
-MERGED from [com.google.firebase:firebase-database:20.0.5] /Users/christianquaranta/.gradle/caches/transforms-3/29f0d62ece32f67f27923983ae856237/transformed/jetified-firebase-database-20.0.5/AndroidManifest.xml:26:5-67
+MERGED from [com.google.firebase:firebase-database:20.0.5] /Users/christianquaranta/.gradle/caches/transforms-3/7be0e02632bef93e6422c5286ebec5ad/transformed/jetified-firebase-database-20.0.5/AndroidManifest.xml:26:5-67
+MERGED from [com.google.firebase:firebase-database:20.0.5] /Users/christianquaranta/.gradle/caches/transforms-3/7be0e02632bef93e6422c5286ebec5ad/transformed/jetified-firebase-database-20.0.5/AndroidManifest.xml:26:5-67
 	android:name
 		ADDED from /Users/christianquaranta/AndroidStudioProjects/hercules/HerculesWallet/app/src/main/AndroidManifest.xml:5:22-64
 application
 ADDED from /Users/christianquaranta/AndroidStudioProjects/hercules/HerculesWallet/app/src/main/AndroidManifest.xml:7:5-27:19
-MERGED from [com.squareup.picasso:picasso:2.8] /Users/christianquaranta/.gradle/caches/transforms-3/c15553b531ce6deb3dd4fdd5bd379b31/transformed/jetified-picasso-2.8/AndroidManifest.xml:7:5-12:19
-MERGED from [com.squareup.picasso:picasso:2.8] /Users/christianquaranta/.gradle/caches/transforms-3/c15553b531ce6deb3dd4fdd5bd379b31/transformed/jetified-picasso-2.8/AndroidManifest.xml:7:5-12:19
-MERGED from [androidx.window:window:1.0.0] /Users/christianquaranta/.gradle/caches/transforms-3/22d0011f5bd97f1200271cdfe1a2b0d5/transformed/jetified-window-1.0.0/AndroidManifest.xml:24:5-31:19
-MERGED from [androidx.window:window:1.0.0] /Users/christianquaranta/.gradle/caches/transforms-3/22d0011f5bd97f1200271cdfe1a2b0d5/transformed/jetified-window-1.0.0/AndroidManifest.xml:24:5-31:19
-MERGED from [com.google.android.material:material:1.5.0] /Users/christianquaranta/.gradle/caches/transforms-3/f96c1a2c9b7fcdc63391e27dba2c9c00/transformed/material-1.5.0/AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.material:material:1.5.0] /Users/christianquaranta/.gradle/caches/transforms-3/f96c1a2c9b7fcdc63391e27dba2c9c00/transformed/material-1.5.0/AndroidManifest.xml:22:5-20
-MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/christianquaranta/.gradle/caches/transforms-3/0cd4a36b670c5899a9e50a552d990d6c/transformed/constraintlayout-2.0.4/AndroidManifest.xml:9:5-20
-MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/christianquaranta/.gradle/caches/transforms-3/0cd4a36b670c5899a9e50a552d990d6c/transformed/constraintlayout-2.0.4/AndroidManifest.xml:9:5-20
-MERGED from [com.google.firebase:firebase-auth:19.2.0] /Users/christianquaranta/.gradle/caches/transforms-3/60ff26c0e3f98090617cd8378700c27f/transformed/jetified-firebase-auth-19.2.0/AndroidManifest.xml:23:5-40:19
-MERGED from [com.google.firebase:firebase-auth:19.2.0] /Users/christianquaranta/.gradle/caches/transforms-3/60ff26c0e3f98090617cd8378700c27f/transformed/jetified-firebase-auth-19.2.0/AndroidManifest.xml:23:5-40:19
-MERGED from [com.google.android.gms:play-services-auth:20.2.0] /Users/christianquaranta/.gradle/caches/transforms-3/c2d3fe26e4e4c803d00d9185ac5e270d/transformed/jetified-play-services-auth-20.2.0/AndroidManifest.xml:22:5-38:19
-MERGED from [com.google.android.gms:play-services-auth:20.2.0] /Users/christianquaranta/.gradle/caches/transforms-3/c2d3fe26e4e4c803d00d9185ac5e270d/transformed/jetified-play-services-auth-20.2.0/AndroidManifest.xml:22:5-38:19
-MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0] /Users/christianquaranta/.gradle/caches/transforms-3/4b8c1fa465a241ef13ac115dc6f7e99a/transformed/lifecycle-extensions-2.0.0/AndroidManifest.xml:22:5-23:19
-MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0] /Users/christianquaranta/.gradle/caches/transforms-3/4b8c1fa465a241ef13ac115dc6f7e99a/transformed/lifecycle-extensions-2.0.0/AndroidManifest.xml:22:5-23:19
-MERGED from [com.github.bumptech.glide:glide:4.13.0] /Users/christianquaranta/.gradle/caches/transforms-3/e4dbcaf8e457f020b8a18abc5b11d6f0/transformed/jetified-glide-4.13.0/AndroidManifest.xml:10:5-20
-MERGED from [com.github.bumptech.glide:glide:4.13.0] /Users/christianquaranta/.gradle/caches/transforms-3/e4dbcaf8e457f020b8a18abc5b11d6f0/transformed/jetified-glide-4.13.0/AndroidManifest.xml:10:5-20
-MERGED from [com.google.firebase:firebase-database-ktx:20.0.5] /Users/christianquaranta/.gradle/caches/transforms-3/f881a7d3b0dcfdefc13138a133cc1404/transformed/jetified-firebase-database-ktx-20.0.5/AndroidManifest.xml:11:5-19:19
-MERGED from [com.google.firebase:firebase-database-ktx:20.0.5] /Users/christianquaranta/.gradle/caches/transforms-3/f881a7d3b0dcfdefc13138a133cc1404/transformed/jetified-firebase-database-ktx-20.0.5/AndroidManifest.xml:11:5-19:19
-MERGED from [com.google.firebase:firebase-database:20.0.5] /Users/christianquaranta/.gradle/caches/transforms-3/29f0d62ece32f67f27923983ae856237/transformed/jetified-firebase-database-20.0.5/AndroidManifest.xml:28:5-36:19
-MERGED from [com.google.firebase:firebase-database:20.0.5] /Users/christianquaranta/.gradle/caches/transforms-3/29f0d62ece32f67f27923983ae856237/transformed/jetified-firebase-database-20.0.5/AndroidManifest.xml:28:5-36:19
-MERGED from [com.google.firebase:firebase-appcheck-interop:16.0.0] /Users/christianquaranta/.gradle/caches/transforms-3/66a2f48a6c58544931864c80cdc321ff/transformed/jetified-firebase-appcheck-interop-16.0.0/AndroidManifest.xml:24:5-20
-MERGED from [com.google.firebase:firebase-appcheck-interop:16.0.0] /Users/christianquaranta/.gradle/caches/transforms-3/66a2f48a6c58544931864c80cdc321ff/transformed/jetified-firebase-appcheck-interop-16.0.0/AndroidManifest.xml:24:5-20
-MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/christianquaranta/.gradle/caches/transforms-3/cc4807367e3e5583c9e4bc562e1c105a/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:19:5-23:19
-MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/christianquaranta/.gradle/caches/transforms-3/cc4807367e3e5583c9e4bc562e1c105a/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:19:5-23:19
-MERGED from [com.google.firebase:firebase-common-ktx:20.1.1] /Users/christianquaranta/.gradle/caches/transforms-3/32d4c789362f07d9274d8e4201ce246f/transformed/jetified-firebase-common-ktx-20.1.1/AndroidManifest.xml:11:5-19:19
-MERGED from [com.google.firebase:firebase-common-ktx:20.1.1] /Users/christianquaranta/.gradle/caches/transforms-3/32d4c789362f07d9274d8e4201ce246f/transformed/jetified-firebase-common-ktx-20.1.1/AndroidManifest.xml:11:5-19:19
-MERGED from [com.google.firebase:firebase-auth-interop:19.0.2] /Users/christianquaranta/.gradle/caches/transforms-3/bb237e89423177f43d1ee44f5fc5b48f/transformed/jetified-firebase-auth-interop-19.0.2/AndroidManifest.xml:7:5-8:19
-MERGED from [com.google.firebase:firebase-auth-interop:19.0.2] /Users/christianquaranta/.gradle/caches/transforms-3/bb237e89423177f43d1ee44f5fc5b48f/transformed/jetified-firebase-auth-interop-19.0.2/AndroidManifest.xml:7:5-8:19
-MERGED from [com.google.firebase:firebase-common:20.1.1] /Users/christianquaranta/.gradle/caches/transforms-3/bcfb0b0958249827e5e7674f5da29637/transformed/jetified-firebase-common-20.1.1/AndroidManifest.xml:25:5-38:19
-MERGED from [com.google.firebase:firebase-common:20.1.1] /Users/christianquaranta/.gradle/caches/transforms-3/bcfb0b0958249827e5e7674f5da29637/transformed/jetified-firebase-common-20.1.1/AndroidManifest.xml:25:5-38:19
-MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /Users/christianquaranta/.gradle/caches/transforms-3/32813d37bdbbe722e2dd9da7dc3870cb/transformed/jetified-play-services-tasks-18.0.1/AndroidManifest.xml:5:5-20
-MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /Users/christianquaranta/.gradle/caches/transforms-3/32813d37bdbbe722e2dd9da7dc3870cb/transformed/jetified-play-services-tasks-18.0.1/AndroidManifest.xml:5:5-20
-MERGED from [com.google.android.gms:play-services-basement:18.0.0] /Users/christianquaranta/.gradle/caches/transforms-3/80cbef2545f2547655484d89baab15ea/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:20:5-24:19
-MERGED from [com.google.android.gms:play-services-basement:18.0.0] /Users/christianquaranta/.gradle/caches/transforms-3/80cbef2545f2547655484d89baab15ea/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:20:5-24:19
-MERGED from [androidmads.library.qrgenearator:QRGenearator:1.0.4] /Users/christianquaranta/.gradle/caches/transforms-3/2fdc33118f8f9afd6d1d962a82a38383/transformed/jetified-QRGenearator-1.0.4/AndroidManifest.xml:13:5-14:19
-MERGED from [androidmads.library.qrgenearator:QRGenearator:1.0.4] /Users/christianquaranta/.gradle/caches/transforms-3/2fdc33118f8f9afd6d1d962a82a38383/transformed/jetified-QRGenearator-1.0.4/AndroidManifest.xml:13:5-14:19
-MERGED from [androidx.core:core:1.7.0] /Users/christianquaranta/.gradle/caches/transforms-3/4c95eabad880a452207e8362f12b680b/transformed/core-1.7.0/AndroidManifest.xml:24:5-89
-MERGED from [androidx.core:core:1.7.0] /Users/christianquaranta/.gradle/caches/transforms-3/4c95eabad880a452207e8362f12b680b/transformed/core-1.7.0/AndroidManifest.xml:24:5-89
-MERGED from [com.github.bumptech.glide:gifdecoder:4.13.0] /Users/christianquaranta/.gradle/caches/transforms-3/5bdff2e2a3f296cee7e6ebbb2f511a2e/transformed/jetified-gifdecoder-4.13.0/AndroidManifest.xml:9:5-20
-MERGED from [com.github.bumptech.glide:gifdecoder:4.13.0] /Users/christianquaranta/.gradle/caches/transforms-3/5bdff2e2a3f296cee7e6ebbb2f511a2e/transformed/jetified-gifdecoder-4.13.0/AndroidManifest.xml:9:5-20
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/christianquaranta/.gradle/caches/transforms-3/cc43a4fb1b494dddf3023f70a60e9bef/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/christianquaranta/.gradle/caches/transforms-3/cc43a4fb1b494dddf3023f70a60e9bef/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
-MERGED from [androidx.lifecycle:lifecycle-process:2.0.0] /Users/christianquaranta/.gradle/caches/transforms-3/fc4365e62ac653a5ab3176e660544756/transformed/jetified-lifecycle-process-2.0.0/AndroidManifest.xml:22:5-28:19
-MERGED from [androidx.lifecycle:lifecycle-process:2.0.0] /Users/christianquaranta/.gradle/caches/transforms-3/fc4365e62ac653a5ab3176e660544756/transformed/jetified-lifecycle-process-2.0.0/AndroidManifest.xml:22:5-28:19
+MERGED from [com.squareup.picasso:picasso:2.8] /Users/christianquaranta/.gradle/caches/transforms-3/eacf4403b8691f90c669e31d55b4ae9c/transformed/jetified-picasso-2.8/AndroidManifest.xml:7:5-12:19
+MERGED from [com.squareup.picasso:picasso:2.8] /Users/christianquaranta/.gradle/caches/transforms-3/eacf4403b8691f90c669e31d55b4ae9c/transformed/jetified-picasso-2.8/AndroidManifest.xml:7:5-12:19
+MERGED from [androidx.window:window:1.0.0] /Users/christianquaranta/.gradle/caches/transforms-3/c121cbe4bb46880f071ad66f69f15272/transformed/jetified-window-1.0.0/AndroidManifest.xml:24:5-31:19
+MERGED from [androidx.window:window:1.0.0] /Users/christianquaranta/.gradle/caches/transforms-3/c121cbe4bb46880f071ad66f69f15272/transformed/jetified-window-1.0.0/AndroidManifest.xml:24:5-31:19
+MERGED from [com.google.android.material:material:1.5.0] /Users/christianquaranta/.gradle/caches/transforms-3/30602a3931f49b14e5875e8607d3941b/transformed/material-1.5.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.5.0] /Users/christianquaranta/.gradle/caches/transforms-3/30602a3931f49b14e5875e8607d3941b/transformed/material-1.5.0/AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/christianquaranta/.gradle/caches/transforms-3/42a411d87bbd59392e941a80d418177c/transformed/constraintlayout-2.0.4/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/christianquaranta/.gradle/caches/transforms-3/42a411d87bbd59392e941a80d418177c/transformed/constraintlayout-2.0.4/AndroidManifest.xml:9:5-20
+MERGED from [com.google.firebase:firebase-auth:19.2.0] /Users/christianquaranta/.gradle/caches/transforms-3/1cd379d5b2e3904982061599a3cb558c/transformed/jetified-firebase-auth-19.2.0/AndroidManifest.xml:23:5-40:19
+MERGED from [com.google.firebase:firebase-auth:19.2.0] /Users/christianquaranta/.gradle/caches/transforms-3/1cd379d5b2e3904982061599a3cb558c/transformed/jetified-firebase-auth-19.2.0/AndroidManifest.xml:23:5-40:19
+MERGED from [com.google.android.gms:play-services-auth:20.2.0] /Users/christianquaranta/.gradle/caches/transforms-3/e5077a32dbd0b69aaa20f12264c0e1ec/transformed/jetified-play-services-auth-20.2.0/AndroidManifest.xml:22:5-38:19
+MERGED from [com.google.android.gms:play-services-auth:20.2.0] /Users/christianquaranta/.gradle/caches/transforms-3/e5077a32dbd0b69aaa20f12264c0e1ec/transformed/jetified-play-services-auth-20.2.0/AndroidManifest.xml:22:5-38:19
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0] /Users/christianquaranta/.gradle/caches/transforms-3/4e1be74fb5d77aada3df0dfb6661fecb/transformed/lifecycle-extensions-2.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0] /Users/christianquaranta/.gradle/caches/transforms-3/4e1be74fb5d77aada3df0dfb6661fecb/transformed/lifecycle-extensions-2.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.github.bumptech.glide:glide:4.13.0] /Users/christianquaranta/.gradle/caches/transforms-3/972971b9c16a43d7e62a01b6ae62131a/transformed/jetified-glide-4.13.0/AndroidManifest.xml:10:5-20
+MERGED from [com.github.bumptech.glide:glide:4.13.0] /Users/christianquaranta/.gradle/caches/transforms-3/972971b9c16a43d7e62a01b6ae62131a/transformed/jetified-glide-4.13.0/AndroidManifest.xml:10:5-20
+MERGED from [com.google.firebase:firebase-database-ktx:20.0.5] /Users/christianquaranta/.gradle/caches/transforms-3/68dc8cfb6c8889583a4a18b611003903/transformed/jetified-firebase-database-ktx-20.0.5/AndroidManifest.xml:11:5-19:19
+MERGED from [com.google.firebase:firebase-database-ktx:20.0.5] /Users/christianquaranta/.gradle/caches/transforms-3/68dc8cfb6c8889583a4a18b611003903/transformed/jetified-firebase-database-ktx-20.0.5/AndroidManifest.xml:11:5-19:19
+MERGED from [com.google.firebase:firebase-database:20.0.5] /Users/christianquaranta/.gradle/caches/transforms-3/7be0e02632bef93e6422c5286ebec5ad/transformed/jetified-firebase-database-20.0.5/AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.firebase:firebase-database:20.0.5] /Users/christianquaranta/.gradle/caches/transforms-3/7be0e02632bef93e6422c5286ebec5ad/transformed/jetified-firebase-database-20.0.5/AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.0.0] /Users/christianquaranta/.gradle/caches/transforms-3/d7d53c3fbbe140c265e7ea97729ae3ac/transformed/jetified-firebase-appcheck-interop-16.0.0/AndroidManifest.xml:24:5-20
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.0.0] /Users/christianquaranta/.gradle/caches/transforms-3/d7d53c3fbbe140c265e7ea97729ae3ac/transformed/jetified-firebase-appcheck-interop-16.0.0/AndroidManifest.xml:24:5-20
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/christianquaranta/.gradle/caches/transforms-3/4ceeb7d38150b44e34e3bf0e2e989663/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/christianquaranta/.gradle/caches/transforms-3/4ceeb7d38150b44e34e3bf0e2e989663/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.firebase:firebase-common-ktx:20.1.1] /Users/christianquaranta/.gradle/caches/transforms-3/9c21c976cf5e64205dc3e64c20426e3b/transformed/jetified-firebase-common-ktx-20.1.1/AndroidManifest.xml:11:5-19:19
+MERGED from [com.google.firebase:firebase-common-ktx:20.1.1] /Users/christianquaranta/.gradle/caches/transforms-3/9c21c976cf5e64205dc3e64c20426e3b/transformed/jetified-firebase-common-ktx-20.1.1/AndroidManifest.xml:11:5-19:19
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.2] /Users/christianquaranta/.gradle/caches/transforms-3/54e69af17171997b74305ce11af3eeea/transformed/jetified-firebase-auth-interop-19.0.2/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.2] /Users/christianquaranta/.gradle/caches/transforms-3/54e69af17171997b74305ce11af3eeea/transformed/jetified-firebase-auth-interop-19.0.2/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-common:20.1.1] /Users/christianquaranta/.gradle/caches/transforms-3/32c8021f4d7d2bed305e7e3fbde12b2d/transformed/jetified-firebase-common-20.1.1/AndroidManifest.xml:25:5-38:19
+MERGED from [com.google.firebase:firebase-common:20.1.1] /Users/christianquaranta/.gradle/caches/transforms-3/32c8021f4d7d2bed305e7e3fbde12b2d/transformed/jetified-firebase-common-20.1.1/AndroidManifest.xml:25:5-38:19
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /Users/christianquaranta/.gradle/caches/transforms-3/e8de7f07b4bfc2a42f121ea2db7b9041/transformed/jetified-play-services-tasks-18.0.1/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /Users/christianquaranta/.gradle/caches/transforms-3/e8de7f07b4bfc2a42f121ea2db7b9041/transformed/jetified-play-services-tasks-18.0.1/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] /Users/christianquaranta/.gradle/caches/transforms-3/640822766b7328921df2c8b31d81535d/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] /Users/christianquaranta/.gradle/caches/transforms-3/640822766b7328921df2c8b31d81535d/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:20:5-24:19
+MERGED from [androidmads.library.qrgenearator:QRGenearator:1.0.4] /Users/christianquaranta/.gradle/caches/transforms-3/6d4c1a7db0751ed9c8450bf4319e1ec9/transformed/jetified-QRGenearator-1.0.4/AndroidManifest.xml:13:5-14:19
+MERGED from [androidmads.library.qrgenearator:QRGenearator:1.0.4] /Users/christianquaranta/.gradle/caches/transforms-3/6d4c1a7db0751ed9c8450bf4319e1ec9/transformed/jetified-QRGenearator-1.0.4/AndroidManifest.xml:13:5-14:19
+MERGED from [androidx.core:core:1.7.0] /Users/christianquaranta/.gradle/caches/transforms-3/282222a868a0dbc037eafaa8f451e13f/transformed/core-1.7.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.7.0] /Users/christianquaranta/.gradle/caches/transforms-3/282222a868a0dbc037eafaa8f451e13f/transformed/core-1.7.0/AndroidManifest.xml:24:5-89
+MERGED from [com.github.bumptech.glide:gifdecoder:4.13.0] /Users/christianquaranta/.gradle/caches/transforms-3/8278dc76e1a377ec6216b7dbfdf9e1be/transformed/jetified-gifdecoder-4.13.0/AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.13.0] /Users/christianquaranta/.gradle/caches/transforms-3/8278dc76e1a377ec6216b7dbfdf9e1be/transformed/jetified-gifdecoder-4.13.0/AndroidManifest.xml:9:5-20
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/christianquaranta/.gradle/caches/transforms-3/e44a0d1b48cc86f0923770b89c454ad5/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/christianquaranta/.gradle/caches/transforms-3/e44a0d1b48cc86f0923770b89c454ad5/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.0.0] /Users/christianquaranta/.gradle/caches/transforms-3/90c7c63fefce20d38463be9805887989/transformed/jetified-lifecycle-process-2.0.0/AndroidManifest.xml:22:5-28:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.0.0] /Users/christianquaranta/.gradle/caches/transforms-3/90c7c63fefce20d38463be9805887989/transformed/jetified-lifecycle-process-2.0.0/AndroidManifest.xml:22:5-28:19
 	android:appComponentFactory
-		ADDED from [androidx.core:core:1.7.0] /Users/christianquaranta/.gradle/caches/transforms-3/4c95eabad880a452207e8362f12b680b/transformed/core-1.7.0/AndroidManifest.xml:24:18-86
+		ADDED from [androidx.core:core:1.7.0] /Users/christianquaranta/.gradle/caches/transforms-3/282222a868a0dbc037eafaa8f451e13f/transformed/core-1.7.0/AndroidManifest.xml:24:18-86
 	android:supportsRtl
 		ADDED from /Users/christianquaranta/AndroidStudioProjects/hercules/HerculesWallet/app/src/main/AndroidManifest.xml:12:9-35
 	android:label
@@ -202,180 +202,180 @@ uses-sdk
 INJECTED from /Users/christianquaranta/AndroidStudioProjects/hercules/HerculesWallet/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/christianquaranta/AndroidStudioProjects/hercules/HerculesWallet/app/src/main/AndroidManifest.xml
 INJECTED from /Users/christianquaranta/AndroidStudioProjects/hercules/HerculesWallet/app/src/main/AndroidManifest.xml
-MERGED from [androidx.databinding:viewbinding:7.2.0] /Users/christianquaranta/.gradle/caches/transforms-3/000227675a3dd79b1a6df13e43c5b9d2/transformed/jetified-viewbinding-7.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.databinding:viewbinding:7.2.0] /Users/christianquaranta/.gradle/caches/transforms-3/000227675a3dd79b1a6df13e43c5b9d2/transformed/jetified-viewbinding-7.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [com.squareup.picasso:picasso:2.8] /Users/christianquaranta/.gradle/caches/transforms-3/c15553b531ce6deb3dd4fdd5bd379b31/transformed/jetified-picasso-2.8/AndroidManifest.xml:5:5-44
-MERGED from [com.squareup.picasso:picasso:2.8] /Users/christianquaranta/.gradle/caches/transforms-3/c15553b531ce6deb3dd4fdd5bd379b31/transformed/jetified-picasso-2.8/AndroidManifest.xml:5:5-44
-MERGED from [io.coil-kt:coil:2.1.0] /Users/christianquaranta/.gradle/caches/transforms-3/81fb48daca3d853bc851e140ca432cc8/transformed/jetified-coil-2.1.0/AndroidManifest.xml:5:5-7:41
-MERGED from [io.coil-kt:coil:2.1.0] /Users/christianquaranta/.gradle/caches/transforms-3/81fb48daca3d853bc851e140ca432cc8/transformed/jetified-coil-2.1.0/AndroidManifest.xml:5:5-7:41
-MERGED from [io.coil-kt:coil-base:2.1.0] /Users/christianquaranta/.gradle/caches/transforms-3/fe98c2ca0304f5723fd304263a07f781/transformed/jetified-coil-base-2.1.0/AndroidManifest.xml:5:5-7:41
-MERGED from [io.coil-kt:coil-base:2.1.0] /Users/christianquaranta/.gradle/caches/transforms-3/fe98c2ca0304f5723fd304263a07f781/transformed/jetified-coil-base-2.1.0/AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.navigation:navigation-fragment-ktx:2.4.2] /Users/christianquaranta/.gradle/caches/transforms-3/ef8e0ac402d6e9dc9379408b2c3395ae/transformed/navigation-fragment-ktx-2.4.2/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.navigation:navigation-fragment-ktx:2.4.2] /Users/christianquaranta/.gradle/caches/transforms-3/ef8e0ac402d6e9dc9379408b2c3395ae/transformed/navigation-fragment-ktx-2.4.2/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.navigation:navigation-fragment:2.4.2] /Users/christianquaranta/.gradle/caches/transforms-3/d53cbb3cf56294e445fdcebf5801be47/transformed/navigation-fragment-2.4.2/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.navigation:navigation-fragment:2.4.2] /Users/christianquaranta/.gradle/caches/transforms-3/d53cbb3cf56294e445fdcebf5801be47/transformed/navigation-fragment-2.4.2/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.fragment:fragment-ktx:1.4.1] /Users/christianquaranta/.gradle/caches/transforms-3/fbdbc462627094aaab889f31bbe9dd39/transformed/jetified-fragment-ktx-1.4.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.fragment:fragment-ktx:1.4.1] /Users/christianquaranta/.gradle/caches/transforms-3/fbdbc462627094aaab889f31bbe9dd39/transformed/jetified-fragment-ktx-1.4.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.navigation:navigation-ui-ktx:2.4.2] /Users/christianquaranta/.gradle/caches/transforms-3/d2437c83921e0618cac043dcac2714a4/transformed/navigation-ui-ktx-2.4.2/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.navigation:navigation-ui-ktx:2.4.2] /Users/christianquaranta/.gradle/caches/transforms-3/d2437c83921e0618cac043dcac2714a4/transformed/navigation-ui-ktx-2.4.2/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.navigation:navigation-runtime-ktx:2.4.2] /Users/christianquaranta/.gradle/caches/transforms-3/885e76a48eab894a105108b44278f567/transformed/navigation-runtime-ktx-2.4.2/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.navigation:navigation-runtime-ktx:2.4.2] /Users/christianquaranta/.gradle/caches/transforms-3/885e76a48eab894a105108b44278f567/transformed/navigation-runtime-ktx-2.4.2/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.navigation:navigation-ui:2.4.2] /Users/christianquaranta/.gradle/caches/transforms-3/f49dbba3fa7d9f95d5298a4340f2ffbe/transformed/navigation-ui-2.4.2/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.navigation:navigation-ui:2.4.2] /Users/christianquaranta/.gradle/caches/transforms-3/f49dbba3fa7d9f95d5298a4340f2ffbe/transformed/navigation-ui-2.4.2/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.navigation:navigation-runtime:2.4.2] /Users/christianquaranta/.gradle/caches/transforms-3/4d6ad6b0afae7b365d3e5b2270e4eea6/transformed/navigation-runtime-2.4.2/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.navigation:navigation-runtime:2.4.2] /Users/christianquaranta/.gradle/caches/transforms-3/4d6ad6b0afae7b365d3e5b2270e4eea6/transformed/navigation-runtime-2.4.2/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.activity:activity-ktx:1.2.3] /Users/christianquaranta/.gradle/caches/transforms-3/05f12f1b3b57bb25506f60324ffbbf97/transformed/jetified-activity-ktx-1.2.3/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.activity:activity-ktx:1.2.3] /Users/christianquaranta/.gradle/caches/transforms-3/05f12f1b3b57bb25506f60324ffbbf97/transformed/jetified-activity-ktx-1.2.3/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.navigation:navigation-common-ktx:2.4.2] /Users/christianquaranta/.gradle/caches/transforms-3/acc7d5f96f2631fcd6783e79f0720fb2/transformed/navigation-common-ktx-2.4.2/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.navigation:navigation-common-ktx:2.4.2] /Users/christianquaranta/.gradle/caches/transforms-3/acc7d5f96f2631fcd6783e79f0720fb2/transformed/navigation-common-ktx-2.4.2/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.navigation:navigation-common:2.4.2] /Users/christianquaranta/.gradle/caches/transforms-3/7f65ed8b551cbb55225e3b2566a4f646/transformed/navigation-common-2.4.2/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.navigation:navigation-common:2.4.2] /Users/christianquaranta/.gradle/caches/transforms-3/7f65ed8b551cbb55225e3b2566a4f646/transformed/navigation-common-2.4.2/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.1] /Users/christianquaranta/.gradle/caches/transforms-3/7293e1c83baac7dd9e6b2cabc09bcabe/transformed/jetified-lifecycle-viewmodel-ktx-2.3.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.1] /Users/christianquaranta/.gradle/caches/transforms-3/7293e1c83baac7dd9e6b2cabc09bcabe/transformed/jetified-lifecycle-viewmodel-ktx-2.3.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.3.1] /Users/christianquaranta/.gradle/caches/transforms-3/77d54703bb895724d0f7d1969eca02ef/transformed/jetified-lifecycle-runtime-ktx-2.3.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.3.1] /Users/christianquaranta/.gradle/caches/transforms-3/77d54703bb895724d0f7d1969eca02ef/transformed/jetified-lifecycle-runtime-ktx-2.3.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/christianquaranta/.gradle/caches/transforms-3/51ae915109f9b2f37b18f918b8b1b906/transformed/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/christianquaranta/.gradle/caches/transforms-3/51ae915109f9b2f37b18f918b8b1b906/transformed/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/christianquaranta/.gradle/caches/transforms-3/4ba3ce98dd6d517f564693296bb16018/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/christianquaranta/.gradle/caches/transforms-3/4ba3ce98dd6d517f564693296bb16018/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] /Users/christianquaranta/.gradle/caches/transforms-3/ecd5898615007f0066d5d2f5b7fcf9a0/transformed/slidingpanelayout-1.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] /Users/christianquaranta/.gradle/caches/transforms-3/ecd5898615007f0066d5d2f5b7fcf9a0/transformed/slidingpanelayout-1.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.window:window:1.0.0] /Users/christianquaranta/.gradle/caches/transforms-3/22d0011f5bd97f1200271cdfe1a2b0d5/transformed/jetified-window-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.window:window:1.0.0] /Users/christianquaranta/.gradle/caches/transforms-3/22d0011f5bd97f1200271cdfe1a2b0d5/transformed/jetified-window-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.3.1] /Users/christianquaranta/.gradle/caches/transforms-3/1784928ceb10b124fca4a3cb6d73821b/transformed/jetified-lifecycle-livedata-ktx-2.3.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.3.1] /Users/christianquaranta/.gradle/caches/transforms-3/1784928ceb10b124fca4a3cb6d73821b/transformed/jetified-lifecycle-livedata-ktx-2.3.1/AndroidManifest.xml:20:5-22:41
-MERGED from [com.google.android.material:material:1.5.0] /Users/christianquaranta/.gradle/caches/transforms-3/f96c1a2c9b7fcdc63391e27dba2c9c00/transformed/material-1.5.0/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.material:material:1.5.0] /Users/christianquaranta/.gradle/caches/transforms-3/f96c1a2c9b7fcdc63391e27dba2c9c00/transformed/material-1.5.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/christianquaranta/.gradle/caches/transforms-3/0cd4a36b670c5899a9e50a552d990d6c/transformed/constraintlayout-2.0.4/AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/christianquaranta/.gradle/caches/transforms-3/0cd4a36b670c5899a9e50a552d990d6c/transformed/constraintlayout-2.0.4/AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.appcompat:appcompat:1.3.0] /Users/christianquaranta/.gradle/caches/transforms-3/68e093ef1ac7c411f6ec668ef9353e14/transformed/appcompat-1.3.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.appcompat:appcompat:1.3.0] /Users/christianquaranta/.gradle/caches/transforms-3/68e093ef1ac7c411f6ec668ef9353e14/transformed/appcompat-1.3.0/AndroidManifest.xml:20:5-22:41
-MERGED from [com.google.firebase:firebase-auth:19.2.0] /Users/christianquaranta/.gradle/caches/transforms-3/60ff26c0e3f98090617cd8378700c27f/transformed/jetified-firebase-auth-19.2.0/AndroidManifest.xml:21:5-44
-MERGED from [com.google.firebase:firebase-auth:19.2.0] /Users/christianquaranta/.gradle/caches/transforms-3/60ff26c0e3f98090617cd8378700c27f/transformed/jetified-firebase-auth-19.2.0/AndroidManifest.xml:21:5-44
-MERGED from [com.google.android.gms:play-services-auth:20.2.0] /Users/christianquaranta/.gradle/caches/transforms-3/c2d3fe26e4e4c803d00d9185ac5e270d/transformed/jetified-play-services-auth-20.2.0/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-auth:20.2.0] /Users/christianquaranta/.gradle/caches/transforms-3/c2d3fe26e4e4c803d00d9185ac5e270d/transformed/jetified-play-services-auth-20.2.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0] /Users/christianquaranta/.gradle/caches/transforms-3/4b8c1fa465a241ef13ac115dc6f7e99a/transformed/lifecycle-extensions-2.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0] /Users/christianquaranta/.gradle/caches/transforms-3/4b8c1fa465a241ef13ac115dc6f7e99a/transformed/lifecycle-extensions-2.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.github.bumptech.glide:glide:4.13.0] /Users/christianquaranta/.gradle/caches/transforms-3/e4dbcaf8e457f020b8a18abc5b11d6f0/transformed/jetified-glide-4.13.0/AndroidManifest.xml:6:5-8:41
-MERGED from [com.github.bumptech.glide:glide:4.13.0] /Users/christianquaranta/.gradle/caches/transforms-3/e4dbcaf8e457f020b8a18abc5b11d6f0/transformed/jetified-glide-4.13.0/AndroidManifest.xml:6:5-8:41
-MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/christianquaranta/.gradle/caches/transforms-3/9e6e104c3239bdc747b1f39e09420089/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/christianquaranta/.gradle/caches/transforms-3/9e6e104c3239bdc747b1f39e09420089/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [com.google.firebase:firebase-database-ktx:20.0.5] /Users/christianquaranta/.gradle/caches/transforms-3/f881a7d3b0dcfdefc13138a133cc1404/transformed/jetified-firebase-database-ktx-20.0.5/AndroidManifest.xml:6:5-8:41
-MERGED from [com.google.firebase:firebase-database-ktx:20.0.5] /Users/christianquaranta/.gradle/caches/transforms-3/f881a7d3b0dcfdefc13138a133cc1404/transformed/jetified-firebase-database-ktx-20.0.5/AndroidManifest.xml:6:5-8:41
-MERGED from [com.google.firebase:firebase-database:20.0.5] /Users/christianquaranta/.gradle/caches/transforms-3/29f0d62ece32f67f27923983ae856237/transformed/jetified-firebase-database-20.0.5/AndroidManifest.xml:19:5-21:41
-MERGED from [com.google.firebase:firebase-database:20.0.5] /Users/christianquaranta/.gradle/caches/transforms-3/29f0d62ece32f67f27923983ae856237/transformed/jetified-firebase-database-20.0.5/AndroidManifest.xml:19:5-21:41
-MERGED from [com.google.android.gms:play-services-auth-api-phone:18.0.1] /Users/christianquaranta/.gradle/caches/transforms-3/d94e80b0c983f5ff273f1c533592ef29/transformed/jetified-play-services-auth-api-phone-18.0.1/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-auth-api-phone:18.0.1] /Users/christianquaranta/.gradle/caches/transforms-3/d94e80b0c983f5ff273f1c533592ef29/transformed/jetified-play-services-auth-api-phone-18.0.1/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-auth-base:18.0.1] /Users/christianquaranta/.gradle/caches/transforms-3/a4c9e7cd1ea1360a9de3b84b4a884e41/transformed/jetified-play-services-auth-base-18.0.1/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-auth-base:18.0.1] /Users/christianquaranta/.gradle/caches/transforms-3/a4c9e7cd1ea1360a9de3b84b4a884e41/transformed/jetified-play-services-auth-base-18.0.1/AndroidManifest.xml:5:5-44
-MERGED from [com.google.firebase:firebase-appcheck-interop:16.0.0] /Users/christianquaranta/.gradle/caches/transforms-3/66a2f48a6c58544931864c80cdc321ff/transformed/jetified-firebase-appcheck-interop-16.0.0/AndroidManifest.xml:19:5-21:41
-MERGED from [com.google.firebase:firebase-appcheck-interop:16.0.0] /Users/christianquaranta/.gradle/caches/transforms-3/66a2f48a6c58544931864c80cdc321ff/transformed/jetified-firebase-appcheck-interop-16.0.0/AndroidManifest.xml:19:5-21:41
-MERGED from [com.google.firebase:firebase-database-collection:18.0.1] /Users/christianquaranta/.gradle/caches/transforms-3/0f5d41b3abb76edd069b7e7da92ba59a/transformed/jetified-firebase-database-collection-18.0.1/AndroidManifest.xml:5:5-7:41
-MERGED from [com.google.firebase:firebase-database-collection:18.0.1] /Users/christianquaranta/.gradle/caches/transforms-3/0f5d41b3abb76edd069b7e7da92ba59a/transformed/jetified-firebase-database-collection-18.0.1/AndroidManifest.xml:5:5-7:41
-MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/christianquaranta/.gradle/caches/transforms-3/cc4807367e3e5583c9e4bc562e1c105a/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:18:5-43
-MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/christianquaranta/.gradle/caches/transforms-3/cc4807367e3e5583c9e4bc562e1c105a/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:18:5-43
-MERGED from [com.google.firebase:firebase-common-ktx:20.1.1] /Users/christianquaranta/.gradle/caches/transforms-3/32d4c789362f07d9274d8e4201ce246f/transformed/jetified-firebase-common-ktx-20.1.1/AndroidManifest.xml:6:5-8:41
-MERGED from [com.google.firebase:firebase-common-ktx:20.1.1] /Users/christianquaranta/.gradle/caches/transforms-3/32d4c789362f07d9274d8e4201ce246f/transformed/jetified-firebase-common-ktx-20.1.1/AndroidManifest.xml:6:5-8:41
-MERGED from [com.google.firebase:firebase-auth-interop:19.0.2] /Users/christianquaranta/.gradle/caches/transforms-3/bb237e89423177f43d1ee44f5fc5b48f/transformed/jetified-firebase-auth-interop-19.0.2/AndroidManifest.xml:5:5-44
-MERGED from [com.google.firebase:firebase-auth-interop:19.0.2] /Users/christianquaranta/.gradle/caches/transforms-3/bb237e89423177f43d1ee44f5fc5b48f/transformed/jetified-firebase-auth-interop-19.0.2/AndroidManifest.xml:5:5-44
-MERGED from [com.google.firebase:firebase-common:20.1.1] /Users/christianquaranta/.gradle/caches/transforms-3/bcfb0b0958249827e5e7674f5da29637/transformed/jetified-firebase-common-20.1.1/AndroidManifest.xml:20:5-22:41
-MERGED from [com.google.firebase:firebase-common:20.1.1] /Users/christianquaranta/.gradle/caches/transforms-3/bcfb0b0958249827e5e7674f5da29637/transformed/jetified-firebase-common-20.1.1/AndroidManifest.xml:20:5-22:41
-MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /Users/christianquaranta/.gradle/caches/transforms-3/32813d37bdbbe722e2dd9da7dc3870cb/transformed/jetified-play-services-tasks-18.0.1/AndroidManifest.xml:4:5-43
-MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /Users/christianquaranta/.gradle/caches/transforms-3/32813d37bdbbe722e2dd9da7dc3870cb/transformed/jetified-play-services-tasks-18.0.1/AndroidManifest.xml:4:5-43
-MERGED from [com.google.android.gms:play-services-basement:18.0.0] /Users/christianquaranta/.gradle/caches/transforms-3/80cbef2545f2547655484d89baab15ea/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:18:5-43
-MERGED from [com.google.android.gms:play-services-basement:18.0.0] /Users/christianquaranta/.gradle/caches/transforms-3/80cbef2545f2547655484d89baab15ea/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:18:5-43
-MERGED from [androidx.fragment:fragment:1.4.1] /Users/christianquaranta/.gradle/caches/transforms-3/0583577ef23531cd977b17079eaf6c88/transformed/fragment-1.4.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.fragment:fragment:1.4.1] /Users/christianquaranta/.gradle/caches/transforms-3/0583577ef23531cd977b17079eaf6c88/transformed/fragment-1.4.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.core:core-ktx:1.7.0] /Users/christianquaranta/.gradle/caches/transforms-3/6e983b740059ac7c24d22b6cdeb52954/transformed/jetified-core-ktx-1.7.0/AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.core:core-ktx:1.7.0] /Users/christianquaranta/.gradle/caches/transforms-3/6e983b740059ac7c24d22b6cdeb52954/transformed/jetified-core-ktx-1.7.0/AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.recyclerview:recyclerview-selection:1.1.0] /Users/christianquaranta/.gradle/caches/transforms-3/9356168daaa6a840fb78b9b2a40c2770/transformed/recyclerview-selection-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.recyclerview:recyclerview-selection:1.1.0] /Users/christianquaranta/.gradle/caches/transforms-3/9356168daaa6a840fb78b9b2a40c2770/transformed/recyclerview-selection-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.recyclerview:recyclerview:1.2.1] /Users/christianquaranta/.gradle/caches/transforms-3/f2d2829a197ea5a72ffc9c1fc9f77def/transformed/recyclerview-1.2.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.recyclerview:recyclerview:1.2.1] /Users/christianquaranta/.gradle/caches/transforms-3/f2d2829a197ea5a72ffc9c1fc9f77def/transformed/recyclerview-1.2.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.cardview:cardview:1.0.0] /Users/christianquaranta/.gradle/caches/transforms-3/11cd08cae8090dc2e2593123dac97e46/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.cardview:cardview:1.0.0] /Users/christianquaranta/.gradle/caches/transforms-3/11cd08cae8090dc2e2593123dac97e46/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.intuit.sdp:sdp-android:1.0.6] /Users/christianquaranta/.gradle/caches/transforms-3/0909979b0c761b7d2276b5f24c1a12ec/transformed/jetified-sdp-android-1.0.6/AndroidManifest.xml:7:5-9:41
-MERGED from [com.intuit.sdp:sdp-android:1.0.6] /Users/christianquaranta/.gradle/caches/transforms-3/0909979b0c761b7d2276b5f24c1a12ec/transformed/jetified-sdp-android-1.0.6/AndroidManifest.xml:7:5-9:41
-MERGED from [com.intuit.ssp:ssp-android:1.0.6] /Users/christianquaranta/.gradle/caches/transforms-3/e6546f30a629171a3f8e991d79a35046/transformed/jetified-ssp-android-1.0.6/AndroidManifest.xml:7:5-9:41
-MERGED from [com.intuit.ssp:ssp-android:1.0.6] /Users/christianquaranta/.gradle/caches/transforms-3/e6546f30a629171a3f8e991d79a35046/transformed/jetified-ssp-android-1.0.6/AndroidManifest.xml:7:5-9:41
-MERGED from [androidmads.library.qrgenearator:QRGenearator:1.0.4] /Users/christianquaranta/.gradle/caches/transforms-3/2fdc33118f8f9afd6d1d962a82a38383/transformed/jetified-QRGenearator-1.0.4/AndroidManifest.xml:7:5-9:41
-MERGED from [androidmads.library.qrgenearator:QRGenearator:1.0.4] /Users/christianquaranta/.gradle/caches/transforms-3/2fdc33118f8f9afd6d1d962a82a38383/transformed/jetified-QRGenearator-1.0.4/AndroidManifest.xml:7:5-9:41
-MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/christianquaranta/.gradle/caches/transforms-3/04db075bb43f6544fb4046e09d0f4227/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/christianquaranta/.gradle/caches/transforms-3/04db075bb43f6544fb4046e09d0f4227/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/christianquaranta/.gradle/caches/transforms-3/67756a08d6b63ace5ba853b526cdb4b6/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/christianquaranta/.gradle/caches/transforms-3/67756a08d6b63ace5ba853b526cdb4b6/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/christianquaranta/.gradle/caches/transforms-3/09a979a31b1d299cb9f1c2ca3d9e48e0/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/christianquaranta/.gradle/caches/transforms-3/09a979a31b1d299cb9f1c2ca3d9e48e0/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.appcompat:appcompat-resources:1.4.1] /Users/christianquaranta/.gradle/caches/transforms-3/45755cd03e1959ac790b8c472cc0c076/transformed/jetified-appcompat-resources-1.4.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.appcompat:appcompat-resources:1.4.1] /Users/christianquaranta/.gradle/caches/transforms-3/45755cd03e1959ac790b8c472cc0c076/transformed/jetified-appcompat-resources-1.4.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/christianquaranta/.gradle/caches/transforms-3/04f0f53566f53102f04916f43ae3e438/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/christianquaranta/.gradle/caches/transforms-3/04f0f53566f53102f04916f43ae3e438/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/christianquaranta/.gradle/caches/transforms-3/f4a5879deecdea9517c77c54c95eea51/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/christianquaranta/.gradle/caches/transforms-3/f4a5879deecdea9517c77c54c95eea51/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.media:media:1.0.0] /Users/christianquaranta/.gradle/caches/transforms-3/0867d621ceb0f152e743bab6141fb40c/transformed/media-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.media:media:1.0.0] /Users/christianquaranta/.gradle/caches/transforms-3/0867d621ceb0f152e743bab6141fb40c/transformed/media-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/christianquaranta/.gradle/caches/transforms-3/9edd00414499fa796c5deb9b400ba06b/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/christianquaranta/.gradle/caches/transforms-3/9edd00414499fa796c5deb9b400ba06b/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] /Users/christianquaranta/.gradle/caches/transforms-3/48f2c2438008be553fea33330a97007d/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] /Users/christianquaranta/.gradle/caches/transforms-3/48f2c2438008be553fea33330a97007d/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/christianquaranta/.gradle/caches/transforms-3/b103241c688ed686a23a6cb9571985ed/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/christianquaranta/.gradle/caches/transforms-3/b103241c688ed686a23a6cb9571985ed/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.customview:customview:1.1.0] /Users/christianquaranta/.gradle/caches/transforms-3/49ce997885271347710b57369f2d6792/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.customview:customview:1.1.0] /Users/christianquaranta/.gradle/caches/transforms-3/49ce997885271347710b57369f2d6792/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/christianquaranta/.gradle/caches/transforms-3/e56afb90bf32a9c6f38fdbdfc29b9392/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/christianquaranta/.gradle/caches/transforms-3/e56afb90bf32a9c6f38fdbdfc29b9392/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/christianquaranta/.gradle/caches/transforms-3/8dfcb9d71d8f9daedb138ed79e91285f/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/christianquaranta/.gradle/caches/transforms-3/8dfcb9d71d8f9daedb138ed79e91285f/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.transition:transition:1.4.1] /Users/christianquaranta/.gradle/caches/transforms-3/3e6ac9f3ca0e888b19aae83dbcda24bf/transformed/transition-1.4.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.transition:transition:1.4.1] /Users/christianquaranta/.gradle/caches/transforms-3/3e6ac9f3ca0e888b19aae83dbcda24bf/transformed/transition-1.4.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.activity:activity:1.2.4] /Users/christianquaranta/.gradle/caches/transforms-3/fc0c14f1837aad48183b4eabe38ecd2f/transformed/jetified-activity-1.2.4/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.activity:activity:1.2.4] /Users/christianquaranta/.gradle/caches/transforms-3/fc0c14f1837aad48183b4eabe38ecd2f/transformed/jetified-activity-1.2.4/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.core:core:1.7.0] /Users/christianquaranta/.gradle/caches/transforms-3/4c95eabad880a452207e8362f12b680b/transformed/core-1.7.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.core:core:1.7.0] /Users/christianquaranta/.gradle/caches/transforms-3/4c95eabad880a452207e8362f12b680b/transformed/core-1.7.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/christianquaranta/.gradle/caches/transforms-3/4f003deac4d9ed86758a61f82745e916/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/christianquaranta/.gradle/caches/transforms-3/4f003deac4d9ed86758a61f82745e916/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.savedstate:savedstate-ktx:1.1.0] /Users/christianquaranta/.gradle/caches/transforms-3/0f6a653b7632aa2fbba49de63fbefdb1/transformed/jetified-savedstate-ktx-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.savedstate:savedstate-ktx:1.1.0] /Users/christianquaranta/.gradle/caches/transforms-3/0f6a653b7632aa2fbba49de63fbefdb1/transformed/jetified-savedstate-ktx-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /Users/christianquaranta/.gradle/caches/transforms-3/49ae7caf90c41f540a964ba2c811010a/transformed/jetified-lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /Users/christianquaranta/.gradle/caches/transforms-3/49ae7caf90c41f540a964ba2c811010a/transformed/jetified-lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.savedstate:savedstate:1.1.0] /Users/christianquaranta/.gradle/caches/transforms-3/33db6571cc1bdfb03646a0f4a6c324a5/transformed/jetified-savedstate-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.savedstate:savedstate:1.1.0] /Users/christianquaranta/.gradle/caches/transforms-3/33db6571cc1bdfb03646a0f4a6c324a5/transformed/jetified-savedstate-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /Users/christianquaranta/.gradle/caches/transforms-3/c9a1c1a9cedc2190b19dadffb9e365ba/transformed/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /Users/christianquaranta/.gradle/caches/transforms-3/c9a1c1a9cedc2190b19dadffb9e365ba/transformed/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/christianquaranta/.gradle/caches/transforms-3/b52075f0dd876a970c16f3b941cc395f/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/christianquaranta/.gradle/caches/transforms-3/b52075f0dd876a970c16f3b941cc395f/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-components:17.0.0] /Users/christianquaranta/.gradle/caches/transforms-3/3bd7bc997a52d469e2583d57f576900e/transformed/jetified-firebase-components-17.0.0/AndroidManifest.xml:19:5-21:41
-MERGED from [com.google.firebase:firebase-components:17.0.0] /Users/christianquaranta/.gradle/caches/transforms-3/3bd7bc997a52d469e2583d57f576900e/transformed/jetified-firebase-components-17.0.0/AndroidManifest.xml:19:5-21:41
-MERGED from [com.github.bumptech.glide:gifdecoder:4.13.0] /Users/christianquaranta/.gradle/caches/transforms-3/5bdff2e2a3f296cee7e6ebbb2f511a2e/transformed/jetified-gifdecoder-4.13.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.github.bumptech.glide:gifdecoder:4.13.0] /Users/christianquaranta/.gradle/caches/transforms-3/5bdff2e2a3f296cee7e6ebbb2f511a2e/transformed/jetified-gifdecoder-4.13.0/AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.tracing:tracing:1.0.0] /Users/christianquaranta/.gradle/caches/transforms-3/4b5aab26e38ab5a28e6b55fcc7697634/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.tracing:tracing:1.0.0] /Users/christianquaranta/.gradle/caches/transforms-3/4b5aab26e38ab5a28e6b55fcc7697634/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/christianquaranta/.gradle/caches/transforms-3/cc43a4fb1b494dddf3023f70a60e9bef/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/christianquaranta/.gradle/caches/transforms-3/cc43a4fb1b494dddf3023f70a60e9bef/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.3.1] /Users/christianquaranta/.gradle/caches/transforms-3/430aebef583c535e75043e415d5ac7e3/transformed/lifecycle-livedata-2.3.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.3.1] /Users/christianquaranta/.gradle/caches/transforms-3/430aebef583c535e75043e415d5ac7e3/transformed/lifecycle-livedata-2.3.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.3.1] /Users/christianquaranta/.gradle/caches/transforms-3/09e70713c4fe027649c2fbafa4800dbe/transformed/jetified-lifecycle-livedata-core-ktx-2.3.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.3.1] /Users/christianquaranta/.gradle/caches/transforms-3/09e70713c4fe027649c2fbafa4800dbe/transformed/jetified-lifecycle-livedata-core-ktx-2.3.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /Users/christianquaranta/.gradle/caches/transforms-3/e5108cc9aa0759de3290d2b778e3d3b7/transformed/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /Users/christianquaranta/.gradle/caches/transforms-3/e5108cc9aa0759de3290d2b778e3d3b7/transformed/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-process:2.0.0] /Users/christianquaranta/.gradle/caches/transforms-3/fc4365e62ac653a5ab3176e660544756/transformed/jetified-lifecycle-process-2.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-process:2.0.0] /Users/christianquaranta/.gradle/caches/transforms-3/fc4365e62ac653a5ab3176e660544756/transformed/jetified-lifecycle-process-2.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-service:2.0.0] /Users/christianquaranta/.gradle/caches/transforms-3/c8ad69097aab090f4586cc93ba3b7522/transformed/jetified-lifecycle-service-2.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-service:2.0.0] /Users/christianquaranta/.gradle/caches/transforms-3/c8ad69097aab090f4586cc93ba3b7522/transformed/jetified-lifecycle-service-2.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.1] /Users/christianquaranta/.gradle/caches/transforms-3/f144410e7ba75fc6061079b337cc257d/transformed/lifecycle-runtime-2.4.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.1] /Users/christianquaranta/.gradle/caches/transforms-3/f144410e7ba75fc6061079b337cc257d/transformed/lifecycle-runtime-2.4.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/christianquaranta/.gradle/caches/transforms-3/3d9fba295fc171110e629a7b6d2e4d77/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/christianquaranta/.gradle/caches/transforms-3/3d9fba295fc171110e629a7b6d2e4d77/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/christianquaranta/.gradle/caches/transforms-3/34cf9e8e7db04a9e4e92ffc061555a16/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/christianquaranta/.gradle/caches/transforms-3/34cf9e8e7db04a9e4e92ffc061555a16/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.print:print:1.0.0] /Users/christianquaranta/.gradle/caches/transforms-3/a45567c7bab4a3bc6dc00e9b14a4fdb8/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.print:print:1.0.0] /Users/christianquaranta/.gradle/caches/transforms-3/a45567c7bab4a3bc6dc00e9b14a4fdb8/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/christianquaranta/.gradle/caches/transforms-3/9d8856a0cff0af54324815f7e224016f/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/christianquaranta/.gradle/caches/transforms-3/9d8856a0cff0af54324815f7e224016f/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.exifinterface:exifinterface:1.3.3] /Users/christianquaranta/.gradle/caches/transforms-3/5657fc52b67a23defad112bc808aff98/transformed/exifinterface-1.3.3/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.exifinterface:exifinterface:1.3.3] /Users/christianquaranta/.gradle/caches/transforms-3/5657fc52b67a23defad112bc808aff98/transformed/exifinterface-1.3.3/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/christianquaranta/.gradle/caches/transforms-3/7cc04ebb8a5efde928da155b8ff8d491/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/christianquaranta/.gradle/caches/transforms-3/7cc04ebb8a5efde928da155b8ff8d491/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.databinding:viewbinding:7.2.1] /Users/christianquaranta/.gradle/caches/transforms-3/fccec09eb88399f8afd97c4c8c41ca2d/transformed/jetified-viewbinding-7.2.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.databinding:viewbinding:7.2.1] /Users/christianquaranta/.gradle/caches/transforms-3/fccec09eb88399f8afd97c4c8c41ca2d/transformed/jetified-viewbinding-7.2.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.squareup.picasso:picasso:2.8] /Users/christianquaranta/.gradle/caches/transforms-3/eacf4403b8691f90c669e31d55b4ae9c/transformed/jetified-picasso-2.8/AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.picasso:picasso:2.8] /Users/christianquaranta/.gradle/caches/transforms-3/eacf4403b8691f90c669e31d55b4ae9c/transformed/jetified-picasso-2.8/AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt:coil:2.1.0] /Users/christianquaranta/.gradle/caches/transforms-3/84293071a1dfe0a81b08499cef97a92b/transformed/jetified-coil-2.1.0/AndroidManifest.xml:5:5-7:41
+MERGED from [io.coil-kt:coil:2.1.0] /Users/christianquaranta/.gradle/caches/transforms-3/84293071a1dfe0a81b08499cef97a92b/transformed/jetified-coil-2.1.0/AndroidManifest.xml:5:5-7:41
+MERGED from [io.coil-kt:coil-base:2.1.0] /Users/christianquaranta/.gradle/caches/transforms-3/569436c487b9711a489623194a1b2667/transformed/jetified-coil-base-2.1.0/AndroidManifest.xml:5:5-7:41
+MERGED from [io.coil-kt:coil-base:2.1.0] /Users/christianquaranta/.gradle/caches/transforms-3/569436c487b9711a489623194a1b2667/transformed/jetified-coil-base-2.1.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.4.2] /Users/christianquaranta/.gradle/caches/transforms-3/cf66c967b919565bd0c49f71032f0ed8/transformed/navigation-fragment-ktx-2.4.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.4.2] /Users/christianquaranta/.gradle/caches/transforms-3/cf66c967b919565bd0c49f71032f0ed8/transformed/navigation-fragment-ktx-2.4.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment:2.4.2] /Users/christianquaranta/.gradle/caches/transforms-3/2392f56139c4cb8cc6f93fc4ee7ba524/transformed/navigation-fragment-2.4.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment:2.4.2] /Users/christianquaranta/.gradle/caches/transforms-3/2392f56139c4cb8cc6f93fc4ee7ba524/transformed/navigation-fragment-2.4.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment-ktx:1.4.1] /Users/christianquaranta/.gradle/caches/transforms-3/ec864d5e5d81043bf4e81e3811fa3a86/transformed/jetified-fragment-ktx-1.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment-ktx:1.4.1] /Users/christianquaranta/.gradle/caches/transforms-3/ec864d5e5d81043bf4e81e3811fa3a86/transformed/jetified-fragment-ktx-1.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui-ktx:2.4.2] /Users/christianquaranta/.gradle/caches/transforms-3/92f0315a50fe474a4648f198cd28865a/transformed/navigation-ui-ktx-2.4.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui-ktx:2.4.2] /Users/christianquaranta/.gradle/caches/transforms-3/92f0315a50fe474a4648f198cd28865a/transformed/navigation-ui-ktx-2.4.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.4.2] /Users/christianquaranta/.gradle/caches/transforms-3/f1034608c09e115622e5b2236a95653e/transformed/navigation-runtime-ktx-2.4.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.4.2] /Users/christianquaranta/.gradle/caches/transforms-3/f1034608c09e115622e5b2236a95653e/transformed/navigation-runtime-ktx-2.4.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui:2.4.2] /Users/christianquaranta/.gradle/caches/transforms-3/0734fb7a1b37ec62669e1f1e5d9d54e7/transformed/navigation-ui-2.4.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui:2.4.2] /Users/christianquaranta/.gradle/caches/transforms-3/0734fb7a1b37ec62669e1f1e5d9d54e7/transformed/navigation-ui-2.4.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime:2.4.2] /Users/christianquaranta/.gradle/caches/transforms-3/99edf6fa83900656762bc4ca5b49be8b/transformed/navigation-runtime-2.4.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime:2.4.2] /Users/christianquaranta/.gradle/caches/transforms-3/99edf6fa83900656762bc4ca5b49be8b/transformed/navigation-runtime-2.4.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity-ktx:1.2.3] /Users/christianquaranta/.gradle/caches/transforms-3/9a8ed84dac88b71c849fc79e2ca33649/transformed/jetified-activity-ktx-1.2.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity-ktx:1.2.3] /Users/christianquaranta/.gradle/caches/transforms-3/9a8ed84dac88b71c849fc79e2ca33649/transformed/jetified-activity-ktx-1.2.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common-ktx:2.4.2] /Users/christianquaranta/.gradle/caches/transforms-3/1f7c31c9d62a948bad1e9e9cac02193b/transformed/navigation-common-ktx-2.4.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common-ktx:2.4.2] /Users/christianquaranta/.gradle/caches/transforms-3/1f7c31c9d62a948bad1e9e9cac02193b/transformed/navigation-common-ktx-2.4.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common:2.4.2] /Users/christianquaranta/.gradle/caches/transforms-3/c8e00b22c414dd58351e2e42da9c851e/transformed/navigation-common-2.4.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common:2.4.2] /Users/christianquaranta/.gradle/caches/transforms-3/c8e00b22c414dd58351e2e42da9c851e/transformed/navigation-common-2.4.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.1] /Users/christianquaranta/.gradle/caches/transforms-3/d1b344a19479e0f9aa6de579fecc570a/transformed/jetified-lifecycle-viewmodel-ktx-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.1] /Users/christianquaranta/.gradle/caches/transforms-3/d1b344a19479e0f9aa6de579fecc570a/transformed/jetified-lifecycle-viewmodel-ktx-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.3.1] /Users/christianquaranta/.gradle/caches/transforms-3/8d5a50f9fb4ad84828d4328b3e2a35dc/transformed/jetified-lifecycle-runtime-ktx-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.3.1] /Users/christianquaranta/.gradle/caches/transforms-3/8d5a50f9fb4ad84828d4328b3e2a35dc/transformed/jetified-lifecycle-runtime-ktx-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/christianquaranta/.gradle/caches/transforms-3/457377929e8097312d77aeab1c7224b6/transformed/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/christianquaranta/.gradle/caches/transforms-3/457377929e8097312d77aeab1c7224b6/transformed/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/christianquaranta/.gradle/caches/transforms-3/58d2f3a796f34d9527446d92969000ad/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/christianquaranta/.gradle/caches/transforms-3/58d2f3a796f34d9527446d92969000ad/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] /Users/christianquaranta/.gradle/caches/transforms-3/fb004a10b0f7712e9ebfd61cd97ec3a5/transformed/slidingpanelayout-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] /Users/christianquaranta/.gradle/caches/transforms-3/fb004a10b0f7712e9ebfd61cd97ec3a5/transformed/slidingpanelayout-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.window:window:1.0.0] /Users/christianquaranta/.gradle/caches/transforms-3/c121cbe4bb46880f071ad66f69f15272/transformed/jetified-window-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.window:window:1.0.0] /Users/christianquaranta/.gradle/caches/transforms-3/c121cbe4bb46880f071ad66f69f15272/transformed/jetified-window-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.3.1] /Users/christianquaranta/.gradle/caches/transforms-3/643012184e2e56002f016a3c16a7171f/transformed/jetified-lifecycle-livedata-ktx-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.3.1] /Users/christianquaranta/.gradle/caches/transforms-3/643012184e2e56002f016a3c16a7171f/transformed/jetified-lifecycle-livedata-ktx-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.material:material:1.5.0] /Users/christianquaranta/.gradle/caches/transforms-3/30602a3931f49b14e5875e8607d3941b/transformed/material-1.5.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.5.0] /Users/christianquaranta/.gradle/caches/transforms-3/30602a3931f49b14e5875e8607d3941b/transformed/material-1.5.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/christianquaranta/.gradle/caches/transforms-3/42a411d87bbd59392e941a80d418177c/transformed/constraintlayout-2.0.4/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/christianquaranta/.gradle/caches/transforms-3/42a411d87bbd59392e941a80d418177c/transformed/constraintlayout-2.0.4/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat:1.3.0] /Users/christianquaranta/.gradle/caches/transforms-3/a26d6f839f17d1519b7c255fe122aa5b/transformed/appcompat-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.3.0] /Users/christianquaranta/.gradle/caches/transforms-3/a26d6f839f17d1519b7c255fe122aa5b/transformed/appcompat-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-auth:19.2.0] /Users/christianquaranta/.gradle/caches/transforms-3/1cd379d5b2e3904982061599a3cb558c/transformed/jetified-firebase-auth-19.2.0/AndroidManifest.xml:21:5-44
+MERGED from [com.google.firebase:firebase-auth:19.2.0] /Users/christianquaranta/.gradle/caches/transforms-3/1cd379d5b2e3904982061599a3cb558c/transformed/jetified-firebase-auth-19.2.0/AndroidManifest.xml:21:5-44
+MERGED from [com.google.android.gms:play-services-auth:20.2.0] /Users/christianquaranta/.gradle/caches/transforms-3/e5077a32dbd0b69aaa20f12264c0e1ec/transformed/jetified-play-services-auth-20.2.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth:20.2.0] /Users/christianquaranta/.gradle/caches/transforms-3/e5077a32dbd0b69aaa20f12264c0e1ec/transformed/jetified-play-services-auth-20.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0] /Users/christianquaranta/.gradle/caches/transforms-3/4e1be74fb5d77aada3df0dfb6661fecb/transformed/lifecycle-extensions-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0] /Users/christianquaranta/.gradle/caches/transforms-3/4e1be74fb5d77aada3df0dfb6661fecb/transformed/lifecycle-extensions-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:glide:4.13.0] /Users/christianquaranta/.gradle/caches/transforms-3/972971b9c16a43d7e62a01b6ae62131a/transformed/jetified-glide-4.13.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:glide:4.13.0] /Users/christianquaranta/.gradle/caches/transforms-3/972971b9c16a43d7e62a01b6ae62131a/transformed/jetified-glide-4.13.0/AndroidManifest.xml:6:5-8:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/christianquaranta/.gradle/caches/transforms-3/4d069efe6074eac8c8b55c2b8549f0ce/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/christianquaranta/.gradle/caches/transforms-3/4d069efe6074eac8c8b55c2b8549f0ce/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-database-ktx:20.0.5] /Users/christianquaranta/.gradle/caches/transforms-3/68dc8cfb6c8889583a4a18b611003903/transformed/jetified-firebase-database-ktx-20.0.5/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-database-ktx:20.0.5] /Users/christianquaranta/.gradle/caches/transforms-3/68dc8cfb6c8889583a4a18b611003903/transformed/jetified-firebase-database-ktx-20.0.5/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-database:20.0.5] /Users/christianquaranta/.gradle/caches/transforms-3/7be0e02632bef93e6422c5286ebec5ad/transformed/jetified-firebase-database-20.0.5/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-database:20.0.5] /Users/christianquaranta/.gradle/caches/transforms-3/7be0e02632bef93e6422c5286ebec5ad/transformed/jetified-firebase-database-20.0.5/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.gms:play-services-auth-api-phone:18.0.1] /Users/christianquaranta/.gradle/caches/transforms-3/6f4b9c42d3c5df11e6e94ae74acb967b/transformed/jetified-play-services-auth-api-phone-18.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:18.0.1] /Users/christianquaranta/.gradle/caches/transforms-3/6f4b9c42d3c5df11e6e94ae74acb967b/transformed/jetified-play-services-auth-api-phone-18.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:18.0.1] /Users/christianquaranta/.gradle/caches/transforms-3/da8d8dd2e43f225dba3a612dae614126/transformed/jetified-play-services-auth-base-18.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:18.0.1] /Users/christianquaranta/.gradle/caches/transforms-3/da8d8dd2e43f225dba3a612dae614126/transformed/jetified-play-services-auth-base-18.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.0.0] /Users/christianquaranta/.gradle/caches/transforms-3/d7d53c3fbbe140c265e7ea97729ae3ac/transformed/jetified-firebase-appcheck-interop-16.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.0.0] /Users/christianquaranta/.gradle/caches/transforms-3/d7d53c3fbbe140c265e7ea97729ae3ac/transformed/jetified-firebase-appcheck-interop-16.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-database-collection:18.0.1] /Users/christianquaranta/.gradle/caches/transforms-3/9c4abad3e6f1294e0a75f52f9912b93e/transformed/jetified-firebase-database-collection-18.0.1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-database-collection:18.0.1] /Users/christianquaranta/.gradle/caches/transforms-3/9c4abad3e6f1294e0a75f52f9912b93e/transformed/jetified-firebase-database-collection-18.0.1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/christianquaranta/.gradle/caches/transforms-3/4ceeb7d38150b44e34e3bf0e2e989663/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/christianquaranta/.gradle/caches/transforms-3/4ceeb7d38150b44e34e3bf0e2e989663/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:18:5-43
+MERGED from [com.google.firebase:firebase-common-ktx:20.1.1] /Users/christianquaranta/.gradle/caches/transforms-3/9c21c976cf5e64205dc3e64c20426e3b/transformed/jetified-firebase-common-ktx-20.1.1/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-common-ktx:20.1.1] /Users/christianquaranta/.gradle/caches/transforms-3/9c21c976cf5e64205dc3e64c20426e3b/transformed/jetified-firebase-common-ktx-20.1.1/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.2] /Users/christianquaranta/.gradle/caches/transforms-3/54e69af17171997b74305ce11af3eeea/transformed/jetified-firebase-auth-interop-19.0.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.2] /Users/christianquaranta/.gradle/caches/transforms-3/54e69af17171997b74305ce11af3eeea/transformed/jetified-firebase-auth-interop-19.0.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common:20.1.1] /Users/christianquaranta/.gradle/caches/transforms-3/32c8021f4d7d2bed305e7e3fbde12b2d/transformed/jetified-firebase-common-20.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-common:20.1.1] /Users/christianquaranta/.gradle/caches/transforms-3/32c8021f4d7d2bed305e7e3fbde12b2d/transformed/jetified-firebase-common-20.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /Users/christianquaranta/.gradle/caches/transforms-3/e8de7f07b4bfc2a42f121ea2db7b9041/transformed/jetified-play-services-tasks-18.0.1/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /Users/christianquaranta/.gradle/caches/transforms-3/e8de7f07b4bfc2a42f121ea2db7b9041/transformed/jetified-play-services-tasks-18.0.1/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] /Users/christianquaranta/.gradle/caches/transforms-3/640822766b7328921df2c8b31d81535d/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] /Users/christianquaranta/.gradle/caches/transforms-3/640822766b7328921df2c8b31d81535d/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:18:5-43
+MERGED from [androidx.fragment:fragment:1.4.1] /Users/christianquaranta/.gradle/caches/transforms-3/ed66c8a3b331c4adda794bf4da4ab8b3/transformed/fragment-1.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.4.1] /Users/christianquaranta/.gradle/caches/transforms-3/ed66c8a3b331c4adda794bf4da4ab8b3/transformed/fragment-1.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core-ktx:1.7.0] /Users/christianquaranta/.gradle/caches/transforms-3/b849c4451373ee949c660f0c33472caa/transformed/jetified-core-ktx-1.7.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core-ktx:1.7.0] /Users/christianquaranta/.gradle/caches/transforms-3/b849c4451373ee949c660f0c33472caa/transformed/jetified-core-ktx-1.7.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.recyclerview:recyclerview-selection:1.1.0] /Users/christianquaranta/.gradle/caches/transforms-3/c5f1ea39b8e07dd297037a501aa5fa9e/transformed/recyclerview-selection-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview-selection:1.1.0] /Users/christianquaranta/.gradle/caches/transforms-3/c5f1ea39b8e07dd297037a501aa5fa9e/transformed/recyclerview-selection-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.2.1] /Users/christianquaranta/.gradle/caches/transforms-3/4e932fa19823d9003280de4acce0c896/transformed/recyclerview-1.2.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.2.1] /Users/christianquaranta/.gradle/caches/transforms-3/4e932fa19823d9003280de4acce0c896/transformed/recyclerview-1.2.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/christianquaranta/.gradle/caches/transforms-3/4cfcfb60bca912a7aacaf7886d769b0e/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/christianquaranta/.gradle/caches/transforms-3/4cfcfb60bca912a7aacaf7886d769b0e/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.intuit.sdp:sdp-android:1.0.6] /Users/christianquaranta/.gradle/caches/transforms-3/bba3b0600e2503f4febb46c23e38d66c/transformed/jetified-sdp-android-1.0.6/AndroidManifest.xml:7:5-9:41
+MERGED from [com.intuit.sdp:sdp-android:1.0.6] /Users/christianquaranta/.gradle/caches/transforms-3/bba3b0600e2503f4febb46c23e38d66c/transformed/jetified-sdp-android-1.0.6/AndroidManifest.xml:7:5-9:41
+MERGED from [com.intuit.ssp:ssp-android:1.0.6] /Users/christianquaranta/.gradle/caches/transforms-3/c506eb1093d8153e44b3b18289a65372/transformed/jetified-ssp-android-1.0.6/AndroidManifest.xml:7:5-9:41
+MERGED from [com.intuit.ssp:ssp-android:1.0.6] /Users/christianquaranta/.gradle/caches/transforms-3/c506eb1093d8153e44b3b18289a65372/transformed/jetified-ssp-android-1.0.6/AndroidManifest.xml:7:5-9:41
+MERGED from [androidmads.library.qrgenearator:QRGenearator:1.0.4] /Users/christianquaranta/.gradle/caches/transforms-3/6d4c1a7db0751ed9c8450bf4319e1ec9/transformed/jetified-QRGenearator-1.0.4/AndroidManifest.xml:7:5-9:41
+MERGED from [androidmads.library.qrgenearator:QRGenearator:1.0.4] /Users/christianquaranta/.gradle/caches/transforms-3/6d4c1a7db0751ed9c8450bf4319e1ec9/transformed/jetified-QRGenearator-1.0.4/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/christianquaranta/.gradle/caches/transforms-3/e150c539a04655bfbc6a9ae043f71db4/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/christianquaranta/.gradle/caches/transforms-3/e150c539a04655bfbc6a9ae043f71db4/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/christianquaranta/.gradle/caches/transforms-3/ed5b0773ab6d73db12cb873efdf188dd/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/christianquaranta/.gradle/caches/transforms-3/ed5b0773ab6d73db12cb873efdf188dd/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/christianquaranta/.gradle/caches/transforms-3/c9e2c423303582461df5c1c76a900157/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/christianquaranta/.gradle/caches/transforms-3/c9e2c423303582461df5c1c76a900157/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.4.1] /Users/christianquaranta/.gradle/caches/transforms-3/5a5323c826afbc8a822f09da10ca2979/transformed/jetified-appcompat-resources-1.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.4.1] /Users/christianquaranta/.gradle/caches/transforms-3/5a5323c826afbc8a822f09da10ca2979/transformed/jetified-appcompat-resources-1.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/christianquaranta/.gradle/caches/transforms-3/5bd005976981342552cbf4300114b4a5/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/christianquaranta/.gradle/caches/transforms-3/5bd005976981342552cbf4300114b4a5/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/christianquaranta/.gradle/caches/transforms-3/9ff995f16506244e261e06cad51bbf32/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/christianquaranta/.gradle/caches/transforms-3/9ff995f16506244e261e06cad51bbf32/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media:media:1.0.0] /Users/christianquaranta/.gradle/caches/transforms-3/5d236ea095bc9abcdad14d6a15fc4211/transformed/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /Users/christianquaranta/.gradle/caches/transforms-3/5d236ea095bc9abcdad14d6a15fc4211/transformed/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/christianquaranta/.gradle/caches/transforms-3/14ef534eed612775f19b7a6c1606ae91/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/christianquaranta/.gradle/caches/transforms-3/14ef534eed612775f19b7a6c1606ae91/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/christianquaranta/.gradle/caches/transforms-3/22d9af3b4aae572eb4dba51d88092007/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/christianquaranta/.gradle/caches/transforms-3/22d9af3b4aae572eb4dba51d88092007/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/christianquaranta/.gradle/caches/transforms-3/b5f09bee9bf64216fa83362db585cf36/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/christianquaranta/.gradle/caches/transforms-3/b5f09bee9bf64216fa83362db585cf36/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.1.0] /Users/christianquaranta/.gradle/caches/transforms-3/ef2620c7e7435292814644f3a54fca36/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] /Users/christianquaranta/.gradle/caches/transforms-3/ef2620c7e7435292814644f3a54fca36/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/christianquaranta/.gradle/caches/transforms-3/248315d67c26e48add899d9cda49afc3/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/christianquaranta/.gradle/caches/transforms-3/248315d67c26e48add899d9cda49afc3/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/christianquaranta/.gradle/caches/transforms-3/df6fb5a28a097f0aea3f79ae04e65669/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/christianquaranta/.gradle/caches/transforms-3/df6fb5a28a097f0aea3f79ae04e65669/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.4.1] /Users/christianquaranta/.gradle/caches/transforms-3/3fc307fedcd9dff24ad749a37d3e50cf/transformed/transition-1.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.4.1] /Users/christianquaranta/.gradle/caches/transforms-3/3fc307fedcd9dff24ad749a37d3e50cf/transformed/transition-1.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.4] /Users/christianquaranta/.gradle/caches/transforms-3/f52945ece396d06b99df05f48b475c3a/transformed/jetified-activity-1.2.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.4] /Users/christianquaranta/.gradle/caches/transforms-3/f52945ece396d06b99df05f48b475c3a/transformed/jetified-activity-1.2.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.7.0] /Users/christianquaranta/.gradle/caches/transforms-3/282222a868a0dbc037eafaa8f451e13f/transformed/core-1.7.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.7.0] /Users/christianquaranta/.gradle/caches/transforms-3/282222a868a0dbc037eafaa8f451e13f/transformed/core-1.7.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/christianquaranta/.gradle/caches/transforms-3/cfc4713509b715ba9395607f42bec58a/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/christianquaranta/.gradle/caches/transforms-3/cfc4713509b715ba9395607f42bec58a/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.1.0] /Users/christianquaranta/.gradle/caches/transforms-3/fe07bce8318505e32fc197e32612c6c9/transformed/jetified-savedstate-ktx-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate-ktx:1.1.0] /Users/christianquaranta/.gradle/caches/transforms-3/fe07bce8318505e32fc197e32612c6c9/transformed/jetified-savedstate-ktx-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /Users/christianquaranta/.gradle/caches/transforms-3/0f0ef21f4c06b38800c56c2b49b739e3/transformed/jetified-lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /Users/christianquaranta/.gradle/caches/transforms-3/0f0ef21f4c06b38800c56c2b49b739e3/transformed/jetified-lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] /Users/christianquaranta/.gradle/caches/transforms-3/a5ce8f3e041db9596eff3455f148be32/transformed/jetified-savedstate-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] /Users/christianquaranta/.gradle/caches/transforms-3/a5ce8f3e041db9596eff3455f148be32/transformed/jetified-savedstate-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /Users/christianquaranta/.gradle/caches/transforms-3/9cdb7bb356c2794ae970b5b687912fa6/transformed/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /Users/christianquaranta/.gradle/caches/transforms-3/9cdb7bb356c2794ae970b5b687912fa6/transformed/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/christianquaranta/.gradle/caches/transforms-3/274cc2d53f777d3967f67300c5042251/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/christianquaranta/.gradle/caches/transforms-3/274cc2d53f777d3967f67300c5042251/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-components:17.0.0] /Users/christianquaranta/.gradle/caches/transforms-3/ccc60321e09cc4751580b03fa42f2f4e/transformed/jetified-firebase-components-17.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-components:17.0.0] /Users/christianquaranta/.gradle/caches/transforms-3/ccc60321e09cc4751580b03fa42f2f4e/transformed/jetified-firebase-components-17.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.13.0] /Users/christianquaranta/.gradle/caches/transforms-3/8278dc76e1a377ec6216b7dbfdf9e1be/transformed/jetified-gifdecoder-4.13.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.13.0] /Users/christianquaranta/.gradle/caches/transforms-3/8278dc76e1a377ec6216b7dbfdf9e1be/transformed/jetified-gifdecoder-4.13.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/christianquaranta/.gradle/caches/transforms-3/0d3406b0664bbe3d4fe6a4d28f0df520/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/christianquaranta/.gradle/caches/transforms-3/0d3406b0664bbe3d4fe6a4d28f0df520/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/christianquaranta/.gradle/caches/transforms-3/e44a0d1b48cc86f0923770b89c454ad5/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/christianquaranta/.gradle/caches/transforms-3/e44a0d1b48cc86f0923770b89c454ad5/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.3.1] /Users/christianquaranta/.gradle/caches/transforms-3/509852069ba4dfeec056681507f5d0b2/transformed/lifecycle-livedata-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.3.1] /Users/christianquaranta/.gradle/caches/transforms-3/509852069ba4dfeec056681507f5d0b2/transformed/lifecycle-livedata-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.3.1] /Users/christianquaranta/.gradle/caches/transforms-3/b560a318370620bd3238b2aef068fd18/transformed/jetified-lifecycle-livedata-core-ktx-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.3.1] /Users/christianquaranta/.gradle/caches/transforms-3/b560a318370620bd3238b2aef068fd18/transformed/jetified-lifecycle-livedata-core-ktx-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /Users/christianquaranta/.gradle/caches/transforms-3/3ce572ceadbad1795cc63c4871ae46e7/transformed/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /Users/christianquaranta/.gradle/caches/transforms-3/3ce572ceadbad1795cc63c4871ae46e7/transformed/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.0.0] /Users/christianquaranta/.gradle/caches/transforms-3/90c7c63fefce20d38463be9805887989/transformed/jetified-lifecycle-process-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.0.0] /Users/christianquaranta/.gradle/caches/transforms-3/90c7c63fefce20d38463be9805887989/transformed/jetified-lifecycle-process-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-service:2.0.0] /Users/christianquaranta/.gradle/caches/transforms-3/da07a6e637f9a8bc8bbd2621bd6903ad/transformed/jetified-lifecycle-service-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-service:2.0.0] /Users/christianquaranta/.gradle/caches/transforms-3/da07a6e637f9a8bc8bbd2621bd6903ad/transformed/jetified-lifecycle-service-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.1] /Users/christianquaranta/.gradle/caches/transforms-3/3d30c39465ae7a86bbd1e6764548f610/transformed/lifecycle-runtime-2.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.1] /Users/christianquaranta/.gradle/caches/transforms-3/3d30c39465ae7a86bbd1e6764548f610/transformed/lifecycle-runtime-2.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/christianquaranta/.gradle/caches/transforms-3/3611703b20824a53dcbc6a4ed96fb1e8/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/christianquaranta/.gradle/caches/transforms-3/3611703b20824a53dcbc6a4ed96fb1e8/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/christianquaranta/.gradle/caches/transforms-3/e66b158072346f8f0e561757b6decb77/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/christianquaranta/.gradle/caches/transforms-3/e66b158072346f8f0e561757b6decb77/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/christianquaranta/.gradle/caches/transforms-3/9d65f2efea0035ba177c9d971b6bb17b/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/christianquaranta/.gradle/caches/transforms-3/9d65f2efea0035ba177c9d971b6bb17b/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/christianquaranta/.gradle/caches/transforms-3/3dc26b42f8158c8cac3f5c55a7c1da87/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/christianquaranta/.gradle/caches/transforms-3/3dc26b42f8158c8cac3f5c55a7c1da87/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.3.3] /Users/christianquaranta/.gradle/caches/transforms-3/ff30f6ddbbf50fca1d1a4db93ae8737b/transformed/exifinterface-1.3.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.3] /Users/christianquaranta/.gradle/caches/transforms-3/ff30f6ddbbf50fca1d1a4db93ae8737b/transformed/exifinterface-1.3.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/christianquaranta/.gradle/caches/transforms-3/62b7049542978103dfca77ed94f636af/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/christianquaranta/.gradle/caches/transforms-3/62b7049542978103dfca77ed94f636af/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
 INJECTED from /Users/christianquaranta/AndroidStudioProjects/hercules/HerculesWallet/app/src/main/AndroidManifest.xml
 INJECTED from /Users/christianquaranta/AndroidStudioProjects/hercules/HerculesWallet/app/src/main/AndroidManifest.xml
 	android:targetSdkVersion
@@ -387,146 +387,146 @@ INJECTED from /Users/christianquaranta/AndroidStudioProjects/hercules/HerculesWa
 		ADDED from /Users/christianquaranta/AndroidStudioProjects/hercules/HerculesWallet/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/christianquaranta/AndroidStudioProjects/hercules/HerculesWallet/app/src/main/AndroidManifest.xml
 provider#com.squareup.picasso.PicassoProvider
-ADDED from [com.squareup.picasso:picasso:2.8] /Users/christianquaranta/.gradle/caches/transforms-3/c15553b531ce6deb3dd4fdd5bd379b31/transformed/jetified-picasso-2.8/AndroidManifest.xml:8:9-11:40
+ADDED from [com.squareup.picasso:picasso:2.8] /Users/christianquaranta/.gradle/caches/transforms-3/eacf4403b8691f90c669e31d55b4ae9c/transformed/jetified-picasso-2.8/AndroidManifest.xml:8:9-11:40
 	android:authorities
-		ADDED from [com.squareup.picasso:picasso:2.8] /Users/christianquaranta/.gradle/caches/transforms-3/c15553b531ce6deb3dd4fdd5bd379b31/transformed/jetified-picasso-2.8/AndroidManifest.xml:10:13-72
+		ADDED from [com.squareup.picasso:picasso:2.8] /Users/christianquaranta/.gradle/caches/transforms-3/eacf4403b8691f90c669e31d55b4ae9c/transformed/jetified-picasso-2.8/AndroidManifest.xml:10:13-72
 	android:exported
-		ADDED from [com.squareup.picasso:picasso:2.8] /Users/christianquaranta/.gradle/caches/transforms-3/c15553b531ce6deb3dd4fdd5bd379b31/transformed/jetified-picasso-2.8/AndroidManifest.xml:11:13-37
+		ADDED from [com.squareup.picasso:picasso:2.8] /Users/christianquaranta/.gradle/caches/transforms-3/eacf4403b8691f90c669e31d55b4ae9c/transformed/jetified-picasso-2.8/AndroidManifest.xml:11:13-37
 	android:name
-		ADDED from [com.squareup.picasso:picasso:2.8] /Users/christianquaranta/.gradle/caches/transforms-3/c15553b531ce6deb3dd4fdd5bd379b31/transformed/jetified-picasso-2.8/AndroidManifest.xml:9:13-64
+		ADDED from [com.squareup.picasso:picasso:2.8] /Users/christianquaranta/.gradle/caches/transforms-3/eacf4403b8691f90c669e31d55b4ae9c/transformed/jetified-picasso-2.8/AndroidManifest.xml:9:13-64
 uses-library#androidx.window.extensions
-ADDED from [androidx.window:window:1.0.0] /Users/christianquaranta/.gradle/caches/transforms-3/22d0011f5bd97f1200271cdfe1a2b0d5/transformed/jetified-window-1.0.0/AndroidManifest.xml:25:9-27:40
+ADDED from [androidx.window:window:1.0.0] /Users/christianquaranta/.gradle/caches/transforms-3/c121cbe4bb46880f071ad66f69f15272/transformed/jetified-window-1.0.0/AndroidManifest.xml:25:9-27:40
 	android:required
-		ADDED from [androidx.window:window:1.0.0] /Users/christianquaranta/.gradle/caches/transforms-3/22d0011f5bd97f1200271cdfe1a2b0d5/transformed/jetified-window-1.0.0/AndroidManifest.xml:27:13-37
+		ADDED from [androidx.window:window:1.0.0] /Users/christianquaranta/.gradle/caches/transforms-3/c121cbe4bb46880f071ad66f69f15272/transformed/jetified-window-1.0.0/AndroidManifest.xml:27:13-37
 	android:name
-		ADDED from [androidx.window:window:1.0.0] /Users/christianquaranta/.gradle/caches/transforms-3/22d0011f5bd97f1200271cdfe1a2b0d5/transformed/jetified-window-1.0.0/AndroidManifest.xml:26:13-54
+		ADDED from [androidx.window:window:1.0.0] /Users/christianquaranta/.gradle/caches/transforms-3/c121cbe4bb46880f071ad66f69f15272/transformed/jetified-window-1.0.0/AndroidManifest.xml:26:13-54
 uses-library#androidx.window.sidecar
-ADDED from [androidx.window:window:1.0.0] /Users/christianquaranta/.gradle/caches/transforms-3/22d0011f5bd97f1200271cdfe1a2b0d5/transformed/jetified-window-1.0.0/AndroidManifest.xml:28:9-30:40
+ADDED from [androidx.window:window:1.0.0] /Users/christianquaranta/.gradle/caches/transforms-3/c121cbe4bb46880f071ad66f69f15272/transformed/jetified-window-1.0.0/AndroidManifest.xml:28:9-30:40
 	android:required
-		ADDED from [androidx.window:window:1.0.0] /Users/christianquaranta/.gradle/caches/transforms-3/22d0011f5bd97f1200271cdfe1a2b0d5/transformed/jetified-window-1.0.0/AndroidManifest.xml:30:13-37
+		ADDED from [androidx.window:window:1.0.0] /Users/christianquaranta/.gradle/caches/transforms-3/c121cbe4bb46880f071ad66f69f15272/transformed/jetified-window-1.0.0/AndroidManifest.xml:30:13-37
 	android:name
-		ADDED from [androidx.window:window:1.0.0] /Users/christianquaranta/.gradle/caches/transforms-3/22d0011f5bd97f1200271cdfe1a2b0d5/transformed/jetified-window-1.0.0/AndroidManifest.xml:29:13-51
+		ADDED from [androidx.window:window:1.0.0] /Users/christianquaranta/.gradle/caches/transforms-3/c121cbe4bb46880f071ad66f69f15272/transformed/jetified-window-1.0.0/AndroidManifest.xml:29:13-51
 activity#com.google.firebase.auth.internal.FederatedSignInActivity
-ADDED from [com.google.firebase:firebase-auth:19.2.0] /Users/christianquaranta/.gradle/caches/transforms-3/60ff26c0e3f98090617cd8378700c27f/transformed/jetified-firebase-auth-19.2.0/AndroidManifest.xml:24:9-31:50
+ADDED from [com.google.firebase:firebase-auth:19.2.0] /Users/christianquaranta/.gradle/caches/transforms-3/1cd379d5b2e3904982061599a3cb558c/transformed/jetified-firebase-auth-19.2.0/AndroidManifest.xml:24:9-31:50
 	android:excludeFromRecents
-		ADDED from [com.google.firebase:firebase-auth:19.2.0] /Users/christianquaranta/.gradle/caches/transforms-3/60ff26c0e3f98090617cd8378700c27f/transformed/jetified-firebase-auth-19.2.0/AndroidManifest.xml:26:13-46
+		ADDED from [com.google.firebase:firebase-auth:19.2.0] /Users/christianquaranta/.gradle/caches/transforms-3/1cd379d5b2e3904982061599a3cb558c/transformed/jetified-firebase-auth-19.2.0/AndroidManifest.xml:26:13-46
 	android:launchMode
-		ADDED from [com.google.firebase:firebase-auth:19.2.0] /Users/christianquaranta/.gradle/caches/transforms-3/60ff26c0e3f98090617cd8378700c27f/transformed/jetified-firebase-auth-19.2.0/AndroidManifest.xml:28:13-44
+		ADDED from [com.google.firebase:firebase-auth:19.2.0] /Users/christianquaranta/.gradle/caches/transforms-3/1cd379d5b2e3904982061599a3cb558c/transformed/jetified-firebase-auth-19.2.0/AndroidManifest.xml:28:13-44
 	android:exported
-		ADDED from [com.google.firebase:firebase-auth:19.2.0] /Users/christianquaranta/.gradle/caches/transforms-3/60ff26c0e3f98090617cd8378700c27f/transformed/jetified-firebase-auth-19.2.0/AndroidManifest.xml:27:13-36
+		ADDED from [com.google.firebase:firebase-auth:19.2.0] /Users/christianquaranta/.gradle/caches/transforms-3/1cd379d5b2e3904982061599a3cb558c/transformed/jetified-firebase-auth-19.2.0/AndroidManifest.xml:27:13-36
 	android:permission
-		ADDED from [com.google.firebase:firebase-auth:19.2.0] /Users/christianquaranta/.gradle/caches/transforms-3/60ff26c0e3f98090617cd8378700c27f/transformed/jetified-firebase-auth-19.2.0/AndroidManifest.xml:29:13-102
+		ADDED from [com.google.firebase:firebase-auth:19.2.0] /Users/christianquaranta/.gradle/caches/transforms-3/1cd379d5b2e3904982061599a3cb558c/transformed/jetified-firebase-auth-19.2.0/AndroidManifest.xml:29:13-102
 	android:theme
-		ADDED from [com.google.firebase:firebase-auth:19.2.0] /Users/christianquaranta/.gradle/caches/transforms-3/60ff26c0e3f98090617cd8378700c27f/transformed/jetified-firebase-auth-19.2.0/AndroidManifest.xml:30:13-72
+		ADDED from [com.google.firebase:firebase-auth:19.2.0] /Users/christianquaranta/.gradle/caches/transforms-3/1cd379d5b2e3904982061599a3cb558c/transformed/jetified-firebase-auth-19.2.0/AndroidManifest.xml:30:13-72
 	tools:replace
-		ADDED from [com.google.firebase:firebase-auth:19.2.0] /Users/christianquaranta/.gradle/caches/transforms-3/60ff26c0e3f98090617cd8378700c27f/transformed/jetified-firebase-auth-19.2.0/AndroidManifest.xml:31:13-47
+		ADDED from [com.google.firebase:firebase-auth:19.2.0] /Users/christianquaranta/.gradle/caches/transforms-3/1cd379d5b2e3904982061599a3cb558c/transformed/jetified-firebase-auth-19.2.0/AndroidManifest.xml:31:13-47
 	android:name
-		ADDED from [com.google.firebase:firebase-auth:19.2.0] /Users/christianquaranta/.gradle/caches/transforms-3/60ff26c0e3f98090617cd8378700c27f/transformed/jetified-firebase-auth-19.2.0/AndroidManifest.xml:25:13-85
+		ADDED from [com.google.firebase:firebase-auth:19.2.0] /Users/christianquaranta/.gradle/caches/transforms-3/1cd379d5b2e3904982061599a3cb558c/transformed/jetified-firebase-auth-19.2.0/AndroidManifest.xml:25:13-85
 service#com.google.firebase.components.ComponentDiscoveryService
-ADDED from [com.google.firebase:firebase-auth:19.2.0] /Users/christianquaranta/.gradle/caches/transforms-3/60ff26c0e3f98090617cd8378700c27f/transformed/jetified-firebase-auth-19.2.0/AndroidManifest.xml:33:9-39:19
-MERGED from [com.google.firebase:firebase-database-ktx:20.0.5] /Users/christianquaranta/.gradle/caches/transforms-3/f881a7d3b0dcfdefc13138a133cc1404/transformed/jetified-firebase-database-ktx-20.0.5/AndroidManifest.xml:12:9-18:19
-MERGED from [com.google.firebase:firebase-database-ktx:20.0.5] /Users/christianquaranta/.gradle/caches/transforms-3/f881a7d3b0dcfdefc13138a133cc1404/transformed/jetified-firebase-database-ktx-20.0.5/AndroidManifest.xml:12:9-18:19
-MERGED from [com.google.firebase:firebase-database:20.0.5] /Users/christianquaranta/.gradle/caches/transforms-3/29f0d62ece32f67f27923983ae856237/transformed/jetified-firebase-database-20.0.5/AndroidManifest.xml:29:9-35:19
-MERGED from [com.google.firebase:firebase-database:20.0.5] /Users/christianquaranta/.gradle/caches/transforms-3/29f0d62ece32f67f27923983ae856237/transformed/jetified-firebase-database-20.0.5/AndroidManifest.xml:29:9-35:19
-MERGED from [com.google.firebase:firebase-common-ktx:20.1.1] /Users/christianquaranta/.gradle/caches/transforms-3/32d4c789362f07d9274d8e4201ce246f/transformed/jetified-firebase-common-ktx-20.1.1/AndroidManifest.xml:12:9-18:19
-MERGED from [com.google.firebase:firebase-common-ktx:20.1.1] /Users/christianquaranta/.gradle/caches/transforms-3/32d4c789362f07d9274d8e4201ce246f/transformed/jetified-firebase-common-ktx-20.1.1/AndroidManifest.xml:12:9-18:19
-MERGED from [com.google.firebase:firebase-common:20.1.1] /Users/christianquaranta/.gradle/caches/transforms-3/bcfb0b0958249827e5e7674f5da29637/transformed/jetified-firebase-common-20.1.1/AndroidManifest.xml:33:9-37:35
-MERGED from [com.google.firebase:firebase-common:20.1.1] /Users/christianquaranta/.gradle/caches/transforms-3/bcfb0b0958249827e5e7674f5da29637/transformed/jetified-firebase-common-20.1.1/AndroidManifest.xml:33:9-37:35
+ADDED from [com.google.firebase:firebase-auth:19.2.0] /Users/christianquaranta/.gradle/caches/transforms-3/1cd379d5b2e3904982061599a3cb558c/transformed/jetified-firebase-auth-19.2.0/AndroidManifest.xml:33:9-39:19
+MERGED from [com.google.firebase:firebase-database-ktx:20.0.5] /Users/christianquaranta/.gradle/caches/transforms-3/68dc8cfb6c8889583a4a18b611003903/transformed/jetified-firebase-database-ktx-20.0.5/AndroidManifest.xml:12:9-18:19
+MERGED from [com.google.firebase:firebase-database-ktx:20.0.5] /Users/christianquaranta/.gradle/caches/transforms-3/68dc8cfb6c8889583a4a18b611003903/transformed/jetified-firebase-database-ktx-20.0.5/AndroidManifest.xml:12:9-18:19
+MERGED from [com.google.firebase:firebase-database:20.0.5] /Users/christianquaranta/.gradle/caches/transforms-3/7be0e02632bef93e6422c5286ebec5ad/transformed/jetified-firebase-database-20.0.5/AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-database:20.0.5] /Users/christianquaranta/.gradle/caches/transforms-3/7be0e02632bef93e6422c5286ebec5ad/transformed/jetified-firebase-database-20.0.5/AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-common-ktx:20.1.1] /Users/christianquaranta/.gradle/caches/transforms-3/9c21c976cf5e64205dc3e64c20426e3b/transformed/jetified-firebase-common-ktx-20.1.1/AndroidManifest.xml:12:9-18:19
+MERGED from [com.google.firebase:firebase-common-ktx:20.1.1] /Users/christianquaranta/.gradle/caches/transforms-3/9c21c976cf5e64205dc3e64c20426e3b/transformed/jetified-firebase-common-ktx-20.1.1/AndroidManifest.xml:12:9-18:19
+MERGED from [com.google.firebase:firebase-common:20.1.1] /Users/christianquaranta/.gradle/caches/transforms-3/32c8021f4d7d2bed305e7e3fbde12b2d/transformed/jetified-firebase-common-20.1.1/AndroidManifest.xml:33:9-37:35
+MERGED from [com.google.firebase:firebase-common:20.1.1] /Users/christianquaranta/.gradle/caches/transforms-3/32c8021f4d7d2bed305e7e3fbde12b2d/transformed/jetified-firebase-common-20.1.1/AndroidManifest.xml:33:9-37:35
 	android:exported
-		ADDED from [com.google.firebase:firebase-auth:19.2.0] /Users/christianquaranta/.gradle/caches/transforms-3/60ff26c0e3f98090617cd8378700c27f/transformed/jetified-firebase-auth-19.2.0/AndroidManifest.xml:35:13-37
+		ADDED from [com.google.firebase:firebase-auth:19.2.0] /Users/christianquaranta/.gradle/caches/transforms-3/1cd379d5b2e3904982061599a3cb558c/transformed/jetified-firebase-auth-19.2.0/AndroidManifest.xml:35:13-37
 	tools:targetApi
-		ADDED from [com.google.firebase:firebase-common:20.1.1] /Users/christianquaranta/.gradle/caches/transforms-3/bcfb0b0958249827e5e7674f5da29637/transformed/jetified-firebase-common-20.1.1/AndroidManifest.xml:37:13-32
+		ADDED from [com.google.firebase:firebase-common:20.1.1] /Users/christianquaranta/.gradle/caches/transforms-3/32c8021f4d7d2bed305e7e3fbde12b2d/transformed/jetified-firebase-common-20.1.1/AndroidManifest.xml:37:13-32
 	android:directBootAware
-		ADDED from [com.google.firebase:firebase-common:20.1.1] /Users/christianquaranta/.gradle/caches/transforms-3/bcfb0b0958249827e5e7674f5da29637/transformed/jetified-firebase-common-20.1.1/AndroidManifest.xml:35:13-43
+		ADDED from [com.google.firebase:firebase-common:20.1.1] /Users/christianquaranta/.gradle/caches/transforms-3/32c8021f4d7d2bed305e7e3fbde12b2d/transformed/jetified-firebase-common-20.1.1/AndroidManifest.xml:35:13-43
 	android:name
-		ADDED from [com.google.firebase:firebase-auth:19.2.0] /Users/christianquaranta/.gradle/caches/transforms-3/60ff26c0e3f98090617cd8378700c27f/transformed/jetified-firebase-auth-19.2.0/AndroidManifest.xml:34:13-84
+		ADDED from [com.google.firebase:firebase-auth:19.2.0] /Users/christianquaranta/.gradle/caches/transforms-3/1cd379d5b2e3904982061599a3cb558c/transformed/jetified-firebase-auth-19.2.0/AndroidManifest.xml:34:13-84
 meta-data#com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar
-ADDED from [com.google.firebase:firebase-auth:19.2.0] /Users/christianquaranta/.gradle/caches/transforms-3/60ff26c0e3f98090617cd8378700c27f/transformed/jetified-firebase-auth-19.2.0/AndroidManifest.xml:36:13-38:85
+ADDED from [com.google.firebase:firebase-auth:19.2.0] /Users/christianquaranta/.gradle/caches/transforms-3/1cd379d5b2e3904982061599a3cb558c/transformed/jetified-firebase-auth-19.2.0/AndroidManifest.xml:36:13-38:85
 	android:value
-		ADDED from [com.google.firebase:firebase-auth:19.2.0] /Users/christianquaranta/.gradle/caches/transforms-3/60ff26c0e3f98090617cd8378700c27f/transformed/jetified-firebase-auth-19.2.0/AndroidManifest.xml:38:17-82
+		ADDED from [com.google.firebase:firebase-auth:19.2.0] /Users/christianquaranta/.gradle/caches/transforms-3/1cd379d5b2e3904982061599a3cb558c/transformed/jetified-firebase-auth-19.2.0/AndroidManifest.xml:38:17-82
 	android:name
-		ADDED from [com.google.firebase:firebase-auth:19.2.0] /Users/christianquaranta/.gradle/caches/transforms-3/60ff26c0e3f98090617cd8378700c27f/transformed/jetified-firebase-auth-19.2.0/AndroidManifest.xml:37:17-109
+		ADDED from [com.google.firebase:firebase-auth:19.2.0] /Users/christianquaranta/.gradle/caches/transforms-3/1cd379d5b2e3904982061599a3cb558c/transformed/jetified-firebase-auth-19.2.0/AndroidManifest.xml:37:17-109
 activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
-ADDED from [com.google.android.gms:play-services-auth:20.2.0] /Users/christianquaranta/.gradle/caches/transforms-3/c2d3fe26e4e4c803d00d9185ac5e270d/transformed/jetified-play-services-auth-20.2.0/AndroidManifest.xml:23:9-27:75
+ADDED from [com.google.android.gms:play-services-auth:20.2.0] /Users/christianquaranta/.gradle/caches/transforms-3/e5077a32dbd0b69aaa20f12264c0e1ec/transformed/jetified-play-services-auth-20.2.0/AndroidManifest.xml:23:9-27:75
 	android:excludeFromRecents
-		ADDED from [com.google.android.gms:play-services-auth:20.2.0] /Users/christianquaranta/.gradle/caches/transforms-3/c2d3fe26e4e4c803d00d9185ac5e270d/transformed/jetified-play-services-auth-20.2.0/AndroidManifest.xml:25:13-46
+		ADDED from [com.google.android.gms:play-services-auth:20.2.0] /Users/christianquaranta/.gradle/caches/transforms-3/e5077a32dbd0b69aaa20f12264c0e1ec/transformed/jetified-play-services-auth-20.2.0/AndroidManifest.xml:25:13-46
 	android:exported
-		ADDED from [com.google.android.gms:play-services-auth:20.2.0] /Users/christianquaranta/.gradle/caches/transforms-3/c2d3fe26e4e4c803d00d9185ac5e270d/transformed/jetified-play-services-auth-20.2.0/AndroidManifest.xml:26:13-37
+		ADDED from [com.google.android.gms:play-services-auth:20.2.0] /Users/christianquaranta/.gradle/caches/transforms-3/e5077a32dbd0b69aaa20f12264c0e1ec/transformed/jetified-play-services-auth-20.2.0/AndroidManifest.xml:26:13-37
 	android:theme
-		ADDED from [com.google.android.gms:play-services-auth:20.2.0] /Users/christianquaranta/.gradle/caches/transforms-3/c2d3fe26e4e4c803d00d9185ac5e270d/transformed/jetified-play-services-auth-20.2.0/AndroidManifest.xml:27:13-72
+		ADDED from [com.google.android.gms:play-services-auth:20.2.0] /Users/christianquaranta/.gradle/caches/transforms-3/e5077a32dbd0b69aaa20f12264c0e1ec/transformed/jetified-play-services-auth-20.2.0/AndroidManifest.xml:27:13-72
 	android:name
-		ADDED from [com.google.android.gms:play-services-auth:20.2.0] /Users/christianquaranta/.gradle/caches/transforms-3/c2d3fe26e4e4c803d00d9185ac5e270d/transformed/jetified-play-services-auth-20.2.0/AndroidManifest.xml:24:13-93
+		ADDED from [com.google.android.gms:play-services-auth:20.2.0] /Users/christianquaranta/.gradle/caches/transforms-3/e5077a32dbd0b69aaa20f12264c0e1ec/transformed/jetified-play-services-auth-20.2.0/AndroidManifest.xml:24:13-93
 service#com.google.android.gms.auth.api.signin.RevocationBoundService
-ADDED from [com.google.android.gms:play-services-auth:20.2.0] /Users/christianquaranta/.gradle/caches/transforms-3/c2d3fe26e4e4c803d00d9185ac5e270d/transformed/jetified-play-services-auth-20.2.0/AndroidManifest.xml:33:9-37:51
+ADDED from [com.google.android.gms:play-services-auth:20.2.0] /Users/christianquaranta/.gradle/caches/transforms-3/e5077a32dbd0b69aaa20f12264c0e1ec/transformed/jetified-play-services-auth-20.2.0/AndroidManifest.xml:33:9-37:51
 	android:exported
-		ADDED from [com.google.android.gms:play-services-auth:20.2.0] /Users/christianquaranta/.gradle/caches/transforms-3/c2d3fe26e4e4c803d00d9185ac5e270d/transformed/jetified-play-services-auth-20.2.0/AndroidManifest.xml:35:13-36
+		ADDED from [com.google.android.gms:play-services-auth:20.2.0] /Users/christianquaranta/.gradle/caches/transforms-3/e5077a32dbd0b69aaa20f12264c0e1ec/transformed/jetified-play-services-auth-20.2.0/AndroidManifest.xml:35:13-36
 	android:visibleToInstantApps
-		ADDED from [com.google.android.gms:play-services-auth:20.2.0] /Users/christianquaranta/.gradle/caches/transforms-3/c2d3fe26e4e4c803d00d9185ac5e270d/transformed/jetified-play-services-auth-20.2.0/AndroidManifest.xml:37:13-48
+		ADDED from [com.google.android.gms:play-services-auth:20.2.0] /Users/christianquaranta/.gradle/caches/transforms-3/e5077a32dbd0b69aaa20f12264c0e1ec/transformed/jetified-play-services-auth-20.2.0/AndroidManifest.xml:37:13-48
 	android:permission
-		ADDED from [com.google.android.gms:play-services-auth:20.2.0] /Users/christianquaranta/.gradle/caches/transforms-3/c2d3fe26e4e4c803d00d9185ac5e270d/transformed/jetified-play-services-auth-20.2.0/AndroidManifest.xml:36:13-107
+		ADDED from [com.google.android.gms:play-services-auth:20.2.0] /Users/christianquaranta/.gradle/caches/transforms-3/e5077a32dbd0b69aaa20f12264c0e1ec/transformed/jetified-play-services-auth-20.2.0/AndroidManifest.xml:36:13-107
 	android:name
-		ADDED from [com.google.android.gms:play-services-auth:20.2.0] /Users/christianquaranta/.gradle/caches/transforms-3/c2d3fe26e4e4c803d00d9185ac5e270d/transformed/jetified-play-services-auth-20.2.0/AndroidManifest.xml:34:13-89
+		ADDED from [com.google.android.gms:play-services-auth:20.2.0] /Users/christianquaranta/.gradle/caches/transforms-3/e5077a32dbd0b69aaa20f12264c0e1ec/transformed/jetified-play-services-auth-20.2.0/AndroidManifest.xml:34:13-89
 meta-data#com.google.firebase.components:com.google.firebase.database.ktx.FirebaseDatabaseKtxRegistrar
-ADDED from [com.google.firebase:firebase-database-ktx:20.0.5] /Users/christianquaranta/.gradle/caches/transforms-3/f881a7d3b0dcfdefc13138a133cc1404/transformed/jetified-firebase-database-ktx-20.0.5/AndroidManifest.xml:15:13-17:85
+ADDED from [com.google.firebase:firebase-database-ktx:20.0.5] /Users/christianquaranta/.gradle/caches/transforms-3/68dc8cfb6c8889583a4a18b611003903/transformed/jetified-firebase-database-ktx-20.0.5/AndroidManifest.xml:15:13-17:85
 	android:value
-		ADDED from [com.google.firebase:firebase-database-ktx:20.0.5] /Users/christianquaranta/.gradle/caches/transforms-3/f881a7d3b0dcfdefc13138a133cc1404/transformed/jetified-firebase-database-ktx-20.0.5/AndroidManifest.xml:17:17-82
+		ADDED from [com.google.firebase:firebase-database-ktx:20.0.5] /Users/christianquaranta/.gradle/caches/transforms-3/68dc8cfb6c8889583a4a18b611003903/transformed/jetified-firebase-database-ktx-20.0.5/AndroidManifest.xml:17:17-82
 	android:name
-		ADDED from [com.google.firebase:firebase-database-ktx:20.0.5] /Users/christianquaranta/.gradle/caches/transforms-3/f881a7d3b0dcfdefc13138a133cc1404/transformed/jetified-firebase-database-ktx-20.0.5/AndroidManifest.xml:16:17-124
+		ADDED from [com.google.firebase:firebase-database-ktx:20.0.5] /Users/christianquaranta/.gradle/caches/transforms-3/68dc8cfb6c8889583a4a18b611003903/transformed/jetified-firebase-database-ktx-20.0.5/AndroidManifest.xml:16:17-124
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from [com.google.firebase:firebase-database:20.0.5] /Users/christianquaranta/.gradle/caches/transforms-3/29f0d62ece32f67f27923983ae856237/transformed/jetified-firebase-database-20.0.5/AndroidManifest.xml:25:5-79
+ADDED from [com.google.firebase:firebase-database:20.0.5] /Users/christianquaranta/.gradle/caches/transforms-3/7be0e02632bef93e6422c5286ebec5ad/transformed/jetified-firebase-database-20.0.5/AndroidManifest.xml:25:5-79
 	android:name
-		ADDED from [com.google.firebase:firebase-database:20.0.5] /Users/christianquaranta/.gradle/caches/transforms-3/29f0d62ece32f67f27923983ae856237/transformed/jetified-firebase-database-20.0.5/AndroidManifest.xml:25:22-76
+		ADDED from [com.google.firebase:firebase-database:20.0.5] /Users/christianquaranta/.gradle/caches/transforms-3/7be0e02632bef93e6422c5286ebec5ad/transformed/jetified-firebase-database-20.0.5/AndroidManifest.xml:25:22-76
 meta-data#com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar
-ADDED from [com.google.firebase:firebase-database:20.0.5] /Users/christianquaranta/.gradle/caches/transforms-3/29f0d62ece32f67f27923983ae856237/transformed/jetified-firebase-database-20.0.5/AndroidManifest.xml:32:13-34:85
+ADDED from [com.google.firebase:firebase-database:20.0.5] /Users/christianquaranta/.gradle/caches/transforms-3/7be0e02632bef93e6422c5286ebec5ad/transformed/jetified-firebase-database-20.0.5/AndroidManifest.xml:32:13-34:85
 	android:value
-		ADDED from [com.google.firebase:firebase-database:20.0.5] /Users/christianquaranta/.gradle/caches/transforms-3/29f0d62ece32f67f27923983ae856237/transformed/jetified-firebase-database-20.0.5/AndroidManifest.xml:34:17-82
+		ADDED from [com.google.firebase:firebase-database:20.0.5] /Users/christianquaranta/.gradle/caches/transforms-3/7be0e02632bef93e6422c5286ebec5ad/transformed/jetified-firebase-database-20.0.5/AndroidManifest.xml:34:17-82
 	android:name
-		ADDED from [com.google.firebase:firebase-database:20.0.5] /Users/christianquaranta/.gradle/caches/transforms-3/29f0d62ece32f67f27923983ae856237/transformed/jetified-firebase-database-20.0.5/AndroidManifest.xml:33:17-109
+		ADDED from [com.google.firebase:firebase-database:20.0.5] /Users/christianquaranta/.gradle/caches/transforms-3/7be0e02632bef93e6422c5286ebec5ad/transformed/jetified-firebase-database-20.0.5/AndroidManifest.xml:33:17-109
 activity#com.google.android.gms.common.api.GoogleApiActivity
-ADDED from [com.google.android.gms:play-services-base:18.0.1] /Users/christianquaranta/.gradle/caches/transforms-3/cc4807367e3e5583c9e4bc562e1c105a/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
+ADDED from [com.google.android.gms:play-services-base:18.0.1] /Users/christianquaranta/.gradle/caches/transforms-3/4ceeb7d38150b44e34e3bf0e2e989663/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
 	android:exported
-		ADDED from [com.google.android.gms:play-services-base:18.0.1] /Users/christianquaranta/.gradle/caches/transforms-3/cc4807367e3e5583c9e4bc562e1c105a/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:22:19-43
+		ADDED from [com.google.android.gms:play-services-base:18.0.1] /Users/christianquaranta/.gradle/caches/transforms-3/4ceeb7d38150b44e34e3bf0e2e989663/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:22:19-43
 	android:theme
-		ADDED from [com.google.android.gms:play-services-base:18.0.1] /Users/christianquaranta/.gradle/caches/transforms-3/cc4807367e3e5583c9e4bc562e1c105a/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:21:19-78
+		ADDED from [com.google.android.gms:play-services-base:18.0.1] /Users/christianquaranta/.gradle/caches/transforms-3/4ceeb7d38150b44e34e3bf0e2e989663/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:21:19-78
 	android:name
-		ADDED from [com.google.android.gms:play-services-base:18.0.1] /Users/christianquaranta/.gradle/caches/transforms-3/cc4807367e3e5583c9e4bc562e1c105a/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:19-85
+		ADDED from [com.google.android.gms:play-services-base:18.0.1] /Users/christianquaranta/.gradle/caches/transforms-3/4ceeb7d38150b44e34e3bf0e2e989663/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:19-85
 meta-data#com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonKtxRegistrar
-ADDED from [com.google.firebase:firebase-common-ktx:20.1.1] /Users/christianquaranta/.gradle/caches/transforms-3/32d4c789362f07d9274d8e4201ce246f/transformed/jetified-firebase-common-ktx-20.1.1/AndroidManifest.xml:15:13-17:85
+ADDED from [com.google.firebase:firebase-common-ktx:20.1.1] /Users/christianquaranta/.gradle/caches/transforms-3/9c21c976cf5e64205dc3e64c20426e3b/transformed/jetified-firebase-common-ktx-20.1.1/AndroidManifest.xml:15:13-17:85
 	android:value
-		ADDED from [com.google.firebase:firebase-common-ktx:20.1.1] /Users/christianquaranta/.gradle/caches/transforms-3/32d4c789362f07d9274d8e4201ce246f/transformed/jetified-firebase-common-ktx-20.1.1/AndroidManifest.xml:17:17-82
+		ADDED from [com.google.firebase:firebase-common-ktx:20.1.1] /Users/christianquaranta/.gradle/caches/transforms-3/9c21c976cf5e64205dc3e64c20426e3b/transformed/jetified-firebase-common-ktx-20.1.1/AndroidManifest.xml:17:17-82
 	android:name
-		ADDED from [com.google.firebase:firebase-common-ktx:20.1.1] /Users/christianquaranta/.gradle/caches/transforms-3/32d4c789362f07d9274d8e4201ce246f/transformed/jetified-firebase-common-ktx-20.1.1/AndroidManifest.xml:16:17-113
+		ADDED from [com.google.firebase:firebase-common-ktx:20.1.1] /Users/christianquaranta/.gradle/caches/transforms-3/9c21c976cf5e64205dc3e64c20426e3b/transformed/jetified-firebase-common-ktx-20.1.1/AndroidManifest.xml:16:17-113
 provider#com.google.firebase.provider.FirebaseInitProvider
-ADDED from [com.google.firebase:firebase-common:20.1.1] /Users/christianquaranta/.gradle/caches/transforms-3/bcfb0b0958249827e5e7674f5da29637/transformed/jetified-firebase-common-20.1.1/AndroidManifest.xml:26:9-31:39
+ADDED from [com.google.firebase:firebase-common:20.1.1] /Users/christianquaranta/.gradle/caches/transforms-3/32c8021f4d7d2bed305e7e3fbde12b2d/transformed/jetified-firebase-common-20.1.1/AndroidManifest.xml:26:9-31:39
 	android:authorities
-		ADDED from [com.google.firebase:firebase-common:20.1.1] /Users/christianquaranta/.gradle/caches/transforms-3/bcfb0b0958249827e5e7674f5da29637/transformed/jetified-firebase-common-20.1.1/AndroidManifest.xml:28:13-72
+		ADDED from [com.google.firebase:firebase-common:20.1.1] /Users/christianquaranta/.gradle/caches/transforms-3/32c8021f4d7d2bed305e7e3fbde12b2d/transformed/jetified-firebase-common-20.1.1/AndroidManifest.xml:28:13-72
 	android:exported
-		ADDED from [com.google.firebase:firebase-common:20.1.1] /Users/christianquaranta/.gradle/caches/transforms-3/bcfb0b0958249827e5e7674f5da29637/transformed/jetified-firebase-common-20.1.1/AndroidManifest.xml:30:13-37
+		ADDED from [com.google.firebase:firebase-common:20.1.1] /Users/christianquaranta/.gradle/caches/transforms-3/32c8021f4d7d2bed305e7e3fbde12b2d/transformed/jetified-firebase-common-20.1.1/AndroidManifest.xml:30:13-37
 	android:directBootAware
-		ADDED from [com.google.firebase:firebase-common:20.1.1] /Users/christianquaranta/.gradle/caches/transforms-3/bcfb0b0958249827e5e7674f5da29637/transformed/jetified-firebase-common-20.1.1/AndroidManifest.xml:29:13-43
+		ADDED from [com.google.firebase:firebase-common:20.1.1] /Users/christianquaranta/.gradle/caches/transforms-3/32c8021f4d7d2bed305e7e3fbde12b2d/transformed/jetified-firebase-common-20.1.1/AndroidManifest.xml:29:13-43
 	android:initOrder
-		ADDED from [com.google.firebase:firebase-common:20.1.1] /Users/christianquaranta/.gradle/caches/transforms-3/bcfb0b0958249827e5e7674f5da29637/transformed/jetified-firebase-common-20.1.1/AndroidManifest.xml:31:13-36
+		ADDED from [com.google.firebase:firebase-common:20.1.1] /Users/christianquaranta/.gradle/caches/transforms-3/32c8021f4d7d2bed305e7e3fbde12b2d/transformed/jetified-firebase-common-20.1.1/AndroidManifest.xml:31:13-36
 	android:name
-		ADDED from [com.google.firebase:firebase-common:20.1.1] /Users/christianquaranta/.gradle/caches/transforms-3/bcfb0b0958249827e5e7674f5da29637/transformed/jetified-firebase-common-20.1.1/AndroidManifest.xml:27:13-77
+		ADDED from [com.google.firebase:firebase-common:20.1.1] /Users/christianquaranta/.gradle/caches/transforms-3/32c8021f4d7d2bed305e7e3fbde12b2d/transformed/jetified-firebase-common-20.1.1/AndroidManifest.xml:27:13-77
 meta-data#com.google.android.gms.version
-ADDED from [com.google.android.gms:play-services-basement:18.0.0] /Users/christianquaranta/.gradle/caches/transforms-3/80cbef2545f2547655484d89baab15ea/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:21:9-23:69
+ADDED from [com.google.android.gms:play-services-basement:18.0.0] /Users/christianquaranta/.gradle/caches/transforms-3/640822766b7328921df2c8b31d81535d/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:21:9-23:69
 	android:value
-		ADDED from [com.google.android.gms:play-services-basement:18.0.0] /Users/christianquaranta/.gradle/caches/transforms-3/80cbef2545f2547655484d89baab15ea/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:23:13-66
+		ADDED from [com.google.android.gms:play-services-basement:18.0.0] /Users/christianquaranta/.gradle/caches/transforms-3/640822766b7328921df2c8b31d81535d/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:23:13-66
 	android:name
-		ADDED from [com.google.android.gms:play-services-basement:18.0.0] /Users/christianquaranta/.gradle/caches/transforms-3/80cbef2545f2547655484d89baab15ea/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:22:13-58
+		ADDED from [com.google.android.gms:play-services-basement:18.0.0] /Users/christianquaranta/.gradle/caches/transforms-3/640822766b7328921df2c8b31d81535d/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:22:13-58
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from [androidmads.library.qrgenearator:QRGenearator:1.0.4] /Users/christianquaranta/.gradle/caches/transforms-3/2fdc33118f8f9afd6d1d962a82a38383/transformed/jetified-QRGenearator-1.0.4/AndroidManifest.xml:11:5-81
+ADDED from [androidmads.library.qrgenearator:QRGenearator:1.0.4] /Users/christianquaranta/.gradle/caches/transforms-3/6d4c1a7db0751ed9c8450bf4319e1ec9/transformed/jetified-QRGenearator-1.0.4/AndroidManifest.xml:11:5-81
 	android:name
-		ADDED from [androidmads.library.qrgenearator:QRGenearator:1.0.4] /Users/christianquaranta/.gradle/caches/transforms-3/2fdc33118f8f9afd6d1d962a82a38383/transformed/jetified-QRGenearator-1.0.4/AndroidManifest.xml:11:22-78
+		ADDED from [androidmads.library.qrgenearator:QRGenearator:1.0.4] /Users/christianquaranta/.gradle/caches/transforms-3/6d4c1a7db0751ed9c8450bf4319e1ec9/transformed/jetified-QRGenearator-1.0.4/AndroidManifest.xml:11:22-78
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
 IMPLIED from /Users/christianquaranta/AndroidStudioProjects/hercules/HerculesWallet/app/src/main/AndroidManifest.xml:2:1-29:12 reason: androidmads.library.qrgenearator requested WRITE_EXTERNAL_STORAGE
 provider#androidx.lifecycle.ProcessLifecycleOwnerInitializer
-ADDED from [androidx.lifecycle:lifecycle-process:2.0.0] /Users/christianquaranta/.gradle/caches/transforms-3/fc4365e62ac653a5ab3176e660544756/transformed/jetified-lifecycle-process-2.0.0/AndroidManifest.xml:23:9-27:43
+ADDED from [androidx.lifecycle:lifecycle-process:2.0.0] /Users/christianquaranta/.gradle/caches/transforms-3/90c7c63fefce20d38463be9805887989/transformed/jetified-lifecycle-process-2.0.0/AndroidManifest.xml:23:9-27:43
 	android:authorities
-		ADDED from [androidx.lifecycle:lifecycle-process:2.0.0] /Users/christianquaranta/.gradle/caches/transforms-3/fc4365e62ac653a5ab3176e660544756/transformed/jetified-lifecycle-process-2.0.0/AndroidManifest.xml:25:13-69
+		ADDED from [androidx.lifecycle:lifecycle-process:2.0.0] /Users/christianquaranta/.gradle/caches/transforms-3/90c7c63fefce20d38463be9805887989/transformed/jetified-lifecycle-process-2.0.0/AndroidManifest.xml:25:13-69
 	android:multiprocess
-		ADDED from [androidx.lifecycle:lifecycle-process:2.0.0] /Users/christianquaranta/.gradle/caches/transforms-3/fc4365e62ac653a5ab3176e660544756/transformed/jetified-lifecycle-process-2.0.0/AndroidManifest.xml:27:13-40
+		ADDED from [androidx.lifecycle:lifecycle-process:2.0.0] /Users/christianquaranta/.gradle/caches/transforms-3/90c7c63fefce20d38463be9805887989/transformed/jetified-lifecycle-process-2.0.0/AndroidManifest.xml:27:13-40
 	android:exported
-		ADDED from [androidx.lifecycle:lifecycle-process:2.0.0] /Users/christianquaranta/.gradle/caches/transforms-3/fc4365e62ac653a5ab3176e660544756/transformed/jetified-lifecycle-process-2.0.0/AndroidManifest.xml:26:13-37
+		ADDED from [androidx.lifecycle:lifecycle-process:2.0.0] /Users/christianquaranta/.gradle/caches/transforms-3/90c7c63fefce20d38463be9805887989/transformed/jetified-lifecycle-process-2.0.0/AndroidManifest.xml:26:13-37
 	android:name
-		ADDED from [androidx.lifecycle:lifecycle-process:2.0.0] /Users/christianquaranta/.gradle/caches/transforms-3/fc4365e62ac653a5ab3176e660544756/transformed/jetified-lifecycle-process-2.0.0/AndroidManifest.xml:24:13-79
+		ADDED from [androidx.lifecycle:lifecycle-process:2.0.0] /Users/christianquaranta/.gradle/caches/transforms-3/90c7c63fefce20d38463be9805887989/transformed/jetified-lifecycle-process-2.0.0/AndroidManifest.xml:24:13-79

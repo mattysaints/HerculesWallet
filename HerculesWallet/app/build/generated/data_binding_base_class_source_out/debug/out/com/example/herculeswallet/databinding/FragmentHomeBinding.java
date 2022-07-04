@@ -22,10 +22,13 @@ public final class FragmentHomeBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
-  public final ImageView imageView;
+  public final RecyclerView favCrypto;
 
   @NonNull
-  public final RecyclerView listCrypto;
+  public final ConstraintLayout frameLayout;
+
+  @NonNull
+  public final ImageView imageView;
 
   @NonNull
   public final ImageView logoDashboard;
@@ -34,26 +37,31 @@ public final class FragmentHomeBinding implements ViewBinding {
   public final TextView textView;
 
   @NonNull
-  public final TextView textView3;
+  public final TextView textView2;
 
   @NonNull
-  public final TextView textView4;
+  public final TextView textView3;
 
   @NonNull
   public final TextView textView6;
 
-  private FragmentHomeBinding(@NonNull ConstraintLayout rootView, @NonNull ImageView imageView,
-      @NonNull RecyclerView listCrypto, @NonNull ImageView logoDashboard,
-      @NonNull TextView textView, @NonNull TextView textView3, @NonNull TextView textView4,
-      @NonNull TextView textView6) {
+  @NonNull
+  public final TextView userwallet;
+
+  private FragmentHomeBinding(@NonNull ConstraintLayout rootView, @NonNull RecyclerView favCrypto,
+      @NonNull ConstraintLayout frameLayout, @NonNull ImageView imageView,
+      @NonNull ImageView logoDashboard, @NonNull TextView textView, @NonNull TextView textView2,
+      @NonNull TextView textView3, @NonNull TextView textView6, @NonNull TextView userwallet) {
     this.rootView = rootView;
+    this.favCrypto = favCrypto;
+    this.frameLayout = frameLayout;
     this.imageView = imageView;
-    this.listCrypto = listCrypto;
     this.logoDashboard = logoDashboard;
     this.textView = textView;
+    this.textView2 = textView2;
     this.textView3 = textView3;
-    this.textView4 = textView4;
     this.textView6 = textView6;
+    this.userwallet = userwallet;
   }
 
   @Override
@@ -83,15 +91,21 @@ public final class FragmentHomeBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.imageView;
-      ImageView imageView = ViewBindings.findChildViewById(rootView, id);
-      if (imageView == null) {
+      id = R.id.fav_crypto;
+      RecyclerView favCrypto = ViewBindings.findChildViewById(rootView, id);
+      if (favCrypto == null) {
         break missingId;
       }
 
-      id = R.id.list_crypto;
-      RecyclerView listCrypto = ViewBindings.findChildViewById(rootView, id);
-      if (listCrypto == null) {
+      id = R.id.frameLayout;
+      ConstraintLayout frameLayout = ViewBindings.findChildViewById(rootView, id);
+      if (frameLayout == null) {
+        break missingId;
+      }
+
+      id = R.id.imageView;
+      ImageView imageView = ViewBindings.findChildViewById(rootView, id);
+      if (imageView == null) {
         break missingId;
       }
 
@@ -107,15 +121,15 @@ public final class FragmentHomeBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.textView3;
-      TextView textView3 = ViewBindings.findChildViewById(rootView, id);
-      if (textView3 == null) {
+      id = R.id.textView2;
+      TextView textView2 = ViewBindings.findChildViewById(rootView, id);
+      if (textView2 == null) {
         break missingId;
       }
 
-      id = R.id.textView4;
-      TextView textView4 = ViewBindings.findChildViewById(rootView, id);
-      if (textView4 == null) {
+      id = R.id.textView3;
+      TextView textView3 = ViewBindings.findChildViewById(rootView, id);
+      if (textView3 == null) {
         break missingId;
       }
 
@@ -125,8 +139,14 @@ public final class FragmentHomeBinding implements ViewBinding {
         break missingId;
       }
 
-      return new FragmentHomeBinding((ConstraintLayout) rootView, imageView, listCrypto,
-          logoDashboard, textView, textView3, textView4, textView6);
+      id = R.id.userwallet;
+      TextView userwallet = ViewBindings.findChildViewById(rootView, id);
+      if (userwallet == null) {
+        break missingId;
+      }
+
+      return new FragmentHomeBinding((ConstraintLayout) rootView, favCrypto, frameLayout, imageView,
+          logoDashboard, textView, textView2, textView3, textView6, userwallet);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

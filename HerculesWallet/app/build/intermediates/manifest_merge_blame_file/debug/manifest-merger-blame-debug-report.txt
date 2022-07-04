@@ -17,11 +17,11 @@
 13    <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
 14    <!-- <uses-sdk android:minSdkVersion="14"/> -->
 15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-15-->[com.google.firebase:firebase-database:20.0.5] /Users/christianquaranta/.gradle/caches/transforms-3/29f0d62ece32f67f27923983ae856237/transformed/jetified-firebase-database-20.0.5/AndroidManifest.xml:25:5-79
-15-->[com.google.firebase:firebase-database:20.0.5] /Users/christianquaranta/.gradle/caches/transforms-3/29f0d62ece32f67f27923983ae856237/transformed/jetified-firebase-database-20.0.5/AndroidManifest.xml:25:22-76
+15-->[com.google.firebase:firebase-database:20.0.5] /Users/christianquaranta/.gradle/caches/transforms-3/7be0e02632bef93e6422c5286ebec5ad/transformed/jetified-firebase-database-20.0.5/AndroidManifest.xml:25:5-79
+15-->[com.google.firebase:firebase-database:20.0.5] /Users/christianquaranta/.gradle/caches/transforms-3/7be0e02632bef93e6422c5286ebec5ad/transformed/jetified-firebase-database-20.0.5/AndroidManifest.xml:25:22-76
 16    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-16-->[androidmads.library.qrgenearator:QRGenearator:1.0.4] /Users/christianquaranta/.gradle/caches/transforms-3/2fdc33118f8f9afd6d1d962a82a38383/transformed/jetified-QRGenearator-1.0.4/AndroidManifest.xml:11:5-81
-16-->[androidmads.library.qrgenearator:QRGenearator:1.0.4] /Users/christianquaranta/.gradle/caches/transforms-3/2fdc33118f8f9afd6d1d962a82a38383/transformed/jetified-QRGenearator-1.0.4/AndroidManifest.xml:11:22-78
+16-->[androidmads.library.qrgenearator:QRGenearator:1.0.4] /Users/christianquaranta/.gradle/caches/transforms-3/6d4c1a7db0751ed9c8450bf4319e1ec9/transformed/jetified-QRGenearator-1.0.4/AndroidManifest.xml:11:5-81
+16-->[androidmads.library.qrgenearator:QRGenearator:1.0.4] /Users/christianquaranta/.gradle/caches/transforms-3/6d4c1a7db0751ed9c8450bf4319e1ec9/transformed/jetified-QRGenearator-1.0.4/AndroidManifest.xml:11:22-78
 17    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 18
 19    <application
@@ -29,7 +29,7 @@
 20        android:allowBackup="true"
 20-->/Users/christianquaranta/AndroidStudioProjects/hercules/HerculesWallet/app/src/main/AndroidManifest.xml:8:9-35
 21        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-21-->[androidx.core:core:1.7.0] /Users/christianquaranta/.gradle/caches/transforms-3/4c95eabad880a452207e8362f12b680b/transformed/core-1.7.0/AndroidManifest.xml:24:18-86
+21-->[androidx.core:core:1.7.0] /Users/christianquaranta/.gradle/caches/transforms-3/282222a868a0dbc037eafaa8f451e13f/transformed/core-1.7.0/AndroidManifest.xml:24:18-86
 22        android:debuggable="true"
 23        android:extractNativeLibs="false"
 24        android:icon="@mipmap/ic_launcher"
@@ -70,140 +70,140 @@
 42        </activity>
 43
 44        <provider
-44-->[com.squareup.picasso:picasso:2.8] /Users/christianquaranta/.gradle/caches/transforms-3/c15553b531ce6deb3dd4fdd5bd379b31/transformed/jetified-picasso-2.8/AndroidManifest.xml:8:9-11:40
+44-->[com.squareup.picasso:picasso:2.8] /Users/christianquaranta/.gradle/caches/transforms-3/eacf4403b8691f90c669e31d55b4ae9c/transformed/jetified-picasso-2.8/AndroidManifest.xml:8:9-11:40
 45            android:name="com.squareup.picasso.PicassoProvider"
-45-->[com.squareup.picasso:picasso:2.8] /Users/christianquaranta/.gradle/caches/transforms-3/c15553b531ce6deb3dd4fdd5bd379b31/transformed/jetified-picasso-2.8/AndroidManifest.xml:9:13-64
+45-->[com.squareup.picasso:picasso:2.8] /Users/christianquaranta/.gradle/caches/transforms-3/eacf4403b8691f90c669e31d55b4ae9c/transformed/jetified-picasso-2.8/AndroidManifest.xml:9:13-64
 46            android:authorities="com.example.herculeswallet.com.squareup.picasso"
-46-->[com.squareup.picasso:picasso:2.8] /Users/christianquaranta/.gradle/caches/transforms-3/c15553b531ce6deb3dd4fdd5bd379b31/transformed/jetified-picasso-2.8/AndroidManifest.xml:10:13-72
+46-->[com.squareup.picasso:picasso:2.8] /Users/christianquaranta/.gradle/caches/transforms-3/eacf4403b8691f90c669e31d55b4ae9c/transformed/jetified-picasso-2.8/AndroidManifest.xml:10:13-72
 47            android:exported="false" />
-47-->[com.squareup.picasso:picasso:2.8] /Users/christianquaranta/.gradle/caches/transforms-3/c15553b531ce6deb3dd4fdd5bd379b31/transformed/jetified-picasso-2.8/AndroidManifest.xml:11:13-37
+47-->[com.squareup.picasso:picasso:2.8] /Users/christianquaranta/.gradle/caches/transforms-3/eacf4403b8691f90c669e31d55b4ae9c/transformed/jetified-picasso-2.8/AndroidManifest.xml:11:13-37
 48
 49        <uses-library
-49-->[androidx.window:window:1.0.0] /Users/christianquaranta/.gradle/caches/transforms-3/22d0011f5bd97f1200271cdfe1a2b0d5/transformed/jetified-window-1.0.0/AndroidManifest.xml:25:9-27:40
+49-->[androidx.window:window:1.0.0] /Users/christianquaranta/.gradle/caches/transforms-3/c121cbe4bb46880f071ad66f69f15272/transformed/jetified-window-1.0.0/AndroidManifest.xml:25:9-27:40
 50            android:name="androidx.window.extensions"
-50-->[androidx.window:window:1.0.0] /Users/christianquaranta/.gradle/caches/transforms-3/22d0011f5bd97f1200271cdfe1a2b0d5/transformed/jetified-window-1.0.0/AndroidManifest.xml:26:13-54
+50-->[androidx.window:window:1.0.0] /Users/christianquaranta/.gradle/caches/transforms-3/c121cbe4bb46880f071ad66f69f15272/transformed/jetified-window-1.0.0/AndroidManifest.xml:26:13-54
 51            android:required="false" />
-51-->[androidx.window:window:1.0.0] /Users/christianquaranta/.gradle/caches/transforms-3/22d0011f5bd97f1200271cdfe1a2b0d5/transformed/jetified-window-1.0.0/AndroidManifest.xml:27:13-37
+51-->[androidx.window:window:1.0.0] /Users/christianquaranta/.gradle/caches/transforms-3/c121cbe4bb46880f071ad66f69f15272/transformed/jetified-window-1.0.0/AndroidManifest.xml:27:13-37
 52        <uses-library
-52-->[androidx.window:window:1.0.0] /Users/christianquaranta/.gradle/caches/transforms-3/22d0011f5bd97f1200271cdfe1a2b0d5/transformed/jetified-window-1.0.0/AndroidManifest.xml:28:9-30:40
+52-->[androidx.window:window:1.0.0] /Users/christianquaranta/.gradle/caches/transforms-3/c121cbe4bb46880f071ad66f69f15272/transformed/jetified-window-1.0.0/AndroidManifest.xml:28:9-30:40
 53            android:name="androidx.window.sidecar"
-53-->[androidx.window:window:1.0.0] /Users/christianquaranta/.gradle/caches/transforms-3/22d0011f5bd97f1200271cdfe1a2b0d5/transformed/jetified-window-1.0.0/AndroidManifest.xml:29:13-51
+53-->[androidx.window:window:1.0.0] /Users/christianquaranta/.gradle/caches/transforms-3/c121cbe4bb46880f071ad66f69f15272/transformed/jetified-window-1.0.0/AndroidManifest.xml:29:13-51
 54            android:required="false" />
-54-->[androidx.window:window:1.0.0] /Users/christianquaranta/.gradle/caches/transforms-3/22d0011f5bd97f1200271cdfe1a2b0d5/transformed/jetified-window-1.0.0/AndroidManifest.xml:30:13-37
+54-->[androidx.window:window:1.0.0] /Users/christianquaranta/.gradle/caches/transforms-3/c121cbe4bb46880f071ad66f69f15272/transformed/jetified-window-1.0.0/AndroidManifest.xml:30:13-37
 55
 56        <activity
-56-->[com.google.firebase:firebase-auth:19.2.0] /Users/christianquaranta/.gradle/caches/transforms-3/60ff26c0e3f98090617cd8378700c27f/transformed/jetified-firebase-auth-19.2.0/AndroidManifest.xml:24:9-31:50
+56-->[com.google.firebase:firebase-auth:19.2.0] /Users/christianquaranta/.gradle/caches/transforms-3/1cd379d5b2e3904982061599a3cb558c/transformed/jetified-firebase-auth-19.2.0/AndroidManifest.xml:24:9-31:50
 57            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
-57-->[com.google.firebase:firebase-auth:19.2.0] /Users/christianquaranta/.gradle/caches/transforms-3/60ff26c0e3f98090617cd8378700c27f/transformed/jetified-firebase-auth-19.2.0/AndroidManifest.xml:25:13-85
+57-->[com.google.firebase:firebase-auth:19.2.0] /Users/christianquaranta/.gradle/caches/transforms-3/1cd379d5b2e3904982061599a3cb558c/transformed/jetified-firebase-auth-19.2.0/AndroidManifest.xml:25:13-85
 58            android:excludeFromRecents="true"
-58-->[com.google.firebase:firebase-auth:19.2.0] /Users/christianquaranta/.gradle/caches/transforms-3/60ff26c0e3f98090617cd8378700c27f/transformed/jetified-firebase-auth-19.2.0/AndroidManifest.xml:26:13-46
+58-->[com.google.firebase:firebase-auth:19.2.0] /Users/christianquaranta/.gradle/caches/transforms-3/1cd379d5b2e3904982061599a3cb558c/transformed/jetified-firebase-auth-19.2.0/AndroidManifest.xml:26:13-46
 59            android:exported="true"
-59-->[com.google.firebase:firebase-auth:19.2.0] /Users/christianquaranta/.gradle/caches/transforms-3/60ff26c0e3f98090617cd8378700c27f/transformed/jetified-firebase-auth-19.2.0/AndroidManifest.xml:27:13-36
+59-->[com.google.firebase:firebase-auth:19.2.0] /Users/christianquaranta/.gradle/caches/transforms-3/1cd379d5b2e3904982061599a3cb558c/transformed/jetified-firebase-auth-19.2.0/AndroidManifest.xml:27:13-36
 60            android:launchMode="singleTask"
-60-->[com.google.firebase:firebase-auth:19.2.0] /Users/christianquaranta/.gradle/caches/transforms-3/60ff26c0e3f98090617cd8378700c27f/transformed/jetified-firebase-auth-19.2.0/AndroidManifest.xml:28:13-44
+60-->[com.google.firebase:firebase-auth:19.2.0] /Users/christianquaranta/.gradle/caches/transforms-3/1cd379d5b2e3904982061599a3cb558c/transformed/jetified-firebase-auth-19.2.0/AndroidManifest.xml:28:13-44
 61            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
-61-->[com.google.firebase:firebase-auth:19.2.0] /Users/christianquaranta/.gradle/caches/transforms-3/60ff26c0e3f98090617cd8378700c27f/transformed/jetified-firebase-auth-19.2.0/AndroidManifest.xml:29:13-102
+61-->[com.google.firebase:firebase-auth:19.2.0] /Users/christianquaranta/.gradle/caches/transforms-3/1cd379d5b2e3904982061599a3cb558c/transformed/jetified-firebase-auth-19.2.0/AndroidManifest.xml:29:13-102
 62            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-62-->[com.google.firebase:firebase-auth:19.2.0] /Users/christianquaranta/.gradle/caches/transforms-3/60ff26c0e3f98090617cd8378700c27f/transformed/jetified-firebase-auth-19.2.0/AndroidManifest.xml:30:13-72
+62-->[com.google.firebase:firebase-auth:19.2.0] /Users/christianquaranta/.gradle/caches/transforms-3/1cd379d5b2e3904982061599a3cb558c/transformed/jetified-firebase-auth-19.2.0/AndroidManifest.xml:30:13-72
 63
 64        <service
-64-->[com.google.firebase:firebase-auth:19.2.0] /Users/christianquaranta/.gradle/caches/transforms-3/60ff26c0e3f98090617cd8378700c27f/transformed/jetified-firebase-auth-19.2.0/AndroidManifest.xml:33:9-39:19
+64-->[com.google.firebase:firebase-auth:19.2.0] /Users/christianquaranta/.gradle/caches/transforms-3/1cd379d5b2e3904982061599a3cb558c/transformed/jetified-firebase-auth-19.2.0/AndroidManifest.xml:33:9-39:19
 65            android:name="com.google.firebase.components.ComponentDiscoveryService"
-65-->[com.google.firebase:firebase-auth:19.2.0] /Users/christianquaranta/.gradle/caches/transforms-3/60ff26c0e3f98090617cd8378700c27f/transformed/jetified-firebase-auth-19.2.0/AndroidManifest.xml:34:13-84
+65-->[com.google.firebase:firebase-auth:19.2.0] /Users/christianquaranta/.gradle/caches/transforms-3/1cd379d5b2e3904982061599a3cb558c/transformed/jetified-firebase-auth-19.2.0/AndroidManifest.xml:34:13-84
 66            android:directBootAware="true"
-66-->[com.google.firebase:firebase-common:20.1.1] /Users/christianquaranta/.gradle/caches/transforms-3/bcfb0b0958249827e5e7674f5da29637/transformed/jetified-firebase-common-20.1.1/AndroidManifest.xml:35:13-43
+66-->[com.google.firebase:firebase-common:20.1.1] /Users/christianquaranta/.gradle/caches/transforms-3/32c8021f4d7d2bed305e7e3fbde12b2d/transformed/jetified-firebase-common-20.1.1/AndroidManifest.xml:35:13-43
 67            android:exported="false" >
-67-->[com.google.firebase:firebase-auth:19.2.0] /Users/christianquaranta/.gradle/caches/transforms-3/60ff26c0e3f98090617cd8378700c27f/transformed/jetified-firebase-auth-19.2.0/AndroidManifest.xml:35:13-37
+67-->[com.google.firebase:firebase-auth:19.2.0] /Users/christianquaranta/.gradle/caches/transforms-3/1cd379d5b2e3904982061599a3cb558c/transformed/jetified-firebase-auth-19.2.0/AndroidManifest.xml:35:13-37
 68            <meta-data
-68-->[com.google.firebase:firebase-auth:19.2.0] /Users/christianquaranta/.gradle/caches/transforms-3/60ff26c0e3f98090617cd8378700c27f/transformed/jetified-firebase-auth-19.2.0/AndroidManifest.xml:36:13-38:85
+68-->[com.google.firebase:firebase-auth:19.2.0] /Users/christianquaranta/.gradle/caches/transforms-3/1cd379d5b2e3904982061599a3cb558c/transformed/jetified-firebase-auth-19.2.0/AndroidManifest.xml:36:13-38:85
 69                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
-69-->[com.google.firebase:firebase-auth:19.2.0] /Users/christianquaranta/.gradle/caches/transforms-3/60ff26c0e3f98090617cd8378700c27f/transformed/jetified-firebase-auth-19.2.0/AndroidManifest.xml:37:17-109
+69-->[com.google.firebase:firebase-auth:19.2.0] /Users/christianquaranta/.gradle/caches/transforms-3/1cd379d5b2e3904982061599a3cb558c/transformed/jetified-firebase-auth-19.2.0/AndroidManifest.xml:37:17-109
 70                android:value="com.google.firebase.components.ComponentRegistrar" />
-70-->[com.google.firebase:firebase-auth:19.2.0] /Users/christianquaranta/.gradle/caches/transforms-3/60ff26c0e3f98090617cd8378700c27f/transformed/jetified-firebase-auth-19.2.0/AndroidManifest.xml:38:17-82
+70-->[com.google.firebase:firebase-auth:19.2.0] /Users/christianquaranta/.gradle/caches/transforms-3/1cd379d5b2e3904982061599a3cb558c/transformed/jetified-firebase-auth-19.2.0/AndroidManifest.xml:38:17-82
 71            <meta-data
-71-->[com.google.firebase:firebase-database-ktx:20.0.5] /Users/christianquaranta/.gradle/caches/transforms-3/f881a7d3b0dcfdefc13138a133cc1404/transformed/jetified-firebase-database-ktx-20.0.5/AndroidManifest.xml:15:13-17:85
+71-->[com.google.firebase:firebase-database-ktx:20.0.5] /Users/christianquaranta/.gradle/caches/transforms-3/68dc8cfb6c8889583a4a18b611003903/transformed/jetified-firebase-database-ktx-20.0.5/AndroidManifest.xml:15:13-17:85
 72                android:name="com.google.firebase.components:com.google.firebase.database.ktx.FirebaseDatabaseKtxRegistrar"
-72-->[com.google.firebase:firebase-database-ktx:20.0.5] /Users/christianquaranta/.gradle/caches/transforms-3/f881a7d3b0dcfdefc13138a133cc1404/transformed/jetified-firebase-database-ktx-20.0.5/AndroidManifest.xml:16:17-124
+72-->[com.google.firebase:firebase-database-ktx:20.0.5] /Users/christianquaranta/.gradle/caches/transforms-3/68dc8cfb6c8889583a4a18b611003903/transformed/jetified-firebase-database-ktx-20.0.5/AndroidManifest.xml:16:17-124
 73                android:value="com.google.firebase.components.ComponentRegistrar" />
-73-->[com.google.firebase:firebase-database-ktx:20.0.5] /Users/christianquaranta/.gradle/caches/transforms-3/f881a7d3b0dcfdefc13138a133cc1404/transformed/jetified-firebase-database-ktx-20.0.5/AndroidManifest.xml:17:17-82
+73-->[com.google.firebase:firebase-database-ktx:20.0.5] /Users/christianquaranta/.gradle/caches/transforms-3/68dc8cfb6c8889583a4a18b611003903/transformed/jetified-firebase-database-ktx-20.0.5/AndroidManifest.xml:17:17-82
 74            <meta-data
-74-->[com.google.firebase:firebase-database:20.0.5] /Users/christianquaranta/.gradle/caches/transforms-3/29f0d62ece32f67f27923983ae856237/transformed/jetified-firebase-database-20.0.5/AndroidManifest.xml:32:13-34:85
+74-->[com.google.firebase:firebase-database:20.0.5] /Users/christianquaranta/.gradle/caches/transforms-3/7be0e02632bef93e6422c5286ebec5ad/transformed/jetified-firebase-database-20.0.5/AndroidManifest.xml:32:13-34:85
 75                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
-75-->[com.google.firebase:firebase-database:20.0.5] /Users/christianquaranta/.gradle/caches/transforms-3/29f0d62ece32f67f27923983ae856237/transformed/jetified-firebase-database-20.0.5/AndroidManifest.xml:33:17-109
+75-->[com.google.firebase:firebase-database:20.0.5] /Users/christianquaranta/.gradle/caches/transforms-3/7be0e02632bef93e6422c5286ebec5ad/transformed/jetified-firebase-database-20.0.5/AndroidManifest.xml:33:17-109
 76                android:value="com.google.firebase.components.ComponentRegistrar" />
-76-->[com.google.firebase:firebase-database:20.0.5] /Users/christianquaranta/.gradle/caches/transforms-3/29f0d62ece32f67f27923983ae856237/transformed/jetified-firebase-database-20.0.5/AndroidManifest.xml:34:17-82
+76-->[com.google.firebase:firebase-database:20.0.5] /Users/christianquaranta/.gradle/caches/transforms-3/7be0e02632bef93e6422c5286ebec5ad/transformed/jetified-firebase-database-20.0.5/AndroidManifest.xml:34:17-82
 77            <meta-data
-77-->[com.google.firebase:firebase-common-ktx:20.1.1] /Users/christianquaranta/.gradle/caches/transforms-3/32d4c789362f07d9274d8e4201ce246f/transformed/jetified-firebase-common-ktx-20.1.1/AndroidManifest.xml:15:13-17:85
+77-->[com.google.firebase:firebase-common-ktx:20.1.1] /Users/christianquaranta/.gradle/caches/transforms-3/9c21c976cf5e64205dc3e64c20426e3b/transformed/jetified-firebase-common-ktx-20.1.1/AndroidManifest.xml:15:13-17:85
 78                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonKtxRegistrar"
-78-->[com.google.firebase:firebase-common-ktx:20.1.1] /Users/christianquaranta/.gradle/caches/transforms-3/32d4c789362f07d9274d8e4201ce246f/transformed/jetified-firebase-common-ktx-20.1.1/AndroidManifest.xml:16:17-113
+78-->[com.google.firebase:firebase-common-ktx:20.1.1] /Users/christianquaranta/.gradle/caches/transforms-3/9c21c976cf5e64205dc3e64c20426e3b/transformed/jetified-firebase-common-ktx-20.1.1/AndroidManifest.xml:16:17-113
 79                android:value="com.google.firebase.components.ComponentRegistrar" />
-79-->[com.google.firebase:firebase-common-ktx:20.1.1] /Users/christianquaranta/.gradle/caches/transforms-3/32d4c789362f07d9274d8e4201ce246f/transformed/jetified-firebase-common-ktx-20.1.1/AndroidManifest.xml:17:17-82
+79-->[com.google.firebase:firebase-common-ktx:20.1.1] /Users/christianquaranta/.gradle/caches/transforms-3/9c21c976cf5e64205dc3e64c20426e3b/transformed/jetified-firebase-common-ktx-20.1.1/AndroidManifest.xml:17:17-82
 80        </service>
 81
 82        <activity
-82-->[com.google.android.gms:play-services-auth:20.2.0] /Users/christianquaranta/.gradle/caches/transforms-3/c2d3fe26e4e4c803d00d9185ac5e270d/transformed/jetified-play-services-auth-20.2.0/AndroidManifest.xml:23:9-27:75
+82-->[com.google.android.gms:play-services-auth:20.2.0] /Users/christianquaranta/.gradle/caches/transforms-3/e5077a32dbd0b69aaa20f12264c0e1ec/transformed/jetified-play-services-auth-20.2.0/AndroidManifest.xml:23:9-27:75
 83            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
-83-->[com.google.android.gms:play-services-auth:20.2.0] /Users/christianquaranta/.gradle/caches/transforms-3/c2d3fe26e4e4c803d00d9185ac5e270d/transformed/jetified-play-services-auth-20.2.0/AndroidManifest.xml:24:13-93
+83-->[com.google.android.gms:play-services-auth:20.2.0] /Users/christianquaranta/.gradle/caches/transforms-3/e5077a32dbd0b69aaa20f12264c0e1ec/transformed/jetified-play-services-auth-20.2.0/AndroidManifest.xml:24:13-93
 84            android:excludeFromRecents="true"
-84-->[com.google.android.gms:play-services-auth:20.2.0] /Users/christianquaranta/.gradle/caches/transforms-3/c2d3fe26e4e4c803d00d9185ac5e270d/transformed/jetified-play-services-auth-20.2.0/AndroidManifest.xml:25:13-46
+84-->[com.google.android.gms:play-services-auth:20.2.0] /Users/christianquaranta/.gradle/caches/transforms-3/e5077a32dbd0b69aaa20f12264c0e1ec/transformed/jetified-play-services-auth-20.2.0/AndroidManifest.xml:25:13-46
 85            android:exported="false"
-85-->[com.google.android.gms:play-services-auth:20.2.0] /Users/christianquaranta/.gradle/caches/transforms-3/c2d3fe26e4e4c803d00d9185ac5e270d/transformed/jetified-play-services-auth-20.2.0/AndroidManifest.xml:26:13-37
+85-->[com.google.android.gms:play-services-auth:20.2.0] /Users/christianquaranta/.gradle/caches/transforms-3/e5077a32dbd0b69aaa20f12264c0e1ec/transformed/jetified-play-services-auth-20.2.0/AndroidManifest.xml:26:13-37
 86            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-86-->[com.google.android.gms:play-services-auth:20.2.0] /Users/christianquaranta/.gradle/caches/transforms-3/c2d3fe26e4e4c803d00d9185ac5e270d/transformed/jetified-play-services-auth-20.2.0/AndroidManifest.xml:27:13-72
+86-->[com.google.android.gms:play-services-auth:20.2.0] /Users/christianquaranta/.gradle/caches/transforms-3/e5077a32dbd0b69aaa20f12264c0e1ec/transformed/jetified-play-services-auth-20.2.0/AndroidManifest.xml:27:13-72
 87        <!--
 88            Service handling Google Sign-In user revocation. For apps that do not integrate with
 89            Google Sign-In, this service will never be started.
 90        -->
 91        <service
-91-->[com.google.android.gms:play-services-auth:20.2.0] /Users/christianquaranta/.gradle/caches/transforms-3/c2d3fe26e4e4c803d00d9185ac5e270d/transformed/jetified-play-services-auth-20.2.0/AndroidManifest.xml:33:9-37:51
+91-->[com.google.android.gms:play-services-auth:20.2.0] /Users/christianquaranta/.gradle/caches/transforms-3/e5077a32dbd0b69aaa20f12264c0e1ec/transformed/jetified-play-services-auth-20.2.0/AndroidManifest.xml:33:9-37:51
 92            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
-92-->[com.google.android.gms:play-services-auth:20.2.0] /Users/christianquaranta/.gradle/caches/transforms-3/c2d3fe26e4e4c803d00d9185ac5e270d/transformed/jetified-play-services-auth-20.2.0/AndroidManifest.xml:34:13-89
+92-->[com.google.android.gms:play-services-auth:20.2.0] /Users/christianquaranta/.gradle/caches/transforms-3/e5077a32dbd0b69aaa20f12264c0e1ec/transformed/jetified-play-services-auth-20.2.0/AndroidManifest.xml:34:13-89
 93            android:exported="true"
-93-->[com.google.android.gms:play-services-auth:20.2.0] /Users/christianquaranta/.gradle/caches/transforms-3/c2d3fe26e4e4c803d00d9185ac5e270d/transformed/jetified-play-services-auth-20.2.0/AndroidManifest.xml:35:13-36
+93-->[com.google.android.gms:play-services-auth:20.2.0] /Users/christianquaranta/.gradle/caches/transforms-3/e5077a32dbd0b69aaa20f12264c0e1ec/transformed/jetified-play-services-auth-20.2.0/AndroidManifest.xml:35:13-36
 94            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
-94-->[com.google.android.gms:play-services-auth:20.2.0] /Users/christianquaranta/.gradle/caches/transforms-3/c2d3fe26e4e4c803d00d9185ac5e270d/transformed/jetified-play-services-auth-20.2.0/AndroidManifest.xml:36:13-107
+94-->[com.google.android.gms:play-services-auth:20.2.0] /Users/christianquaranta/.gradle/caches/transforms-3/e5077a32dbd0b69aaa20f12264c0e1ec/transformed/jetified-play-services-auth-20.2.0/AndroidManifest.xml:36:13-107
 95            android:visibleToInstantApps="true" />
-95-->[com.google.android.gms:play-services-auth:20.2.0] /Users/christianquaranta/.gradle/caches/transforms-3/c2d3fe26e4e4c803d00d9185ac5e270d/transformed/jetified-play-services-auth-20.2.0/AndroidManifest.xml:37:13-48
+95-->[com.google.android.gms:play-services-auth:20.2.0] /Users/christianquaranta/.gradle/caches/transforms-3/e5077a32dbd0b69aaa20f12264c0e1ec/transformed/jetified-play-services-auth-20.2.0/AndroidManifest.xml:37:13-48
 96
 97        <activity
-97-->[com.google.android.gms:play-services-base:18.0.1] /Users/christianquaranta/.gradle/caches/transforms-3/cc4807367e3e5583c9e4bc562e1c105a/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
+97-->[com.google.android.gms:play-services-base:18.0.1] /Users/christianquaranta/.gradle/caches/transforms-3/4ceeb7d38150b44e34e3bf0e2e989663/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
 98            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-98-->[com.google.android.gms:play-services-base:18.0.1] /Users/christianquaranta/.gradle/caches/transforms-3/cc4807367e3e5583c9e4bc562e1c105a/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:19-85
+98-->[com.google.android.gms:play-services-base:18.0.1] /Users/christianquaranta/.gradle/caches/transforms-3/4ceeb7d38150b44e34e3bf0e2e989663/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:19-85
 99            android:exported="false"
-99-->[com.google.android.gms:play-services-base:18.0.1] /Users/christianquaranta/.gradle/caches/transforms-3/cc4807367e3e5583c9e4bc562e1c105a/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:22:19-43
+99-->[com.google.android.gms:play-services-base:18.0.1] /Users/christianquaranta/.gradle/caches/transforms-3/4ceeb7d38150b44e34e3bf0e2e989663/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:22:19-43
 100            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-100-->[com.google.android.gms:play-services-base:18.0.1] /Users/christianquaranta/.gradle/caches/transforms-3/cc4807367e3e5583c9e4bc562e1c105a/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:21:19-78
+100-->[com.google.android.gms:play-services-base:18.0.1] /Users/christianquaranta/.gradle/caches/transforms-3/4ceeb7d38150b44e34e3bf0e2e989663/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:21:19-78
 101
 102        <provider
-102-->[com.google.firebase:firebase-common:20.1.1] /Users/christianquaranta/.gradle/caches/transforms-3/bcfb0b0958249827e5e7674f5da29637/transformed/jetified-firebase-common-20.1.1/AndroidManifest.xml:26:9-31:39
+102-->[com.google.firebase:firebase-common:20.1.1] /Users/christianquaranta/.gradle/caches/transforms-3/32c8021f4d7d2bed305e7e3fbde12b2d/transformed/jetified-firebase-common-20.1.1/AndroidManifest.xml:26:9-31:39
 103            android:name="com.google.firebase.provider.FirebaseInitProvider"
-103-->[com.google.firebase:firebase-common:20.1.1] /Users/christianquaranta/.gradle/caches/transforms-3/bcfb0b0958249827e5e7674f5da29637/transformed/jetified-firebase-common-20.1.1/AndroidManifest.xml:27:13-77
+103-->[com.google.firebase:firebase-common:20.1.1] /Users/christianquaranta/.gradle/caches/transforms-3/32c8021f4d7d2bed305e7e3fbde12b2d/transformed/jetified-firebase-common-20.1.1/AndroidManifest.xml:27:13-77
 104            android:authorities="com.example.herculeswallet.firebaseinitprovider"
-104-->[com.google.firebase:firebase-common:20.1.1] /Users/christianquaranta/.gradle/caches/transforms-3/bcfb0b0958249827e5e7674f5da29637/transformed/jetified-firebase-common-20.1.1/AndroidManifest.xml:28:13-72
+104-->[com.google.firebase:firebase-common:20.1.1] /Users/christianquaranta/.gradle/caches/transforms-3/32c8021f4d7d2bed305e7e3fbde12b2d/transformed/jetified-firebase-common-20.1.1/AndroidManifest.xml:28:13-72
 105            android:directBootAware="true"
-105-->[com.google.firebase:firebase-common:20.1.1] /Users/christianquaranta/.gradle/caches/transforms-3/bcfb0b0958249827e5e7674f5da29637/transformed/jetified-firebase-common-20.1.1/AndroidManifest.xml:29:13-43
+105-->[com.google.firebase:firebase-common:20.1.1] /Users/christianquaranta/.gradle/caches/transforms-3/32c8021f4d7d2bed305e7e3fbde12b2d/transformed/jetified-firebase-common-20.1.1/AndroidManifest.xml:29:13-43
 106            android:exported="false"
-106-->[com.google.firebase:firebase-common:20.1.1] /Users/christianquaranta/.gradle/caches/transforms-3/bcfb0b0958249827e5e7674f5da29637/transformed/jetified-firebase-common-20.1.1/AndroidManifest.xml:30:13-37
+106-->[com.google.firebase:firebase-common:20.1.1] /Users/christianquaranta/.gradle/caches/transforms-3/32c8021f4d7d2bed305e7e3fbde12b2d/transformed/jetified-firebase-common-20.1.1/AndroidManifest.xml:30:13-37
 107            android:initOrder="100" />
-107-->[com.google.firebase:firebase-common:20.1.1] /Users/christianquaranta/.gradle/caches/transforms-3/bcfb0b0958249827e5e7674f5da29637/transformed/jetified-firebase-common-20.1.1/AndroidManifest.xml:31:13-36
+107-->[com.google.firebase:firebase-common:20.1.1] /Users/christianquaranta/.gradle/caches/transforms-3/32c8021f4d7d2bed305e7e3fbde12b2d/transformed/jetified-firebase-common-20.1.1/AndroidManifest.xml:31:13-36
 108
 109        <meta-data
-109-->[com.google.android.gms:play-services-basement:18.0.0] /Users/christianquaranta/.gradle/caches/transforms-3/80cbef2545f2547655484d89baab15ea/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:21:9-23:69
+109-->[com.google.android.gms:play-services-basement:18.0.0] /Users/christianquaranta/.gradle/caches/transforms-3/640822766b7328921df2c8b31d81535d/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:21:9-23:69
 110            android:name="com.google.android.gms.version"
-110-->[com.google.android.gms:play-services-basement:18.0.0] /Users/christianquaranta/.gradle/caches/transforms-3/80cbef2545f2547655484d89baab15ea/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:22:13-58
+110-->[com.google.android.gms:play-services-basement:18.0.0] /Users/christianquaranta/.gradle/caches/transforms-3/640822766b7328921df2c8b31d81535d/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:22:13-58
 111            android:value="@integer/google_play_services_version" />
-111-->[com.google.android.gms:play-services-basement:18.0.0] /Users/christianquaranta/.gradle/caches/transforms-3/80cbef2545f2547655484d89baab15ea/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:23:13-66
+111-->[com.google.android.gms:play-services-basement:18.0.0] /Users/christianquaranta/.gradle/caches/transforms-3/640822766b7328921df2c8b31d81535d/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:23:13-66
 112
 113        <provider
-113-->[androidx.lifecycle:lifecycle-process:2.0.0] /Users/christianquaranta/.gradle/caches/transforms-3/fc4365e62ac653a5ab3176e660544756/transformed/jetified-lifecycle-process-2.0.0/AndroidManifest.xml:23:9-27:43
+113-->[androidx.lifecycle:lifecycle-process:2.0.0] /Users/christianquaranta/.gradle/caches/transforms-3/90c7c63fefce20d38463be9805887989/transformed/jetified-lifecycle-process-2.0.0/AndroidManifest.xml:23:9-27:43
 114            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
-114-->[androidx.lifecycle:lifecycle-process:2.0.0] /Users/christianquaranta/.gradle/caches/transforms-3/fc4365e62ac653a5ab3176e660544756/transformed/jetified-lifecycle-process-2.0.0/AndroidManifest.xml:24:13-79
+114-->[androidx.lifecycle:lifecycle-process:2.0.0] /Users/christianquaranta/.gradle/caches/transforms-3/90c7c63fefce20d38463be9805887989/transformed/jetified-lifecycle-process-2.0.0/AndroidManifest.xml:24:13-79
 115            android:authorities="com.example.herculeswallet.lifecycle-process"
-115-->[androidx.lifecycle:lifecycle-process:2.0.0] /Users/christianquaranta/.gradle/caches/transforms-3/fc4365e62ac653a5ab3176e660544756/transformed/jetified-lifecycle-process-2.0.0/AndroidManifest.xml:25:13-69
+115-->[androidx.lifecycle:lifecycle-process:2.0.0] /Users/christianquaranta/.gradle/caches/transforms-3/90c7c63fefce20d38463be9805887989/transformed/jetified-lifecycle-process-2.0.0/AndroidManifest.xml:25:13-69
 116            android:exported="false"
-116-->[androidx.lifecycle:lifecycle-process:2.0.0] /Users/christianquaranta/.gradle/caches/transforms-3/fc4365e62ac653a5ab3176e660544756/transformed/jetified-lifecycle-process-2.0.0/AndroidManifest.xml:26:13-37
+116-->[androidx.lifecycle:lifecycle-process:2.0.0] /Users/christianquaranta/.gradle/caches/transforms-3/90c7c63fefce20d38463be9805887989/transformed/jetified-lifecycle-process-2.0.0/AndroidManifest.xml:26:13-37
 117            android:multiprocess="true" />
-117-->[androidx.lifecycle:lifecycle-process:2.0.0] /Users/christianquaranta/.gradle/caches/transforms-3/fc4365e62ac653a5ab3176e660544756/transformed/jetified-lifecycle-process-2.0.0/AndroidManifest.xml:27:13-40
+117-->[androidx.lifecycle:lifecycle-process:2.0.0] /Users/christianquaranta/.gradle/caches/transforms-3/90c7c63fefce20d38463be9805887989/transformed/jetified-lifecycle-process-2.0.0/AndroidManifest.xml:27:13-40
 118    </application>
 119
 120</manifest>

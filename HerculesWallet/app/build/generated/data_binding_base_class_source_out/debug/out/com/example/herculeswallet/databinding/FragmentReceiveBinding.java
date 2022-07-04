@@ -13,6 +13,7 @@ import androidx.annotation.Nullable;
 import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
+import androidx.viewpager2.widget.ViewPager2;
 import com.example.herculeswallet.R;
 import java.lang.NullPointerException;
 import java.lang.Override;
@@ -21,15 +22,6 @@ import java.lang.String;
 public final class FragmentReceiveBinding implements ViewBinding {
   @NonNull
   private final ConstraintLayout rootView;
-
-  @NonNull
-  public final TextView addressCrypto;
-
-  @NonNull
-  public final ImageView addressQr;
-
-  @NonNull
-  public final ImageView iconCrypto;
 
   @NonNull
   public final ImageView imageView;
@@ -44,20 +36,20 @@ public final class FragmentReceiveBinding implements ViewBinding {
   public final ImageView logoDashboard;
 
   @NonNull
+  public final ViewPager2 pager;
+
+  @NonNull
   public final TextView textView;
 
-  private FragmentReceiveBinding(@NonNull ConstraintLayout rootView,
-      @NonNull TextView addressCrypto, @NonNull ImageView addressQr, @NonNull ImageView iconCrypto,
-      @NonNull ImageView imageView, @NonNull RelativeLayout intestazione,
-      @NonNull LinearLayout linear1, @NonNull ImageView logoDashboard, @NonNull TextView textView) {
+  private FragmentReceiveBinding(@NonNull ConstraintLayout rootView, @NonNull ImageView imageView,
+      @NonNull RelativeLayout intestazione, @NonNull LinearLayout linear1,
+      @NonNull ImageView logoDashboard, @NonNull ViewPager2 pager, @NonNull TextView textView) {
     this.rootView = rootView;
-    this.addressCrypto = addressCrypto;
-    this.addressQr = addressQr;
-    this.iconCrypto = iconCrypto;
     this.imageView = imageView;
     this.intestazione = intestazione;
     this.linear1 = linear1;
     this.logoDashboard = logoDashboard;
+    this.pager = pager;
     this.textView = textView;
   }
 
@@ -88,24 +80,6 @@ public final class FragmentReceiveBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.address_crypto;
-      TextView addressCrypto = ViewBindings.findChildViewById(rootView, id);
-      if (addressCrypto == null) {
-        break missingId;
-      }
-
-      id = R.id.address_qr;
-      ImageView addressQr = ViewBindings.findChildViewById(rootView, id);
-      if (addressQr == null) {
-        break missingId;
-      }
-
-      id = R.id.icon_crypto;
-      ImageView iconCrypto = ViewBindings.findChildViewById(rootView, id);
-      if (iconCrypto == null) {
-        break missingId;
-      }
-
       id = R.id.imageView;
       ImageView imageView = ViewBindings.findChildViewById(rootView, id);
       if (imageView == null) {
@@ -130,14 +104,20 @@ public final class FragmentReceiveBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.pager;
+      ViewPager2 pager = ViewBindings.findChildViewById(rootView, id);
+      if (pager == null) {
+        break missingId;
+      }
+
       id = R.id.textView;
       TextView textView = ViewBindings.findChildViewById(rootView, id);
       if (textView == null) {
         break missingId;
       }
 
-      return new FragmentReceiveBinding((ConstraintLayout) rootView, addressCrypto, addressQr,
-          iconCrypto, imageView, intestazione, linear1, logoDashboard, textView);
+      return new FragmentReceiveBinding((ConstraintLayout) rootView, imageView, intestazione,
+          linear1, logoDashboard, pager, textView);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
