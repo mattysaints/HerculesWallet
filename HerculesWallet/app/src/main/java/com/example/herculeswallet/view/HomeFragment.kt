@@ -39,25 +39,20 @@ class HomeFragment : Fragment(R.layout.fragment_home) {
         var user = model.getUserData().value!!
         val enc : Encryption = Encryption()
 
-        val wallet = user.wallet.toMap()
+        val wallet: Map<String, Crypto> = user.wallet.toMap()
+        var total: Double = 0.0
+            for (entry in wallet.entries.iterator()) {
+                val crypto = Klaxon().parse<Crypto>(entry.value!!.toJson())
+                val repo = model.cryptoRepo.getCryptoList().value
+                val priceUSD = (repo?.filter { it.name == crypto!!.name })?.first()
+                if (priceUSD != null) {
+                    total += (priceUSD.price_usd!!.toDouble() * crypto?.quantity_user!!.toDouble())
+                }else{
+                    total += (crypto?.price_usd!!.toDouble() * crypto?.quantity_user!!.toDouble())
+                }
+            }
+        if(total.equals(0.0)) walletText.text = "0" else walletText.text = total.toString()
 
-        for (entry in wallet.entries.iterator()) {
-            println("Valore : ${entry.key} : ${entry.value}")
-            println(Klaxon().parse<Crypto>(entry.value.toJson()))
-        }
-
-
-        /*val list_crypto = "Bitcoin"
-        val md5_address = model.getUserData().value?.email?.let { enc.md5(it + "/"+ list_crypto) }
-        var quantity : String = user.wallet.get(md5_address).toString()
-        if (quantity.indexOf("[") == -1) quantity = "[$quantity]"
-        var totalUSD: Double = 0.0
-        val jsonArray = JSONTokener(quantity).nextValue() as JSONArray
-        var crypto : MutableList<Crypto> = mutableListOf()
-        for (i in 0 until jsonArray.length()) {
-            totalUSD += (jsonArray.getJSONObject(i).getString("quantity_user").toDouble()*jsonArray.getJSONObject(i).getString("price_usd").toDouble())
-        }
-        if(totalUSD.equals(0)) walletText.text = "0" else walletText.text = totalUSD.toString()
 
         layoutManager = LinearLayoutManager(context, LinearLayoutManager.VERTICAL, false)
         val recyclerView = view.findViewById<RecyclerView>(R.id.fav_crypto)
