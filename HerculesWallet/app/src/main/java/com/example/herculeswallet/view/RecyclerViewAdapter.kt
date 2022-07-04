@@ -69,11 +69,15 @@ class RecyclerViewAdapter(preferences: List<String>) : RecyclerView.Adapter<Recy
 
         holder.favourite.setOnClickListener(View.OnClickListener {
             if(preferences.contains(crypto_list[position].name)){
-                this.preferences.remove(crypto_list[position].name.replace("\\s".toRegex(), ""))
-                database.setValue(this.preferences)
+                println("Lista : $preferences")
+                preferences.remove(crypto_list[position].name.replace("\\s".toRegex(), ""))
+                println("Rimossa : $preferences")
+                database.setValue(preferences)
             } else {
-                this.preferences.add(crypto_list[position].name.replace("\\s".toRegex(), ""))
-                database.setValue(this.preferences)
+                println("Lista : $preferences")
+                preferences.add(crypto_list[position].name.replace("\\s".toRegex(), ""))
+                println("Aggiunta : $preferences")
+                database.setValue(preferences)
             }
         })
 
