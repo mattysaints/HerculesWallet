@@ -22,6 +22,7 @@ class MainActivity : AppCompatActivity() {
     //view binding
     private lateinit var binding: ActivityMainBinding
     private val model : MainViewModel by viewModels()
+    private var logged : Boolean = false
     //private lateinit var googleSignInClient: GoogleSignInClient
     //private lateinit var firebaseAuth: FirebaseAuth
 
@@ -39,19 +40,27 @@ class MainActivity : AppCompatActivity() {
         window.decorView.systemUiVisibility = View.SYSTEM_UI_FLAG_HIDE_NAVIGATION or
                 View.SYSTEM_UI_FLAG_IMMERSIVE_STICKY or View.SYSTEM_UI_FLAG_FULLSCREEN
 
-        model.userMutableLiveData.observe(this,
-            Observer<User?> { user ->
-                if (user != null) {
-                    startActivity(Intent(this, Wallet::class.java))
-                }
-            })
 
         binding.buttonAccedi.setOnClickListener {
             model.login(binding.email.text.toString(),binding.password.text.toString())
+            model.userMutableLiveData.observe(this,
+                Observer<User?> { user ->
+                    if (user != null && !logged) {
+                        startActivity(Intent(this, Wallet::class.java))
+                        logged = true
+                    }
+                })
         }
 
         binding.buttonRegistrati.setOnClickListener {
             model.register(binding.email.text.toString(),binding.password.text.toString())
+            model.userMutableLiveData.observe(this,
+                Observer<User?> { user ->
+                    if (user != null && !logged) {
+                        startActivity(Intent(this, Wallet::class.java))
+                        logged = true
+                    }
+                })
         }
 
     }
