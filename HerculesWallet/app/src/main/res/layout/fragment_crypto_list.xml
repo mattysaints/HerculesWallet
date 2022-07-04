@@ -19,4 +19,13 @@
         app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
         />
 
+    <ProgressBar
+        android:id="@+id/progress_circular"
+        android:layout_width="wrap_content"
+        android:visibility="visible"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:minHeight="80dp"
+        android:minWidth="80dp" />
+
 </RelativeLayout>

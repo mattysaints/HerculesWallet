@@ -10,9 +10,6 @@
         android:title="Invia"
         android:icon="@drawable/actions"/>
     <item
-        android:id="@+id/noID"
-        android:title=""/>
-    <item
         android:id="@+id/receiveFragment"
         android:title="Ricevi"
         android:icon="@drawable/activity"/>
@@ -20,9 +17,9 @@
         android:id="@+id/cryptoListFragment"
         android:title="Cryptos"
         android:icon="@drawable/profile"/>
-    <!--<item
+    <item
         android:id="@+id/optionsFragment"
         android:icon="@drawable/settings"
         android:title="Opzioni" />
-        -->
+
 </menu>
