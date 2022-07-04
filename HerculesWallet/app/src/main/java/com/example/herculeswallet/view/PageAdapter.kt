@@ -6,7 +6,7 @@ import androidx.lifecycle.Lifecycle
 import androidx.viewpager2.adapter.FragmentStateAdapter
 import com.example.herculeswallet.model.Crypto
 
-class PageAdapter(fragmentManager: FragmentManager, lifecycle: Lifecycle, listC: List<String>) : FragmentStateAdapter(fragmentManager,lifecycle){
+class PageAdapter(fragmentManager: FragmentManager, lifecycle: Lifecycle, listC: MutableList<String>) : FragmentStateAdapter(fragmentManager,lifecycle){
 
     private var list = listC
 

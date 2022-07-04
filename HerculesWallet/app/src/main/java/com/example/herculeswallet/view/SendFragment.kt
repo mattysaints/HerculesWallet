@@ -61,8 +61,8 @@ class SendFragment : Fragment(R.layout.fragment_send){
         val address_receiver : EditText = view.findViewById(R.id.address_receiver)
         val list_crypto : AutoCompleteTextView = view.findViewById(R.id.list_crypto)
         val action_button : FloatingActionButton = view.findViewById(R.id.fab_send)
-
         var listCrypto = mutableListOf<String>()
+
         for (item in user.wallet){
             listCrypto.add(item.value.name)
         }
