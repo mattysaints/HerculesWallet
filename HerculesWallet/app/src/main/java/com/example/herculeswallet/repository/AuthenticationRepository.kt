@@ -28,7 +28,6 @@ object AuthenticationRepository {
                 val preferences : List<String> = it.child("preferences").getValue() as List<String>
                 val wallet : HashMap<String,Crypto> = it.child("wallet").getValue() as HashMap<String, Crypto>
                 utentewalletMutableLiveData.postValue(User(email,wallet, preferences))
-
                 setListenerDatabase()
             }
         }
