@@ -8,7 +8,7 @@
 
     <!-- TODO: Update blank fragment layout -->
     <Button
-        android:id="@+id/button_logout"
+        android:id="@+id/buttonlogout"
         android:layout_width="225dp"
         android:layout_height="59dp"
         android:layout_gravity="center"
