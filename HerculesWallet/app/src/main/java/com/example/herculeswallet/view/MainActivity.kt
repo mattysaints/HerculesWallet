@@ -1,6 +1,8 @@
 package com.example.herculeswallet.view
 
+import android.app.AlertDialog
 import android.app.ProgressDialog
+import android.content.DialogInterface
 import android.content.Intent
 import android.os.Bundle
 import android.view.Gravity
@@ -38,7 +40,10 @@ class MainActivity : AppCompatActivity() {
         dialog.setMessage("Accedo...")
         dialog.setCancelable(false)
         dialog.setCanceledOnTouchOutside(false)
-        dialog.dismiss()
+        val errore = AlertDialog.Builder(this)
+        errore.setTitle("Errore durante l'autenticazione")
+        errore.setMessage("I campi non sono stati compilati!")
+        errore.setPositiveButton("Ok", DialogInterface.OnClickListener { dialog, id -> })
 
         model.userMutableLiveData.observe(this,
             Observer<User?> { user ->
@@ -51,12 +56,32 @@ class MainActivity : AppCompatActivity() {
             })
 
         binding.buttonAccedi.setOnClickListener {
-            dialog.show()
-            model.login(binding.email.text.toString(),binding.password.text.toString())
+            if(binding.email.text.toString().isNotEmpty() && binding.password.text.toString().isNotEmpty()) {
+                dialog.show()
+                model.login(binding.email.text.toString(), binding.password.text.toString())
+                model.authRepo.loginMutableLiveData.observe(this, Observer<Boolean?> { login ->
+                    if (login == false) {
+                        dialog.dismiss()
+                        errore.setMessage("Credenziali errate!")
+                        errore.show()
+                        model.authRepo.loginMutableLiveData.postValue(true)
+                    }
+                })
+
+
+            }else{
+                errore.show()
+            }
         }
 
         binding.buttonRegistrati.setOnClickListener {
+            if(binding.email.text.toString().isNotEmpty() && binding.password.text.toString().isNotEmpty()) {
+            dialog.setMessage("Registro...")
+            dialog.show()
             model.register(binding.email.text.toString(),binding.password.text.toString())
+            }else{
+                errore.show()
+            }
         }
 
     }

@@ -64,6 +64,8 @@ class HomeFragment : Fragment(R.layout.fragment_home) {
             (adapter as FavRecyclerViewAdapter).setList(model.userMutableLiveData.value!!.preferences)
         }
 
+
+
     }
 
 }

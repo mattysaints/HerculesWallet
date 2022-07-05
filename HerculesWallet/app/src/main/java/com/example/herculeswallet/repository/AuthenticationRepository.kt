@@ -1,17 +1,13 @@
 package com.example.herculeswallet.repository
 
 import androidx.lifecycle.MutableLiveData
-import com.beust.klaxon.JsonObject
 import com.example.herculeswallet.model.Crypto
 import com.example.herculeswallet.model.User
-import com.example.herculeswallet.utils.Encryption
 import com.google.android.gms.tasks.OnCompleteListener
 import com.google.firebase.auth.AuthResult
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.database.*
-import org.json.JSONObject
 import tomatobean.jsonparser.parseJson
-import tomatobean.jsonparser.toJson
 
 
 object AuthenticationRepository {
@@ -20,8 +16,10 @@ object AuthenticationRepository {
     private var utentewalletMutableLiveData: MutableLiveData<User> = MutableLiveData<User>()
     private var firebaseAuth: FirebaseAuth = FirebaseAuth.getInstance()
     private var database: DatabaseReference = FirebaseDatabase.getInstance().getReference("Users")
+    var loginMutableLiveData: MutableLiveData<Boolean> = MutableLiveData<Boolean>()
 
     init {
+        loginMutableLiveData.postValue(true)
         if (firebaseAuth.getCurrentUser() != null){
             database.child(firebaseAuth.uid.toString()).get().addOnSuccessListener {
                 val email : String = it.child("email").getValue(String::class.java).toString()
@@ -63,15 +61,16 @@ object AuthenticationRepository {
                         val preferences : ArrayList<String> = it.child("preferences").getValue() as ArrayList<String>
                         val wallet = it.child("wallet").getValue() as HashMap<String,Crypto>
                         utentewalletMutableLiveData.postValue(User(email,wallet, preferences))
+                        loginMutableLiveData.postValue(true)
                         setListenerDatabase()
                     }
 
                 } else {
-                    // If sign in fails, display a message to the user.
+                    //error
+                    loginMutableLiveData.postValue(false)
                 }
 
             }
-
     }
 
     fun register(email: String, pass: String) {
