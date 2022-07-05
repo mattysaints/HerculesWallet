@@ -1,250 +1,262 @@
 [
     {
-        "merged": "C:\\Users\\tbarb\\.gradle\\daemon\\7.3.3\\com.example.herculeswallet.app-merged_res-45:\\layout_fragment_crypto_list.xml.flat",
-        "source": "C:\\Users\\tbarb\\.gradle\\daemon\\7.3.3\\com.example.herculeswallet.app-main-47:\\layout\\fragment_crypto_list.xml"
+        "merged": "/Users/christianquaranta/.gradle/daemon/7.3.3/com.example.herculeswallet.app-merged_res-45:/drawable_settings.xml.flat",
+        "source": "/Users/christianquaranta/.gradle/daemon/7.3.3/com.example.herculeswallet.app-main-47:/drawable/settings.xml"
     },
     {
-        "merged": "C:\\Users\\tbarb\\.gradle\\daemon\\7.3.3\\com.example.herculeswallet.app-merged_res-45:\\drawable_sell.xml.flat",
-        "source": "C:\\Users\\tbarb\\.gradle\\daemon\\7.3.3\\com.example.herculeswallet.app-main-47:\\drawable\\sell.xml"
+        "merged": "/Users/christianquaranta/.gradle/daemon/7.3.3/com.example.herculeswallet.app-merged_res-45:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "/Users/christianquaranta/.gradle/daemon/7.3.3/com.example.herculeswallet.app-main-47:/mipmap-mdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\tbarb\\.gradle\\daemon\\7.3.3\\com.example.herculeswallet.app-merged_res-45:\\layout_activity_wallet.xml.flat",
-        "source": "C:\\Users\\tbarb\\.gradle\\daemon\\7.3.3\\com.example.herculeswallet.app-main-47:\\layout\\activity_wallet.xml"
+        "merged": "/Users/christianquaranta/.gradle/daemon/7.3.3/com.example.herculeswallet.app-merged_res-45:/layout_wallet.xml.flat",
+        "source": "/Users/christianquaranta/.gradle/daemon/7.3.3/com.example.herculeswallet.app-main-47:/layout/wallet.xml"
     },
     {
-        "merged": "C:\\Users\\tbarb\\.gradle\\daemon\\7.3.3\\com.example.herculeswallet.app-merged_res-45:\\layout_fragment_send.xml.flat",
-        "source": "C:\\Users\\tbarb\\.gradle\\daemon\\7.3.3\\com.example.herculeswallet.app-main-47:\\layout\\fragment_send.xml"
+        "merged": "/Users/christianquaranta/.gradle/daemon/7.3.3/com.example.herculeswallet.app-merged_res-45:/layout_fragment_options.xml.flat",
+        "source": "/Users/christianquaranta/.gradle/daemon/7.3.3/com.example.herculeswallet.app-main-47:/layout/fragment_options.xml"
     },
     {
-        "merged": "C:\\Users\\tbarb\\.gradle\\daemon\\7.3.3\\com.example.herculeswallet.app-merged_res-45:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\tbarb\\.gradle\\daemon\\7.3.3\\com.example.herculeswallet.app-main-47:\\mipmap-xhdpi\\ic_launcher_round.webp"
+        "merged": "/Users/christianquaranta/.gradle/daemon/7.3.3/com.example.herculeswallet.app-merged_res-45:/drawable_profile.xml.flat",
+        "source": "/Users/christianquaranta/.gradle/daemon/7.3.3/com.example.herculeswallet.app-main-47:/drawable/profile.xml"
     },
     {
-        "merged": "C:\\Users\\tbarb\\.gradle\\daemon\\7.3.3\\com.example.herculeswallet.app-merged_res-45:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\tbarb\\.gradle\\daemon\\7.3.3\\com.example.herculeswallet.app-main-47:\\mipmap-xxxhdpi\\ic_launcher.webp"
+        "merged": "/Users/christianquaranta/.gradle/daemon/7.3.3/com.example.herculeswallet.app-merged_res-45:/drawable_actions.xml.flat",
+        "source": "/Users/christianquaranta/.gradle/daemon/7.3.3/com.example.herculeswallet.app-main-47:/drawable/actions.xml"
     },
     {
-        "merged": "C:\\Users\\tbarb\\.gradle\\daemon\\7.3.3\\com.example.herculeswallet.app-merged_res-45:\\layout_dashboard_item.xml.flat",
-        "source": "C:\\Users\\tbarb\\.gradle\\daemon\\7.3.3\\com.example.herculeswallet.app-main-47:\\layout\\dashboard_item.xml"
+        "merged": "/Users/christianquaranta/.gradle/daemon/7.3.3/com.example.herculeswallet.app-merged_res-45:/drawable_select_crypto.xml.flat",
+        "source": "/Users/christianquaranta/.gradle/daemon/7.3.3/com.example.herculeswallet.app-main-47:/drawable/select_crypto.xml"
     },
     {
-        "merged": "C:\\Users\\tbarb\\.gradle\\daemon\\7.3.3\\com.example.herculeswallet.app-merged_res-45:\\drawable_password.png.flat",
-        "source": "C:\\Users\\tbarb\\.gradle\\daemon\\7.3.3\\com.example.herculeswallet.app-main-47:\\drawable\\password.png"
+        "merged": "/Users/christianquaranta/.gradle/daemon/7.3.3/com.example.herculeswallet.app-merged_res-45:/drawable_done.xml.flat",
+        "source": "/Users/christianquaranta/.gradle/daemon/7.3.3/com.example.herculeswallet.app-main-47:/drawable/done.xml"
     },
     {
-        "merged": "C:\\Users\\tbarb\\.gradle\\daemon\\7.3.3\\com.example.herculeswallet.app-merged_res-45:\\mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\tbarb\\.gradle\\daemon\\7.3.3\\com.example.herculeswallet.app-main-47:\\mipmap-mdpi\\ic_launcher_round.webp"
+        "merged": "/Users/christianquaranta/.gradle/daemon/7.3.3/com.example.herculeswallet.app-merged_res-45:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "/Users/christianquaranta/.gradle/daemon/7.3.3/com.example.herculeswallet.app-main-47:/mipmap-anydpi-v26/ic_launcher_round.xml"
     },
     {
-        "merged": "C:\\Users\\tbarb\\.gradle\\daemon\\7.3.3\\com.example.herculeswallet.app-merged_res-45:\\drawable_done.xml.flat",
-        "source": "C:\\Users\\tbarb\\.gradle\\daemon\\7.3.3\\com.example.herculeswallet.app-main-47:\\drawable\\done.xml"
+        "merged": "/Users/christianquaranta/.gradle/daemon/7.3.3/com.example.herculeswallet.app-merged_res-45:/drawable_ic_launcher_background.xml.flat",
+        "source": "/Users/christianquaranta/.gradle/daemon/7.3.3/com.example.herculeswallet.app-main-47:/drawable/ic_launcher_background.xml"
     },
     {
-        "merged": "C:\\Users\\tbarb\\.gradle\\daemon\\7.3.3\\com.example.herculeswallet.app-merged_res-45:\\drawable_buy.xml.flat",
-        "source": "C:\\Users\\tbarb\\.gradle\\daemon\\7.3.3\\com.example.herculeswallet.app-main-47:\\drawable\\buy.xml"
+        "merged": "/Users/christianquaranta/.gradle/daemon/7.3.3/com.example.herculeswallet.app-merged_res-45:/drawable_cursor_color.xml.flat",
+        "source": "/Users/christianquaranta/.gradle/daemon/7.3.3/com.example.herculeswallet.app-main-47:/drawable/cursor_color.xml"
     },
     {
-        "merged": "C:\\Users\\tbarb\\.gradle\\daemon\\7.3.3\\com.example.herculeswallet.app-merged_res-45:\\layout_fragment_actions.xml.flat",
-        "source": "C:\\Users\\tbarb\\.gradle\\daemon\\7.3.3\\com.example.herculeswallet.app-main-47:\\layout\\fragment_actions.xml"
+        "merged": "/Users/christianquaranta/.gradle/daemon/7.3.3/com.example.herculeswallet.app-merged_res-45:/drawable_sell.xml.flat",
+        "source": "/Users/christianquaranta/.gradle/daemon/7.3.3/com.example.herculeswallet.app-main-47:/drawable/sell.xml"
     },
     {
-        "merged": "C:\\Users\\tbarb\\.gradle\\daemon\\7.3.3\\com.example.herculeswallet.app-merged_res-45:\\navigation_nav_graph2.xml.flat",
-        "source": "C:\\Users\\tbarb\\.gradle\\daemon\\7.3.3\\com.example.herculeswallet.app-main-47:\\navigation\\nav_graph2.xml"
+        "merged": "/Users/christianquaranta/.gradle/daemon/7.3.3/com.example.herculeswallet.app-merged_res-45:/layout_activity_main.xml.flat",
+        "source": "/Users/christianquaranta/.gradle/daemon/7.3.3/com.example.herculeswallet.app-main-47:/layout/activity_main.xml"
     },
     {
-        "merged": "C:\\Users\\tbarb\\.gradle\\daemon\\7.3.3\\com.example.herculeswallet.app-merged_res-45:\\layout_receive_list_item.xml.flat",
-        "source": "C:\\Users\\tbarb\\.gradle\\daemon\\7.3.3\\com.example.herculeswallet.app-main-47:\\layout\\receive_list_item.xml"
+        "merged": "/Users/christianquaranta/.gradle/daemon/7.3.3/com.example.herculeswallet.app-merged_res-45:/drawable_linkedin.png.flat",
+        "source": "/Users/christianquaranta/.gradle/daemon/7.3.3/com.example.herculeswallet.app-main-47:/drawable/linkedin.png"
     },
     {
-        "merged": "C:\\Users\\tbarb\\.gradle\\daemon\\7.3.3\\com.example.herculeswallet.app-merged_res-45:\\layout_activity_main.xml.flat",
-        "source": "C:\\Users\\tbarb\\.gradle\\daemon\\7.3.3\\com.example.herculeswallet.app-main-47:\\layout\\activity_main.xml"
+        "merged": "/Users/christianquaranta/.gradle/daemon/7.3.3/com.example.herculeswallet.app-merged_res-45:/drawable_fb.png.flat",
+        "source": "/Users/christianquaranta/.gradle/daemon/7.3.3/com.example.herculeswallet.app-main-47:/drawable/fb.png"
     },
     {
-        "merged": "C:\\Users\\tbarb\\.gradle\\daemon\\7.3.3\\com.example.herculeswallet.app-merged_res-45:\\font_poppins_medium.ttf.flat",
-        "source": "C:\\Users\\tbarb\\.gradle\\daemon\\7.3.3\\com.example.herculeswallet.app-main-47:\\font\\poppins_medium.ttf"
+        "merged": "/Users/christianquaranta/.gradle/daemon/7.3.3/com.example.herculeswallet.app-merged_res-45:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "/Users/christianquaranta/.gradle/daemon/7.3.3/com.example.herculeswallet.app-main-47:/mipmap-xhdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\tbarb\\.gradle\\daemon\\7.3.3\\com.example.herculeswallet.app-merged_res-45:\\drawable_blue_border_rounded_cornwe.xml.flat",
-        "source": "C:\\Users\\tbarb\\.gradle\\daemon\\7.3.3\\com.example.herculeswallet.app-main-47:\\drawable\\blue_border_rounded_cornwe.xml"
+        "merged": "/Users/christianquaranta/.gradle/daemon/7.3.3/com.example.herculeswallet.app-merged_res-45:/layout_fragment_crypto_list.xml.flat",
+        "source": "/Users/christianquaranta/.gradle/daemon/7.3.3/com.example.herculeswallet.app-main-47:/layout/fragment_crypto_list.xml"
     },
     {
-        "merged": "C:\\Users\\tbarb\\.gradle\\daemon\\7.3.3\\com.example.herculeswallet.app-merged_res-45:\\drawable_logo2.png.flat",
-        "source": "C:\\Users\\tbarb\\.gradle\\daemon\\7.3.3\\com.example.herculeswallet.app-main-47:\\drawable\\logo2.png"
+        "merged": "com.example.herculeswallet.app-merged_res-45:/layout_fragment_options.xml.flat",
+        "source": "com.example.herculeswallet.app-main-47:/layout/fragment_options.xml"
     },
     {
-        "merged": "C:\\Users\\tbarb\\.gradle\\daemon\\7.3.3\\com.example.herculeswallet.app-merged_res-45:\\drawable_activity.xml.flat",
-        "source": "C:\\Users\\tbarb\\.gradle\\daemon\\7.3.3\\com.example.herculeswallet.app-main-47:\\drawable\\activity.xml"
+        "merged": "/Users/christianquaranta/.gradle/daemon/7.3.3/com.example.herculeswallet.app-merged_res-45:/layout_fragment_send.xml.flat",
+        "source": "/Users/christianquaranta/.gradle/daemon/7.3.3/com.example.herculeswallet.app-main-47:/layout/fragment_send.xml"
     },
     {
-        "merged": "C:\\Users\\tbarb\\.gradle\\daemon\\7.3.3\\com.example.herculeswallet.app-merged_res-45:\\drawable_portfolio.xml.flat",
-        "source": "C:\\Users\\tbarb\\.gradle\\daemon\\7.3.3\\com.example.herculeswallet.app-main-47:\\drawable\\portfolio.xml"
+        "merged": "/Users/christianquaranta/.gradle/daemon/7.3.3/com.example.herculeswallet.app-merged_res-45:/layout_fragment_receive.xml.flat",
+        "source": "/Users/christianquaranta/.gradle/daemon/7.3.3/com.example.herculeswallet.app-main-47:/layout/fragment_receive.xml"
     },
     {
-        "merged": "C:\\Users\\tbarb\\.gradle\\daemon\\7.3.3\\com.example.herculeswallet.app-merged_res-45:\\mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\tbarb\\.gradle\\daemon\\7.3.3\\com.example.herculeswallet.app-main-47:\\mipmap-xxhdpi\\ic_launcher.webp"
+        "merged": "/Users/christianquaranta/.gradle/daemon/7.3.3/com.example.herculeswallet.app-merged_res-45:/drawable_fab_icon.xml.flat",
+        "source": "/Users/christianquaranta/.gradle/daemon/7.3.3/com.example.herculeswallet.app-main-47:/drawable/fab_icon.xml"
     },
     {
-        "merged": "C:\\Users\\tbarb\\.gradle\\daemon\\7.3.3\\com.example.herculeswallet.app-merged_res-45:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "C:\\Users\\tbarb\\.gradle\\daemon\\7.3.3\\com.example.herculeswallet.app-main-47:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+        "merged": "/Users/christianquaranta/.gradle/daemon/7.3.3/com.example.herculeswallet.app-merged_res-45:/drawable_blue_border_rounded_cornwe.xml.flat",
+        "source": "/Users/christianquaranta/.gradle/daemon/7.3.3/com.example.herculeswallet.app-main-47:/drawable/blue_border_rounded_cornwe.xml"
     },
     {
-        "merged": "C:\\Users\\tbarb\\.gradle\\daemon\\7.3.3\\com.example.herculeswallet.app-merged_res-45:\\layout_wallet.xml.flat",
-        "source": "C:\\Users\\tbarb\\.gradle\\daemon\\7.3.3\\com.example.herculeswallet.app-main-47:\\layout\\wallet.xml"
+        "merged": "/Users/christianquaranta/.gradle/daemon/7.3.3/com.example.herculeswallet.app-merged_res-45:/drawable_buy.xml.flat",
+        "source": "/Users/christianquaranta/.gradle/daemon/7.3.3/com.example.herculeswallet.app-main-47:/drawable/buy.xml"
     },
     {
-        "merged": "C:\\Users\\tbarb\\.gradle\\daemon\\7.3.3\\com.example.herculeswallet.app-merged_res-45:\\drawable_fb.png.flat",
-        "source": "C:\\Users\\tbarb\\.gradle\\daemon\\7.3.3\\com.example.herculeswallet.app-main-47:\\drawable\\fb.png"
+        "merged": "/Users/christianquaranta/.gradle/daemon/7.3.3/com.example.herculeswallet.app-merged_res-45:/drawable_earn.xml.flat",
+        "source": "/Users/christianquaranta/.gradle/daemon/7.3.3/com.example.herculeswallet.app-main-47:/drawable/earn.xml"
     },
     {
-        "merged": "C:\\Users\\tbarb\\.gradle\\daemon\\7.3.3\\com.example.herculeswallet.app-merged_res-45:\\drawable_settings.xml.flat",
-        "source": "C:\\Users\\tbarb\\.gradle\\daemon\\7.3.3\\com.example.herculeswallet.app-main-47:\\drawable\\settings.xml"
+        "merged": "/Users/christianquaranta/.gradle/daemon/7.3.3/com.example.herculeswallet.app-merged_res-45:/drawable_down_arrow.xml.flat",
+        "source": "/Users/christianquaranta/.gradle/daemon/7.3.3/com.example.herculeswallet.app-main-47:/drawable/down_arrow.xml"
     },
     {
-        "merged": "C:\\Users\\tbarb\\.gradle\\daemon\\7.3.3\\com.example.herculeswallet.app-merged_res-45:\\layout_dashboard.xml.flat",
-        "source": "C:\\Users\\tbarb\\.gradle\\daemon\\7.3.3\\com.example.herculeswallet.app-main-47:\\layout\\dashboard.xml"
+        "merged": "/Users/christianquaranta/.gradle/daemon/7.3.3/com.example.herculeswallet.app-merged_res-45:/drawable_blue_fill__rounded_color.xml.flat",
+        "source": "/Users/christianquaranta/.gradle/daemon/7.3.3/com.example.herculeswallet.app-main-47:/drawable/blue_fill__rounded_color.xml"
     },
     {
-        "merged": "C:\\Users\\tbarb\\.gradle\\daemon\\7.3.3\\com.example.herculeswallet.app-merged_res-45:\\drawable_home.xml.flat",
-        "source": "C:\\Users\\tbarb\\.gradle\\daemon\\7.3.3\\com.example.herculeswallet.app-main-47:\\drawable\\home.xml"
+        "merged": "/Users/christianquaranta/.gradle/daemon/7.3.3/com.example.herculeswallet.app-merged_res-45:/layout_dashboard.xml.flat",
+        "source": "/Users/christianquaranta/.gradle/daemon/7.3.3/com.example.herculeswallet.app-main-47:/layout/dashboard.xml"
     },
     {
-        "merged": "C:\\Users\\tbarb\\.gradle\\daemon\\7.3.3\\com.example.herculeswallet.app-merged_res-45:\\drawable_earn.xml.flat",
-        "source": "C:\\Users\\tbarb\\.gradle\\daemon\\7.3.3\\com.example.herculeswallet.app-main-47:\\drawable\\earn.xml"
+        "merged": "/Users/christianquaranta/.gradle/daemon/7.3.3/com.example.herculeswallet.app-merged_res-45:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "/Users/christianquaranta/.gradle/daemon/7.3.3/com.example.herculeswallet.app-main-47:/mipmap-anydpi-v26/ic_launcher.xml"
     },
     {
-        "merged": "C:\\Users\\tbarb\\.gradle\\daemon\\7.3.3\\com.example.herculeswallet.app-merged_res-45:\\drawable_email.png.flat",
-        "source": "C:\\Users\\tbarb\\.gradle\\daemon\\7.3.3\\com.example.herculeswallet.app-main-47:\\drawable\\email.png"
+        "merged": "/Users/christianquaranta/.gradle/daemon/7.3.3/com.example.herculeswallet.app-merged_res-45:/drawable_home.xml.flat",
+        "source": "/Users/christianquaranta/.gradle/daemon/7.3.3/com.example.herculeswallet.app-main-47:/drawable/home.xml"
     },
     {
-        "merged": "C:\\Users\\tbarb\\.gradle\\daemon\\7.3.3\\com.example.herculeswallet.app-merged_res-45:\\drawable_bitcoin.xml.flat",
-        "source": "C:\\Users\\tbarb\\.gradle\\daemon\\7.3.3\\com.example.herculeswallet.app-main-47:\\drawable\\bitcoin.xml"
+        "merged": "/Users/christianquaranta/.gradle/daemon/7.3.3/com.example.herculeswallet.app-merged_res-45:/layout_dashboard_item.xml.flat",
+        "source": "/Users/christianquaranta/.gradle/daemon/7.3.3/com.example.herculeswallet.app-main-47:/layout/dashboard_item.xml"
     },
     {
-        "merged": "C:\\Users\\tbarb\\.gradle\\daemon\\7.3.3\\com.example.herculeswallet.app-merged_res-45:\\drawable_ic_launcher_background.xml.flat",
-        "source": "C:\\Users\\tbarb\\.gradle\\daemon\\7.3.3\\com.example.herculeswallet.app-main-47:\\drawable\\ic_launcher_background.xml"
+        "merged": "/Users/christianquaranta/.gradle/daemon/7.3.3/com.example.herculeswallet.app-merged_res-45:/drawable_instagram.png.flat",
+        "source": "/Users/christianquaranta/.gradle/daemon/7.3.3/com.example.herculeswallet.app-main-47:/drawable/instagram.png"
     },
     {
-        "merged": "C:\\Users\\tbarb\\.gradle\\daemon\\7.3.3\\com.example.herculeswallet.app-merged_res-45:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\tbarb\\.gradle\\daemon\\7.3.3\\com.example.herculeswallet.app-main-47:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+        "merged": "/Users/christianquaranta/.gradle/daemon/7.3.3/com.example.herculeswallet.app-merged_res-45:/drawable-v24_google.png.flat",
+        "source": "/Users/christianquaranta/.gradle/daemon/7.3.3/com.example.herculeswallet.app-main-47:/drawable-v24/google.png"
     },
     {
-        "merged": "C:\\Users\\tbarb\\.gradle\\daemon\\7.3.3\\com.example.herculeswallet.app-merged_res-45:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\tbarb\\.gradle\\daemon\\7.3.3\\com.example.herculeswallet.app-main-47:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+        "merged": "/Users/christianquaranta/.gradle/daemon/7.3.3/com.example.herculeswallet.app-merged_res-45:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/christianquaranta/.gradle/daemon/7.3.3/com.example.herculeswallet.app-main-47:/mipmap-hdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\tbarb\\.gradle\\daemon\\7.3.3\\com.example.herculeswallet.app-merged_res-45:\\mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\tbarb\\.gradle\\daemon\\7.3.3\\com.example.herculeswallet.app-main-47:\\mipmap-mdpi\\ic_launcher.webp"
+        "merged": "/Users/christianquaranta/.gradle/daemon/7.3.3/com.example.herculeswallet.app-merged_res-45:/drawable_transparent_background.xml.flat",
+        "source": "/Users/christianquaranta/.gradle/daemon/7.3.3/com.example.herculeswallet.app-main-47:/drawable/transparent_background.xml"
     },
     {
-        "merged": "C:\\Users\\tbarb\\.gradle\\daemon\\7.3.3\\com.example.herculeswallet.app-merged_res-45:\\layout_fragment_home.xml.flat",
-        "source": "C:\\Users\\tbarb\\.gradle\\daemon\\7.3.3\\com.example.herculeswallet.app-main-47:\\layout\\fragment_home.xml"
+        "merged": "/Users/christianquaranta/.gradle/daemon/7.3.3/com.example.herculeswallet.app-merged_res-45:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/christianquaranta/.gradle/daemon/7.3.3/com.example.herculeswallet.app-main-47:/mipmap-xxhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\tbarb\\.gradle\\daemon\\7.3.3\\com.example.herculeswallet.app-merged_res-45:\\drawable_fab_icon.xml.flat",
-        "source": "C:\\Users\\tbarb\\.gradle\\daemon\\7.3.3\\com.example.herculeswallet.app-main-47:\\drawable\\fab_icon.xml"
+        "merged": "/Users/christianquaranta/.gradle/daemon/7.3.3/com.example.herculeswallet.app-merged_res-45:/drawable_email.png.flat",
+        "source": "/Users/christianquaranta/.gradle/daemon/7.3.3/com.example.herculeswallet.app-main-47:/drawable/email.png"
     },
     {
-        "merged": "C:\\Users\\tbarb\\.gradle\\daemon\\7.3.3\\com.example.herculeswallet.app-merged_res-45:\\drawable_cursor_color.xml.flat",
-        "source": "C:\\Users\\tbarb\\.gradle\\daemon\\7.3.3\\com.example.herculeswallet.app-main-47:\\drawable\\cursor_color.xml"
+        "merged": "/Users/christianquaranta/.gradle/daemon/7.3.3/com.example.herculeswallet.app-merged_res-45:/drawable_twitter.png.flat",
+        "source": "/Users/christianquaranta/.gradle/daemon/7.3.3/com.example.herculeswallet.app-main-47:/drawable/twitter.png"
     },
     {
-        "merged": "C:\\Users\\tbarb\\.gradle\\daemon\\7.3.3\\com.example.herculeswallet.app-merged_res-45:\\font_poppins_regular.ttf.flat",
-        "source": "C:\\Users\\tbarb\\.gradle\\daemon\\7.3.3\\com.example.herculeswallet.app-main-47:\\font\\poppins_regular.ttf"
+        "merged": "/Users/christianquaranta/.gradle/daemon/7.3.3/com.example.herculeswallet.app-merged_res-45:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "/Users/christianquaranta/.gradle/daemon/7.3.3/com.example.herculeswallet.app-main-47:/mipmap-xxhdpi/ic_launcher.webp"
     },
     {
-        "merged": "com.example.herculeswallet.app-merged_res-45:/layout_fragment_send.xml.flat",
-        "source": "com.example.herculeswallet.app-main-47:/layout/fragment_send.xml"
+        "merged": "/Users/christianquaranta/.gradle/daemon/7.3.3/com.example.herculeswallet.app-merged_res-45:/drawable_portfolio.xml.flat",
+        "source": "/Users/christianquaranta/.gradle/daemon/7.3.3/com.example.herculeswallet.app-main-47:/drawable/portfolio.xml"
     },
     {
-        "merged": "C:\\Users\\tbarb\\.gradle\\daemon\\7.3.3\\com.example.herculeswallet.app-merged_res-45:\\drawable_actions.xml.flat",
-        "source": "C:\\Users\\tbarb\\.gradle\\daemon\\7.3.3\\com.example.herculeswallet.app-main-47:\\drawable\\actions.xml"
+        "merged": "/Users/christianquaranta/.gradle/daemon/7.3.3/com.example.herculeswallet.app-merged_res-45:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "/Users/christianquaranta/.gradle/daemon/7.3.3/com.example.herculeswallet.app-main-47:/mipmap-hdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\tbarb\\.gradle\\daemon\\7.3.3\\com.example.herculeswallet.app-merged_res-45:\\drawable-v24_ic_launcher_foreground.xml.flat",
-        "source": "C:\\Users\\tbarb\\.gradle\\daemon\\7.3.3\\com.example.herculeswallet.app-main-47:\\drawable-v24\\ic_launcher_foreground.xml"
+        "merged": "/Users/christianquaranta/.gradle/daemon/7.3.3/com.example.herculeswallet.app-merged_res-45:/drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "/Users/christianquaranta/.gradle/daemon/7.3.3/com.example.herculeswallet.app-main-47:/drawable-v24/ic_launcher_foreground.xml"
     },
     {
-        "merged": "C:\\Users\\tbarb\\.gradle\\daemon\\7.3.3\\com.example.herculeswallet.app-merged_res-45:\\drawable_select_crypto.xml.flat",
-        "source": "C:\\Users\\tbarb\\.gradle\\daemon\\7.3.3\\com.example.herculeswallet.app-main-47:\\drawable\\select_crypto.xml"
+        "merged": "/Users/christianquaranta/.gradle/daemon/7.3.3/com.example.herculeswallet.app-merged_res-45:/font_poppins_regular.ttf.flat",
+        "source": "/Users/christianquaranta/.gradle/daemon/7.3.3/com.example.herculeswallet.app-main-47:/font/poppins_regular.ttf"
     },
     {
-        "merged": "C:\\Users\\tbarb\\.gradle\\daemon\\7.3.3\\com.example.herculeswallet.app-merged_res-45:\\layout_crypto_list_item.xml.flat",
-        "source": "C:\\Users\\tbarb\\.gradle\\daemon\\7.3.3\\com.example.herculeswallet.app-main-47:\\layout\\crypto_list_item.xml"
+        "merged": "/Users/christianquaranta/.gradle/daemon/7.3.3/com.example.herculeswallet.app-merged_res-45:/layout_receive_list_item.xml.flat",
+        "source": "/Users/christianquaranta/.gradle/daemon/7.3.3/com.example.herculeswallet.app-main-47:/layout/receive_list_item.xml"
     },
     {
-        "merged": "C:\\Users\\tbarb\\.gradle\\daemon\\7.3.3\\com.example.herculeswallet.app-merged_res-45:\\drawable_right_arrow.xml.flat",
-        "source": "C:\\Users\\tbarb\\.gradle\\daemon\\7.3.3\\com.example.herculeswallet.app-main-47:\\drawable\\right_arrow.xml"
+        "merged": "/Users/christianquaranta/.gradle/daemon/7.3.3/com.example.herculeswallet.app-merged_res-45:/layout_activity_wallet.xml.flat",
+        "source": "/Users/christianquaranta/.gradle/daemon/7.3.3/com.example.herculeswallet.app-main-47:/layout/activity_wallet.xml"
     },
     {
-        "merged": "C:\\Users\\tbarb\\.gradle\\daemon\\7.3.3\\com.example.herculeswallet.app-merged_res-45:\\drawable_transparent_background.xml.flat",
-        "source": "C:\\Users\\tbarb\\.gradle\\daemon\\7.3.3\\com.example.herculeswallet.app-main-47:\\drawable\\transparent_background.xml"
+        "merged": "/Users/christianquaranta/.gradle/daemon/7.3.3/com.example.herculeswallet.app-merged_res-45:/drawable_right_arrow.xml.flat",
+        "source": "/Users/christianquaranta/.gradle/daemon/7.3.3/com.example.herculeswallet.app-main-47:/drawable/right_arrow.xml"
     },
     {
-        "merged": "C:\\Users\\tbarb\\.gradle\\daemon\\7.3.3\\com.example.herculeswallet.app-merged_res-45:\\navigation_nav_graph.xml.flat",
-        "source": "C:\\Users\\tbarb\\.gradle\\daemon\\7.3.3\\com.example.herculeswallet.app-main-47:\\navigation\\nav_graph.xml"
+        "merged": "/Users/christianquaranta/.gradle/daemon/7.3.3/com.example.herculeswallet.app-merged_res-45:/drawable_ic_baseline_turned_in_not_24.xml.flat",
+        "source": "/Users/christianquaranta/.gradle/daemon/7.3.3/com.example.herculeswallet.app-main-47:/drawable/ic_baseline_turned_in_not_24.xml"
     },
     {
-        "merged": "C:\\Users\\tbarb\\.gradle\\daemon\\7.3.3\\com.example.herculeswallet.app-merged_res-45:\\mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\tbarb\\.gradle\\daemon\\7.3.3\\com.example.herculeswallet.app-main-47:\\mipmap-hdpi\\ic_launcher_round.webp"
+        "merged": "/Users/christianquaranta/.gradle/daemon/7.3.3/com.example.herculeswallet.app-merged_res-45:/layout_crypto_list_item.xml.flat",
+        "source": "/Users/christianquaranta/.gradle/daemon/7.3.3/com.example.herculeswallet.app-main-47:/layout/crypto_list_item.xml"
     },
     {
-        "merged": "C:\\Users\\tbarb\\.gradle\\daemon\\7.3.3\\com.example.herculeswallet.app-merged_res-45:\\drawable_blue_fill__rounded_color.xml.flat",
-        "source": "C:\\Users\\tbarb\\.gradle\\daemon\\7.3.3\\com.example.herculeswallet.app-main-47:\\drawable\\blue_fill__rounded_color.xml"
+        "merged": "/Users/christianquaranta/.gradle/daemon/7.3.3/com.example.herculeswallet.app-merged_res-45:/navigation_nav_graph.xml.flat",
+        "source": "/Users/christianquaranta/.gradle/daemon/7.3.3/com.example.herculeswallet.app-main-47:/navigation/nav_graph.xml"
     },
     {
-        "merged": "C:\\Users\\tbarb\\.gradle\\daemon\\7.3.3\\com.example.herculeswallet.app-merged_res-45:\\drawable_swap.xml.flat",
-        "source": "C:\\Users\\tbarb\\.gradle\\daemon\\7.3.3\\com.example.herculeswallet.app-main-47:\\drawable\\swap.xml"
+        "merged": "/Users/christianquaranta/.gradle/daemon/7.3.3/com.example.herculeswallet.app-merged_res-45:/drawable_logo2.png.flat",
+        "source": "/Users/christianquaranta/.gradle/daemon/7.3.3/com.example.herculeswallet.app-main-47:/drawable/logo2.png"
     },
     {
-        "merged": "C:\\Users\\tbarb\\.gradle\\daemon\\7.3.3\\com.example.herculeswallet.app-merged_res-45:\\drawable_instagram.png.flat",
-        "source": "C:\\Users\\tbarb\\.gradle\\daemon\\7.3.3\\com.example.herculeswallet.app-main-47:\\drawable\\instagram.png"
+        "merged": "/Users/christianquaranta/.gradle/daemon/7.3.3/com.example.herculeswallet.app-merged_res-45:/drawable_activity.xml.flat",
+        "source": "/Users/christianquaranta/.gradle/daemon/7.3.3/com.example.herculeswallet.app-main-47:/drawable/activity.xml"
     },
     {
-        "merged": "C:\\Users\\tbarb\\.gradle\\daemon\\7.3.3\\com.example.herculeswallet.app-merged_res-45:\\layout_fragment_receive.xml.flat",
-        "source": "C:\\Users\\tbarb\\.gradle\\daemon\\7.3.3\\com.example.herculeswallet.app-main-47:\\layout\\fragment_receive.xml"
+        "merged": "/Users/christianquaranta/.gradle/daemon/7.3.3/com.example.herculeswallet.app-merged_res-45:/drawable_swap.xml.flat",
+        "source": "/Users/christianquaranta/.gradle/daemon/7.3.3/com.example.herculeswallet.app-main-47:/drawable/swap.xml"
     },
     {
-        "merged": "C:\\Users\\tbarb\\.gradle\\daemon\\7.3.3\\com.example.herculeswallet.app-merged_res-45:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "C:\\Users\\tbarb\\.gradle\\daemon\\7.3.3\\com.example.herculeswallet.app-main-47:\\mipmap-anydpi-v26\\ic_launcher.xml"
+        "merged": "/Users/christianquaranta/.gradle/daemon/7.3.3/com.example.herculeswallet.app-merged_res-45:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/christianquaranta/.gradle/daemon/7.3.3/com.example.herculeswallet.app-main-47:/mipmap-xhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\tbarb\\.gradle\\daemon\\7.3.3\\com.example.herculeswallet.app-merged_res-45:\\drawable_twitter.png.flat",
-        "source": "C:\\Users\\tbarb\\.gradle\\daemon\\7.3.3\\com.example.herculeswallet.app-main-47:\\drawable\\twitter.png"
+        "merged": "/Users/christianquaranta/.gradle/daemon/7.3.3/com.example.herculeswallet.app-merged_res-45:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/christianquaranta/.gradle/daemon/7.3.3/com.example.herculeswallet.app-main-47:/mipmap-xxxhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\tbarb\\.gradle\\daemon\\7.3.3\\com.example.herculeswallet.app-merged_res-45:\\drawable_down_arrow.xml.flat",
-        "source": "C:\\Users\\tbarb\\.gradle\\daemon\\7.3.3\\com.example.herculeswallet.app-main-47:\\drawable\\down_arrow.xml"
+        "merged": "/Users/christianquaranta/.gradle/daemon/7.3.3/com.example.herculeswallet.app-merged_res-45:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/christianquaranta/.gradle/daemon/7.3.3/com.example.herculeswallet.app-main-47:/mipmap-mdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\tbarb\\.gradle\\daemon\\7.3.3\\com.example.herculeswallet.app-merged_res-45:\\drawable-v24_google.png.flat",
-        "source": "C:\\Users\\tbarb\\.gradle\\daemon\\7.3.3\\com.example.herculeswallet.app-main-47:\\drawable-v24\\google.png"
+        "merged": "/Users/christianquaranta/.gradle/daemon/7.3.3/com.example.herculeswallet.app-merged_res-45:/menu_bottom_nav.xml.flat",
+        "source": "/Users/christianquaranta/.gradle/daemon/7.3.3/com.example.herculeswallet.app-main-47:/menu/bottom_nav.xml"
     },
     {
-        "merged": "C:\\Users\\tbarb\\.gradle\\daemon\\7.3.3\\com.example.herculeswallet.app-merged_res-45:\\drawable_linkedin.png.flat",
-        "source": "C:\\Users\\tbarb\\.gradle\\daemon\\7.3.3\\com.example.herculeswallet.app-main-47:\\drawable\\linkedin.png"
+        "merged": "/Users/christianquaranta/.gradle/daemon/7.3.3/com.example.herculeswallet.app-merged_res-45:/drawable_favourite.xml.flat",
+        "source": "/Users/christianquaranta/.gradle/daemon/7.3.3/com.example.herculeswallet.app-main-47:/drawable/favourite.xml"
     },
     {
-        "merged": "C:\\Users\\tbarb\\.gradle\\daemon\\7.3.3\\com.example.herculeswallet.app-merged_res-45:\\mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\tbarb\\.gradle\\daemon\\7.3.3\\com.example.herculeswallet.app-main-47:\\mipmap-xhdpi\\ic_launcher.webp"
+        "merged": "/Users/christianquaranta/.gradle/daemon/7.3.3/com.example.herculeswallet.app-merged_res-45:/drawable_blue_bg.png.flat",
+        "source": "/Users/christianquaranta/.gradle/daemon/7.3.3/com.example.herculeswallet.app-main-47:/drawable/blue_bg.png"
     },
     {
-        "merged": "C:\\Users\\tbarb\\.gradle\\daemon\\7.3.3\\com.example.herculeswallet.app-merged_res-45:\\menu_bottom_nav.xml.flat",
-        "source": "C:\\Users\\tbarb\\.gradle\\daemon\\7.3.3\\com.example.herculeswallet.app-main-47:\\menu\\bottom_nav.xml"
+        "merged": "/Users/christianquaranta/.gradle/daemon/7.3.3/com.example.herculeswallet.app-merged_res-45:/drawable_bitcoin.xml.flat",
+        "source": "/Users/christianquaranta/.gradle/daemon/7.3.3/com.example.herculeswallet.app-main-47:/drawable/bitcoin.xml"
     },
     {
-        "merged": "C:\\Users\\tbarb\\.gradle\\daemon\\7.3.3\\com.example.herculeswallet.app-merged_res-45:\\layout_fragment_settings.xml.flat",
-        "source": "C:\\Users\\tbarb\\.gradle\\daemon\\7.3.3\\com.example.herculeswallet.app-main-47:\\layout\\fragment_settings.xml"
+        "merged": "/Users/christianquaranta/.gradle/daemon/7.3.3/com.example.herculeswallet.app-merged_res-45:/drawable_password.png.flat",
+        "source": "/Users/christianquaranta/.gradle/daemon/7.3.3/com.example.herculeswallet.app-main-47:/drawable/password.png"
     },
     {
-        "merged": "C:\\Users\\tbarb\\.gradle\\daemon\\7.3.3\\com.example.herculeswallet.app-merged_res-45:\\mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\tbarb\\.gradle\\daemon\\7.3.3\\com.example.herculeswallet.app-main-47:\\mipmap-hdpi\\ic_launcher.webp"
+        "merged": "/Users/christianquaranta/.gradle/daemon/7.3.3/com.example.herculeswallet.app-merged_res-45:/layout_fragment_actions.xml.flat",
+        "source": "/Users/christianquaranta/.gradle/daemon/7.3.3/com.example.herculeswallet.app-main-47:/layout/fragment_actions.xml"
     },
     {
-        "merged": "C:\\Users\\tbarb\\.gradle\\daemon\\7.3.3\\com.example.herculeswallet.app-merged_res-45:\\drawable_profile.xml.flat",
-        "source": "C:\\Users\\tbarb\\.gradle\\daemon\\7.3.3\\com.example.herculeswallet.app-main-47:\\drawable\\profile.xml"
+        "merged": "/Users/christianquaranta/.gradle/daemon/7.3.3/com.example.herculeswallet.app-merged_res-45:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "/Users/christianquaranta/.gradle/daemon/7.3.3/com.example.herculeswallet.app-main-47:/mipmap-xxxhdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\tbarb\\.gradle\\daemon\\7.3.3\\com.example.herculeswallet.app-merged_res-45:\\drawable_blue_bg.png.flat",
-        "source": "C:\\Users\\tbarb\\.gradle\\daemon\\7.3.3\\com.example.herculeswallet.app-main-47:\\drawable\\blue_bg.png"
+        "merged": "/Users/christianquaranta/.gradle/daemon/7.3.3/com.example.herculeswallet.app-merged_res-45:/layout_fav_item.xml.flat",
+        "source": "/Users/christianquaranta/.gradle/daemon/7.3.3/com.example.herculeswallet.app-main-47:/layout/fav_item.xml"
+    },
+    {
+        "merged": "/Users/christianquaranta/.gradle/daemon/7.3.3/com.example.herculeswallet.app-merged_res-45:/layout_fragment_home.xml.flat",
+        "source": "/Users/christianquaranta/.gradle/daemon/7.3.3/com.example.herculeswallet.app-main-47:/layout/fragment_home.xml"
+    },
+    {
+        "merged": "/Users/christianquaranta/.gradle/daemon/7.3.3/com.example.herculeswallet.app-merged_res-45:/drawable_ic_baseline_turned_in_24.xml.flat",
+        "source": "/Users/christianquaranta/.gradle/daemon/7.3.3/com.example.herculeswallet.app-main-47:/drawable/ic_baseline_turned_in_24.xml"
+    },
+    {
+        "merged": "/Users/christianquaranta/.gradle/daemon/7.3.3/com.example.herculeswallet.app-merged_res-45:/font_poppins_medium.ttf.flat",
+        "source": "/Users/christianquaranta/.gradle/daemon/7.3.3/com.example.herculeswallet.app-main-47:/font/poppins_medium.ttf"
     }
 ]

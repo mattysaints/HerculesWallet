@@ -27,7 +27,6 @@ object AuthenticationRepository {
                 val preferences : List<String> = it.child("preferences").getValue() as List<String>
                 val wallet : HashMap<String,Crypto> = it.child("wallet").getValue() as HashMap<String, Crypto>
                 utentewalletMutableLiveData.postValue(User(email,wallet, preferences))
-
                 setListenerDatabase()
             }
         }
@@ -57,7 +56,7 @@ object AuthenticationRepository {
                     // Sign in success, update UI with the signed-in user's information
                     val user = firebaseAuth.currentUser
 
-                    database.child(firebaseAuth.uid.toString()).get().addOnSuccessListener {
+                    database.child(user!!.uid).get().addOnSuccessListener {
                         val email : String = it.child("email").getValue(String::class.java).toString()
                         val preferences : ArrayList<String> = it.child("preferences").getValue() as ArrayList<String>
                         val wallet = it.child("wallet").getValue() as HashMap<String,Crypto>
@@ -82,9 +81,7 @@ object AuthenticationRepository {
 
                     //Create user in realtime database
                     var hashMap = HashMap<String,Crypto>()
-                    hashMap.put("fb69aeb6c434160fc4b846383c535de7",Crypto("Bitcoin","BTC",19357.65,"prova.url",10.5))
-                    hashMap.put("8e4412452dbe1432588c6f68713e4cc4",Crypto("Ripple","XRP",0.3138,"prova.url",30.0))
-                    val utente : User = User(user?.email.toString(), hashMap, arrayListOf("Bitcoin","Ripple"))
+                    val utente : User = User(user?.email.toString(), hashMap, arrayListOf())
                     database.child(firebaseAuth.uid.toString()).setValue(utente)
                     utentewalletMutableLiveData.postValue(utente)
                     successMutableLiveData.postValue(true)
@@ -99,7 +96,7 @@ object AuthenticationRepository {
 
     fun signOut() {
         firebaseAuth.signOut()
-        userLoggedMutableLiveData!!.postValue(true)
+        userLoggedMutableLiveData.postValue(true)
     }
 
     fun getUserLoggedMutableLiveData(): MutableLiveData<Boolean> {

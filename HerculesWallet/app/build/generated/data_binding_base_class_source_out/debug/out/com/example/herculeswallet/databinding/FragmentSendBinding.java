@@ -4,6 +4,8 @@ package com.example.herculeswallet.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.AutoCompleteTextView;
+import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
@@ -25,6 +27,9 @@ public final class FragmentSendBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
+  public final EditText addressReceiver;
+
+  @NonNull
   public final FloatingActionButton fabSend;
 
   @NonNull
@@ -40,22 +45,33 @@ public final class FragmentSendBinding implements ViewBinding {
   public final LinearLayout linear1;
 
   @NonNull
+  public final AutoCompleteTextView listCrypto;
+
+  @NonNull
   public final ImageView logoDashboard;
+
+  @NonNull
+  public final EditText quantitySend;
 
   @NonNull
   public final TextView textView;
 
-  private FragmentSendBinding(@NonNull ConstraintLayout rootView,
+  private FragmentSendBinding(@NonNull ConstraintLayout rootView, @NonNull EditText addressReceiver,
       @NonNull FloatingActionButton fabSend, @NonNull ImageView imageView,
       @NonNull RelativeLayout intestazione, @NonNull TextInputLayout layoutSelectCrypto,
-      @NonNull LinearLayout linear1, @NonNull ImageView logoDashboard, @NonNull TextView textView) {
+      @NonNull LinearLayout linear1, @NonNull AutoCompleteTextView listCrypto,
+      @NonNull ImageView logoDashboard, @NonNull EditText quantitySend,
+      @NonNull TextView textView) {
     this.rootView = rootView;
+    this.addressReceiver = addressReceiver;
     this.fabSend = fabSend;
     this.imageView = imageView;
     this.intestazione = intestazione;
     this.layoutSelectCrypto = layoutSelectCrypto;
     this.linear1 = linear1;
+    this.listCrypto = listCrypto;
     this.logoDashboard = logoDashboard;
+    this.quantitySend = quantitySend;
     this.textView = textView;
   }
 
@@ -86,6 +102,12 @@ public final class FragmentSendBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.address_receiver;
+      EditText addressReceiver = ViewBindings.findChildViewById(rootView, id);
+      if (addressReceiver == null) {
+        break missingId;
+      }
+
       id = R.id.fab_send;
       FloatingActionButton fabSend = ViewBindings.findChildViewById(rootView, id);
       if (fabSend == null) {
@@ -116,9 +138,21 @@ public final class FragmentSendBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.list_crypto;
+      AutoCompleteTextView listCrypto = ViewBindings.findChildViewById(rootView, id);
+      if (listCrypto == null) {
+        break missingId;
+      }
+
       id = R.id.logo_dashboard;
       ImageView logoDashboard = ViewBindings.findChildViewById(rootView, id);
       if (logoDashboard == null) {
+        break missingId;
+      }
+
+      id = R.id.quantity_send;
+      EditText quantitySend = ViewBindings.findChildViewById(rootView, id);
+      if (quantitySend == null) {
         break missingId;
       }
 
@@ -128,8 +162,9 @@ public final class FragmentSendBinding implements ViewBinding {
         break missingId;
       }
 
-      return new FragmentSendBinding((ConstraintLayout) rootView, fabSend, imageView, intestazione,
-          layoutSelectCrypto, linear1, logoDashboard, textView);
+      return new FragmentSendBinding((ConstraintLayout) rootView, addressReceiver, fabSend,
+          imageView, intestazione, layoutSelectCrypto, linear1, listCrypto, logoDashboard,
+          quantitySend, textView);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

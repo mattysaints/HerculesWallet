@@ -61,22 +61,18 @@ class RecyclerViewAdapter(preferences: List<String>) : RecyclerView.Adapter<Recy
                 .into(holder.imageView)
         }
 
-        if(preferences.contains(crypto_list[position].name.replace("\\s".toRegex(), ""))){
+        if(preferences.contains(crypto_list[position].asset_id)){
             holder.favourite.setBackgroundResource(R.drawable.ic_baseline_turned_in_24)
         } else{
             holder.favourite.setBackgroundResource(R.drawable.ic_baseline_turned_in_not_24)
         }
 
         holder.favourite.setOnClickListener(View.OnClickListener {
-            if(preferences.contains(crypto_list[position].name)){
-                println("Lista : $preferences")
-                preferences.remove(crypto_list[position].name.replace("\\s".toRegex(), ""))
-                println("Rimossa : $preferences")
+            if(preferences.contains(crypto_list[position].asset_id)){
+                preferences.remove(crypto_list[position].asset_id)
                 database.setValue(preferences)
             } else {
-                println("Lista : $preferences")
-                preferences.add(crypto_list[position].name.replace("\\s".toRegex(), ""))
-                println("Aggiunta : $preferences")
+                preferences.add(crypto_list[position].asset_id)
                 database.setValue(preferences)
             }
         })

@@ -18,7 +18,6 @@ class ReceiveFragment : Fragment() {
 
     private val model: MainViewModel by activityViewModels()
 
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
     }
@@ -31,12 +30,21 @@ class ReceiveFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
 
+        var listCrypto = mutableListOf<String>()
+        for (item in model.userMutableLiveData.value!!.wallet){
+            listCrypto.add(item.value.name)
+        }
+
         val viewPager2 = view.findViewById<ViewPager2>(R.id.pager)
-        val pageAdapter = PageAdapter(parentFragmentManager,lifecycle,model.getUserData().value!!.preferences)
+        val pageAdapter = PageAdapter(parentFragmentManager,lifecycle,listCrypto)
         viewPager2.adapter = pageAdapter
 
         model.userMutableLiveData.observe(viewLifecycleOwner){
-            pageAdapter.setList(it.preferences)
+            listCrypto = mutableListOf()
+            for (item in model.userMutableLiveData.value!!.wallet){
+                listCrypto.add(item.value.name)
+            }
+            pageAdapter.setList(listCrypto)
         }
 
         super.onViewCreated(view, savedInstanceState)
