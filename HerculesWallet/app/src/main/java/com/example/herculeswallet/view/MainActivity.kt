@@ -3,6 +3,7 @@ package com.example.herculeswallet.view
 import android.app.ProgressDialog
 import android.content.Intent
 import android.os.Bundle
+import android.view.Gravity
 import android.view.View
 import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
@@ -42,6 +43,8 @@ class MainActivity : AppCompatActivity() {
         model.userMutableLiveData.observe(this,
             Observer<User?> { user ->
                 if (user != null) {
+                    val window = dialog.window
+                    window?.setGravity(Gravity.CENTER)
                     dialog.show()
                     startActivity(Intent(this, Wallet::class.java))
                 }
