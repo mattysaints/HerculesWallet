@@ -21,7 +21,7 @@ class HomeFragment : Fragment(R.layout.fragment_home) {
     private var layoutManager: RecyclerView.LayoutManager? = null
     private var adapter: RecyclerView.Adapter<FavRecyclerViewAdapter.ViewHolder>? = null
     private val model: MainViewModel by activityViewModels()
-
+//commento
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
     }
