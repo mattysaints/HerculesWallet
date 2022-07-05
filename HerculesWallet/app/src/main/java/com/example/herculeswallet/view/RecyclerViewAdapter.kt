@@ -68,7 +68,7 @@ class RecyclerViewAdapter(preferences: List<String>) : RecyclerView.Adapter<Recy
         }
 
         holder.favourite.setOnClickListener(View.OnClickListener {
-            if(preferences.contains(crypto_list[position].name)){
+            if(preferences.contains(crypto_list[position].name.replace("\\s".toRegex(), ""))){
                 println("Lista : $preferences")
                 preferences.remove(crypto_list[position].name.replace("\\s".toRegex(), ""))
                 println("Rimossa : $preferences")
