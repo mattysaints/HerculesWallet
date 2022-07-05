@@ -3,18 +3,12 @@ package com.example.herculeswallet.view
 import android.content.Intent
 import android.os.Bundle
 import android.view.View
-import android.widget.Toast
 import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.Observer
-import androidx.lifecycle.ViewModelProvider
-import androidx.lifecycle.ViewModelProviders
 import com.example.herculeswallet.databinding.ActivityMainBinding
-import com.example.herculeswallet.model.Crypto
 import com.example.herculeswallet.model.User
 import com.example.herculeswallet.viewmodels.MainViewModel
-import com.google.android.gms.auth.api.signin.GoogleSignInClient
-import com.google.firebase.auth.FirebaseAuth
 
 
 class MainActivity : AppCompatActivity() {
@@ -54,6 +48,10 @@ class MainActivity : AppCompatActivity() {
             model.register(binding.email.text.toString(),binding.password.text.toString())
         }
 
+    }
+
+    override fun onBackPressed(){
+        return
     }
 
 }
