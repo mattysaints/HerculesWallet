@@ -23,7 +23,7 @@ class MainActivity : AppCompatActivity() {
     //private lateinit var googleSignInClient: GoogleSignInClient
     //private lateinit var firebaseAuth: FirebaseAuth
 
-    //constants
+    //constant
     private companion object {
         private const val RC_SIGN_IN = 100
         private const val TAG = "GOOGLE_SIGN_IN_TAG"
