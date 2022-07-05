@@ -36,13 +36,12 @@ class HomeFragment : Fragment(R.layout.fragment_home) {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         val walletText : TextView = view.findViewById(R.id.userwallet)
-        var user = model.getUserData().value!!
-        val enc : Encryption = Encryption()
 
-        val wallet: Map<String, Crypto> = user.wallet.toMap()
-        var total: Double = 0.0
-            for (entry in wallet.entries.iterator()) {
-                val crypto = Klaxon().parse<Crypto>(entry.value!!.toJson())
+        val user = model.getUserData().value
+        if(user !=null) {
+            var total: Double = 0.0
+            for (entry in user.wallet.toMap().entries.iterator()) {
+                val crypto = Klaxon().parse<Crypto>(entry.value.toJson())
                 val repo = model.cryptoRepo.getCryptoList().value
                 val priceUSD = (repo?.filter { it.name == crypto!!.name })?.first()
                 if (priceUSD != null) {
@@ -51,8 +50,8 @@ class HomeFragment : Fragment(R.layout.fragment_home) {
                     total += (crypto?.price_usd!!.toDouble() * crypto?.quantity_user!!.toDouble())
                 }
             }
-        if(total.equals(0.0)) walletText.text = "0" else walletText.text = total.toString()
-
+            if(total.equals(0.0)) walletText.text = "0" else walletText.text = total.toString()
+        }
 
         layoutManager = LinearLayoutManager(context, LinearLayoutManager.VERTICAL, false)
         val recyclerView = view.findViewById<RecyclerView>(R.id.fav_crypto)
@@ -63,8 +62,6 @@ class HomeFragment : Fragment(R.layout.fragment_home) {
         model.userMutableLiveData.observe(viewLifecycleOwner){
             (adapter as FavRecyclerViewAdapter).setList(model.userMutableLiveData.value!!.preferences)
         }
-
-
 
     }
 

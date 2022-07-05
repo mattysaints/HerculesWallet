@@ -7,19 +7,23 @@
     <fragment
         android:id="@+id/homeFragment"
         android:name="com.example.herculeswallet.view.HomeFragment"
-        android:label="HomeFragment" />
+        android:label="HomeFragment"
+        tools:layout="@layout/fragment_home"/>
     <fragment
         android:id="@+id/sendFragment"
         android:name="com.example.herculeswallet.view.SendFragment"
-        android:label="SendFragment" />
+        android:label="SendFragment"
+        tools:layout="@layout/fragment_send"/>
     <fragment
         android:id="@+id/receiveFragment"
         android:name="com.example.herculeswallet.view.ReceiveFragment"
-        android:label="ReceiveFragment" />
+        android:label="ReceiveFragment"
+        tools:layout="@layout/fragment_receive"/>
     <fragment
         android:id="@+id/cryptoListFragment"
         android:name="com.example.herculeswallet.view.CryptoListFragment"
-        android:label="CryptoListFragment" />
+        android:label="CryptoListFragment"
+        tools:layout="@layout/fragment_crypto_list"/>
     <fragment
         android:id="@+id/optionsFragment"
         android:name="com.example.herculeswallet.view.OptionsFragment"
