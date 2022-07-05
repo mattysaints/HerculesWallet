@@ -16,10 +16,11 @@ object AuthenticationRepository {
     private var utentewalletMutableLiveData: MutableLiveData<User> = MutableLiveData<User>()
     private var firebaseAuth: FirebaseAuth = FirebaseAuth.getInstance()
     private var database: DatabaseReference = FirebaseDatabase.getInstance().getReference("Users")
-    var loginMutableLiveData: MutableLiveData<Boolean> = MutableLiveData<Boolean>()
+    var successMutableLiveData: MutableLiveData<Boolean> = MutableLiveData<Boolean>()
+    var exceptionMutableLiveData: MutableLiveData<String> = MutableLiveData<String>()
 
     init {
-        loginMutableLiveData.postValue(true)
+        successMutableLiveData.postValue(true)
         if (firebaseAuth.getCurrentUser() != null){
             database.child(firebaseAuth.uid.toString()).get().addOnSuccessListener {
                 val email : String = it.child("email").getValue(String::class.java).toString()
@@ -61,13 +62,13 @@ object AuthenticationRepository {
                         val preferences : ArrayList<String> = it.child("preferences").getValue() as ArrayList<String>
                         val wallet = it.child("wallet").getValue() as HashMap<String,Crypto>
                         utentewalletMutableLiveData.postValue(User(email,wallet, preferences))
-                        loginMutableLiveData.postValue(true)
+                        successMutableLiveData.postValue(true)
                         setListenerDatabase()
                     }
 
                 } else {
                     //error
-                    loginMutableLiveData.postValue(false)
+                    successMutableLiveData.postValue(false)
                 }
 
             }
@@ -86,10 +87,12 @@ object AuthenticationRepository {
                     val utente : User = User(user?.email.toString(), hashMap, arrayListOf("Bitcoin","Ripple"))
                     database.child(firebaseAuth.uid.toString()).setValue(utente)
                     utentewalletMutableLiveData.postValue(utente)
+                    successMutableLiveData.postValue(true)
                     setListenerDatabase()
 
                 } else {
-                    //Toast.makeText(application, task.exception?.message, Toast.LENGTH_SHORT) .show()
+                    successMutableLiveData.postValue(false)
+                    exceptionMutableLiveData.postValue(task.exception?.message.toString())
                 }
             })
     }

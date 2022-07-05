@@ -57,18 +57,19 @@ class MainActivity : AppCompatActivity() {
 
         binding.buttonAccedi.setOnClickListener {
             if(binding.email.text.toString().isNotEmpty() && binding.password.text.toString().isNotEmpty()) {
+                var posted = false
+                dialog.setMessage("Accedo...")
                 dialog.show()
                 model.login(binding.email.text.toString(), binding.password.text.toString())
-                model.authRepo.loginMutableLiveData.observe(this, Observer<Boolean?> { login ->
-                    if (login == false) {
+                model.authRepo.successMutableLiveData.observe(this, Observer<Boolean?> { login ->
+                    if (login == false && !posted) {
+                        model.authRepo.successMutableLiveData.postValue(true)
                         dialog.dismiss()
                         errore.setMessage("Credenziali errate!")
                         errore.show()
-                        model.authRepo.loginMutableLiveData.postValue(true)
+                        posted = true;
                     }
                 })
-
-
             }else{
                 errore.show()
             }
@@ -76,9 +77,20 @@ class MainActivity : AppCompatActivity() {
 
         binding.buttonRegistrati.setOnClickListener {
             if(binding.email.text.toString().isNotEmpty() && binding.password.text.toString().isNotEmpty()) {
+                var posted = false
             dialog.setMessage("Registro...")
             dialog.show()
             model.register(binding.email.text.toString(),binding.password.text.toString())
+                model.authRepo.successMutableLiveData.observe(this, Observer<Boolean?> { login ->
+                    if (login == false && !posted) {
+                        model.authRepo.successMutableLiveData.postValue(true)
+                        dialog.dismiss()
+                        errore.setTitle("Errore durante la registrazione")
+                        errore.setMessage(model.authRepo.exceptionMutableLiveData.value)
+                        errore.show()
+                        posted = true;
+                    }
+                })
             }else{
                 errore.show()
             }
