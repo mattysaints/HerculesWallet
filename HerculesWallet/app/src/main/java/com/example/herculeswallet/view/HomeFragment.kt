@@ -7,12 +7,14 @@ import android.view.ViewGroup
 import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.activityViewModels
-import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import androidx.viewpager2.widget.ViewPager2
 import com.beust.klaxon.Klaxon
 import com.example.herculeswallet.R
 import com.example.herculeswallet.model.Crypto
 import com.example.herculeswallet.viewmodels.MainViewModel
+import com.google.android.material.tabs.TabLayout
+import com.google.android.material.tabs.TabLayoutMediator
 import tomatobean.jsonparser.toJson
 
 
@@ -20,7 +22,7 @@ class HomeFragment : Fragment(R.layout.fragment_home) {
     private var layoutManager: RecyclerView.LayoutManager? = null
     private var adapter: RecyclerView.Adapter<FavRecyclerViewAdapter.ViewHolder>? = null
     private val model: MainViewModel by activityViewModels()
-//commento
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
     }
@@ -34,9 +36,11 @@ class HomeFragment : Fragment(R.layout.fragment_home) {
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
         val walletText : TextView = view.findViewById(R.id.userwallet)
         val user = model.getUserData().value
         if(user !=null) {
+            //Saldo
             var total: Double = 0.0
             for (entry in user.wallet.toMap().entries.iterator()) {
                 val crypto = Klaxon().parse<Crypto>(entry.value.toJson())
@@ -48,17 +52,24 @@ class HomeFragment : Fragment(R.layout.fragment_home) {
                     total += (crypto?.price_usd!!.toDouble() * crypto?.quantity_user!!.toDouble())
                 }
             }
-            if(total.equals(0.0)) walletText.text = "0" else walletText.text = total.toString()
-        }
+            if(total.equals(0.0)) walletText.text = "0" else walletText.text = String.format("%.3f", total)
 
-        layoutManager = LinearLayoutManager(context, LinearLayoutManager.VERTICAL, false)
-        val recyclerView = view.findViewById<RecyclerView>(R.id.fav_crypto)
-        recyclerView.layoutManager = layoutManager
-        adapter = FavRecyclerViewAdapter()
-        recyclerView.adapter = adapter
+            //ViewPage
+            val TabLayout: TabLayout = view!!.findViewById(R.id.tabLayout)
+            val viewPager: ViewPager2 = view!!.findViewById(R.id.viewPager)
+            val adapt = ViewPagerAdapter(childFragmentManager, lifecycle)
+            viewPager.adapter = adapt
 
-        model.userMutableLiveData.observe(viewLifecycleOwner){
-            (adapter as FavRecyclerViewAdapter).setList(model.userMutableLiveData.value!!.preferences)
+            TabLayoutMediator(TabLayout, viewPager){
+                    tab,position->when(position){
+                0->{
+                    tab.text="Crypto"
+                }
+                1->{
+                    tab.text="Preferiti"
+                }
+            }
+            }.attach()
         }
 
     }
