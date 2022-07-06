@@ -36,6 +36,5 @@ class ReminderBroadcast : BroadcastReceiver() {
         val notificationManager : NotificationManagerCompat = NotificationManagerCompat.from(context)
         notificationManager.notify(notificationId,builder.build())
 
-
     }
 }
