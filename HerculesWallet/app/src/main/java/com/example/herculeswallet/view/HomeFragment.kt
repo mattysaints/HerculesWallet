@@ -12,7 +12,6 @@ import androidx.recyclerview.widget.RecyclerView
 import com.beust.klaxon.Klaxon
 import com.example.herculeswallet.R
 import com.example.herculeswallet.model.Crypto
-import com.example.herculeswallet.utils.Encryption
 import com.example.herculeswallet.viewmodels.MainViewModel
 import tomatobean.jsonparser.toJson
 
@@ -36,7 +35,6 @@ class HomeFragment : Fragment(R.layout.fragment_home) {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         val walletText : TextView = view.findViewById(R.id.userwallet)
-
         val user = model.getUserData().value
         if(user !=null) {
             var total: Double = 0.0
