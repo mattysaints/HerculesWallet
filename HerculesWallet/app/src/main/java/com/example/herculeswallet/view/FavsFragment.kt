@@ -9,6 +9,7 @@ import androidx.fragment.app.activityViewModels
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.example.herculeswallet.R
+import com.example.herculeswallet.model.Crypto
 import com.example.herculeswallet.viewmodels.MainViewModel
 
 
@@ -37,8 +38,26 @@ class FavsFragment : Fragment() {
         adapter = FavRecyclerViewAdapter()
         recyclerView.adapter = adapter
 
+        //From List<String> to List<Crypto>
+        val user = model.getUserData().value
+        var favs: List<Crypto> = emptyList()
+        val iterator = user!!.preferences.listIterator()
+        while (iterator.hasNext()) {
+            val repo = model.cryptoListLiveData.value
+            val asset = iterator.next()
+            val crypto_repo = repo?.filter { it.asset_id == asset }?.firstOrNull()
+            var crypto: Crypto = Crypto(
+                asset,
+                "",
+                (String.format("%.3f", crypto_repo?.price_usd)).toDouble(),
+                crypto_repo?.logo_url.toString(),
+                0.0
+            )
+            favs += crypto
+        }
+
         model.userMutableLiveData.observe(viewLifecycleOwner){
-            (adapter as FavRecyclerViewAdapter).setList(model.userMutableLiveData.value!!.preferences)
+            (adapter as FavRecyclerViewAdapter).setList(favs)
         }
     }
 
