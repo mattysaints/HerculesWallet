@@ -41,19 +41,21 @@ class FavsFragment : Fragment() {
         //From List<String> to List<Crypto>
         val user = model.getUserData().value
         var favs: List<Crypto> = emptyList()
-        val iterator = user!!.preferences.listIterator()
-        while (iterator.hasNext()) {
-            val repo = model.cryptoListLiveData.value
-            val asset = iterator.next()
-            val crypto_repo = repo?.filter { it.asset_id == asset }?.firstOrNull()
-            var crypto: Crypto = Crypto(
-                asset,
-                "",
-                (String.format("%.3f", crypto_repo?.price_usd)).toDouble(),
-                crypto_repo?.logo_url.toString(),
-                0.0
-            )
-            favs += crypto
+        if(user != null){
+            val iterator = user!!.preferences.listIterator()
+            while (iterator.hasNext()) {
+                val repo = model.cryptoListLiveData.value
+                val asset = iterator.next()
+                val crypto_repo = repo?.filter { it.asset_id == asset }?.firstOrNull()
+                var crypto: Crypto = Crypto(
+                    asset,
+                    "",
+                    (String.format("%.3f", crypto_repo?.price_usd)).toDouble(),
+                    crypto_repo?.logo_url.toString(),
+                    0.0
+                )
+                favs += crypto
+            }
         }
 
         model.userMutableLiveData.observe(viewLifecycleOwner){

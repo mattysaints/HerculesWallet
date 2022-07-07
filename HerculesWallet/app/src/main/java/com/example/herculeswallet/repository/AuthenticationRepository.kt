@@ -10,7 +10,7 @@ import com.google.firebase.database.*
 import tomatobean.jsonparser.parseJson
 
 
-object AuthenticationRepository {
+object AuthenticationRepository : LogInListener{
 
     private var userLoggedMutableLiveData: MutableLiveData<Boolean> = MutableLiveData<Boolean>()
     private var utentewalletMutableLiveData: MutableLiveData<User> = MutableLiveData<User>()
@@ -108,6 +108,10 @@ object AuthenticationRepository {
         return utentewalletMutableLiveData
     }
 
+    override fun logInSuccess(email: String, password: String) {
+    }
+
+    override fun logInFailure(exception: Exception?, email: String, password: String) {}
 
 }
 
