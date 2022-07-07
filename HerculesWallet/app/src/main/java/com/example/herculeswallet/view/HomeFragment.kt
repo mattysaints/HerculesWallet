@@ -39,7 +39,7 @@ class HomeFragment : Fragment(R.layout.fragment_home) {
         super.onViewCreated(view, savedInstanceState)
         val walletText : TextView = view.findViewById(R.id.userwallet)
         val user = model.getUserData().value
-        if(user !=null) {
+        if(user !=null && model.cryptoListLiveData.toString().isNotEmpty()) {
             //Saldo
             var total: Double = 0.0
             for (entry in user.wallet.toMap().entries.iterator()) {

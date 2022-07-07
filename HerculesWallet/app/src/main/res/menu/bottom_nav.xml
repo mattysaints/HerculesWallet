@@ -7,16 +7,16 @@
         android:icon="@drawable/portfolio"/>
     <item
         android:id="@+id/sendFragment"
-        android:title="Invia"
-        android:icon="@drawable/actions"/>
+        android:icon="@android:drawable/stat_sys_upload"
+        android:title="Invia" />
     <item
         android:id="@+id/receiveFragment"
-        android:title="Ricevi"
-        android:icon="@drawable/activity"/>
+        android:icon="@android:drawable/stat_sys_download"
+        android:title="Ricevi" />
     <item
         android:id="@+id/cryptoListFragment"
-        android:title="Cryptos"
-        android:icon="@drawable/profile"/>
+        android:icon="@drawable/fab_icon"
+        android:title="Cryptos" />
     <item
         android:id="@+id/optionsFragment"
         android:icon="@drawable/settings"
