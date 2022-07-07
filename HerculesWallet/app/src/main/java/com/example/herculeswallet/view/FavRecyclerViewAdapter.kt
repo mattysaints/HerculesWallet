@@ -6,12 +6,10 @@ import android.view.ViewGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.example.herculeswallet.R
-import com.example.herculeswallet.model.Crypto
 
 
 class FavRecyclerViewAdapter : RecyclerView.Adapter<FavRecyclerViewAdapter.ViewHolder>(){
     private var favs: Array<String>? = null
-    private var wallet: Array<Crypto>? = null
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): FavRecyclerViewAdapter.ViewHolder {
         val v = LayoutInflater.from(parent.context).inflate(R.layout.fav_item, parent, false)
@@ -32,12 +30,6 @@ class FavRecyclerViewAdapter : RecyclerView.Adapter<FavRecyclerViewAdapter.ViewH
             itemName = itemView.findViewById(R.id.fav_title)
         }
     }
-
-    fun setCryptoList(list: List<Crypto>) {
-        this.wallet = list.toTypedArray()
-        notifyDataSetChanged()
-    }
-
     fun setList(list: List<String>) {
         this.favs = list.toTypedArray()
         notifyDataSetChanged()

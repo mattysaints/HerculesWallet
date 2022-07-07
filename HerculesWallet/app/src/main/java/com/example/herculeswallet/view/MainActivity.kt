@@ -11,6 +11,7 @@ import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.Observer
 import com.example.herculeswallet.databinding.ActivityMainBinding
+import com.example.herculeswallet.model.Crypto
 import com.example.herculeswallet.model.User
 import com.example.herculeswallet.viewmodels.MainViewModel
 
@@ -36,6 +37,7 @@ class MainActivity : AppCompatActivity() {
         getSupportActionBar()!!.hide();
         window.decorView.systemUiVisibility = View.SYSTEM_UI_FLAG_HIDE_NAVIGATION or
                 View.SYSTEM_UI_FLAG_IMMERSIVE_STICKY or View.SYSTEM_UI_FLAG_FULLSCREEN
+        model.getCryptoList()
         val dialog = ProgressDialog(this@MainActivity)
         dialog.setMessage("Accedo...")
         dialog.setCancelable(false)
@@ -51,7 +53,11 @@ class MainActivity : AppCompatActivity() {
                     val window = dialog.window
                     window?.setGravity(Gravity.CENTER)
                     dialog.show()
-                    startActivity(Intent(this, Wallet::class.java))
+                    model.cryptoListLiveData.observe(this, Observer<List<Crypto>>{
+                        Crypto -> if (Crypto.isNotEmpty()){
+                        startActivity(Intent(this, Wallet::class.java))
+                    }
+                    })
                 }
             })
 
