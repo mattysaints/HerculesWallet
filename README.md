@@ -1,1 +1,1 @@
-# hercules
+# HerculesWallet
