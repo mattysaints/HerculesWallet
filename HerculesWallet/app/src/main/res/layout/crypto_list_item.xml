@@ -72,7 +72,7 @@
 
                        <TextView
                            android:id="@+id/price_crypto"
-                           android:layout_width="match_parent"
+                           android:layout_width="wrap_content"
                            android:layout_height="match_parent"
                            android:layout_gravity="right|end"
                            android:text="$ 30,079.90 "
@@ -83,14 +83,28 @@
                            app:layout_constraintEnd_toEndOf="parent"
                            app:layout_constraintTop_toTopOf="parent" />
 
-                       <ImageButton
-                           android:layout_gravity="right|end"
-                           android:id="@+id/favourite"
-                           android:layout_width="wrap_content"
-                           android:layout_height="wrap_content"
-                           android:background="@drawable/transparent_background"
-                           app:srcCompat="@drawable/ic_baseline_turned_in_not_24"
-                           tools:ignore="RtlHardcoded" />
+                       <RelativeLayout
+                           android:layout_height="match_parent"
+                           android:layout_width="wrap_content">
+
+                           <ImageButton
+                               android:id="@+id/favourite"
+                               android:layout_width="wrap_content"
+                               android:layout_height="wrap_content"
+                               android:layout_centerInParent="true"
+                               android:background="@drawable/transparent_background"
+                               app:srcCompat="@drawable/ic_baseline_turned_in_not_24"
+                               tools:ignore="RtlHardcoded" />
+
+                           <ImageButton
+                               android:id="@+id/action_crypto"
+                               android:layout_width="wrap_content"
+                               android:layout_height="wrap_content"
+                               android:layout_alignParentRight="true"
+                               android:background="@drawable/transparent_background"
+                               app:srcCompat="@drawable/ic_baseline_add_24" />
+
+                       </RelativeLayout>
                    </GridLayout>
 
 
