@@ -126,6 +126,7 @@ object AuthenticationRepository{
 }
 
 /*
+aaaa
 fun firebaseAuthWithGoogleAccount(account: GoogleSignInAccount?) {
         val credential = GoogleAuthProvider.getCredential(account!!.idToken,null)
         firebaseAuth.signInWithCredential(credential)

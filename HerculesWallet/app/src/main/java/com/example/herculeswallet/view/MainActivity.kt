@@ -18,7 +18,7 @@ import com.example.herculeswallet.viewmodels.MainViewModel
 
 class MainActivity : AppCompatActivity() {
 
-    //view binding
+    //view binding aaa
     private lateinit var binding: ActivityMainBinding
     private val model : MainViewModel by viewModels()
     //private lateinit var googleSignInClient: GoogleSignInClient
