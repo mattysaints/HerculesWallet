@@ -94,7 +94,7 @@ class MainActivity : AppCompatActivity() {
                         model.setsuccess(true)
                         dialog.dismiss()
                         errore.setTitle("Errore durante la registrazione")
-                        errore.setMessage(model.authRepo.exceptionMutableLiveData.value)
+                        errore.setMessage(model.getexceptionMutableLiveData().value.toString())
                         errore.show()
                         posted = true;
                     }

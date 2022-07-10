@@ -19,7 +19,7 @@ object AuthenticationRepository{
     private val encryption : Encryption = Encryption()
     private var database: DatabaseReference = FirebaseDatabase.getInstance().getReference("Users")
     private var success: MutableLiveData<Boolean> = MutableLiveData<Boolean>()
-    var exceptionMutableLiveData: MutableLiveData<String> = MutableLiveData<String>()
+    private var exceptionMutableLiveData: MutableLiveData<String> = MutableLiveData<String>()
 
     init {
         if (firebaseAuth.getCurrentUser() != null){
@@ -104,6 +104,10 @@ object AuthenticationRepository{
 
     fun getsuccess(): MutableLiveData<Boolean>{
         return this.success
+    }
+
+    fun getexceptionMutableLiveData(): MutableLiveData<String>{
+        return this.exceptionMutableLiveData
     }
 
     fun signOut() {

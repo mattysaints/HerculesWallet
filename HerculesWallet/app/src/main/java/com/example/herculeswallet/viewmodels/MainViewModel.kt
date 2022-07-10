@@ -21,9 +21,11 @@ class MainViewModel() : ViewModel() {
     var loggedStatus: MutableLiveData<Boolean>
     var cryptoListLiveData: MutableLiveData<List<Crypto>>
     var success: MutableLiveData<Boolean> = MutableLiveData<Boolean>()
+    var exception: MutableLiveData<String> = MutableLiveData<String>()
 
     init {
         success = authRepo.getsuccess()
+        exception = authRepo.getexceptionMutableLiveData()
         userMutableLiveData = authRepo.getUserWallet()
         loggedStatus = authRepo.getUserLoggedMutableLiveData()
         cryptoListLiveData = cryptoRepo.getCryptoList()
@@ -89,6 +91,10 @@ class MainViewModel() : ViewModel() {
 
     fun getsuccess(): MutableLiveData<Boolean>{
         return authRepo.getsuccess()
+    }
+
+    fun getexceptionMutableLiveData(): MutableLiveData<String>{
+        return authRepo.getexceptionMutableLiveData()
     }
 
 }
