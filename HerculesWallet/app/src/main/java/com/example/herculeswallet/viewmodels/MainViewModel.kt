@@ -7,6 +7,7 @@ import com.example.herculeswallet.model.Crypto
 import com.example.herculeswallet.model.User
 import com.example.herculeswallet.repository.AuthenticationRepository
 import com.example.herculeswallet.repository.CryptoRepository
+import com.example.herculeswallet.repository.DatabaseRepository
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 
@@ -15,6 +16,7 @@ class MainViewModel() : ViewModel() {
 
     val authRepo: AuthenticationRepository = AuthenticationRepository
     val cryptoRepo: CryptoRepository = CryptoRepository
+    val DBRepo : DatabaseRepository = DatabaseRepository
     var userMutableLiveData: MutableLiveData<User>
     var loggedStatus: MutableLiveData<Boolean>
     var cryptoListLiveData: MutableLiveData<List<Crypto>>
@@ -61,6 +63,14 @@ class MainViewModel() : ViewModel() {
             cryptoRepo.getCryptoIconRequest()
         }
         return cryptoRepo.getCryptoIcon()
+    }
+
+    fun transactionWalletUser(address_receiver: String, address_sender : String, send_quantity: String,crypto: String) : Boolean{
+        var isDone = false
+        viewModelScope.launch (Dispatchers.IO){
+            isDone = DBRepo.transactionWalletUser(userMutableLiveData.value!!,address_receiver,address_sender,send_quantity,crypto)
+        }
+        return isDone
     }
 
 }

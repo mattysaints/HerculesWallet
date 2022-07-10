@@ -3,6 +3,7 @@ package com.example.herculeswallet.repository
 import androidx.lifecycle.MutableLiveData
 import com.example.herculeswallet.model.Crypto
 import com.example.herculeswallet.model.User
+import com.example.herculeswallet.utils.Encryption
 import com.google.android.gms.tasks.OnCompleteListener
 import com.google.firebase.auth.AuthResult
 import com.google.firebase.auth.FirebaseAuth
@@ -15,7 +16,9 @@ object AuthenticationRepository{
     private var userLoggedMutableLiveData: MutableLiveData<Boolean> = MutableLiveData<Boolean>()
     private var utentewalletMutableLiveData: MutableLiveData<User> = MutableLiveData<User>()
     private var firebaseAuth: FirebaseAuth = FirebaseAuth.getInstance()
+    private val encryption : Encryption = Encryption()
     private var database: DatabaseReference = FirebaseDatabase.getInstance().getReference("Users")
+
     var successMutableLiveData: MutableLiveData<Boolean> = MutableLiveData<Boolean>()
     var exceptionMutableLiveData: MutableLiveData<String> = MutableLiveData<String>()
 
@@ -82,7 +85,9 @@ object AuthenticationRepository{
 
                     //Create user in realtime database
                     var hashMap = HashMap<String,Crypto>()
-                    val utente : User = User(user?.email.toString(), hashMap, arrayListOf())
+                    val crypto = Crypto("Bitcoin","BTC",19300.56, "prova.url",30.5)
+                    encryption.md5(user!!.email+ "/Bitcoin")?.let { hashMap.put(it,crypto) }
+                    val utente : User = User(user.email.toString(), hashMap, arrayListOf("BTC"))
                     database.child(firebaseAuth.uid.toString()).setValue(utente)
                     utentewalletMutableLiveData.postValue(utente)
                     successMutableLiveData.postValue(true)

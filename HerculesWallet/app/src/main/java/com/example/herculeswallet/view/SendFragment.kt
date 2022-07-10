@@ -40,7 +40,6 @@ class SendFragment : Fragment(R.layout.fragment_send){
     private val encryption : Encryption = Encryption()
     private var database: DatabaseReference = Firebase.database.getReference("Users")
     private var firebaseAuth: FirebaseAuth = FirebaseAuth.getInstance()
-    private var receiver_id : String = ""
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -82,29 +81,16 @@ class SendFragment : Fragment(R.layout.fragment_send){
         }
 
         action_button.setOnClickListener { view ->
-
             val md5_address = user.email.let { encryption.md5(it + "/"+ list_crypto.text.toString()) }
-            CoroutineScope(Dispatchers.IO).launch { getReceiverId(address_receiver.text.toString(),list_crypto.text.toString()) }
-
             val crypto = Klaxon().parse<Crypto>(user.wallet.get(md5_address)!!.toJson())
             val qnty_crypto = crypto?.quantity_user!!.toDouble()
 
             if(qnty_crypto >= quantity_send.text.toString().toDouble()){
-                val temp_quantity = qnty_crypto - quantity_send.text.toString().toDouble()
-                CoroutineScope(Dispatchers.IO).launch {
-                    if (md5_address != null && receiver_id.isNotEmpty()) {
-                        database.child(receiver_id).get().addOnSuccessListener {
-                            val qReceiver = it.child("wallet").child(address_receiver.text.toString()).child("quantity_user").getValue()
-                            database.child(receiver_id).child("wallet").child(address_receiver.text.toString()).child("quantity_user").setValue(
-                                quantity_send.text.toString().toDouble() + qReceiver.toString().toDouble()
-                            )
-                            database.child(firebaseAuth.currentUser!!.uid).child("wallet").child(md5_address).child("quantity_user").setValue(temp_quantity)
-                        }.addOnFailureListener {
-                            makeToast(false)
-                        }
-                    } else {
-                        makeToast(false)
-                    }
+                if (md5_address != null &&
+                    model.transactionWalletUser(address_receiver.text.toString(),md5_address,quantity_send.text.toString(),list_crypto.text.toString())) {
+                    Toast.makeText(view.context,"Invio Riuscito",Toast.LENGTH_SHORT).show()
+                } else {
+                    Toast.makeText(view.context,"Indirizzo Errato",Toast.LENGTH_SHORT).show()
                 }
             } else {
                 Toast.makeText(view.context,"Non hai fondi sufficienti",Toast.LENGTH_SHORT).show()
@@ -112,32 +98,6 @@ class SendFragment : Fragment(R.layout.fragment_send){
         }
 
         super.onViewCreated(view, savedInstanceState)
-    }
-
-    private fun makeToast(success: Boolean){
-        if (!success){
-            Looper.prepare()
-            Toast.makeText(view!!.context, "Indirizzo Errato", Toast.LENGTH_SHORT).show()
-            Looper.loop()
-        }
-    }
-
-    fun getReceiverId(address: String, crypto: String){
-        database.get().addOnSuccessListener { i ->
-            val utenti : HashMap<String,User> = HashMap()
-            for (temp : DataSnapshot in i.children.toMutableSet()){
-                temp.key?.let { temp.value.toString().parseJson(User::class)
-                    ?.let { it1 -> utenti.put(it, it1) } }
-            }
-            for ((key, value) in utenti) {
-                val address_in_db = encryption.md5("${value.email}/$crypto")
-                receiver_id = if(value.wallet.containsKey(address) && address.equals(address_in_db)){
-                    key
-                } else {
-                    ""
-                }
-            }
-        }
     }
 
 }
