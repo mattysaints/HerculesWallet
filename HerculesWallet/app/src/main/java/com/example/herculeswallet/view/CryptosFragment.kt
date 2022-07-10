@@ -33,7 +33,6 @@ class CryptosFragment : Fragment() {
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
-       //"recycler view delle crypto dell'utente"
         layoutManager = LinearLayoutManager(context, LinearLayoutManager.VERTICAL, false)
         val recyclerView = view.findViewById<RecyclerView>(R.id.list_crypto)
         recyclerView.layoutManager = layoutManager
@@ -45,7 +44,7 @@ class CryptosFragment : Fragment() {
         var wallet: List<Crypto> = emptyList()
         for (entry in user!!.wallet.toMap().entries.iterator()) {
             val crypto = Klaxon().parse<Crypto>(entry.value.toJson())
-            val repo = model.cryptoRepo.getCryptoList().value
+            val repo = model.cryptoListLiveData.value
             val crypto_repo = (repo?.filter { it.name == crypto!!.name })?.first()
             crypto!!.price_usd = (String.format("%.3f", crypto_repo?.price_usd)).toDouble()
             crypto!!.logo_url = crypto_repo?.logo_url.toString()

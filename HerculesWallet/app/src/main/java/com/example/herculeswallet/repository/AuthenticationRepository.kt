@@ -18,12 +18,10 @@ object AuthenticationRepository{
     private var firebaseAuth: FirebaseAuth = FirebaseAuth.getInstance()
     private val encryption : Encryption = Encryption()
     private var database: DatabaseReference = FirebaseDatabase.getInstance().getReference("Users")
-
-    var successMutableLiveData: MutableLiveData<Boolean> = MutableLiveData<Boolean>()
+    private var success: MutableLiveData<Boolean> = MutableLiveData<Boolean>()
     var exceptionMutableLiveData: MutableLiveData<String> = MutableLiveData<String>()
 
     init {
-        successMutableLiveData.postValue(true)
         if (firebaseAuth.getCurrentUser() != null){
             database.child(firebaseAuth.uid.toString()).get().addOnSuccessListener {
                 val email : String = it.child("email").getValue(String::class.java).toString()
@@ -65,13 +63,13 @@ object AuthenticationRepository{
                         val preferences : ArrayList<String> = it.child("preferences").getValue() as ArrayList<String>
                         val wallet = it.child("wallet").getValue() as HashMap<String,Crypto>
                         utentewalletMutableLiveData.postValue(User(email,wallet, preferences))
-                        successMutableLiveData.postValue(true)
+                        this.success.postValue(true)
                         setListenerDatabase()
                     }
 
                 } else {
                     //error
-                    successMutableLiveData.postValue(false)
+                    this.success.postValue(false)
                 }
 
             }
@@ -90,14 +88,22 @@ object AuthenticationRepository{
                     val utente : User = User(user.email.toString(), hashMap, arrayListOf("BTC"))
                     database.child(firebaseAuth.uid.toString()).setValue(utente)
                     utentewalletMutableLiveData.postValue(utente)
-                    successMutableLiveData.postValue(true)
+                    this.success.postValue(true)
                     setListenerDatabase()
 
                 } else {
-                    successMutableLiveData.postValue(false)
+                    this.success.postValue(false)
                     exceptionMutableLiveData.postValue(task.exception?.message.toString())
                 }
             })
+    }
+
+    fun setsuccess(value: Boolean){
+        this.success.postValue(value)
+    }
+
+    fun getsuccess(): MutableLiveData<Boolean>{
+        return this.success
     }
 
     fun signOut() {

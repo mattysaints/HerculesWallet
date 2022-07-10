@@ -37,7 +37,9 @@ class MainActivity : AppCompatActivity() {
         getSupportActionBar()!!.hide();
         window.decorView.systemUiVisibility = View.SYSTEM_UI_FLAG_HIDE_NAVIGATION or
                 View.SYSTEM_UI_FLAG_IMMERSIVE_STICKY or View.SYSTEM_UI_FLAG_FULLSCREEN
-        model.getCryptoList()
+        model.getCryptoList() //CHIAMATA API
+
+        //Preparo i dialogs
         val dialog = ProgressDialog(this@MainActivity)
         dialog.setMessage("Accedo...")
         dialog.setCancelable(false)
@@ -67,9 +69,9 @@ class MainActivity : AppCompatActivity() {
                 dialog.setMessage("Accedo...")
                 dialog.show()
                 model.login(binding.email.text.toString(), binding.password.text.toString())
-                model.authRepo.successMutableLiveData.observe(this, Observer<Boolean?> { login ->
+                model.success.observe(this, Observer<Boolean> { login ->
                     if (login == false && !posted) {
-                        model.authRepo.successMutableLiveData.postValue(true)
+                        model.setsuccess(true)
                         dialog.dismiss()
                         errore.setMessage("Credenziali errate!")
                         errore.show()
@@ -87,9 +89,9 @@ class MainActivity : AppCompatActivity() {
             dialog.setMessage("Registro...")
             dialog.show()
             model.register(binding.email.text.toString(),binding.password.text.toString())
-                model.authRepo.successMutableLiveData.observe(this, Observer<Boolean?> { login ->
+                model.success.observe(this, Observer<Boolean> { login ->
                     if (login == false && !posted) {
-                        model.authRepo.successMutableLiveData.postValue(true)
+                        model.setsuccess(true)
                         dialog.dismiss()
                         errore.setTitle("Errore durante la registrazione")
                         errore.setMessage(model.authRepo.exceptionMutableLiveData.value)
