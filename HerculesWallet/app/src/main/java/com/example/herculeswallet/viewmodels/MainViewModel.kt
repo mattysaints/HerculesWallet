@@ -73,4 +73,12 @@ class MainViewModel() : ViewModel() {
         return isDone
     }
 
+    fun addCryptoToWallet(crypto: Crypto){
+        DBRepo.addCryptoToWallet(crypto)
+    }
+
+    fun removeCryptoFromWallet(crypto: Crypto){
+        DBRepo.removeCryptoToWallet(crypto,userMutableLiveData.value!!)
+    }
+
 }

@@ -49,10 +49,10 @@ object DatabaseRepository {
     }
 
     fun removeCryptoToWallet(crypto: Crypto, user_info : User) { //pushare HashMap crypto
-        val temp = mutableListOf<Crypto>()
+        val temp = HashMap<String,Crypto>()
         for ((keys,value) in user_info.wallet){
             if(!value.name.equals(crypto.name)){
-                temp.add(value)
+                temp.put(keys,value)
             }
         }
         encryption.md5(firebaseAuth.currentUser!!.email.toString() + "/" + crypto.name)
