@@ -43,7 +43,7 @@ class CryptoListFragment : Fragment(){
 
         layoutManager = LinearLayoutManager(context, LinearLayoutManager.VERTICAL, false)
         listCrypto.layoutManager = layoutManager
-        val adapter = RecyclerViewAdapter(model.getUserData().value!!.preferences)
+        val adapter = RecyclerViewAdapter(model)
         listCrypto.adapter = adapter
 
         model.getCryptoList()

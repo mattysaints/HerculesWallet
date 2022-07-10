@@ -55,7 +55,7 @@ class SendFragment : Fragment(R.layout.fragment_send){
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
 
-        var user = model.userMutableLiveData.value!!
+        val user = model.userMutableLiveData.value!!
         val quantity_send : EditText = view.findViewById(R.id.quantity_send)
         val address_receiver : EditText = view.findViewById(R.id.address_receiver)
         val list_crypto : AutoCompleteTextView = view.findViewById(R.id.list_crypto)

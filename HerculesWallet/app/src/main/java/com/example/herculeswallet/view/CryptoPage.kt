@@ -1,5 +1,6 @@
 package com.example.herculeswallet.view
 
+import android.graphics.Paint
 import android.os.Bundle
 import android.util.Log
 import android.view.View
@@ -28,6 +29,7 @@ class CryptoPage(cryptoPage: String) : Fragment(R.layout.receive_list_item) {
 
         //Set md5 hash address
         addressEditText.text = md5_address
+        assetName.paintFlags = Paint.UNDERLINE_TEXT_FLAG
         assetName.text = crypto
 
         val qrgEncoder = QRGEncoder(md5_address, null, QRGContents.Type.TEXT, 512)

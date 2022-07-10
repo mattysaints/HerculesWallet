@@ -1,6 +1,7 @@
 package com.example.herculeswallet.repository
 
 import androidx.lifecycle.MutableLiveData
+import com.beust.klaxon.Klaxon
 import com.example.herculeswallet.model.Crypto
 import com.example.herculeswallet.model.User
 import com.example.herculeswallet.utils.Encryption
@@ -9,6 +10,7 @@ import com.google.firebase.auth.AuthResult
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.database.*
 import tomatobean.jsonparser.parseJson
+import tomatobean.jsonparser.toJson
 
 
 object AuthenticationRepository{
@@ -40,7 +42,7 @@ object AuthenticationRepository{
         val userListener = object : ValueEventListener {
             override fun onDataChange(dataSnapshot: DataSnapshot) {
                 // Get User object and use the values to update the UI
-                val user = dataSnapshot.child(firebaseAuth.currentUser!!.uid).value.toString().parseJson(User::class)
+                val user = Klaxon().parse<User>(dataSnapshot.child(firebaseAuth.currentUser!!.uid).value!!.toJson())
                 utentewalletMutableLiveData.postValue(User(user!!.email, user.wallet,user.preferences))
             }
 

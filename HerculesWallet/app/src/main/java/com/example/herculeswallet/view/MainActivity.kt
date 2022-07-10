@@ -58,6 +58,7 @@ class MainActivity : AppCompatActivity() {
                         startActivity(Intent(this, Wallet::class.java))
                     }
                     })
+                    startActivity(Intent(this, Wallet::class.java))
                 }
             })
 
