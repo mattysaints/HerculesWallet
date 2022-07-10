@@ -10,6 +10,7 @@ import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
 import com.example.herculeswallet.R
+import com.example.herculeswallet.model.Crypto
 import com.example.herculeswallet.viewmodels.MainViewModel
 
 

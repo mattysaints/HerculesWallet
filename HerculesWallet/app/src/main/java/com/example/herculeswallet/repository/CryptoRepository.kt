@@ -25,7 +25,7 @@ object CryptoRepository {
             requestMethod = "GET"
             setRequestProperty("Content-Type", "application/json; utf-8")
             setRequestProperty("Accept", "application/json")
-            setRequestProperty("X-CoinAPI-Key","A8AC5104-F29B-4A92-B894-488F28BF9252")
+            setRequestProperty("X-CoinAPI-Key","B74D735E-8062-41E8-BC88-9C16C6E0CD35")
             doInput = true
             list = fromJsonToList(inputStreamToJson(this.inputStream))
         }
@@ -44,7 +44,7 @@ object CryptoRepository {
                price = jsonArray.getJSONObject(i).getString("price_usd").toDouble()
             } else {price = "0".toDouble()}
             val url : String = crypto_list_icon.get(asset_id).toString()
-            val asset : Crypto = Crypto(name,asset_id,price,url,null)
+            val asset : Crypto = Crypto(name,asset_id,price,url,0.0)
             crypto.add(asset)
         }
         return crypto
@@ -77,7 +77,7 @@ object CryptoRepository {
             requestMethod = "GET"
             setRequestProperty("Content-Type", "application/json; utf-8")
             setRequestProperty("Accept", "application/json")
-            setRequestProperty("X-CoinAPI-Key","A8AC5104-F29B-4A92-B894-488F28BF9252")
+            setRequestProperty("X-CoinAPI-Key","B74D735E-8062-41E8-BC88-9C16C6E0CD35")
             doInput = true
             fromJsonToHashmap(inputStreamToJson(this.inputStream))
         }
@@ -87,7 +87,7 @@ object CryptoRepository {
         val jsonArray = JSONTokener(jsonString).nextValue() as JSONArray
         for (i in 0 until jsonArray.length()) {
             val asset_id : String = jsonArray.getJSONObject(i).getString("asset_id")
-            val url : String = jsonArray.getJSONObject(i).getString("url")
+            val url : String = jsonArray.getJSONObject(i).getString("url").toString()
             crypto_list_icon.put(asset_id,url)
         }
     }

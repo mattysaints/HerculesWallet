@@ -7,10 +7,13 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageButton
 import android.widget.TextView
+import android.widget.Toast
 import androidx.appcompat.widget.AppCompatImageView
 import androidx.recyclerview.widget.RecyclerView
 import com.example.herculeswallet.R
 import com.example.herculeswallet.model.Crypto
+import com.example.herculeswallet.model.User
+import com.example.herculeswallet.viewmodels.MainViewModel
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.database.DatabaseReference
 import com.google.firebase.database.ktx.database
@@ -18,11 +21,13 @@ import com.google.firebase.ktx.Firebase
 import com.squareup.picasso.Picasso
 
 
-class RecyclerViewAdapter(preferences: List<String>) : RecyclerView.Adapter<RecyclerViewAdapter.ViewHolder>(){
+class RecyclerViewAdapter(model: MainViewModel) : RecyclerView.Adapter<RecyclerViewAdapter.ViewHolder>(){
 
     private var crypto_list = mutableListOf<Crypto>()
     private lateinit var context : Context
-    private var preferences = preferences.toMutableList()
+    private val model : MainViewModel = model
+    private var preferences = model.getUserData().value!!.preferences.toMutableList()
+    private var wallet = mapToListString(model.getUserData().value!!.wallet).toMutableList()
     private var firebaseAuth: FirebaseAuth = FirebaseAuth.getInstance()
     private var database: DatabaseReference = Firebase.database.getReference("Users").child(firebaseAuth.currentUser!!.uid).child("preferences")
 
@@ -32,12 +37,14 @@ class RecyclerViewAdapter(preferences: List<String>) : RecyclerView.Adapter<Recy
         val name_crypto: TextView
         var price_crypto: TextView
         val favourite: ImageButton
+        val action : ImageButton
 
         init {
             imageView = itemView.findViewById(R.id.image_crypto)
             name_crypto = itemView.findViewById(R.id.name_crypto)
             price_crypto = itemView.findViewById(R.id.price_crypto)
             favourite = itemView.findViewById(R.id.favourite)
+            action = itemView.findViewById(R.id.action_crypto)
         }
 
     }
@@ -67,15 +74,38 @@ class RecyclerViewAdapter(preferences: List<String>) : RecyclerView.Adapter<Recy
             holder.favourite.setBackgroundResource(R.drawable.ic_baseline_turned_in_not_24)
         }
 
+        if(wallet.contains(crypto_list[position].name)){
+            holder.action.setBackgroundResource(R.drawable.ic_baseline_delete_24)
+        } else{
+            holder.action.setBackgroundResource(R.drawable.ic_baseline_add_24)
+        }
+
+
         holder.favourite.setOnClickListener(View.OnClickListener {
             if(preferences.contains(crypto_list[position].asset_id)){
                 preferences.remove(crypto_list[position].asset_id)
                 database.setValue(preferences)
+                Toast.makeText(context,"Crypto rimossa dai preferiti", Toast.LENGTH_SHORT).show()
             } else {
                 preferences.add(crypto_list[position].asset_id)
                 database.setValue(preferences)
+                Toast.makeText(context,"Crypto aggiunta ai preferiti", Toast.LENGTH_SHORT).show()
             }
         })
+
+
+        holder.action.setOnClickListener(View.OnClickListener {
+            if(wallet.contains(crypto_list[position].name)){
+                wallet.remove(crypto_list[position].name)
+                model.removeCryptoFromWallet(crypto_list[position])
+                Toast.makeText(context,"Crypto rimossa dal wallet", Toast.LENGTH_SHORT).show()
+            } else {
+                wallet.add(crypto_list[position].name)
+                model.addCryptoToWallet(crypto_list[position])
+                Toast.makeText(context,"Crypto aggiunta al wallet", Toast.LENGTH_SHORT).show()
+            }
+        })
+
 
     }
 
@@ -91,6 +121,14 @@ class RecyclerViewAdapter(preferences: List<String>) : RecyclerView.Adapter<Recy
     fun setFavourite(preferences: List<String>){
         this.preferences = preferences.toMutableList()
         notifyDataSetChanged()
+    }
+
+    fun mapToListString(wallet: Map<String,Crypto>) : List<String>{
+        val temp = mutableListOf<String>()
+        for ((keys,value) in wallet){
+            temp.add(value.name)
+        }
+        return temp
     }
 
 }
