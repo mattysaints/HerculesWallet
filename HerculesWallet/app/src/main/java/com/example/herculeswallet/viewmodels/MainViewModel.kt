@@ -20,6 +20,8 @@ class MainViewModel() : ViewModel() {
     var userMutableLiveData: MutableLiveData<User>
     var loggedStatus: MutableLiveData<Boolean>
     var cryptoListLiveData: MutableLiveData<List<Crypto>>
+    var success: MutableLiveData<Boolean> = MutableLiveData<Boolean>()
+    var exception: MutableLiveData<String> = MutableLiveData<String>()
 
     init {
         userMutableLiveData = authRepo.getUserWallet()
@@ -79,6 +81,20 @@ class MainViewModel() : ViewModel() {
 
     fun removeCryptoFromWallet(crypto: Crypto){
         DBRepo.removeCryptoToWallet(crypto,userMutableLiveData.value!!)
+    }
+
+    fun setPreferences(preferences : List<String>){
+        DBRepo.setPreferences(preferences)
+    }
+
+    fun setsuccess(value: Boolean){
+        authRepo.setsuccess(value)
+    }
+    fun getsuccess(): MutableLiveData<Boolean>{
+        return authRepo.getsuccess()
+    }
+    fun getexceptionMutableLiveData(): MutableLiveData<String>{
+        return authRepo.getexceptionMutableLiveData()
     }
 
 }
