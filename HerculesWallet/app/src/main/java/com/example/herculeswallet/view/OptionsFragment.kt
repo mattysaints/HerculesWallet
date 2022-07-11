@@ -9,9 +9,12 @@ import android.widget.Button
 import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
+import androidx.navigation.fragment.findNavController
+import androidx.navigation.ui.setupWithNavController
 import com.example.herculeswallet.R
 import com.example.herculeswallet.model.Crypto
 import com.example.herculeswallet.viewmodels.MainViewModel
+import com.google.android.material.bottomnavigation.BottomNavigationView
 
 
 class OptionsFragment : Fragment(R.layout.fragment_options) {
@@ -30,6 +33,7 @@ class OptionsFragment : Fragment(R.layout.fragment_options) {
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+
         val user: TextView = view.findViewById(R.id.user)
         user.text = model.userMutableLiveData.value!!.email
         val bottone: Button = view.findViewById(R.id.buttonlogout)

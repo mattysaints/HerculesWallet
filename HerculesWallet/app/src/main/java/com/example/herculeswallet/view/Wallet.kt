@@ -5,6 +5,7 @@ import android.content.Intent
 import android.os.Build
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
+import androidx.fragment.app.FragmentManager
 import androidx.navigation.fragment.findNavController
 import androidx.navigation.ui.AppBarConfiguration
 import androidx.navigation.ui.setupActionBarWithNavController
@@ -75,6 +76,8 @@ class Wallet : AppCompatActivity() {
             )
         }
     }
+
+
 
     private fun createNotification() {
         val name = "HerculesWallet"

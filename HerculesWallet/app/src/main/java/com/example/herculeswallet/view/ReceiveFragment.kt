@@ -6,15 +6,15 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.activityViewModels
+import androidx.navigation.fragment.findNavController
+import androidx.navigation.ui.setupWithNavController
 import androidx.viewpager2.widget.ViewPager2
 import com.example.herculeswallet.R
-import com.example.herculeswallet.utils.Encryption
 import com.example.herculeswallet.viewmodels.MainViewModel
-import com.google.firebase.database.collection.LLRBNode
-import com.google.zxing.WriterException
+import com.google.android.material.bottomnavigation.BottomNavigationView
 
 
-class ReceiveFragment : Fragment() {
+class ReceiveFragment : Fragment(R.layout.fragment_receive) {
 
     private val model: MainViewModel by activityViewModels()
 
@@ -36,7 +36,7 @@ class ReceiveFragment : Fragment() {
         }
 
         val viewPager2 = view.findViewById<ViewPager2>(R.id.pager)
-        val pageAdapter = PageAdapter(parentFragmentManager,lifecycle,listCrypto)
+        val pageAdapter = PageAdapter(childFragmentManager,lifecycle,listCrypto)
         viewPager2.adapter = pageAdapter
 
         model.userMutableLiveData.observe(viewLifecycleOwner){
@@ -46,7 +46,6 @@ class ReceiveFragment : Fragment() {
             }
             pageAdapter.setList(listCrypto)
         }
-
         super.onViewCreated(view, savedInstanceState)
     }
 

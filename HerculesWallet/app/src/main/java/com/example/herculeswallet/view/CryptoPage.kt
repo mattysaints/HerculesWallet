@@ -3,7 +3,9 @@ package com.example.herculeswallet.view
 import android.graphics.Paint
 import android.os.Bundle
 import android.util.Log
+import android.view.LayoutInflater
 import android.view.View
+import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
 import androidmads.library.qrgenearator.QRGContents
@@ -21,6 +23,18 @@ class CryptoPage(cryptoPage: String) : Fragment(R.layout.receive_list_item) {
     private val model: MainViewModel by activityViewModels()
     private val encryption : Encryption = Encryption()
     private val crypto = cryptoPage
+
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+    }
+
+    override fun onCreateView(
+        inflater: LayoutInflater,
+        container: ViewGroup?,
+        savedInstanceState: Bundle?
+    ): View? {
+        return super.onCreateView(inflater, container, savedInstanceState)
+    }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         val addressEditText : TextView = view.findViewById(R.id.address_crypto)

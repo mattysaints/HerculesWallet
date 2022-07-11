@@ -44,7 +44,6 @@ class CryptosFragment : Fragment() {
         var repo = model.cryptoListLiveData.value
 
         model.userMutableLiveData.observe(viewLifecycleOwner){
-            println("Wallet: " + it.wallet)
             //From Map<String,Crypto> to List<Crypto>
             var wallet = mutableListOf<Crypto>()
             for (entry in it.wallet.toMap().entries.iterator()) {
