@@ -26,7 +26,7 @@ object DatabaseRepository {
         database.get().addOnSuccessListener { i ->
             val utenti : HashMap<String,User> = HashMap()
             for (temp : DataSnapshot in i.children.toMutableSet()){
-                temp.key?.let { temp.value.toString().parseJson(User::class)
+                temp.key?.let { Klaxon().parse<User>(temp.value!!.toJson())
                     ?.let { it1 -> utenti.put(it, it1) } }
             }
             for ((key, value) in utenti) {
