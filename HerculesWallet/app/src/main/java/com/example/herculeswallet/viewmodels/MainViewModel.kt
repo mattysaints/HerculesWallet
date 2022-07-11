@@ -81,8 +81,4 @@ class MainViewModel() : ViewModel() {
         DBRepo.removeCryptoToWallet(crypto,userMutableLiveData.value!!)
     }
 
-    fun setPreferences(preferences: List<String>){
-        DBRepo.setPreferences(preferences)
-    }
-
 }

@@ -25,7 +25,7 @@ object CryptoRepository {
             requestMethod = "GET"
             setRequestProperty("Content-Type", "application/json; utf-8")
             setRequestProperty("Accept", "application/json")
-            setRequestProperty("X-CoinAPI-Key","A8AC5104-F29B-4A92-B894-488F28BF9252")
+            setRequestProperty("X-CoinAPI-Key","B74D735E-8062-41E8-BC88-9C16C6E0CD35")
             doInput = true
             list = fromJsonToList(inputStreamToJson(this.inputStream))
         }
@@ -77,7 +77,7 @@ object CryptoRepository {
             requestMethod = "GET"
             setRequestProperty("Content-Type", "application/json; utf-8")
             setRequestProperty("Accept", "application/json")
-            setRequestProperty("X-CoinAPI-Key","A8AC5104-F29B-4A92-B894-488F28BF9252")
+            setRequestProperty("X-CoinAPI-Key","B74D735E-8062-41E8-BC88-9C16C6E0CD35")
             doInput = true
             fromJsonToHashmap(inputStreamToJson(this.inputStream))
         }
