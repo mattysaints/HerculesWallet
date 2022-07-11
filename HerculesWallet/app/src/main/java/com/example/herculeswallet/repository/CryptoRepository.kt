@@ -5,6 +5,7 @@ import com.example.herculeswallet.model.Crypto
 import org.json.JSONArray
 import org.json.JSONTokener
 import java.io.BufferedReader
+import java.io.FileNotFoundException
 import java.io.InputStream
 import java.io.InputStreamReader
 import java.net.HttpURLConnection
@@ -17,20 +18,35 @@ object CryptoRepository {
     private var crypto_list: MutableLiveData<List<Crypto>> = MutableLiveData<List<Crypto>>()
     private var crypto_list_icon : HashMap<String,String> = HashMap()
 
-    fun getCryptoListRequest(
-    ){
-        var list : List<Crypto> = listOf<Crypto>()
-        val url = URL("https://rest.coinapi.io/v1/assets")
-        (url.openConnection() as? HttpURLConnection)?.run {
-            requestMethod = "GET"
-            setRequestProperty("Content-Type", "application/json; utf-8")
-            setRequestProperty("Accept", "application/json")
-            setRequestProperty("X-CoinAPI-Key","B74D735E-8062-41E8-BC88-9C16C6E0CD35")
-            doInput = true
-            list = fromJsonToList(inputStreamToJson(this.inputStream))
+
+    fun getCryptoListRequest(){
+        var list: List<Crypto> = listOf<Crypto>()
+        try {
+            val url = URL("https://rest.coinapi.io/v1/assets")
+            (url.openConnection() as? HttpURLConnection)?.run {
+                requestMethod = "GET"
+                setRequestProperty("Content-Type", "application/json; utf-8")
+                setRequestProperty("Accept", "application/json")
+                setRequestProperty("X-CoinAPI-Key", "B74D735E-8062-41E8-BC88-9C16C6E0CD35")
+                doInput = true
+                list = fromJsonToList(inputStreamToJson(this.inputStream))
+            }
+        }catch (e: FileNotFoundException){
+            val url = URL("https://rest.coinapi.io/v1/assets")
+            (url.openConnection() as? HttpURLConnection)?.run {
+                requestMethod = "GET"
+                setRequestProperty("Content-Type", "application/json; utf-8")
+                setRequestProperty("Accept", "application/json")
+                setRequestProperty("X-CoinAPI-Key", "CE56637C-B851-497F-90C3-E2C6691222A8")
+                doInput = true
+                list = fromJsonToList(inputStreamToJson(this.inputStream))
+            }
+
         }
         crypto_list.postValue(list)
     }
+
+
 
     private fun fromJsonToList(jsonString: String): List<Crypto> {
         val jsonArray = JSONTokener(jsonString).nextValue() as JSONArray
@@ -72,14 +88,26 @@ object CryptoRepository {
     }
 
     fun getCryptoIconRequest(){
-        val url = URL("https://rest.coinapi.io/v1/assets/icons/32")
-        (url.openConnection() as? HttpURLConnection)?.run {
-            requestMethod = "GET"
-            setRequestProperty("Content-Type", "application/json; utf-8")
-            setRequestProperty("Accept", "application/json")
-            setRequestProperty("X-CoinAPI-Key","B74D735E-8062-41E8-BC88-9C16C6E0CD35")
-            doInput = true
-            fromJsonToHashmap(inputStreamToJson(this.inputStream))
+        try {
+            val url = URL("https://rest.coinapi.io/v1/assets/icons/32")
+            (url.openConnection() as? HttpURLConnection)?.run {
+                requestMethod = "GET"
+                setRequestProperty("Content-Type", "application/json; utf-8")
+                setRequestProperty("Accept", "application/json")
+                setRequestProperty("X-CoinAPI-Key", "B74D735E-8062-41E8-BC88-9C16C6E0CD35")
+                doInput = true
+                fromJsonToHashmap(inputStreamToJson(this.inputStream))
+            }
+        }catch (e: FileNotFoundException){
+            val url = URL("https://rest.coinapi.io/v1/assets/icons/32")
+            (url.openConnection() as? HttpURLConnection)?.run {
+                requestMethod = "GET"
+                setRequestProperty("Content-Type", "application/json; utf-8")
+                setRequestProperty("Accept", "application/json")
+                setRequestProperty("X-CoinAPI-Key", "CE56637C-B851-497F-90C3-E2C6691222A8")
+                doInput = true
+                fromJsonToHashmap(inputStreamToJson(this.inputStream))
+            }
         }
     }
 

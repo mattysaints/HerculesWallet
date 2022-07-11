@@ -11,7 +11,6 @@ import com.example.herculeswallet.repository.DatabaseRepository
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 
-//aaa
 class MainViewModel() : ViewModel() {
 
     val authRepo: AuthenticationRepository = AuthenticationRepository

@@ -18,7 +18,7 @@ import com.example.herculeswallet.viewmodels.MainViewModel
 
 class MainActivity : AppCompatActivity() {
 
-    //view binding aaa
+    //view binding
     private lateinit var binding: ActivityMainBinding
     private val model : MainViewModel by viewModels()
     //private lateinit var googleSignInClient: GoogleSignInClient
@@ -37,6 +37,7 @@ class MainActivity : AppCompatActivity() {
         getSupportActionBar()!!.hide();
         window.decorView.systemUiVisibility = View.SYSTEM_UI_FLAG_HIDE_NAVIGATION or
                 View.SYSTEM_UI_FLAG_IMMERSIVE_STICKY or View.SYSTEM_UI_FLAG_FULLSCREEN
+
         model.getCryptoList() //CHIAMATA API
 
         //Preparo i dialogs
@@ -60,7 +61,6 @@ class MainActivity : AppCompatActivity() {
                         startActivity(Intent(this, Wallet::class.java))
                     }
                     })
-                    startActivity(Intent(this, Wallet::class.java))
                 }
             })
 
