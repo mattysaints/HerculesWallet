@@ -35,32 +35,34 @@ class FavsFragment : Fragment() {
         layoutManager = LinearLayoutManager(context, LinearLayoutManager.VERTICAL, false)
         val recyclerView = view.findViewById<RecyclerView>(R.id.fav_crypto)
         recyclerView.layoutManager = layoutManager
-        adapter = FavRecyclerViewAdapter()
+        var adapter = FavRecyclerViewAdapter()
         recyclerView.adapter = adapter
 
-        //From List<String> to List<Crypto>
-        val user = model.getUserData().value
-        var favs: List<Crypto> = emptyList()
-        if(user != null){
-            val iterator = user!!.preferences.listIterator()
+        var repo = model.cryptoListLiveData.value
+
+        model.userMutableLiveData.observe(viewLifecycleOwner){
+            val favs = mutableListOf<Crypto>()
+            //From List<String> to List<Crypto>
+            val iterator = it.preferences.listIterator()
             while (iterator.hasNext()) {
-                val repo = model.cryptoListLiveData.value
                 val asset = iterator.next()
                 val crypto_repo = repo?.filter { it.asset_id == asset }?.firstOrNull()
-                var crypto: Crypto = Crypto(
+                val crypto = Crypto(
                     asset,
                     "",
                     (String.format("%.3f", crypto_repo?.price_usd)).toDouble(),
                     crypto_repo?.logo_url.toString(),
                     0.0
                 )
-                favs += crypto
+                favs.add(crypto)
             }
+            adapter.setList(favs)
         }
 
-        model.userMutableLiveData.observe(viewLifecycleOwner){
-            (adapter as FavRecyclerViewAdapter).setList(favs)
+        model.cryptoListLiveData.observe(viewLifecycleOwner){
+            repo = it
         }
+
     }
 
 }

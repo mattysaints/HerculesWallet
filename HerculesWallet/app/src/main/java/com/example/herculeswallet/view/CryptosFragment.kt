@@ -37,23 +37,33 @@ class CryptosFragment : Fragment() {
         layoutManager = LinearLayoutManager(context, LinearLayoutManager.VERTICAL, false)
         val recyclerView = view.findViewById<RecyclerView>(R.id.list_crypto)
         recyclerView.layoutManager = layoutManager
-        adapter = WalletRWA()
+        val adapter = WalletRWA()
         recyclerView.adapter = adapter
 
-        //From Map<String,Crypto> to List<Crypto>
-        val user = model.getUserData().value
-        var wallet: List<Crypto> = emptyList()
-        for (entry in user!!.wallet.toMap().entries.iterator()) {
-            val crypto = Klaxon().parse<Crypto>(entry.value.toJson())
-            val repo = model.cryptoRepo.getCryptoList().value
-            val crypto_repo = (repo?.filter { it.name == crypto!!.name })?.first()
-            crypto!!.price_usd = (String.format("%.3f", crypto_repo?.price_usd)).toDouble()
-            crypto!!.logo_url = crypto_repo?.logo_url.toString()
-            wallet += crypto
+        var user = model.userMutableLiveData.value
+        var repo = model.cryptoListLiveData.value
+
+        model.userMutableLiveData.observe(viewLifecycleOwner){
+            println("Wallet: " + it.wallet)
+            //From Map<String,Crypto> to List<Crypto>
+            var wallet = mutableListOf<Crypto>()
+            for (entry in it.wallet.toMap().entries.iterator()) {
+                val crypto = Klaxon().parse<Crypto>(entry.value.toJson())
+                val crypto_repo = (repo?.filter { it.name == crypto!!.name })?.first()
+                crypto!!.price_usd = (String.format("%.3f", crypto_repo?.price_usd)).toDouble()
+                crypto.logo_url = crypto_repo?.logo_url.toString()
+                wallet.add(crypto)
+            }
+            adapter.setList(wallet)
         }
 
         model.userMutableLiveData.observe(viewLifecycleOwner){
-            (adapter as WalletRWA).setList(wallet)
+            user = it
         }
+
+        model.cryptoListLiveData.observe(viewLifecycleOwner){
+            repo = it
+        }
+
     }
 }

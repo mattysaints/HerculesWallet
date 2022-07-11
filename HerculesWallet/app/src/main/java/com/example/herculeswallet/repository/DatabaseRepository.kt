@@ -75,5 +75,8 @@ object DatabaseRepository {
         return utenti.get(user_id)
     }
 
+    fun setPreferences(preferences: List<String>) {
+        database.child(firebaseAuth.currentUser!!.uid).child("preferences").setValue(preferences)
+    }
 
 }

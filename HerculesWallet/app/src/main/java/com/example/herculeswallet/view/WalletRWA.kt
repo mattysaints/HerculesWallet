@@ -54,4 +54,5 @@ class WalletRWA: RecyclerView.Adapter<WalletRWA.ViewHolder>() {
         this.wallet = list.toTypedArray()
         notifyDataSetChanged()
     }
+
 }

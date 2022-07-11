@@ -38,8 +38,6 @@ class SendFragment : Fragment(R.layout.fragment_send){
 
     private val model: MainViewModel by activityViewModels()
     private val encryption : Encryption = Encryption()
-    private var database: DatabaseReference = Firebase.database.getReference("Users")
-    private var firebaseAuth: FirebaseAuth = FirebaseAuth.getInstance()
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -55,12 +53,16 @@ class SendFragment : Fragment(R.layout.fragment_send){
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
 
-        val user = model.userMutableLiveData.value!!
+        var user = model.userMutableLiveData.value!!
         val quantity_send : EditText = view.findViewById(R.id.quantity_send)
         val address_receiver : EditText = view.findViewById(R.id.address_receiver)
         val list_crypto : AutoCompleteTextView = view.findViewById(R.id.list_crypto)
         val action_button : FloatingActionButton = view.findViewById(R.id.fab_send)
         var listCrypto = mutableListOf<String>()
+
+        model.userMutableLiveData.observe(viewLifecycleOwner){
+            user = it
+        }
 
         for (item in user.wallet){
             listCrypto.add(item.value.name)

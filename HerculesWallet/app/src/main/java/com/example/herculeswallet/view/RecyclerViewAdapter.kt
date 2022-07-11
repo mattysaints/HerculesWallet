@@ -28,8 +28,6 @@ class RecyclerViewAdapter(model: MainViewModel) : RecyclerView.Adapter<RecyclerV
     private val model : MainViewModel = model
     private var preferences = model.getUserData().value!!.preferences.toMutableList()
     private var wallet = mapToListString(model.getUserData().value!!.wallet).toMutableList()
-    private var firebaseAuth: FirebaseAuth = FirebaseAuth.getInstance()
-    private var database: DatabaseReference = Firebase.database.getReference("Users").child(firebaseAuth.currentUser!!.uid).child("preferences")
 
 
     inner class ViewHolder(itemView: View): RecyclerView.ViewHolder(itemView){
@@ -84,11 +82,11 @@ class RecyclerViewAdapter(model: MainViewModel) : RecyclerView.Adapter<RecyclerV
         holder.favourite.setOnClickListener(View.OnClickListener {
             if(preferences.contains(crypto_list[position].asset_id)){
                 preferences.remove(crypto_list[position].asset_id)
-                database.setValue(preferences)
+                model.setPreferences(preferences)
                 Toast.makeText(context,"Crypto rimossa dai preferiti", Toast.LENGTH_SHORT).show()
             } else {
                 preferences.add(crypto_list[position].asset_id)
-                database.setValue(preferences)
+                model.setPreferences(preferences)
                 Toast.makeText(context,"Crypto aggiunta ai preferiti", Toast.LENGTH_SHORT).show()
             }
         })

@@ -38,38 +38,50 @@ class HomeFragment : Fragment(R.layout.fragment_home) {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         val walletText : TextView = view.findViewById(R.id.userwallet)
-        val user = model.getUserData().value
-        if(user !=null && model.cryptoListLiveData.toString().isNotEmpty()) {
-            //Saldo
-            var total: Double = 0.0
-            for (entry in user.wallet.toMap().entries.iterator()) {
-                val crypto = Klaxon().parse<Crypto>(entry.value.toJson())
-                val repo = model.cryptoRepo.getCryptoList().value
-                val priceUSD = (repo?.filter { it.name == crypto!!.name })?.first()
-                if (priceUSD != null) {
-                    total += (priceUSD.price_usd!!.toDouble() * crypto?.quantity_user!!.toDouble())
-                }else{
-                    total += (crypto?.price_usd!!.toDouble() * crypto?.quantity_user!!.toDouble())
-                }
-            }
-            if(total.equals(0.0)) walletText.text = "0" else walletText.text = String.format("%.3f", total)
+        var user = model.getUserData().value
+        var repo = model.cryptoListLiveData.value
 
-            //ViewPage
-            val TabLayout: TabLayout = view!!.findViewById(R.id.tabLayout)
-            val viewPager: ViewPager2 = view!!.findViewById(R.id.viewPager)
-            val adapt = ViewPagerAdapter(childFragmentManager, lifecycle)
-            viewPager.adapter = adapt
+        model.cryptoListLiveData.observe(viewLifecycleOwner){
+            if(user !=null && model.cryptoListLiveData.toString().isNotEmpty()) {
+                //Saldo
+                var total: Double = 0.0
+                for (entry in user!!.wallet.toMap().entries.iterator()) {
+                    val crypto = Klaxon().parse<Crypto>(entry.value.toJson())
+                    val priceUSD = (repo?.filter { it.name == crypto!!.name })?.first()
+                    if (priceUSD != null) {
+                        total += (priceUSD.price_usd!!.toDouble() * crypto?.quantity_user!!.toDouble())
+                    }else{
+                        total += (crypto?.price_usd!!.toDouble() * crypto?.quantity_user!!.toDouble())
+                    }
+                }
+                if(total.equals(0.0)) walletText.text = "0" else walletText.text = String.format("%.3f", total)
 
-            TabLayoutMediator(TabLayout, viewPager){
-                    tab,position->when(position){
-                0->{
-                    tab.text="Crypto"
+                //ViewPage
+                val TabLayout: TabLayout = view.findViewById(R.id.tabLayout)
+                val viewPager: ViewPager2 = view.findViewById(R.id.viewPager)
+                val adapt = ViewPagerAdapter(childFragmentManager, lifecycle)
+                viewPager.adapter = adapt
+
+                TabLayoutMediator(TabLayout, viewPager){
+                        tab,position->when(position){
+                    0->{
+                        tab.text="Crypto"
+                    }
+                    1->{
+                        tab.text="Preferiti"
+                    }
                 }
-                1->{
-                    tab.text="Preferiti"
-                }
+                }.attach()
             }
-            }.attach()
+        }
+
+
+        model.userMutableLiveData.observe(viewLifecycleOwner){
+            user = it
+        }
+
+        model.cryptoListLiveData.observe(viewLifecycleOwner){
+            repo = it
         }
 
     }
