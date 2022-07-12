@@ -1,6 +1,5 @@
 package com.example.herculeswallet.repository
 
-import android.content.BroadcastReceiver
 import androidx.lifecycle.MutableLiveData
 import com.beust.klaxon.Klaxon
 import com.example.herculeswallet.model.Crypto
@@ -19,9 +18,9 @@ object DatabaseRepository {
     private var database: DatabaseReference = Firebase.database.getReference("Users")
     private var firebaseAuth: FirebaseAuth = FirebaseAuth.getInstance()
     private val encryption : Encryption = Encryption()
+    private var isDone: MutableLiveData<Boolean> = MutableLiveData()
 
-    fun transactionWalletUser(user_sender: User,address_receiver: String, address_sender : String, send_quantity: String, crypto: String) : Boolean{
-        var isDone = false
+    fun transactionWalletUser(user_sender: User,address_receiver: String, address_sender : String, send_quantity: String, crypto: String) {
         val new_quantity = user_sender.wallet.get(address_sender)!!.quantity_user!! - send_quantity.toDouble()
         database.get().addOnSuccessListener { i ->
             val utenti : HashMap<String,User> = HashMap()
@@ -43,8 +42,12 @@ object DatabaseRepository {
                     }
                 }
             }
-            isDone = true
+            isDone.postValue(true)
         }
+        isDone.postValue(false)
+    }
+
+    fun getisDone(): MutableLiveData<Boolean>{
         return isDone
     }
 

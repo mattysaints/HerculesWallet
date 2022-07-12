@@ -9,6 +9,7 @@ import com.example.herculeswallet.repository.AuthenticationRepository
 import com.example.herculeswallet.repository.CryptoRepository
 import com.example.herculeswallet.repository.DatabaseRepository
 import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
 
 
@@ -22,6 +23,7 @@ class MainViewModel() : ViewModel() {
     var cryptoListLiveData: MutableLiveData<List<Crypto>>
     var success: MutableLiveData<Boolean> = MutableLiveData<Boolean>()
     var exception: MutableLiveData<String> = MutableLiveData<String>()
+    var isDone: MutableLiveData<Boolean> = MutableLiveData()
 
     init {
         userMutableLiveData = authRepo.getUserWallet()
@@ -67,12 +69,16 @@ class MainViewModel() : ViewModel() {
         return cryptoRepo.getCryptoIcon()
     }
 
-    fun transactionWalletUser(address_receiver: String, address_sender : String, send_quantity: String,crypto: String) : Boolean{
-        var isDone = false
+    fun transactionWalletUser(address_receiver: String, address_sender : String, send_quantity: String, crypto: String) {
         viewModelScope.launch (Dispatchers.IO){
-            isDone = DBRepo.transactionWalletUser(userMutableLiveData.value!!,address_receiver,address_sender,send_quantity,crypto)
+            DBRepo.transactionWalletUser(userMutableLiveData.value!!,address_receiver,address_sender,send_quantity,crypto)
+            delay(3000L)
+            isDone = DBRepo.getisDone()
         }
-        return isDone
+    }
+
+    fun getisDone(): Boolean?{
+        return isDone.value
     }
 
     fun addCryptoToWallet(crypto: Crypto){
