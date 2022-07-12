@@ -22,6 +22,7 @@ object AuthenticationRepository{
     private var database: DatabaseReference = FirebaseDatabase.getInstance().getReference("Users")
     private var success: MutableLiveData<Boolean> = MutableLiveData<Boolean>()
     private var exceptionMutableLiveData: MutableLiveData<String> = MutableLiveData<String>()
+    private val cryptoRepo: CryptoRepository = CryptoRepository
 
     init {
         if (firebaseAuth.getCurrentUser() != null){
@@ -82,12 +83,15 @@ object AuthenticationRepository{
             .addOnCompleteListener(OnCompleteListener<AuthResult?> { task ->
                 if (task.isSuccessful) {
                     val user = firebaseAuth.currentUser
-
                     //Create user in realtime database
                     var hashMap = HashMap<String,Crypto>()
-                    val crypto = Crypto("Bitcoin","BTC",19300.56, "prova.url",30.5)
-                    encryption.md5(user!!.email+ "/Bitcoin")?.let { hashMap.put(it,crypto) }
-                    val utente : User = User(user.email.toString(), hashMap, arrayListOf("BTC"))
+                    //Get BTC from API to initialize wallet
+                    for (cryptoAPI in cryptoRepo.getCryptoList().value!!){
+                        if (cryptoAPI.asset_id.equals("BTC")){
+                            encryption.md5(user!!.email+ "/Bitcoin")?.let { hashMap.put(it,cryptoAPI) }
+                        }
+                    }
+                    val utente : User = User(user?.email.toString(), hashMap, arrayListOf("BTC"))
                     database.child(firebaseAuth.uid.toString()).setValue(utente)
                     utentewalletMutableLiveData.postValue(utente)
                     this.success.postValue(true)

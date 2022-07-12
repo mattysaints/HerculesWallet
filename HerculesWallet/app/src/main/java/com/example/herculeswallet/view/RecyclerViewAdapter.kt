@@ -80,30 +80,32 @@ class RecyclerViewAdapter(model: MainViewModel) : RecyclerView.Adapter<RecyclerV
 
 
         holder.favourite.setOnClickListener(View.OnClickListener {
-            if(preferences.contains(crypto_list[position].asset_id)){
+            if(preferences.contains(crypto_list[position].asset_id) && preferences.size!=1 && crypto_list[position].asset_id.equals("BTC").not()){
                 preferences.remove(crypto_list[position].asset_id)
                 model.setPreferences(preferences)
                 Toast.makeText(context,"Crypto rimossa dai preferiti", Toast.LENGTH_SHORT).show()
-            } else {
+            } else if (! preferences.contains(crypto_list[position].asset_id)){
                 preferences.add(crypto_list[position].asset_id)
                 model.setPreferences(preferences)
                 Toast.makeText(context,"Crypto aggiunta ai preferiti", Toast.LENGTH_SHORT).show()
+            } else {
+                Toast.makeText(context,"Azione non consentita", Toast.LENGTH_SHORT).show()
             }
         })
 
-
         holder.action.setOnClickListener(View.OnClickListener {
-            if(wallet.contains(crypto_list[position].name)){
+            if(wallet.contains(crypto_list[position].name) && wallet.size!=1 && crypto_list[position].asset_id.equals("BTC").not()){
                 wallet.remove(crypto_list[position].name)
                 model.removeCryptoFromWallet(crypto_list[position])
                 Toast.makeText(context,"Crypto rimossa dal wallet", Toast.LENGTH_SHORT).show()
-            } else {
+            } else if (!wallet.contains(crypto_list[position].name)){
                 wallet.add(crypto_list[position].name)
                 model.addCryptoToWallet(crypto_list[position])
                 Toast.makeText(context,"Crypto aggiunta al wallet", Toast.LENGTH_SHORT).show()
+            } else{
+                Toast.makeText(context,"Azione non consentita", Toast.LENGTH_SHORT).show()
             }
         })
-
 
     }
 
