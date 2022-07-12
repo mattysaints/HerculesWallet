@@ -1,39 +1,21 @@
 package com.example.herculeswallet.view
 
-import android.content.Intent
 import android.os.Bundle
-import android.os.Looper
-import android.text.Editable
-import android.text.TextWatcher
+import android.os.Handler
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.ArrayAdapter
 import android.widget.AutoCompleteTextView
 import android.widget.EditText
 import android.widget.Toast
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.activityViewModels
-import androidx.navigation.fragment.findNavController
-import androidx.navigation.ui.setupWithNavController
 import com.beust.klaxon.Klaxon
 import com.example.herculeswallet.R
 import com.example.herculeswallet.model.Crypto
-import com.example.herculeswallet.model.User
 import com.example.herculeswallet.utils.Encryption
 import com.example.herculeswallet.viewmodels.MainViewModel
-import com.google.android.material.bottomnavigation.BottomNavigationView
 import com.google.android.material.floatingactionbutton.FloatingActionButton
-import com.google.android.material.snackbar.Snackbar
-import com.google.firebase.auth.FirebaseAuth
-import com.google.firebase.database.DataSnapshot
-import com.google.firebase.database.DatabaseReference
-import com.google.firebase.database.ktx.database
-import com.google.firebase.ktx.Firebase
-import kotlinx.coroutines.CoroutineScope
-import kotlinx.coroutines.Dispatchers
-import kotlinx.coroutines.launch
-import tomatobean.jsonparser.parseJson
 import tomatobean.jsonparser.toJson
 
 
@@ -90,16 +72,37 @@ class SendFragment : Fragment(R.layout.fragment_send){
             val crypto = Klaxon().parse<Crypto>(user.wallet.get(md5_address)!!.toJson())
             val qnty_crypto = crypto?.quantity_user!!.toDouble()
 
-            if(qnty_crypto >= quantity_send.text.toString().toDouble()){
-                if (md5_address != null &&
-                    model.transactionWalletUser(address_receiver.text.toString(),md5_address,quantity_send.text.toString(),list_crypto.text.toString())) {
-                    Toast.makeText(view.context,"Invio Riuscito",Toast.LENGTH_SHORT).show()
+            if(quantity_send.text.toString().isNotEmpty()
+                && address_receiver.text.toString().isNotEmpty()
+                && list_crypto.text.toString().isNotEmpty()) {
+
+                if (qnty_crypto >= quantity_send.text.toString().toDouble()) {
+                    var transaction: Boolean? = null
+                    model.transactionWalletUser(
+                        address_receiver.text.toString(),
+                        md5_address!!,
+                        quantity_send.text.toString(),
+                        list_crypto.text.toString()
+                    )
+
+                    val handler = Handler()
+                    handler.postDelayed({
+                        // do something after 4000ms
+                        transaction = model.getisDone()
+                        if (transaction == true) {
+                            Toast.makeText(view.context, "Invio Riuscito", Toast.LENGTH_SHORT).show()
+                        } else {
+                            Toast.makeText(view.context, "Indirizzo Errato", Toast.LENGTH_SHORT).show()
+                        }
+                    }, 4000)
                 } else {
-                    Toast.makeText(view.context,"Indirizzo Errato",Toast.LENGTH_SHORT).show()
+                    Toast.makeText(view.context, "Non hai fondi sufficienti", Toast.LENGTH_SHORT)
+                        .show()
                 }
-            } else {
-                Toast.makeText(view.context,"Non hai fondi sufficienti",Toast.LENGTH_SHORT).show()
+            }else{
+                Toast.makeText(view.context, "Uno o più campi non sono stati compilati", Toast.LENGTH_SHORT).show()
             }
+
         }
 
         super.onViewCreated(view, savedInstanceState)

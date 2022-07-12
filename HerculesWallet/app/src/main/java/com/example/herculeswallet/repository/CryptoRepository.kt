@@ -86,13 +86,24 @@ object CryptoRepository {
 
     fun getCryptoIconRequest(){
         val url = URL("https://rest.coinapi.io/v1/assets/icons/32")
-        (url.openConnection() as? HttpURLConnection)?.run {
-            requestMethod = "GET"
-            setRequestProperty("Content-Type", "application/json; utf-8")
-            setRequestProperty("Accept", "application/json")
-            setRequestProperty("X-CoinAPI-Key","A8AC5104-F29B-4A92-B894-488F28BF9252")
-            doInput = true
-            fromJsonToHashmap(inputStreamToJson(this.inputStream))
+        try {
+            (url.openConnection() as? HttpURLConnection)?.run {
+                requestMethod = "GET"
+                setRequestProperty("Content-Type", "application/json; utf-8")
+                setRequestProperty("Accept", "application/json")
+                setRequestProperty("X-CoinAPI-Key", "A8AC5104-F29B-4A92-B894-488F28BF9252")
+                doInput = true
+                fromJsonToHashmap(inputStreamToJson(this.inputStream))
+            }
+        }catch(e: FileNotFoundException){
+            (url.openConnection() as? HttpURLConnection)?.run {
+                requestMethod = "GET"
+                setRequestProperty("Content-Type", "application/json; utf-8")
+                setRequestProperty("Accept", "application/json")
+                setRequestProperty("X-CoinAPI-Key", "CE56637C-B851-497F-90C3-E2C6691222A8")
+                doInput = true
+                fromJsonToHashmap(inputStreamToJson(this.inputStream))
+            }
         }
     }
 
