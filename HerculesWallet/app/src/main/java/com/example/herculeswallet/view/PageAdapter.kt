@@ -1,5 +1,6 @@
 package com.example.herculeswallet.view
 
+import android.os.Bundle
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentManager
 import androidx.lifecycle.Lifecycle
@@ -15,7 +16,18 @@ class PageAdapter(fragmentManager: FragmentManager, lifecycle: Lifecycle, listC:
     }
 
     override fun createFragment(position: Int): Fragment {
-        return CryptoPage(list.get(position))
+        if(list.isEmpty()){
+            return CryptoPage().apply {
+                arguments = Bundle().apply {
+                    putString("crypto","")
+                }
+            }
+        }
+        return CryptoPage().apply {
+            arguments = Bundle().apply {
+                putString("crypto",list.get(position))
+            }
+        }
     }
 
     fun setList(list: List<String>) {
