@@ -77,24 +77,18 @@ class SendFragment : Fragment(R.layout.fragment_send){
                 && list_crypto.text.toString().isNotEmpty()) {
 
                 if (qnty_crypto >= quantity_send.text.toString().toDouble()) {
-                    var transaction: Boolean? = null
                     model.transactionWalletUser(
                         address_receiver.text.toString(),
                         md5_address!!,
                         quantity_send.text.toString(),
                         list_crypto.text.toString()
                     )
-
-                    val handler = Handler()
-                    handler.postDelayed({
-                        // do something after 4000ms
-                        transaction = model.getisDone()
-                        if (transaction == true) {
+                    model.getisDone().observe(viewLifecycleOwner){
+                        println(it)
+                        if(it){
                             Toast.makeText(view.context, "Invio Riuscito", Toast.LENGTH_SHORT).show()
-                        } else {
-                            Toast.makeText(view.context, "Indirizzo Errato", Toast.LENGTH_SHORT).show()
                         }
-                    }, 4000)
+                    }
                 } else {
                     Toast.makeText(view.context, "Non hai fondi sufficienti", Toast.LENGTH_SHORT)
                         .show()

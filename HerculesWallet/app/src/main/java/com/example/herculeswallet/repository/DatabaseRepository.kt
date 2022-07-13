@@ -18,7 +18,7 @@ object DatabaseRepository {
     private var database: DatabaseReference = Firebase.database.getReference("Users")
     private var firebaseAuth: FirebaseAuth = FirebaseAuth.getInstance()
     private val encryption : Encryption = Encryption()
-    private var isDone: MutableLiveData<Boolean> = MutableLiveData()
+    private var isDone: MutableLiveData<Boolean> = MutableLiveData(false)
 
     fun transactionWalletUser(user_sender: User,address_receiver: String, address_sender : String, send_quantity: String, crypto: String) {
         val new_quantity = user_sender.wallet.get(address_sender)!!.quantity_user!! - send_quantity.toDouble()
@@ -44,7 +44,6 @@ object DatabaseRepository {
             }
             isDone.postValue(true)
         }
-        isDone.postValue(false)
     }
 
     fun getisDone(): MutableLiveData<Boolean>{

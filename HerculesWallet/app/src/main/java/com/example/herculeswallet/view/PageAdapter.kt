@@ -16,16 +16,9 @@ class PageAdapter(fragmentManager: FragmentManager, lifecycle: Lifecycle, listC:
     }
 
     override fun createFragment(position: Int): Fragment {
-        if(list.isEmpty()){
-            return CryptoPage().apply {
-                arguments = Bundle().apply {
-                    putString("crypto","")
-                }
-            }
-        }
         return CryptoPage().apply {
             arguments = Bundle().apply {
-                putString("crypto",list.get(position))
+                putString("crypto",list[position])
             }
         }
     }
