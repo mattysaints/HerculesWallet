@@ -6,12 +6,9 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.activityViewModels
-import androidx.navigation.fragment.findNavController
-import androidx.navigation.ui.setupWithNavController
 import androidx.viewpager2.widget.ViewPager2
 import com.example.herculeswallet.R
 import com.example.herculeswallet.viewmodels.MainViewModel
-import com.google.android.material.bottomnavigation.BottomNavigationView
 
 
 class ReceiveFragment : Fragment(R.layout.fragment_receive) {
@@ -31,12 +28,12 @@ class ReceiveFragment : Fragment(R.layout.fragment_receive) {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
 
         var listCrypto = mutableListOf<String>()
+        val pageAdapter = PageAdapter(childFragmentManager,lifecycle,listCrypto)
+        val viewPager2 = view.findViewById<ViewPager2>(R.id.pager)
+
         for (item in model.userMutableLiveData.value!!.wallet){
             listCrypto.add(item.value.name)
         }
-
-        val viewPager2 = view.findViewById<ViewPager2>(R.id.pager)
-        val pageAdapter = PageAdapter(childFragmentManager,lifecycle,listCrypto)
         viewPager2.adapter = pageAdapter
 
         model.userMutableLiveData.observe(viewLifecycleOwner){
@@ -44,8 +41,15 @@ class ReceiveFragment : Fragment(R.layout.fragment_receive) {
             for (item in model.userMutableLiveData.value!!.wallet){
                 listCrypto.add(item.value.name)
             }
-            pageAdapter.setList(listCrypto)
+            val newPA = PageAdapter(childFragmentManager,lifecycle,listCrypto)
+            newPA.setList(listCrypto)
+            viewPager2.adapter = newPA
         }
+
+
+
+
+
         super.onViewCreated(view, savedInstanceState)
     }
 
