@@ -6,6 +6,7 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.activityViewModels
+import androidx.recyclerview.widget.ItemTouchHelper
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.example.herculeswallet.R
@@ -37,6 +38,21 @@ class FavsFragment : Fragment() {
         recyclerView.layoutManager = layoutManager
         var adapter = FavRecyclerViewAdapter()
         recyclerView.adapter = adapter
+
+        val user = model.getUserData().value
+
+        val swipeToDeleteCallback = object : SwipeToDeleteCallback(){
+            override fun onSwiped(viewHolder: RecyclerView.ViewHolder, direction: Int) {
+                val position = viewHolder.bindingAdapterPosition
+                val temp = user!!.preferences.toMutableList()
+                temp.removeAt(position)
+                println(temp)
+                model.setPreferences(temp)
+            }
+        }
+
+        val itemTouchHelper = ItemTouchHelper(swipeToDeleteCallback)
+        itemTouchHelper.attachToRecyclerView(recyclerView)
 
         var repo = model.cryptoListLiveData.value
 

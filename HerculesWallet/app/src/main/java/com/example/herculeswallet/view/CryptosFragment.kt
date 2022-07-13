@@ -6,6 +6,7 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.activityViewModels
+import androidx.recyclerview.widget.ItemTouchHelper
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.beust.klaxon.Klaxon
@@ -43,6 +44,16 @@ class CryptosFragment : Fragment() {
         var user = model.userMutableLiveData.value
         var repo = model.cryptoListLiveData.value
 
+        val swipeToDeleteCallback = object : SwipeToDeleteCallback(){
+            override fun onSwiped(viewHolder: RecyclerView.ViewHolder, direction: Int) {
+                val position = viewHolder.bindingAdapterPosition
+                model.removeCryptoFromWallet(mapToListCrypto(user!!.wallet)[position])
+            }
+        }
+
+        val itemTouchHelper = ItemTouchHelper(swipeToDeleteCallback)
+        itemTouchHelper.attachToRecyclerView(recyclerView)
+
         model.userMutableLiveData.observe(viewLifecycleOwner){
             //From Map<String,Crypto> to List<Crypto>
             var wallet = mutableListOf<Crypto>()
@@ -65,4 +76,14 @@ class CryptosFragment : Fragment() {
         }
 
     }
+
+    fun mapToListCrypto(wallet: Map<String,Crypto>) : List<Crypto>{
+        val temp = mutableListOf<Crypto>()
+        for ((keys,value) in wallet){
+            temp.add(value)
+        }
+        return temp
+    }
+
+
 }

@@ -16,6 +16,7 @@ import com.example.herculeswallet.model.Crypto
 import com.example.herculeswallet.utils.Encryption
 import com.example.herculeswallet.viewmodels.MainViewModel
 import com.google.android.material.floatingactionbutton.FloatingActionButton
+import com.google.android.material.snackbar.Snackbar
 import tomatobean.jsonparser.toJson
 
 
@@ -68,9 +69,8 @@ class SendFragment : Fragment(R.layout.fragment_send){
         }
 
         model.getisDone().observe(viewLifecycleOwner){
-            println("Fragment $it")
             if(it){
-                Toast.makeText(view.context, "Invio Riuscito", Toast.LENGTH_SHORT).show()
+                Snackbar.make(view,"Invio Riuscito", Snackbar.LENGTH_LONG).show()
             } else {
                 Toast.makeText(view.context, "Indirizzo errato", Toast.LENGTH_SHORT).show()
             }
