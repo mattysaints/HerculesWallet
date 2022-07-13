@@ -67,6 +67,15 @@ class SendFragment : Fragment(R.layout.fragment_send){
             adapterText!!.setList(listCrypto)
         }
 
+        model.getisDone().observe(viewLifecycleOwner){
+            println("Fragment $it")
+            if(it){
+                Toast.makeText(view.context, "Invio Riuscito", Toast.LENGTH_SHORT).show()
+            } else {
+                Toast.makeText(view.context, "Indirizzo errato", Toast.LENGTH_SHORT).show()
+            }
+        }
+
         action_button.setOnClickListener { view ->
             val md5_address = user.email.let { encryption.md5(it + "/"+ list_crypto.text.toString()) }
             val crypto = Klaxon().parse<Crypto>(user.wallet.get(md5_address)!!.toJson())
@@ -83,12 +92,6 @@ class SendFragment : Fragment(R.layout.fragment_send){
                         quantity_send.text.toString(),
                         list_crypto.text.toString()
                     )
-                    model.getisDone().observe(viewLifecycleOwner){
-                        println(it)
-                        if(it){
-                            Toast.makeText(view.context, "Invio Riuscito", Toast.LENGTH_SHORT).show()
-                        }
-                    }
                 } else {
                     Toast.makeText(view.context, "Non hai fondi sufficienti", Toast.LENGTH_SHORT)
                         .show()

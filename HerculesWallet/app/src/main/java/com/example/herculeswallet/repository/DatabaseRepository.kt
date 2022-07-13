@@ -18,7 +18,7 @@ object DatabaseRepository {
     private var database: DatabaseReference = Firebase.database.getReference("Users")
     private var firebaseAuth: FirebaseAuth = FirebaseAuth.getInstance()
     private val encryption : Encryption = Encryption()
-    private var isDone: MutableLiveData<Boolean> = MutableLiveData(false)
+    private var isDone: MutableLiveData<Boolean> = MutableLiveData()
 
     fun transactionWalletUser(user_sender: User,address_receiver: String, address_sender : String, send_quantity: String, crypto: String) {
         val new_quantity = user_sender.wallet.get(address_sender)!!.quantity_user!! - send_quantity.toDouble()
@@ -28,21 +28,22 @@ object DatabaseRepository {
                 temp.key?.let { Klaxon().parse<User>(temp.value!!.toJson())
                     ?.let { it1 -> utenti.put(it, it1) } }
             }
+            var found = false
             for ((key, value) in utenti) {
                 val address_in_db = encryption.md5("${value.email}/$crypto")
                 if(value.wallet.containsKey(address_receiver) && address_receiver.equals(address_in_db)){
+                    found = true
                     database.child(key).get().addOnSuccessListener {
                         val qReceiver = it.child("wallet").child(address_receiver).child("quantity_user").getValue()
                         database.child(key).child("wallet").child(address_receiver).child("quantity_user").setValue(
                             send_quantity.toDouble() + qReceiver.toString().toDouble()
                         )
                         database.child(firebaseAuth.currentUser!!.uid).child("wallet").child(address_sender).child("quantity_user").setValue(new_quantity)
-                    }.addOnFailureListener {
-                        return@addOnFailureListener
                     }
+                    break
                 }
             }
-            isDone.postValue(true)
+            isDone.postValue(found)
         }
     }
 
