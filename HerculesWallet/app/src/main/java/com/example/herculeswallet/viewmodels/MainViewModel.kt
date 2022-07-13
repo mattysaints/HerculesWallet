@@ -72,13 +72,11 @@ class MainViewModel() : ViewModel() {
     fun transactionWalletUser(address_receiver: String, address_sender : String, send_quantity: String, crypto: String) {
         viewModelScope.launch (Dispatchers.IO){
             DBRepo.transactionWalletUser(userMutableLiveData.value!!,address_receiver,address_sender,send_quantity,crypto)
-            delay(3000L)
-            isDone = DBRepo.getisDone()
         }
     }
 
-    fun getisDone(): Boolean?{
-        return isDone.value
+    fun getisDone(): MutableLiveData<Boolean>{
+        return DBRepo.getisDone()
     }
 
     fun addCryptoToWallet(crypto: Crypto){
