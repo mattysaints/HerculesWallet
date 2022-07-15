@@ -69,39 +69,48 @@ class SendFragment : Fragment(R.layout.fragment_send){
         }
 
         model.getisDone().observe(viewLifecycleOwner){
-            if(it){
-                Snackbar.make(view,"Invio Riuscito", Snackbar.LENGTH_LONG).show()
-            } else {
-                Toast.makeText(view.context, "Indirizzo errato", Toast.LENGTH_SHORT).show()
+            if(it!=null){
+                if(it){
+                    Snackbar.make(view,"Invio Riuscito", Snackbar.LENGTH_LONG).show()
+                    model.getisDone().value = null
+                } else {
+                    Toast.makeText(view.context, "Indirizzo errato", Toast.LENGTH_SHORT).show()
+                    model.getisDone().value = null
+                }
             }
         }
 
         action_button.setOnClickListener { view ->
-            val md5_address = user.email.let { encryption.md5(it + "/"+ list_crypto.text.toString()) }
-            val crypto = Klaxon().parse<Crypto>(user.wallet.get(md5_address)!!.toJson())
-            val qnty_crypto = crypto?.quantity_user!!.toDouble()
-
-            if(quantity_send.text.toString().isNotEmpty()
-                && address_receiver.text.toString().isNotEmpty()
-                && list_crypto.text.toString().isNotEmpty()) {
-
-                if (qnty_crypto >= quantity_send.text.toString().toDouble()) {
-                    model.transactionWalletUser(
-                        address_receiver.text.toString(),
-                        md5_address!!,
-                        quantity_send.text.toString(),
-                        list_crypto.text.toString()
-                    )
-                } else {
-                    Toast.makeText(view.context, "Non hai fondi sufficienti", Toast.LENGTH_SHORT)
-                        .show()
-                }
-            }else{
-                Toast.makeText(view.context, "Uno o più campi non sono stati compilati", Toast.LENGTH_SHORT).show()
+            if(list_crypto.text.toString().isNotEmpty()){
+               if(quantity_send.text.toString().isNotEmpty()){
+                   if(address_receiver.text.toString().isNotEmpty()){
+                       val md5_address = user.email.let { encryption.md5(it + "/"+ list_crypto.text.toString()) }
+                       val crypto = Klaxon().parse<Crypto>(user.wallet.get(md5_address)!!.toJson())
+                       val qnty_crypto = crypto?.quantity_user!!.toDouble()
+                       if (qnty_crypto >= quantity_send.text.toString().toDouble()) {
+                           model.transactionWalletUser(
+                               address_receiver.text.toString(),
+                               md5_address!!,
+                               quantity_send.text.toString(),
+                               list_crypto.text.toString()
+                           )
+                       } else {
+                           Toast.makeText(view.context, "Non hai fondi sufficienti", Toast.LENGTH_SHORT)
+                               .show()
+                       }
+                   } else {
+                       Toast.makeText(view.context, "Inserisci l'indirizzo del destinatario", Toast.LENGTH_SHORT)
+                           .show()
+                   }
+               } else {
+                   Toast.makeText(view.context, "Inserisci la quantità da inviare", Toast.LENGTH_SHORT)
+                       .show()
+               }
+            } else {
+                Toast.makeText(view.context, "Scegli la crypto da inviare", Toast.LENGTH_SHORT)
+                    .show()
             }
-
         }
-
         super.onViewCreated(view, savedInstanceState)
     }
 
