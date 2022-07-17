@@ -47,7 +47,6 @@
                 android:paddingLeft="17dp"
                 android:paddingTop="15dp"
                 android:paddingBottom="15dp"
-                android:text="marco.rossi@gmail.com"
                 android:textCursorDrawable="@drawable/cursor_color"
                 android:textSize="12sp" />
 
@@ -82,7 +81,6 @@
                 android:inputType="textPassword"
                 android:maxLength="10"
                 android:maxLines="1"
-                android:text="Mattia98"
                 android:paddingLeft="17dp"
                 android:paddingTop="15dp"
                 android:paddingBottom="15dp"

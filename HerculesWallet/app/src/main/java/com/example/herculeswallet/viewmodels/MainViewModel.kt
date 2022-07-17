@@ -80,15 +80,21 @@ class MainViewModel() : ViewModel() {
     }
 
     fun addCryptoToWallet(crypto: Crypto){
-        DBRepo.addCryptoToWallet(crypto)
+        viewModelScope.launch(Dispatchers.IO) {
+            DBRepo.addCryptoToWallet(crypto)
+        }
     }
 
     fun removeCryptoFromWallet(crypto: Crypto){
-        DBRepo.removeCryptoToWallet(crypto,userMutableLiveData.value!!)
+        viewModelScope.launch(Dispatchers.IO) {
+            DBRepo.removeCryptoToWallet(crypto,userMutableLiveData.value!!)
+        }
     }
 
     fun setPreferences(preferences : List<String>){
-        DBRepo.setPreferences(preferences)
+        viewModelScope.launch(Dispatchers.IO) {
+            DBRepo.setPreferences(preferences)
+        }
     }
 
     fun setsuccess(value: Boolean){

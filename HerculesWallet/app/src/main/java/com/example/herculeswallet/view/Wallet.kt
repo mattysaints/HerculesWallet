@@ -96,15 +96,4 @@ class Wallet : AppCompatActivity() {
 
 }
 
-/*
-val intent = Intent(this,MainActivity::class.java)
-        val pedingIntent = PendingIntent.getActivity(this,0,intent,PendingIntent.FLAG_UPDATE_CURRENT)
-        notificationManager = getSystemService(Context.NOTIFICATION_SERVICE) as NotificationManager
-        notificationChannel = NotificationChannel(channelId,description,NotificationManager.IMPORTANCE_HIGH)
-@@ -50,9 +86,6 @@ class Wallet : AppCompatActivity() {
-            .setSmallIcon(R.mipmap.ic_launcher_round)
-            .setLargeIcon(BitmapFactory.decodeResource(this.resources,R.mipmap.ic_launcher))
-            .setContentIntent(pedingIntent)
-        notificationManager.notify(1234,builder.build())*/
-
 

@@ -35,7 +35,7 @@ class OptionsFragment : Fragment(R.layout.fragment_options) {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
 
         val user: TextView = view.findViewById(R.id.user)
-        user.text = model.userMutableLiveData.value!!.email
+        user.text = "Email: " + model.userMutableLiveData.value!!.email
         val bottone: Button = view.findViewById(R.id.buttonlogout)
         bottone.setOnClickListener(){
             onDestroy()
