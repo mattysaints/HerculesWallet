@@ -68,7 +68,7 @@ class MainActivity : AppCompatActivity() {
         binding.buttonAccedi.setOnClickListener {
             if(binding.email.text.toString().isNotEmpty() && binding.password.text.toString().isNotEmpty()) {
                 var posted = false
-                dialog.setMessage("Accedo...")
+                dialog.setMessage("Accesso in corso ...")
                 dialog.show()
                 model.login(binding.email.text.toString(), binding.password.text.toString())
                 model.success.observe(this, Observer<Boolean> { login ->

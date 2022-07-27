@@ -4,6 +4,7 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.Toast
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.activityViewModels
 import androidx.recyclerview.widget.ItemTouchHelper
@@ -47,7 +48,12 @@ class CryptosFragment : Fragment() {
         val swipeToDeleteCallback = object : SwipeToDeleteCallback(){
             override fun onSwiped(viewHolder: RecyclerView.ViewHolder, direction: Int) {
                 val position = viewHolder.bindingAdapterPosition
-                model.removeCryptoFromWallet(mapToListCrypto(user!!.wallet)[position])
+                if(mapToListCrypto(user!!.wallet)[position].asset_id.equals("BTC").not()){
+                    model.removeCryptoFromWallet(mapToListCrypto(user!!.wallet)[position])
+                } else {
+                    adapter.setList(mapToListCrypto(user!!.wallet))
+                    Toast.makeText(context,"Azione non consentita",Toast.LENGTH_SHORT).show()
+                }
             }
         }
 
@@ -80,6 +86,7 @@ class CryptosFragment : Fragment() {
     fun mapToListCrypto(wallet: Map<String,Crypto>) : List<Crypto>{
         val temp = mutableListOf<Crypto>()
         for ((keys,value) in wallet){
+            value.setPrice((String.format("%.3f", value.price_usd)).toDouble())
             temp.add(value)
         }
         return temp

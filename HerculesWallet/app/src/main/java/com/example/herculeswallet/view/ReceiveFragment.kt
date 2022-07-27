@@ -46,10 +46,6 @@ class ReceiveFragment : Fragment(R.layout.fragment_receive) {
             viewPager2.adapter = newPA
         }
 
-
-
-
-
         super.onViewCreated(view, savedInstanceState)
     }
 

@@ -4,6 +4,7 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.Toast
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.activityViewModels
 import androidx.recyclerview.widget.ItemTouchHelper
@@ -11,6 +12,7 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.example.herculeswallet.R
 import com.example.herculeswallet.model.Crypto
+import com.example.herculeswallet.model.User
 import com.example.herculeswallet.viewmodels.MainViewModel
 
 
@@ -44,10 +46,15 @@ class FavsFragment : Fragment() {
         val swipeToDeleteCallback = object : SwipeToDeleteCallback(){
             override fun onSwiped(viewHolder: RecyclerView.ViewHolder, direction: Int) {
                 val position = viewHolder.bindingAdapterPosition
-                val temp = user!!.preferences.toMutableList()
-                temp.removeAt(position)
-                println(temp)
-                model.setPreferences(temp)
+                if(user!!.preferences[position].equals("BTC").not() && (user.preferences.size != 1)){
+                    val temp = user.preferences.toMutableList()
+                    temp.removeAt(position)
+                    model.setPreferences(temp)
+                }
+                else{
+                    adapter.setList(assetToCrypto(user))
+                    Toast.makeText(context,"Azione non consentita", Toast.LENGTH_SHORT).show()
+                }
             }
         }
 
@@ -79,6 +86,26 @@ class FavsFragment : Fragment() {
             repo = it
         }
 
+    }
+
+    fun assetToCrypto(it: User) : List<Crypto>{
+        val favs = mutableListOf<Crypto>()
+        val repo = model.cryptoListLiveData.value
+        //From List<String> to List<Crypto>
+        val iterator = it.preferences.listIterator()
+        while (iterator.hasNext()) {
+            val asset = iterator.next()
+            val crypto_repo = repo?.filter { it.asset_id == asset }?.firstOrNull()
+            val crypto = Crypto(
+                asset,
+                "",
+                (String.format("%.3f", crypto_repo?.price_usd)).toDouble(),
+                crypto_repo?.logo_url.toString(),
+                0.0
+            )
+            favs.add(crypto)
+        }
+        return favs
     }
 
 }

@@ -36,5 +36,9 @@ data class Crypto(
         return "Crypto(name='$name', asset_id='$asset_id', price_usd=$price_usd, logo_url='$logo_url', quantity_user=$quantity_user)"
     }
 
+    fun setPrice(newPrice : Double){
+        this.price_usd = newPrice
+    }
+
 
 }
