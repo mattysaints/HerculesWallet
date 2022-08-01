@@ -56,24 +56,25 @@
                    android:layout_height="match_parent"
                    android:orientation="horizontal">
 
+
                    <GridLayout
                        android:id="@+id/dati_crypto"
                        android:layout_width="wrap_content"
                        android:layout_height="wrap_content"
                        android:layout_gravity="center_horizontal"
-                       android:orientation="horizontal"
                        android:alignmentMode="alignMargins"
                        android:clickable="true"
                        android:columnCount="1"
                        android:columnOrderPreserved="false"
+                       android:orientation="horizontal"
                        android:paddingLeft="200dp"
-                       android:rowCount="3"
+                       android:rowCount="2"
                        android:visibility="visible">
 
                        <TextView
                            android:id="@+id/price_crypto"
                            android:layout_width="wrap_content"
-                           android:layout_height="match_parent"
+                           android:layout_height="wrap_content"
                            android:layout_gravity="right|end"
                            android:text="$ 30,079.90 "
                            android:textColor="@color/cardview_dark_background"
@@ -84,8 +85,8 @@
                            app:layout_constraintTop_toTopOf="parent" />
 
                        <RelativeLayout
-                           android:layout_height="match_parent"
-                           android:layout_width="wrap_content">
+                           android:layout_width="wrap_content"
+                           android:layout_height="match_parent">
 
                            <ImageButton
                                android:id="@+id/favourite"
@@ -114,7 +115,7 @@
                    android:id="@+id/name_crypto"
                    android:layout_width="0dp"
                    android:layout_height="wrap_content"
-                   android:layout_marginEnd="@dimen/_8sdp"
+                   android:layout_marginEnd="15dp"
                    android:layout_marginRight="@dimen/_8sdp"
                    android:textSize="@dimen/_14sdp"
                    android:textStyle="bold"

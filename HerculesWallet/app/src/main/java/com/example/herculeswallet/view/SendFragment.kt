@@ -1,12 +1,12 @@
 package com.example.herculeswallet.view
 
 import android.os.Bundle
-import android.os.Handler
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.AutoCompleteTextView
 import android.widget.EditText
+import android.widget.ImageButton
 import android.widget.Toast
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.activityViewModels
@@ -17,6 +17,9 @@ import com.example.herculeswallet.utils.Encryption
 import com.example.herculeswallet.viewmodels.MainViewModel
 import com.google.android.material.floatingactionbutton.FloatingActionButton
 import com.google.android.material.snackbar.Snackbar
+import com.journeyapps.barcodescanner.ScanContract
+import com.journeyapps.barcodescanner.ScanIntentResult
+import com.journeyapps.barcodescanner.ScanOptions
 import tomatobean.jsonparser.toJson
 
 
@@ -44,11 +47,30 @@ class SendFragment : Fragment(R.layout.fragment_send){
         val address_receiver : EditText = view.findViewById(R.id.address_receiver)
         val list_crypto : AutoCompleteTextView = view.findViewById(R.id.list_crypto)
         val action_button : FloatingActionButton = view.findViewById(R.id.fab_send)
+        val scanner_qr : ImageButton = view.findViewById(R.id.scanner)
         var listCrypto = mutableListOf<String>()
 
         model.userMutableLiveData.observe(viewLifecycleOwner){
             user = it
         }
+
+        val barcodeLauncher = registerForActivityResult(
+            ScanContract()
+        ) { result: ScanIntentResult ->
+            if (result.contents == null) {
+                Toast.makeText(view.context, "Cancelled", Toast.LENGTH_LONG).show()
+            } else {
+                address_receiver.setText(result.contents)
+            }
+        }
+
+        scanner_qr.setOnClickListener(View.OnClickListener {
+            val options : ScanOptions = ScanOptions()
+            options.setBeepEnabled(true)
+            options.setOrientationLocked(true)
+            options.captureActivity = CaptureAct::class.java
+            barcodeLauncher.launch(options)
+        })
 
         for (item in user.wallet){
             listCrypto.add(item.value.name)
