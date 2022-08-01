@@ -21,11 +21,11 @@ import com.google.firebase.ktx.Firebase
 import com.squareup.picasso.Picasso
 
 
-class RecyclerViewAdapter(model: MainViewModel) : RecyclerView.Adapter<RecyclerViewAdapter.ViewHolder>(){
+class RecyclerViewAdapter(private val model: MainViewModel) : RecyclerView.Adapter<RecyclerViewAdapter.ViewHolder>(){
 
     private var crypto_list = mutableListOf<Crypto>()
     private lateinit var context : Context
-    private val model : MainViewModel = model
+    private lateinit var v : View
     private var preferences = model.getUserData().value!!.preferences.toMutableList()
     private var wallet = mapToListString(model.getUserData().value!!.wallet).toMutableList()
 
@@ -48,7 +48,7 @@ class RecyclerViewAdapter(model: MainViewModel) : RecyclerView.Adapter<RecyclerV
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
-        val v = LayoutInflater.from(parent.context).inflate(R.layout.crypto_list_item,parent,false)
+        v = LayoutInflater.from(parent.context).inflate(R.layout.crypto_list_item,parent,false)
         context = parent.context
         return ViewHolder(v)
     }
@@ -57,9 +57,9 @@ class RecyclerViewAdapter(model: MainViewModel) : RecyclerView.Adapter<RecyclerV
         holder.name_crypto.text = crypto_list[position].name.replace("\\s".toRegex(), " ")
         if(crypto_list[position].price_usd.toString().length>8){
             holder.price_crypto.text = "$ " + crypto_list[position].price_usd.toString().substring(0,8) } else { holder.price_crypto.text =  "$ " + crypto_list[position].price_usd.toString()}
-        if(crypto_list[position].logo_url.toString().isNotEmpty()){
+        if(crypto_list[position].logo_url.isNotEmpty()){
             Picasso.get()
-                .load(Uri.parse(crypto_list[position].logo_url.toString()))
+                .load(Uri.parse(crypto_list[position].logo_url))
                 .placeholder(R.drawable.logo2)
                 .error(R.drawable.logo2)
                 .resize(64,64)
@@ -83,13 +83,13 @@ class RecyclerViewAdapter(model: MainViewModel) : RecyclerView.Adapter<RecyclerV
             if(preferences.contains(crypto_list[position].asset_id) && preferences.size!=1 && crypto_list[position].asset_id.equals("BTC").not()){
                 preferences.remove(crypto_list[position].asset_id)
                 model.setPreferences(preferences)
-                Toast.makeText(context,"Crypto rimossa dai preferiti", Toast.LENGTH_SHORT).show()
+                Toast.makeText(context,v.resources.getString(R.string.crypto_removed_favs), Toast.LENGTH_SHORT).show()
             } else if (! preferences.contains(crypto_list[position].asset_id)){
                 preferences.add(crypto_list[position].asset_id)
                 model.setPreferences(preferences)
-                Toast.makeText(context,"Crypto aggiunta ai preferiti", Toast.LENGTH_SHORT).show()
+                Toast.makeText(context,v.resources.getString(R.string.crypto_added_favs), Toast.LENGTH_SHORT).show()
             } else {
-                Toast.makeText(context,"Azione non consentita", Toast.LENGTH_SHORT).show()
+                Toast.makeText(context,v.resources.getString(R.string.action_not_allowed), Toast.LENGTH_SHORT).show()
             }
         })
 
@@ -97,13 +97,13 @@ class RecyclerViewAdapter(model: MainViewModel) : RecyclerView.Adapter<RecyclerV
             if(wallet.contains(crypto_list[position].name) && wallet.size!=1 && crypto_list[position].asset_id.equals("BTC").not()){
                 wallet.remove(crypto_list[position].name)
                 model.removeCryptoFromWallet(crypto_list[position])
-                Toast.makeText(context,"Crypto rimossa dal wallet", Toast.LENGTH_SHORT).show()
+                Toast.makeText(context,v.resources.getString(R.string.crypto_removed_wallet), Toast.LENGTH_SHORT).show()
             } else if (!wallet.contains(crypto_list[position].name)){
                 wallet.add(crypto_list[position].name)
                 model.addCryptoToWallet(crypto_list[position])
-                Toast.makeText(context,"Crypto aggiunta al wallet", Toast.LENGTH_SHORT).show()
+                Toast.makeText(context,v.resources.getString(R.string.crypto_added_wallet), Toast.LENGTH_SHORT).show()
             } else{
-                Toast.makeText(context,"Azione non consentita", Toast.LENGTH_SHORT).show()
+                Toast.makeText(context,v.resources.getString(R.string.action_not_allowed), Toast.LENGTH_SHORT).show()
             }
         })
 

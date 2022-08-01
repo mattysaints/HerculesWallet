@@ -5,25 +5,21 @@ import android.content.Intent
 import android.os.Build
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import androidx.fragment.app.FragmentManager
 import androidx.navigation.fragment.findNavController
 import androidx.navigation.ui.AppBarConfiguration
 import androidx.navigation.ui.setupActionBarWithNavController
 import androidx.navigation.ui.setupWithNavController
 import com.example.herculeswallet.R
-import com.example.herculeswallet.databinding.WalletBinding
 import com.example.herculeswallet.utils.ReminderBroadcast
 import com.google.android.material.bottomnavigation.BottomNavigationView
 import java.util.*
 
 class Wallet : AppCompatActivity() {
 
-    private lateinit var binding: WalletBinding
     private lateinit var notificationManager: NotificationManager
     private lateinit var notificationChannel: NotificationChannel
     private lateinit var builder: Notification.Builder
     private val channelId = "com.example.herculeswallet.view"
-    private val description = "Test notification"
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -53,7 +49,9 @@ class Wallet : AppCompatActivity() {
             firingCal.add(Calendar.DAY_OF_MONTH, 1)
         }
 
-        val intent = Intent(this, ReminderBroadcast::class.java)
+        val intent = Intent(this, ReminderBroadcast::class.java).apply {
+            flags = Intent.FLAG_ACTIVITY_CLEAR_TOP or Intent.FLAG_ACTIVITY_CLEAR_TOP
+        }
         val pendingIntent = PendingIntent.getBroadcast(
             applicationContext,
             0,
@@ -78,13 +76,15 @@ class Wallet : AppCompatActivity() {
     }
 
 
-
     private fun createNotification() {
         val name = "HerculesWallet"
-        val descriptionText = "Torna a controllare le tue crypto ...."
+        val descriptionText = getString(R.string.description_notification) + " ..."
         val importance = NotificationManager.IMPORTANCE_DEFAULT
         val channel = NotificationChannel(channelId, name, importance).apply {
             description = descriptionText
+            enableVibration(true)
+            vibrationPattern = longArrayOf(100,1000,200,340)
+            lockscreenVisibility = Notification.VISIBILITY_PUBLIC
         }
         notificationManager = getSystemService(NotificationManager::class.java)
         notificationManager.createNotificationChannel(channel)

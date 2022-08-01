@@ -1,16 +1,40 @@
 <resources>
     <string name="app_name">HerculesWallet</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="select_crypto">Select Crypto</string>
     <string name="title_activity_wallet">Wallet</string>
-    <!-- Strings used for fragments for navigation -->
-    <string name="first_fragment_label">First Fragment</string>
-    <string name="second_fragment_label">Second Fragment</string>
     <string name="next">Next</string>
     <string name="previous">Previous</string>
-
-    <string name="hello_first_fragment">Hello first fragment</string>
-    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
-    <string name="le_tue_crypto_preferite">Le tue crypto preferite</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="registration">Registration</string>
+    <string name="forgot_password">FORGOT YOUR PASSWORD ?</string>
+    <string name="enter_crypto_name">Enter crypto name</string>
+    <string name="balance">Total Balance :</string>
+    <string name="logout">Logout</string>
+    <string name="sender">Sender</string>
+    <string name="receiver">Receiver</string>
+    <string name="send">Send</string>
+    <string name="wallet">Wallet</string>ù
+    <string name="favs">Favorites</string>
+    <string name="receive">Receive</string>
+    <string name="home">Home</string>
+    <string name="options">Options</string>
+    <string name="message_login">Loggin in</string>
+    <string name="error_login">Failed to login</string>
+    <string name="error_registration">Failed to register</string>
+    <string name="check_log">Check all fields!</string>
+    <string name="error_credentials">Wrong credentials!</string>
+    <string name="action_not_allowed">Action not allowed</string>
+    <string name="value">Value :</string>
+    <string name="crypto_added_favs">Crypto added to favorites</string>
+    <string name="crypto_removed_favs">Crypto removed from favorites</string>
+    <string name="crypto_added_wallet">Crypto added to wallet</string>
+    <string name="crypto_removed_wallet">Crypto removed from wallet</string>
+    <string name="success_send_crypto">Successful submission</string>
+    <string name="message_info_address">Enter destination address</string>
+    <string name="message_info_qty">Enter quantity to send</string>
+    <string name="message_info_selectC">Select crypto to send</string>
+    <string name="error_address">Invalid address</string>
+    <string name="not_enough_balance">You don\'t have enough funds</string>
+    <string name="description_notification">Go back to check your crypto</string>
 </resources>

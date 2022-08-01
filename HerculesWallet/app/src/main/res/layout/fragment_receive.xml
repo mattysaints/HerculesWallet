@@ -43,7 +43,7 @@
                 android:layout_gravity="center"
                 android:layout_marginLeft="15dp"
                 android:layout_toRightOf="@id/logo_dashboard"
-                android:text="Receive"
+                android:text="@string/receive"
                 android:textAllCaps="false"
                 android:textColor="@color/white"
                 android:textSize="40sp"
@@ -51,12 +51,11 @@
 
         </LinearLayout>
 
-        <androidx.viewpager2.widget.ViewPager2
-            android:paddingTop="80dp"
-            xmlns:android="http://schemas.android.com/apk/res/android"
+        <androidx.viewpager2.widget.ViewPager2 xmlns:android="http://schemas.android.com/apk/res/android"
             android:id="@+id/pager"
             android:layout_width="match_parent"
-            android:layout_height="match_parent" />
+            android:layout_height="match_parent"
+            android:paddingTop="80dp" />
 
     </RelativeLayout>
 

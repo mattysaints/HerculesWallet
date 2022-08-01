@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">HerculesWallet</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="select_crypto">Selezione Crypto</string>
+    <string name="title_activity_wallet">Portafoglio</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="next">Prossimo</string>
+    <string name="previous">Precedente</string>
+    <string name="login">Accedi</string>
+    <string name="register">Registrati</string>
+    <string name="registration">Registrazione</string>
+    <string name="forgot_password">PASSWORD DIMENTICATA ?</string>
+    <string name="enter_crypto_name">Inserisci il nome della crypto</string>
+    <string name="balance">Saldo Totale :</string>
+    <string name="logout">Esci</string>
+    <string name="sender">Mittente</string>
+    <string name="receiver">Destinatario</string>
+    <string name="send">Invia</string>
+    <string name="wallet">Portafoglio</string>
+    <string name="favs">Preferiti</string>
+    <string name="receive">Ricevi</string>
+    <string name="home">Home</string>
+    <string name="options">Opzioni</string>
+    <string name="message_login">Accesso in corso</string>
+    <string name="error_login">Errore durante l\'autenticazione</string>
+    <string name="error_registration">Errore durante la registrazione</string>
+    <string name="check_log">I campi non sono stati compilati!</string>
+    <string name="error_credentials">Credenziali errate!</string>
+    <string name="action_not_allowed">Azione non consentita</string>
+    <string name="value">Valore :</string>
+    <string name="crypto_added_favs">Crypto aggiunta ai preferiti</string>
+    <string name="crypto_removed_favs">Crypto rimossa dai preferiti</string>
+    <string name="crypto_added_wallet">Crypto aggiunta al portafoglio</string>
+    <string name="crypto_removed_wallet">Crypto rimossa dal portafoglio</string>
+    <string name="success_send_crypto">Invio riuscito</string>
+    <string name="message_info_address">Inserisci l\'indirizzo del destinatario</string>
+    <string name="message_info_qty">Inserisci la quantità da inviare</string>
+    <string name="message_info_selectC">Inserisci la crypto da inviare</string>
+    <string name="error_address">Indirizzo errato</string>
+    <string name="not_enough_balance">Non hai abbastanza fondi</string>
+    <string name="description_notification">Torna a controllare le tue crypto</string>
+</resources>

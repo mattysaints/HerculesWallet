@@ -63,7 +63,7 @@ class HomeFragment : Fragment(R.layout.fragment_home) {
                         tab.text="Crypto"
                     }
                     1->{
-                        tab.text="Preferiti"
+                        tab.text= getString(R.string.favs)
                     }
                 }
                 }.attach()

@@ -100,9 +100,11 @@ class MainViewModel() : ViewModel() {
     fun setsuccess(value: Boolean){
         authRepo.setsuccess(value)
     }
+
     fun getsuccess(): MutableLiveData<Boolean>{
         return authRepo.getsuccess()
     }
+
     fun getexceptionMutableLiveData(): MutableLiveData<String>{
         return authRepo.getexceptionMutableLiveData()
     }

@@ -60,7 +60,7 @@ class CryptoPage() : Fragment(R.layout.receive_list_item) {
                 Log.d("Errore",e.message.toString())
             }
         } else {
-            assetName.text = "Nessuna crypto nel wallet"
+            //assetName.text = "Nessuna crypto nel wallet"
         }
         super.onViewCreated(view, savedInstanceState)
     }

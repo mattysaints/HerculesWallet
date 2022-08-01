@@ -27,14 +27,14 @@ class ReminderBroadcast : BroadcastReceiver() {
         val pendingIntent = PendingIntent.getActivity(context,0,intent,PendingIntent.FLAG_UPDATE_CURRENT)
         builder = NotificationCompat.Builder(context!!,channelId)
             .setContentTitle("HerculesWallet")
-            .setContentText("Torna a controllare le tue crypto ....")
+            .setContentText(context.getString(R.string.description_notification) + " ...")
             .setSmallIcon(R.mipmap.ic_launcher_round)
-            .setPriority(Notification.PRIORITY_DEFAULT)
+            .setStyle(NotificationCompat.BigPictureStyle())
             .setContentIntent(pendingIntent)
-            .setAutoCancel(true)
+            .setVibrate(longArrayOf(100,1000,200,340))
+            .setAutoCancel(false)
 
         val notificationManager : NotificationManagerCompat = NotificationManagerCompat.from(context)
         notificationManager.notify(notificationId,builder.build())
-
     }
 }

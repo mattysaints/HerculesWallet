@@ -71,10 +71,10 @@ class SendFragment : Fragment(R.layout.fragment_send){
         model.getisDone().observe(viewLifecycleOwner){
             if(it!=null){
                 if(it){
-                    Snackbar.make(view,"Invio Riuscito", Snackbar.LENGTH_LONG).show()
+                    Snackbar.make(view,getString(R.string.success_send_crypto), Snackbar.LENGTH_LONG).show()
                     model.getisDone().value = null
                 } else {
-                    Toast.makeText(view.context, "Indirizzo errato", Toast.LENGTH_SHORT).show()
+                    Toast.makeText(view.context, getString(R.string.error_address), Toast.LENGTH_SHORT).show()
                     model.getisDone().value = null
                 }
             }
@@ -95,19 +95,19 @@ class SendFragment : Fragment(R.layout.fragment_send){
                                list_crypto.text.toString()
                            )
                        } else {
-                           Toast.makeText(view.context, "Non hai fondi sufficienti", Toast.LENGTH_SHORT)
+                           Toast.makeText(view.context, getString(R.string.not_enough_balance), Toast.LENGTH_SHORT)
                                .show()
                        }
                    } else {
-                       Toast.makeText(view.context, "Inserisci l'indirizzo del destinatario", Toast.LENGTH_SHORT)
+                       Toast.makeText(view.context, getString(R.string.message_info_address), Toast.LENGTH_SHORT)
                            .show()
                    }
                } else {
-                   Toast.makeText(view.context, "Inserisci la quantità da inviare", Toast.LENGTH_SHORT)
+                   Toast.makeText(view.context, getString(R.string.message_info_qty), Toast.LENGTH_SHORT)
                        .show()
                }
             } else {
-                Toast.makeText(view.context, "Scegli la crypto da inviare", Toast.LENGTH_SHORT)
+                Toast.makeText(view.context, getString(R.string.message_info_selectC), Toast.LENGTH_SHORT)
                     .show()
             }
         }

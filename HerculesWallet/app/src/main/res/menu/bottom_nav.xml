@@ -3,16 +3,16 @@
 
     <item
         android:id="@+id/homeFragment"
-        android:title="Home"
+        android:title="@string/home"
         android:icon="@drawable/portfolio"/>
     <item
         android:id="@+id/sendFragment"
         android:icon="@android:drawable/stat_sys_upload"
-        android:title="Invia" />
+        android:title="@string/send" />
     <item
         android:id="@+id/receiveFragment"
         android:icon="@android:drawable/stat_sys_download"
-        android:title="Ricevi" />
+        android:title="@string/receive" />
     <item
         android:id="@+id/cryptoListFragment"
         android:icon="@drawable/fab_icon"
@@ -20,6 +20,6 @@
     <item
         android:id="@+id/optionsFragment"
         android:icon="@drawable/settings"
-        android:title="Opzioni" />
+        android:title="@string/options" />
 
 </menu>

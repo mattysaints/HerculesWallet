@@ -11,8 +11,33 @@
         android:layout_height="match_parent"
         android:orientation="vertical">
 
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="80dp">
+
+            <ImageButton
+                android:id="@+id/btn_en"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/flag_uk"
+                />
+
+            <ImageButton
+                android:id="@+id/btn_it"
+                android:layout_marginLeft="30dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/flag_it"
+                />
+
+
+        </LinearLayout>
+
         <androidx.cardview.widget.CardView
-            android:layout_marginTop="150dp"
+            android:layout_marginTop="50dp"
             android:layout_width="200dp"
             android:layout_height="200dp"
             app:cardElevation="12dp"
@@ -55,7 +80,7 @@
             android:layout_marginTop="50dp"
             android:paddingTop="14dp"
             android:paddingBottom="14dp"
-            android:text="Logout"
+            android:text="@string/logout"
             android:textColor="#ffffff"
             android:textSize="12sp"
             app:layout_constraintBottom_toBottomOf="parent"

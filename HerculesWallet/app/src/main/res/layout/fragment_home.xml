@@ -47,7 +47,7 @@
                     android:layout_marginLeft="15dp"
                     android:layout_toRightOf="@id/logo_dashboard"
                     android:layout_centerVertical="true"
-                    android:text="Wallet"
+                    android:text="@string/wallet"
                     android:textAllCaps="false"
                     android:textColor="@color/white"
                     android:textSize="40sp"
@@ -77,7 +77,7 @@
                         android:id="@+id/textView3"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Al momento hai"
+                        android:text="@string/balance"
                         android:textSize="16sp" />
 
                     <LinearLayout

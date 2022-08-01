@@ -15,6 +15,7 @@ import com.example.herculeswallet.R
 import com.example.herculeswallet.model.Crypto
 import com.example.herculeswallet.viewmodels.MainViewModel
 import tomatobean.jsonparser.toJson
+import kotlin.math.roundToInt
 
 class CryptosFragment : Fragment() {
     private var layoutManager: RecyclerView.LayoutManager? = null
@@ -35,7 +36,6 @@ class CryptosFragment : Fragment() {
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
-       //"recycler view delle crypto dell'utente"
         layoutManager = LinearLayoutManager(context, LinearLayoutManager.VERTICAL, false)
         val recyclerView = view.findViewById<RecyclerView>(R.id.list_crypto)
         recyclerView.layoutManager = layoutManager
@@ -52,7 +52,7 @@ class CryptosFragment : Fragment() {
                     model.removeCryptoFromWallet(mapToListCrypto(user!!.wallet)[position])
                 } else {
                     adapter.setList(mapToListCrypto(user!!.wallet))
-                    Toast.makeText(context,"Azione non consentita",Toast.LENGTH_SHORT).show()
+                    Toast.makeText(context,getString(R.string.action_not_allowed),Toast.LENGTH_SHORT).show()
                 }
             }
         }
@@ -66,8 +66,12 @@ class CryptosFragment : Fragment() {
             for (entry in it.wallet.toMap().entries.iterator()) {
                 val crypto = Klaxon().parse<Crypto>(entry.value.toJson())
                 val crypto_repo = (repo?.filter { it.name == crypto!!.name })?.first()
-                crypto!!.price_usd = (String.format("%.3f", crypto_repo?.price_usd)).toDouble()
-                crypto.logo_url = crypto_repo?.logo_url.toString()
+                try {
+                    crypto!!.price_usd = (String.format("%.3f", crypto_repo?.price_usd)).toDouble()
+                } catch (e : Exception){
+                    crypto!!.price_usd = (crypto_repo?.price_usd!!.toDouble() * 100.0).roundToInt() / 100.0
+                }
+                crypto!!.logo_url = crypto_repo?.logo_url.toString()
                 wallet.add(crypto)
             }
             adapter.setList(wallet)
@@ -86,7 +90,7 @@ class CryptosFragment : Fragment() {
     fun mapToListCrypto(wallet: Map<String,Crypto>) : List<Crypto>{
         val temp = mutableListOf<Crypto>()
         for ((keys,value) in wallet){
-            value.setPrice((String.format("%.3f", value.price_usd)).toDouble())
+            value.setPrice((value.price_usd!! * 100.0).roundToInt() / 100.0)
             temp.add(value)
         }
         return temp

@@ -1,5 +1,6 @@
 package com.example.herculeswallet.view
 
+import android.content.res.Resources
 import android.net.Uri
 import android.view.LayoutInflater
 import android.view.View
@@ -7,6 +8,7 @@ import android.view.ViewGroup
 import android.widget.TextView
 import androidx.appcompat.widget.AppCompatImageView
 import androidx.recyclerview.widget.RecyclerView
+import com.bumptech.glide.load.engine.Resource
 import com.example.herculeswallet.R
 import com.example.herculeswallet.model.Crypto
 import com.squareup.picasso.Picasso
@@ -14,9 +16,10 @@ import com.squareup.picasso.Picasso
 
 class FavRecyclerViewAdapter : RecyclerView.Adapter<FavRecyclerViewAdapter.ViewHolder>(){
     private var favs: Array<Crypto>? = null
+    private lateinit var v : View
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): FavRecyclerViewAdapter.ViewHolder {
-        val v = LayoutInflater.from(parent.context).inflate(R.layout.dashboard_item, parent, false)
+        v = LayoutInflater.from(parent.context).inflate(R.layout.dashboard_item, parent, false)
         return ViewHolder(v)
     }
 
@@ -29,7 +32,7 @@ class FavRecyclerViewAdapter : RecyclerView.Adapter<FavRecyclerViewAdapter.ViewH
             .into(holder.itemLogo)
 
         holder.itemName.text = favs!![position].name
-        holder.itemPrice.text = "Valore:"
+        holder.itemPrice.text = v.resources.getString(R.string.value)
         holder.qnty.text = "$ " + favs!![position].price_usd.toString()
 
     }

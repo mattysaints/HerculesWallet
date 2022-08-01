@@ -39,6 +39,5 @@ data class Crypto(
     fun setPrice(newPrice : Double){
         this.price_usd = newPrice
     }
-
-
+    
 }

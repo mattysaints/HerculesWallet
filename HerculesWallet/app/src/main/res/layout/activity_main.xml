@@ -111,7 +111,7 @@
         android:gravity="center"
         android:paddingTop="14dp"
         android:paddingBottom="14dp"
-        android:text="Accedi"
+        android:text="@string/login"
         android:textColor="#ffffff"
         android:textSize="12sp" />
 
@@ -128,7 +128,7 @@
             android:gravity="center"
             android:paddingTop="14dp"
             android:paddingBottom="14dp"
-            android:text="Registrati"
+            android:text="@string/register"
             android:textColor="#ffffff"
             android:textSize="12sp" />
 
@@ -138,7 +138,7 @@
             android:layout_gravity="center"
             android:layout_marginTop="12dp"
             android:fontFamily="@font/poppins_medium"
-            android:text="PASSWORD DIMENTICATA ? "
+            android:text="@string/forgot_password"
             android:textColor="#1566e0"
             android:textSize="10.5sp" />
 

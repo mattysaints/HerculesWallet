@@ -14,11 +14,11 @@ import com.example.herculeswallet.R
 import com.example.herculeswallet.model.Crypto
 import com.example.herculeswallet.model.User
 import com.example.herculeswallet.viewmodels.MainViewModel
+import kotlin.math.roundToInt
 
 
 class FavsFragment : Fragment() {
     private var layoutManager: RecyclerView.LayoutManager? = null
-    private var adapter: RecyclerView.Adapter<FavRecyclerViewAdapter.ViewHolder>? = null
     private val model: MainViewModel by activityViewModels()
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -53,7 +53,7 @@ class FavsFragment : Fragment() {
                 }
                 else{
                     adapter.setList(assetToCrypto(user))
-                    Toast.makeText(context,"Azione non consentita", Toast.LENGTH_SHORT).show()
+                    Toast.makeText(context,getString(R.string.action_not_allowed), Toast.LENGTH_SHORT).show()
                 }
             }
         }
@@ -73,8 +73,8 @@ class FavsFragment : Fragment() {
                 val crypto = Crypto(
                     asset,
                     "",
-                    (String.format("%.3f", crypto_repo?.price_usd)).toDouble(),
-                    crypto_repo?.logo_url.toString(),
+                    (crypto_repo?.price_usd!!.toDouble() * 100.0).roundToInt() / 100.0,
+                    crypto_repo.logo_url,
                     0.0
                 )
                 favs.add(crypto)
@@ -99,7 +99,7 @@ class FavsFragment : Fragment() {
             val crypto = Crypto(
                 asset,
                 "",
-                (String.format("%.3f", crypto_repo?.price_usd)).toDouble(),
+                (crypto_repo?.price_usd!! * 100.0).roundToInt()/100.0,
                 crypto_repo?.logo_url.toString(),
                 0.0
             )

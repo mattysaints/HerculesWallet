@@ -44,13 +44,13 @@ class MainActivity : AppCompatActivity() {
         //Preparo i dialogs
         val dialog = SpotsDialog.Builder()
             .setContext(this@MainActivity)
-            .setMessage("Accesso in corso ...")
+            .setMessage(getString(R.string.message_login) + " ...")
             .setCancelable(false)
             .build()
 
         val errore = AlertDialog.Builder(this)
-        errore.setTitle("Errore durante l'autenticazione")
-        errore.setMessage("I campi non sono stati compilati!")
+        errore.setTitle(getString(R.string.error_login))
+        errore.setMessage(getString(R.string.check_log))
         errore.setPositiveButton("Ok", DialogInterface.OnClickListener { dialog, id -> })
 
         model.userMutableLiveData.observe(this,
@@ -68,14 +68,15 @@ class MainActivity : AppCompatActivity() {
         binding.buttonAccedi.setOnClickListener {
             if(binding.email.text.toString().isNotEmpty() && binding.password.text.toString().isNotEmpty()) {
                 var posted = false
-                dialog.setMessage("Accesso in corso ...")
+                val message = getString(R.string.message_login)
+                dialog.setMessage("$message ...")
                 dialog.show()
                 model.login(binding.email.text.toString(), binding.password.text.toString())
                 model.success.observe(this, Observer<Boolean> { login ->
                     if (login == false && !posted) {
                         model.setsuccess(true)
                         dialog.dismiss()
-                        errore.setMessage("Credenziali errate!")
+                        errore.setMessage(getString(R.string.error_credentials))
                         errore.show()
                         posted = true;
                     }
@@ -88,14 +89,14 @@ class MainActivity : AppCompatActivity() {
         binding.buttonRegistrati.setOnClickListener {
             if(binding.email.text.toString().isNotEmpty() && binding.password.text.toString().isNotEmpty()) {
                 var posted = false
-            dialog.setMessage("Registro...")
+            dialog.setMessage(getString(R.string.registration) + " ...")
             dialog.show()
             model.register(binding.email.text.toString(),binding.password.text.toString())
                 model.success.observe(this, Observer<Boolean> { login ->
                     if (login == false && !posted) {
                         model.setsuccess(true)
                         dialog.dismiss()
-                        errore.setTitle("Errore durante la registrazione")
+                        errore.setTitle(getString(R.string.error_registration))
                         errore.setMessage(model.getexceptionMutableLiveData().value.toString())
                         errore.show()
                         posted = true;

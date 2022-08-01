@@ -10,12 +10,12 @@
         android:id="@+id/searchView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:queryHint="Enter crypto name"
-        app:iconifiedByDefault="false"
         android:layout_marginHorizontal="16dp"
         android:layout_marginTop="15dp"
         android:layout_marginBottom="16dp"
-        app:queryBackground="@drawable/transparent_background"/>
+        app:iconifiedByDefault="false"
+        app:queryBackground="@drawable/transparent_background"
+        app:queryHint="@string/enter_crypto_name" />
 
     <androidx.recyclerview.widget.RecyclerView
         android:layout_below="@+id/searchView"
