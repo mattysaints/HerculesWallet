@@ -13,6 +13,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.HerculesWallet" >
         <activity
+            android:windowSoftInputMode="adjustPan"
             android:name=".view.Wallet"
             android:exported="false"
             android:label="@string/title_activity_wallet"/>

@@ -2,10 +2,14 @@ package com.example.herculeswallet.view
 
 import android.app.AlertDialog
 import android.app.ProgressDialog
+import android.content.Context
 import android.content.DialogInterface
 import android.content.Intent
+import android.net.ConnectivityManager
+import android.net.NetworkCapabilities
 import android.os.Build
 import android.os.Bundle
+import android.util.Log
 import android.view.*
 import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
@@ -15,6 +19,7 @@ import com.example.herculeswallet.databinding.ActivityMainBinding
 import com.example.herculeswallet.model.Crypto
 import com.example.herculeswallet.model.User
 import com.example.herculeswallet.viewmodels.MainViewModel
+import com.google.android.material.snackbar.Snackbar
 import dmax.dialog.SpotsDialog
 
 
@@ -39,8 +44,6 @@ class MainActivity : AppCompatActivity() {
         getSupportActionBar()!!.hide()
         setFullscreen()
 
-        model.getCryptoList() //CHIAMATA API
-
         //Preparo i dialogs
         val dialog = SpotsDialog.Builder()
             .setContext(this@MainActivity)
@@ -55,18 +58,24 @@ class MainActivity : AppCompatActivity() {
 
         model.userMutableLiveData.observe(this,
             Observer<User?> { user ->
-                if (user != null) {
-                    dialog.show()
-                    model.cryptoListLiveData.observe(this, Observer<List<Crypto>>{
-                        Crypto -> if (Crypto.isNotEmpty()){
-                        startActivity(Intent(this, Wallet::class.java))
+                if(isOnline(this)){
+                    model.getCryptoList()
+                    if (user != null) {
+                        dialog.show()
+                        model.cryptoListLiveData.observe(this, Observer<List<Crypto>>{
+                                Crypto -> if (Crypto.isNotEmpty()){
+                            startActivity(Intent(this, Wallet::class.java))
+                        }
+                        })
                     }
-                    })
+                } else {
+                    errore.show()
                 }
             })
 
         binding.buttonAccedi.setOnClickListener {
-            if(binding.email.text.toString().isNotEmpty() && binding.password.text.toString().isNotEmpty()) {
+            if(binding.email.text.toString().isNotEmpty() && binding.password.text.toString().isNotEmpty() && isOnline(this)) {
+                model.getCryptoList()
                 var posted = false
                 val message = getString(R.string.message_login)
                 dialog.setMessage("$message ...")
@@ -82,28 +91,41 @@ class MainActivity : AppCompatActivity() {
                     }
                 })
             }else{
-                errore.show()
+                if(!isOnline(this)){
+                    Snackbar
+                        .make(it, getString(R.string.miss_internet), Snackbar.LENGTH_LONG).show()
+                }
+                else{
+                    errore.show()
+                }
             }
         }
 
         binding.buttonRegistrati.setOnClickListener {
-            if(binding.email.text.toString().isNotEmpty() && binding.password.text.toString().isNotEmpty()) {
+            if(binding.email.text.toString().isNotEmpty() && binding.password.text.toString().isNotEmpty() && isOnline(this)) {
+                model.getCryptoList()
                 var posted = false
-            dialog.setMessage(getString(R.string.registration) + " ...")
-            dialog.show()
-            model.register(binding.email.text.toString(),binding.password.text.toString())
-                model.success.observe(this, Observer<Boolean> { login ->
-                    if (login == false && !posted) {
-                        model.setsuccess(true)
-                        dialog.dismiss()
-                        errore.setTitle(getString(R.string.error_registration))
-                        errore.setMessage(model.getexceptionMutableLiveData().value.toString())
-                        errore.show()
-                        posted = true;
-                    }
-                })
+                dialog.setMessage(getString(R.string.registration) + " ...")
+                dialog.show()
+                model.register(binding.email.text.toString(),binding.password.text.toString())
+                    model.success.observe(this, Observer<Boolean> { login ->
+                        if (login == false && !posted) {
+                            model.setsuccess(true)
+                            dialog.dismiss()
+                            errore.setTitle(getString(R.string.error_registration))
+                            errore.setMessage(model.getexceptionMutableLiveData().value.toString())
+                            errore.show()
+                            posted = true;
+                        }
+                    })
             }else{
-                errore.show()
+                if(!isOnline(this)){
+                    Snackbar
+                        .make(it, getString(R.string.miss_internet), Snackbar.LENGTH_LONG).show()
+                }
+                else{
+                    errore.show()
+                }
             }
         }
 
@@ -136,7 +158,31 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
+    fun isOnline(context: Context): Boolean {
+        val connectivityManager =
+            context.getSystemService(Context.CONNECTIVITY_SERVICE) as ConnectivityManager
+        if (connectivityManager != null) {
+            val capabilities =
+                connectivityManager.getNetworkCapabilities(connectivityManager.activeNetwork)
+            if (capabilities != null) {
+                if (capabilities.hasTransport(NetworkCapabilities.TRANSPORT_CELLULAR)) {
+                    Log.i("Internet", "NetworkCapabilities.TRANSPORT_CELLULAR")
+                    return true
+                } else if (capabilities.hasTransport(NetworkCapabilities.TRANSPORT_WIFI)) {
+                    Log.i("Internet", "NetworkCapabilities.TRANSPORT_WIFI")
+                    return true
+                } else if (capabilities.hasTransport(NetworkCapabilities.TRANSPORT_ETHERNET)) {
+                    Log.i("Internet", "NetworkCapabilities.TRANSPORT_ETHERNET")
+                    return true
+                }
+            }
+        }
+        return false
+    }
+
 }
+
+
 
 /*val facebook = findViewById<ImageView>(R.id.facebook)
         facebook.setOnClickListener {

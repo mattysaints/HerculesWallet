@@ -40,4 +40,6 @@
     <string name="error_address">Indirizzo errato</string>
     <string name="not_enough_balance">Non hai abbastanza fondi</string>
     <string name="description_notification">Torna a controllare le tue crypto</string>
+    <string name="miss_internet">Connessione a internet assente</string>
+    <string name="input_address">Indirizzo destinatario</string>
 </resources>

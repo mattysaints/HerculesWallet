@@ -4,10 +4,9 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.AutoCompleteTextView
-import android.widget.EditText
-import android.widget.ImageButton
-import android.widget.Toast
+import android.view.inputmethod.EditorInfo
+import android.view.inputmethod.InputMethodManager
+import android.widget.*
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.activityViewModels
 import com.beust.klaxon.Klaxon
@@ -107,17 +106,22 @@ class SendFragment : Fragment(R.layout.fragment_send){
                if(quantity_send.text.toString().isNotEmpty()){
                    if(address_receiver.text.toString().isNotEmpty()){
                        val md5_address = user.email.let { encryption.md5(it + "/"+ list_crypto.text.toString()) }
-                       val crypto = Klaxon().parse<Crypto>(user.wallet.get(md5_address)!!.toJson())
-                       val qnty_crypto = crypto?.quantity_user!!.toDouble()
-                       if (qnty_crypto >= quantity_send.text.toString().toDouble()) {
-                           model.transactionWalletUser(
-                               address_receiver.text.toString(),
-                               md5_address!!,
-                               quantity_send.text.toString(),
-                               list_crypto.text.toString()
-                           )
+                       if(!md5_address.equals(address_receiver.text.toString())){
+                           val crypto = Klaxon().parse<Crypto>(user.wallet.get(md5_address)!!.toJson())
+                           val qnty_crypto = crypto?.quantity_user!!.toDouble()
+                           if (qnty_crypto >= quantity_send.text.toString().toDouble()) {
+                               model.transactionWalletUser(
+                                   address_receiver.text.toString(),
+                                   md5_address!!,
+                                   quantity_send.text.toString(),
+                                   list_crypto.text.toString()
+                               )
+                           } else {
+                               Toast.makeText(view.context, getString(R.string.not_enough_balance), Toast.LENGTH_SHORT)
+                                   .show()
+                           }
                        } else {
-                           Toast.makeText(view.context, getString(R.string.not_enough_balance), Toast.LENGTH_SHORT)
+                           Toast.makeText(view.context, getString(R.string.error_address), Toast.LENGTH_SHORT)
                                .show()
                        }
                    } else {

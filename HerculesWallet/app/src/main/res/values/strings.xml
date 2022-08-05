@@ -37,4 +37,6 @@
     <string name="error_address">Invalid address</string>
     <string name="not_enough_balance">You don\'t have enough funds</string>
     <string name="description_notification">Go back to check your crypto</string>
+    <string name="miss_internet">Miss connection to internet</string>
+    <string name="input_address">Address receiver</string>
 </resources>

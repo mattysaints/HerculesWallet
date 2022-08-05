@@ -69,9 +69,8 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_below="@+id/linear_1"
             android:orientation="vertical"
-            android:paddingTop="100dp">
+            android:paddingTop="180dp">
 
             <TextView
                 android:layout_width="match_parent"
@@ -124,7 +123,7 @@
                             android:layout_weight="1"
                             android:editable="false"
                             android:inputType="none"
-                            android:textSize="12.5dp"
+                            android:textSize="12.5sp"
                             android:textStyle="italic" />
 
                     </com.google.android.material.textfield.TextInputLayout>
@@ -175,11 +174,12 @@
                         android:src="@drawable/ic_baseline_qr_code_scanner_24"/>
 
                     <EditText
+                        android:text="6509dcf5327e71c6aa07a1b9359e7c63"
                         android:id="@+id/address_receiver"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="5dp"
-                        android:hint="Indirizzo Destinatario" />
+                        android:hint="@string/input_address" />
 
                 </LinearLayout>
 
