@@ -60,8 +60,8 @@ class RecyclerViewAdapter(private val model: MainViewModel) : RecyclerView.Adapt
         if(crypto_list[position].logo_url.isNotEmpty()){
             Picasso.get()
                 .load(Uri.parse(crypto_list[position].logo_url))
-                .placeholder(R.drawable.logo2)
-                .error(R.drawable.logo2)
+                .placeholder(R.drawable.ic_logo)
+                .error(R.drawable.ic_logo)
                 .resize(64,64)
                 .into(holder.imageView)
         }

@@ -26,8 +26,8 @@ class FavRecyclerViewAdapter : RecyclerView.Adapter<FavRecyclerViewAdapter.ViewH
     override fun onBindViewHolder(holder: FavRecyclerViewAdapter.ViewHolder, position: Int) {
         Picasso.get()
             .load(Uri.parse(favs!![position].logo_url.toString()))
-            .placeholder(R.drawable.logo2)
-            .error(R.drawable.logo2)
+            .placeholder(R.drawable.ic_logo)
+            .error(R.drawable.ic_logo)
             .resize(64,64)
             .into(holder.itemLogo)
 

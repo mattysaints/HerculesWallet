@@ -22,8 +22,8 @@ class WalletRWA: RecyclerView.Adapter<WalletRWA.ViewHolder>() {
     override fun onBindViewHolder(holder: WalletRWA.ViewHolder, position: Int) {
         Picasso.get()
             .load(Uri.parse(wallet!![position].logo_url.toString()))
-            .placeholder(R.drawable.logo2)
-            .error(R.drawable.logo2)
+            .placeholder(R.drawable.ic_logo)
+            .error(R.drawable.ic_logo)
             .resize(64,64)
             .into(holder.itemLogo)
 

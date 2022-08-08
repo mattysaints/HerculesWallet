@@ -103,11 +103,13 @@ class SendFragment : Fragment(R.layout.fragment_send){
 
         action_button.setOnClickListener { view ->
             if(list_crypto.text.toString().isNotEmpty()){
-               if(quantity_send.text.toString().isNotEmpty()){
-                   if(address_receiver.text.toString().isNotEmpty()){
-                       val md5_address = user.email.let { encryption.md5(it + "/"+ list_crypto.text.toString()) }
-                       if(!md5_address.equals(address_receiver.text.toString())){
-                           val crypto = Klaxon().parse<Crypto>(user.wallet.get(md5_address)!!.toJson())
+               if(quantity_send.text.toString().isNotEmpty()) {
+                   if (address_receiver.text.toString().isNotEmpty()) {
+                       val md5_address =
+                           user.email.let { encryption.md5(it + "/" + list_crypto.text.toString()) }
+                       if (!md5_address.equals(address_receiver.text.toString())) {
+                           val crypto =
+                               Klaxon().parse<Crypto>(user.wallet.get(md5_address)!!.toJson())
                            val qnty_crypto = crypto?.quantity_user!!.toDouble()
                            if (qnty_crypto >= quantity_send.text.toString().toDouble()) {
                                model.transactionWalletUser(
@@ -117,15 +119,27 @@ class SendFragment : Fragment(R.layout.fragment_send){
                                    list_crypto.text.toString()
                                )
                            } else {
-                               Toast.makeText(view.context, getString(R.string.not_enough_balance), Toast.LENGTH_SHORT)
+                               Toast.makeText(
+                                   view.context,
+                                   getString(R.string.not_enough_balance),
+                                   Toast.LENGTH_SHORT
+                               )
                                    .show()
                            }
                        } else {
-                           Toast.makeText(view.context, getString(R.string.error_address), Toast.LENGTH_SHORT)
+                           Toast.makeText(
+                               view.context,
+                               getString(R.string.error_address),
+                               Toast.LENGTH_SHORT
+                           )
                                .show()
                        }
                    } else {
-                       Toast.makeText(view.context, getString(R.string.message_info_address), Toast.LENGTH_SHORT)
+                       Toast.makeText(
+                           view.context,
+                           getString(R.string.message_info_address),
+                           Toast.LENGTH_SHORT
+                       )
                            .show()
                    }
                } else {
