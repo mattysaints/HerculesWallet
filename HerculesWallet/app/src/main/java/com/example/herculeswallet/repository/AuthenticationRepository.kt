@@ -27,7 +27,7 @@ object AuthenticationRepository{
     init {
         if (firebaseAuth.getCurrentUser() != null){
             database.child(firebaseAuth.uid.toString()).get().addOnSuccessListener {
-                val email : String = it.child("email").getValue(String::class.java).toString()
+               val email : String = it.child("email").getValue(String::class.java).toString()
                 val preferences : List<String> = it.child("preferences").getValue() as List<String>
                 val wallet : HashMap<String,Crypto> = it.child("wallet").getValue() as HashMap<String, Crypto>
                 utentewalletMutableLiveData.postValue(User(email,wallet, preferences))
@@ -98,8 +98,8 @@ object AuthenticationRepository{
                     setListenerDatabase()
 
                 } else {
+                    this.exceptionMutableLiveData.postValue(task.exception?.message.toString())
                     this.success.postValue(false)
-                    exceptionMutableLiveData.postValue(task.exception?.message.toString())
                 }
             })
     }
