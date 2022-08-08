@@ -60,21 +60,19 @@ class MainActivity : AppCompatActivity() {
             Observer<User?> { user ->
                 if(isOnline(this)){
                     model.getCryptoList()
-                    if (user != null) {
-                        dialog.show()
-                        model.cryptoListLiveData.observe(this, Observer<List<Crypto>>{
-                                Crypto -> if (Crypto.isNotEmpty()){
+                    model.cryptoListLiveData.observe(this, Observer<List<Crypto>>{ Crypto ->
+                        if (user != null && Crypto.isNotEmpty()) {
+                            dialog.show()
                             startActivity(Intent(this, Wallet::class.java))
                         }
-                        })
-                    }
+                    })
                 } else {
                     errore.show()
                 }
             })
 
         binding.buttonAccedi.setOnClickListener {
-            if(binding.email.text.toString().isNotEmpty() && binding.password.text.toString().isNotEmpty() && isOnline(this)) {
+            if(binding.email.text.toString().isNotEmpty() && binding.password.text.toString().isNotEmpty() && isOnline(this) && model.getUserData().value==null) {
                 model.getCryptoList()
                 var posted = false
                 val message = getString(R.string.message_login)
@@ -87,7 +85,7 @@ class MainActivity : AppCompatActivity() {
                         dialog.dismiss()
                         errore.setMessage(getString(R.string.error_credentials))
                         errore.show()
-                        posted = true;
+                        posted = true
                     }
                 })
             }else{
@@ -102,22 +100,22 @@ class MainActivity : AppCompatActivity() {
         }
 
         binding.buttonRegistrati.setOnClickListener {
-            if(binding.email.text.toString().isNotEmpty() && binding.password.text.toString().isNotEmpty() && isOnline(this)) {
+            if(binding.email.text.toString().isNotEmpty() && binding.password.text.toString().isNotEmpty() && isOnline(this) && model.getUserData().value==null) {
                 model.getCryptoList()
                 var posted = false
                 dialog.setMessage(getString(R.string.registration) + " ...")
                 dialog.show()
                 model.register(binding.email.text.toString(),binding.password.text.toString())
-                    model.success.observe(this, Observer<Boolean> { login ->
+                model.success.observe(this, Observer<Boolean> { login ->
                         if (login == false && !posted) {
                             model.setsuccess(true)
                             dialog.dismiss()
                             errore.setTitle(getString(R.string.error_registration))
                             errore.setMessage(model.getexceptionMutableLiveData().value.toString())
                             errore.show()
-                            posted = true;
+                            posted = true
                         }
-                    })
+                })
             }else{
                 if(!isOnline(this)){
                     Snackbar
