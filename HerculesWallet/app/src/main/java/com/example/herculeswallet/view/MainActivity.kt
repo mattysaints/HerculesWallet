@@ -45,9 +45,15 @@ class MainActivity : AppCompatActivity() {
         setFullscreen()
 
         //Preparo i dialogs
-        val dialog = SpotsDialog.Builder()
+        val dialog_login = SpotsDialog.Builder()
             .setContext(this@MainActivity)
             .setMessage(getString(R.string.message_login) + " ...")
+            .setCancelable(false)
+            .build()
+
+        val dialog_register = SpotsDialog.Builder()
+            .setContext(this@MainActivity)
+            .setMessage(getString(R.string.registration) + " ...")
             .setCancelable(false)
             .build()
 
@@ -58,16 +64,16 @@ class MainActivity : AppCompatActivity() {
 
         model.userMutableLiveData.observe(this,
             Observer<User?> { user ->
-                if(isOnline(this)){
+                if(isOnline(this) && user!=null){
+                    binding.buttonAccedi.isEnabled = false
+                    binding.buttonRegistrati.isEnabled = false
                     model.getCryptoList()
+                    dialog_login.show()
                     model.cryptoListLiveData.observe(this, Observer<List<Crypto>>{ Crypto ->
-                        if (user != null && Crypto.isNotEmpty()) {
-                            dialog.show()
+                        if (Crypto.isNotEmpty()) {
                             startActivity(Intent(this, Wallet::class.java))
                         }
                     })
-                } else {
-                    errore.show()
                 }
             })
 
@@ -76,13 +82,12 @@ class MainActivity : AppCompatActivity() {
                 model.getCryptoList()
                 var posted = false
                 val message = getString(R.string.message_login)
-                dialog.setMessage("$message ...")
-                dialog.show()
+                dialog_login.show()
                 model.login(binding.email.text.toString(), binding.password.text.toString())
                 model.success.observe(this, Observer<Boolean> { login ->
                     if (login == false && !posted) {
                         model.setsuccess(true)
-                        dialog.dismiss()
+                        dialog_login.dismiss()
                         errore.setMessage(getString(R.string.error_credentials))
                         errore.show()
                         posted = true
@@ -103,13 +108,12 @@ class MainActivity : AppCompatActivity() {
             if(binding.email.text.toString().isNotEmpty() && binding.password.text.toString().isNotEmpty() && isOnline(this) && model.getUserData().value==null) {
                 model.getCryptoList()
                 var posted = false
-                dialog.setMessage(getString(R.string.registration) + " ...")
-                dialog.show()
+                dialog_register.show()
                 model.register(binding.email.text.toString(),binding.password.text.toString())
                 model.success.observe(this, Observer<Boolean> { login ->
                         if (login == false && !posted) {
                             model.setsuccess(true)
-                            dialog.dismiss()
+                            dialog_register.dismiss()
                             errore.setTitle(getString(R.string.error_registration))
                             errore.setMessage(model.getexceptionMutableLiveData().value.toString())
                             errore.show()

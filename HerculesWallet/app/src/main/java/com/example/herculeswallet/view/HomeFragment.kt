@@ -70,7 +70,6 @@ class HomeFragment : Fragment(R.layout.fragment_home) {
             }
         }
 
-
         model.userMutableLiveData.observe(viewLifecycleOwner){
             user = it
             var total = repo?.let { it1 -> showBalance(it, it1) }

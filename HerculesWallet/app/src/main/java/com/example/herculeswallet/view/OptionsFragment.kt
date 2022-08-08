@@ -39,7 +39,6 @@ class OptionsFragment : Fragment(R.layout.fragment_options) {
             model.signOut()
             model.userMutableLiveData.value = null
             startActivity(Intent(context, MainActivity::class.java))
-
         }
 
     }
