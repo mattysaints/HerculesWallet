@@ -103,7 +103,7 @@ class SendFragment : Fragment(R.layout.fragment_send){
 
         action_button.setOnClickListener { view ->
             if(list_crypto.text.toString().isNotEmpty()){
-               if(quantity_send.text.toString().isNotEmpty()) {
+               if(quantity_send.text.toString().isNotEmpty() && quantity_send.text.toString().toDouble() > 0) {
                    if (address_receiver.text.toString().isNotEmpty()) {
                        val md5_address =
                            user.email.let { encryption.md5(it + "/" + list_crypto.text.toString()) }
