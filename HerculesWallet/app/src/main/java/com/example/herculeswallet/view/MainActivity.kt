@@ -62,6 +62,7 @@ class MainActivity : AppCompatActivity() {
         errore.setMessage(getString(R.string.check_log))
         errore.setPositiveButton("Ok", DialogInterface.OnClickListener { dialog, id -> })
 
+        var logged = false
         model.userMutableLiveData.observe(this,
             Observer<User?> { user ->
                 if(isOnline(this) && user!=null){
@@ -70,7 +71,8 @@ class MainActivity : AppCompatActivity() {
                     model.getCryptoList()
                     dialog_login.show()
                     model.cryptoListLiveData.observe(this, Observer<List<Crypto>>{ Crypto ->
-                        if (Crypto.isNotEmpty()) {
+                        if (Crypto.isNotEmpty() && !logged){
+                            logged = true
                             startActivity(Intent(this, Wallet::class.java))
                         }
                     })
@@ -111,14 +113,14 @@ class MainActivity : AppCompatActivity() {
                 dialog_register.show()
                 model.register(binding.email.text.toString(),binding.password.text.toString())
                 model.success.observe(this, Observer<Boolean> { login ->
-                        if (login == false && !posted) {
-                            model.setsuccess(true)
-                            dialog_register.dismiss()
-                            errore.setTitle(getString(R.string.error_registration))
-                            errore.setMessage(model.getexceptionMutableLiveData().value.toString())
-                            errore.show()
-                            posted = true
-                        }
+                    if (login == false && !posted) {
+                        model.setsuccess(true)
+                        dialog_register.dismiss()
+                        errore.setTitle(getString(R.string.error_registration))
+                        errore.setMessage(model.getexceptionMutableLiveData().value.toString())
+                        errore.show()
+                        posted = true
+                    }
                 })
             }else{
                 if(!isOnline(this)){
